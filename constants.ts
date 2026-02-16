@@ -1,4 +1,7 @@
 import { Category, Post } from './types';
+import Picture1 from './images/Picture1.png';
+import Picture2 from './images/Picture2.png';
+import Picture3 from './images/Picture3.png';
 
 // Removed generatePosts helper as we are defining posts manually or explicitly for Year 1 now to handle specific content/locking
 
@@ -489,7 +492,7 @@ export const BOOK_DATA: Category[] = [
            </p>
            
            <figure class="my-8">
-             <img src="Picture1.png" alt="이웃 나라의 맛" class="w-full rounded-lg shadow-lg" />
+             <img src="${Picture1}" alt="이웃 나라의 맛" class="w-full rounded-lg shadow-lg" />
              <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">이웃 나라의 맛 (플로프, 샤슬릭, 힌칼리, 하차푸리)</figcaption>
            </figure>
            
@@ -511,7 +514,7 @@ export const BOOK_DATA: Category[] = [
            </p>
 
            <figure class="my-8">
-             <img src="Picture2.png" alt="러시아 고유의 맛" class="w-full rounded-lg shadow-lg" />
+             <img src="${Picture2}" alt="러시아 고유의 맛" class="w-full rounded-lg shadow-lg" />
              <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">러시아 고유의 맛 (보르쉬, 블린, 흑빵, 뻴메니)</figcaption>
            </figure>
 
@@ -534,7 +537,7 @@ export const BOOK_DATA: Category[] = [
            </p>
            
            <figure class="my-8">
-             <img src="Picture3.png" alt="패스트푸드" class="w-full rounded-lg shadow-lg" />
+             <img src="${Picture3}" alt="패스트푸드" class="w-full rounded-lg shadow-lg" />
              <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">생존을 위한 선택, 패스트푸드 (KFC, 맥도날드, 전기통닭, 샤오르마)</figcaption>
            </figure>
 
@@ -637,15 +640,13 @@ export const BOOK_DATA: Category[] = [
              그땐 몰랐다. 모스크바의 찬란한 시절이 얼마 남지 않았음을. ⏳
           </p>
           
-          <div class="bg-slate-50 border border-slate-200 p-6 rounded-lg my-8">
-            <p class="leading-relaxed text-slate-700">
-               얼마 지나지 않아 모스크바는 우리가 듣던 ☁️ <strong>회색빛 하늘</strong>을 드러내기 시작했다. 통계적으로도 모스크바는 일조량이 매우 적은 도시 중에 하나인데, 특히 겨울철에는 거의 한 달 내내 해를 구경하지 못할 수 있다. 만약 유럽이 친숙한 사람들에게는 런던의 날씨와 비슷하다고 하면 조금 더 이해가 쉬울 듯하다. 해가 떠있는 듯 아닌 듯하고 아주 소량의 비가 간간이 왔다가 갔다가 하기에 우산을 쓰기도 안 쓰기도 애매한 날씨가 일상이었다.
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">☁️ 회색빛 하늘과 모스크바 블루스</h3>
+          <p class="leading-relaxed mb-6 text-slate-700">
+             얼마 지나지 않아 모스크바는 우리가 듣던 ☁️ <strong>회색빛 하늘</strong>을 드러내기 시작했다. 통계적으로도 모스크바는 일조량이 매우 적은 도시 중에 하나인데, 특히 겨울철에는 거의 한 달 내내 해를 구경하지 못할 수 있다. 만약 유럽이 친숙한 사람들에게는 런던의 날씨와 비슷하다고 하면 조금 더 이해가 쉬울 듯하다. 해가 떠있는 듯 아닌 듯하고 아주 소량의 비가 간간이 왔다가 갔다가 하기에 우산을 쓰기도 안 쓰기도 애매한 날씨가 일상이었다.
             </p>
-            <br/>
             <p class="leading-relaxed text-slate-700">
                러시아인들은 웬만한 이슬비에는 우산을 펼치지 않고 묵묵히 걷는데, 그 무심한 뒷모습을 보고 있노라면 이 우중충한 하늘이 그들에겐 얼마나 익숙한 배경인지 새삼 느끼게 된다. 모스크바의 하늘이 유독 낮고 흐린 이유는 지형적인 영향이 크다. 대서양에서 불어오는 습한 공기가 거대한 러시아 평원을 가로질러 오다 보면 지형에 막히지 않고 그대로 모스크바 머리 위에 머물며 두터운 구름층을 형성하기 때문이다. 나 역시 처음에는 이 우중충한 날씨가 적응이 되지 않아 <span class="text-russia-blue font-bold">‘모스크바 블루스’</span>라 불리는 우울감에 빠지기도 했다. 하지만 시간이 가며, 이러한 모스크바 특유의 분위기를 받아들이게 되었다.
             </p>
-          </div>
 
           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ 겨울 생존 전략, 샤프카</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
@@ -693,7 +694,7 @@ export const BOOK_DATA: Category[] = [
             "모스크바에서 지낸지도 어느덧 1년이 되었다.<br/>
             처음에는 차갑고 무뚝뚝하게만 느껴졌던 모스크바와 그 안의 사람들도,<br/>
             이제 겉으로 보이는 모습뿐만이 아니라 그 이면의 온기까지<br/>
-            있는 그대로 받아들이기 시작했다. 🇷🇺❤️"
+            있는 그대로 받아들이기 시작했다. "
           </blockquote>
         `,
         comments: []
