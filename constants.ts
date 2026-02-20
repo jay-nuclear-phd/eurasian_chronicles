@@ -765,17 +765,20 @@ export const BOOK_DATA: Category[] = [
             입학시험은 예비학부에서 치렀던 시험과는 다르게 실제 러시아인들이 시험을 보는 방식으로 진행이 되었다. 러시아의 시험은 <strong>“빌렛(영어로는 Ticket)”</strong>이라는 독특한 시스템을 가지고 있다. 🎫
           </p>
           
-          <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 mb-6">
-            <ol class="list-decimal list-inside space-y-3 text-slate-700">
+          <p class="leading-relaxed mb-6 text-slate-700">
+            입학시험은 예비학부에서 치렀던 시험과는 다르게 실제 러시아인들이 시험을 보는 방식으로 진행이 되었다. 러시아의 시험은 <strong>“빌렛(영어로는 Ticket)”</strong>이라는 독특한 시스템을 가지고 있다. 🎫
+          </p>
+          <ol class="list-decimal list-inside space-y-3 text-slate-700">
               <li>교수님이 시험 전에 예상 문제 리스트를 학생 수의 3-4배, 많게는 10배 넘게 미리 나눠준다. (30~100문제)</li>
               <li>시험 당일 학생은 교수가 보는 앞에서 임의로 문제지를 한 장 선택한다. (뽑기 🎲)</li>
               <li>이 과정에서 학생은 어떤 문제를 고르게 될지 알 수가 없다. </li>
-            </ol>
-            <p class="mt-4 text-slate-600 text-sm">
+          </ol>
+          
+          <br>
+          <p class="leading-relaxed mb-6 text-slate-700">
                다행히 모든 문제에 대해서 공부를 했다면 상관없지만, 그렇지 않고 일부만 공부했다면 운 좋게 아는 문제를 뽑으냐 아니냐에 따라 희비가 엇갈리는 구조다. 러시아인들 사이에서는 100문제 중 99문제를 공부하면 꼭 나머지 한 문제를 뽑게 된다고 하여 공부를 안 하는 학생들도 있다는 우스갯소리가 있다. 😂
-            </p>
-          </div>
-
+          </p>
+          
           <p class="leading-relaxed mb-6 text-slate-700">
             그렇게 문제를 뽑고 나면 학생들 스스로 준비할 시간이 주어진다. 이 시간에 학생들은 종이와 펜을 쓸 수 있고 종이에 자신이 발표할 내용은 정리하여 작성하고 호명이 되면 교수와 1대 1로 앉아서 발표를 하고 교수가 관련 질문을 하고 학생의 발표와 답변을 종합하여 점수를 결정한다. 
           </p>
@@ -798,6 +801,10 @@ export const BOOK_DATA: Category[] = [
             </ul>
             <p class="mt-2 text-xs text-slate-400 text-center">
               * 1점은 '몽둥이'나 '말뚝'을 연상시킨다 하여 실제로는 주지 않습니다.
+            </p>
+            <br>
+            <p class="leading-relaxed mb-6 text-slate-700">
+             점수는 5단계 스케일을 적용하고 있는데 실제로는 1점은 주지 않고 2점부터 5점까지가 부여된다. 1점을 주지 않는 이유는 숫자 1이 몽둥이나 말뚝을 연상할 수 있다고는 해서 그렇다 한다. 2점은 미흡, 3점은 양호, 4점은 우수, 5점은 탁월이라고 러시아어로 불리지만 사실 2점은 낙제라 주는 경우가 거의 없고 3점만 맞아도 양호가 아닌 요구 수준에 못 미친다고 볼 수 있다. 
             </p>
           </div>
 
