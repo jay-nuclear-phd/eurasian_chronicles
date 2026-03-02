@@ -3,7 +3,7 @@ import { Category } from '../types';
 export const year3Category: Category = {
   id: 'year3',
   title: '3년차, 석사 과정을 마치며',
-  description: '작성 중...',
+  description: '러시아에서의 대학원 생활을 마무리하며',
   isSinglePost: false,
   isActive: true,
   posts: [
@@ -11,7 +11,7 @@ export const year3Category: Category = {
       id: 'post-300',
       title: '러시아 문학 경연대회',
       subtitle: '윤케르의 기도와 21세기 한국 훈련병의 PTSD',
-      imageUrl: 'https://images.unsplash.com/photo-1510511459019-5be74a873116?q=80&w=1200&auto=format&fit=crop', // A stage, microphone, or literature-related image
+      imageUrl: 'https://aws.cricketmedia.com/media/20220429174414/girl-reading-poetry.jpg?q=80&w=1200&auto=format&fit=crop', // A stage, microphone, or literature-related image
       isActive: true,
       comments: [],
       content: `
@@ -75,7 +75,7 @@ export const year3Category: Category = {
       id: 'post-301',
       title: '예기치 않은 문제',
       subtitle: "비자 뺑뺑이, 그 끝에서 만난 뜻밖의 우크라이나 유람기",
-      imageUrl: 'https://images.unsplash.com/photo-1567954970774-51152aa37207?q=80&w=1200&auto=format&fit=crop', // Passport with stamps
+      imageUrl: 'https://cdn.shopify.com/s/files/1/0179/4388/7926/articles/ukraine-flag-history-cultural-significance-interesting-facts-6846979.png?v=1768959647&width=1200&height=675&crop=center&format=webp&quality=85?q=80&w=1200&auto=format&fit=crop', // Passport with stamps
       isActive: true,
       comments: [],
       content: `
@@ -155,7 +155,7 @@ export const year3Category: Category = {
       id: 'post-302',
       title: '비자 재발급',
       subtitle: '세 번의 국경 횡단, 그리고 마침내 얻은 한 장의 종이',
-      imageUrl: 'https://images.unsplash.com/photo-1589762140130-3490146603c4?q=80&w=1200&auto=format&fit=crop', // St. Andrew's Church in Kyiv
+      imageUrl: 'https://c8.alamy.com/comp/2BHT8N9/border-crossing-stamps-in-the-passport-2BHT8N9.jpg?q=80&w=1200&auto=format&fit=crop', // St. Andrew's Church in Kyiv
       isActive: true,
       comments: [],
       content: `
@@ -210,7 +210,7 @@ export const year3Category: Category = {
       id: 'post-303',
       title: '친구들의 방문',
       subtitle: '지갑은 잃었지만, 찐한 러시아의 추억을 얻다',
-      imageUrl: 'https://images.unsplash.com/photo-1596713781369-d59a5d15c0a9?q=80&w=1200&auto=format&fit=crop', // Winter in Suzdal, Russia
+      imageUrl: 'https://mf.b37mrtl.ru/rbthmedia/images/2020.06/article/5ed7920a85600a12c8203c47.jpg?q=80&w=1200&auto=format&fit=crop', // Winter in Suzdal, Russia
       isActive: true,
       comments: [],
       content: `
