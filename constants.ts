@@ -7,7 +7,6 @@ import {
   year3Category,
   russiaTravelCategory,
   eurasiaTravelCategory,
-  feelingsCategory,
   appendixCategory,
   epilogueCategory,
 } from './data';
@@ -16,11 +15,10 @@ export const BOOK_DATA: Category[] = [
   homeCategory,
   prologueCategory,
   year1Category,
-  year2Category,
-  year3Category,
   russiaTravelCategory,
+  year2Category,
   eurasiaTravelCategory,
-  feelingsCategory,
+  year3Category,
   appendixCategory,
   epilogueCategory,
 ];

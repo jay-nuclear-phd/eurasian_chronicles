@@ -5,6 +5,5 @@ export * from './year2';
 export * from './year3';
 export * from './russia_travel';
 export * from './eurasia_travel';
-export * from './feelings';
 export * from './appendix';
 export * from './epilogue';
