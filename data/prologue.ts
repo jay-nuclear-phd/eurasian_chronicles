@@ -67,7 +67,7 @@ export const prologueCategory: Category = {
           </p>
           
           <p class="leading-relaxed mb-6 text-slate-700">
-            면접이었다면 외운거라도 이야기 하고 반드시 할 수 있다고 어필을 할 수 있었는데 말이다. 듣기와 읽기 평가였지만 러시아 까막눈인 나에게는 <strong>까만 건 글씨고 하얀 건 종이</strong>였다. 😵‍💫 그렇게 겨우 러시아 알파벳만 떼었던 나는 거의 찍다시피 문제를 풀었고 시험장을 나왔다.
+            면접이었다면 외운 내용이라도 이야기 하고 반드시 할 수 있다고 어필을 할 수 있었는데 말이다. 듣기와 읽기 평가였지만 러시아 까막눈인 나에게는 <strong>까만 건 글씨고 하얀 건 종이</strong>였다. 😵‍💫 그렇게 겨우 러시아 알파벳만 떼었던 나는 거의 찍다시피 문제를 풀었고 시험장을 나왔다.
           </p>
           
           <div class="bg-orange-50 p-6 rounded-xl border border-orange-100 my-8">
