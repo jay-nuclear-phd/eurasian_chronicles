@@ -2,19 +2,32 @@ import { Category } from '../types';
 
 export const prologueCategory: Category = {
   id: 'prologue',
-  title: '프롤로그',
-  description: '여정의 시작',
+  title: {
+    ko: '프롤로그',
+    en: 'Prologue',
+  },
+  description: {
+    ko: '여정의 시작',
+    en: 'The Beginning of the Journey',
+  },
   isSinglePost: true,
   isActive: true,
   posts: [
     {
       id: 'prologue-1',
-      title: '프롤로그',
-      subtitle: '할 수 있다.',
+      title: {
+        ko: '프롤로그',
+        en: 'Prologue',
+      },
+      subtitle: {
+        ko: '할 수 있다.',
+        en: 'I Can Do It.',
+      },
       imageUrl:
         'https://images.unsplash.com/photo-1520106212299-d99c443e4568?q=80&w=1200&auto=format&fit=crop', // St. Basil's Cathedral
       isActive: true,
-      content: `
+      content: {
+        ko: `
           <p class="leading-relaxed mb-6 text-slate-700">
             군에서는 현역 군인이 직무 전문성을 높이기 위해 군 외부 기관(국내외 대학원, 연구소, 군/민간 기관 등)에서 교육을 받는 <span class="font-bold text-russia-blue">‘위탁교육’</span>이라는 제도가 있다. 이 중 국내외 대학원에 진학하여 석박사를 취득할 수 있는 전문학위 위탁교육은 1년에 한 번 공고를 내고 선발을 한다. 
           </p>
@@ -88,6 +101,81 @@ export const prologueCategory: Category = {
              하늘이 높고 말이 살찌는 2013년 가을 어느 날 🍂, 나는 기다리던 <strong>합격 통지</strong>를 받았다. 🎉 이어서 러시아어 예비학부 등록을 위해 지원했고 어찌저찌 비자도 발급받고 2014년 여름 드디어 러시아의 심장, <strong>모스크바</strong>로 향하는 비행기에 몸을 실었다. ✈️🇷🇺
           </p>
         `,
+        en: `
+          <p class="leading-relaxed mb-6 text-slate-700">
+            In the military, there is a system called <span class="font-bold text-russia-blue">'consignment education'</span> where active-duty soldiers receive education at external institutions (domestic and international graduate schools, research institutes, military/private institutions, etc.) to enhance their job expertise. Among these, the professional degree consignment education, which allows soldiers to enter domestic or international graduate schools to obtain master's or doctoral degrees, announces and selects candidates once a year.
+          </p>
+          <p class="leading-relaxed mb-6 text-slate-700">
+            If selected for a domestic professional degree, one is given the opportunity to enter various prestigious graduate schools in Korea. If selected for a foreign professional degree, depending on the announcement, opportunities are given to study in various countries, not only English-speaking ones like the United States 🇺🇸, Canada 🇨🇦, and the United Kingdom 🇬🇧, but also Russia 🇷🇺, India 🇮🇳, China 🇨🇳, and Japan 🇯🇵.
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            In the summer of 2013 ☀️, I was a platoon leader, working at my unit as usual. Then, I saw an announcement for domestic and international consignment education on the military intranet. My branch was <strong>CBR (Chemical, Biological, Radiological)</strong>, which was not a main combat branch, and due to the specialized nature of the CBR branch, the positions available to me were limited.
+          </p>
+          
+          <div class="bg-slate-50 border-l-4 border-russia-blue p-4 my-6 rounded-r-lg">
+            <p class="leading-relaxed text-slate-700">
+               Although the announcement stated that they were selecting various people to nurture experts in many fields, only two positions caught my eye: a <strong>domestic consignment position</strong> that could lead to becoming a military professor in the future, and a <strong>nuclear engineering position in Russia</strong> ☢️ that could lead to becoming a military researcher.
+            </p>
+          </div>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            However, for me, who had not studied hard during my university (cadet) days, the professorship was <span class="text-slate-500 line-through decoration-slate-400">a pie in the sky</span>. 🍡 This was because there was a restriction that one's university grades had to be in the <strong>top 30 percent</strong>.
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            It was too late for regrets. The past cannot be changed. I wondered if I could even get a proper recommendation letter if I were to become a professor. When I had just entered university, a senior told me that if I wanted to have a relatively comfortable cadet life, I just needed to be in the top two-thirds in everything, and my grades were exactly like that. Not that my cadet life was very smooth, though. 😅 I don't think any professor would have taken notice of me. So, naturally, I had no choice but to fix my gaze on the <strong>master's in nuclear engineering in Russia</strong>.
+          </p>
+          
+          <hr class="border-slate-200 my-8 w-1/2 mx-auto" />
+
+          <p class="leading-relaxed mb-6 text-slate-700">
+            <span class="font-bold text-russia-blue">"Do I know Russian? Have I ever studied nuclear engineering?"</span> Of course not. I couldn't even speak the English I had learned throughout my school years properly, and my major was chemistry. Besides, the major at the Korea Military Academy is somewhat lacking to be called a major at another civilian university. Moreover, studying unfamiliar nuclear engineering in an unfamiliar Russian language, even the people around me reacted with <strong>"Can you do it?"</strong> 🤷
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            At that time, I remembered something from my childhood with my father. Before we left for school, my father would make us shout <span class="font-bold text-russia-blue">"I can do it"</span> three times. Of course, I did it a few times and then stopped, but the memory was still vivid, and it was a phrase engraved in my heart that helped me get through tough times. This time, too, that spell gave me courage.
+          </p>
+          
+          <blockquote class="text-center font-serif text-2xl font-bold text-russia-blue my-8 animate-pulse">
+            "Yes, I can do it. 👊"
+          </blockquote>
+
+          <p class="leading-relaxed mb-6 text-slate-700">
+            After making up my mind, I immediately filled out the application form. The documents said to submit a certified Russian language score if I had one, but there was no way I had one. If not, it said to submit an English score, so I submitted my TOEIC score, which I had been studying for and taking tests for from time to time. I don't know how I passed the document screening, but I received a notification to come for a <strong>language screening to test my Russian</strong>. 📨
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            Since I didn't know any Russian, I wrote down what I wanted to say on half a page, asked a friend who majored in Russian to translate it, and wrote down the corresponding Korean pronunciation to memorize it. I wrote a <strong>simple self-introduction and my aspirations that I can do it</strong>.
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            As soon as I went to the language screening, I immediately knew why I had passed the document screening. <strong>I was the only applicant.</strong> 😲 Ah, so there was no one who knew Russian and had studied nuclear engineering. I was relieved for a moment, but then I got nervous when they said it was a test, not an interview.
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+            If it had been an interview, I could have at least said what I had memorized and appealed that I could definitely do it. It was a listening and reading test, but to me, who was illiterate in Russian, <strong>the black was the letters and the white was the paper</strong>. 😵‍💫 So, having barely learned the Russian alphabet, I practically guessed my way through the questions and left the test center.
+          </p>
+          
+          <div class="bg-orange-50 p-6 rounded-xl border border-orange-100 my-8">
+             <p class="leading-relaxed text-slate-800">
+                Sometime later, there were individual and group interviews, and while the interviewers asked the other applicants difficult questions about various professional knowledge, they only asked me <span class="font-bold text-orange-800">"Can you do it?"</span>.
+             </p>
+          </div>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+             If a selected person fails to obtain a degree and returns, it has many disadvantages for the selected person, but from the perspective of the selecting institution, they need to cultivate experts in necessary fields as a mid- to long-term plan, and I think I was a risk in myself. I don't know much, and my university grades were not great, so I can carefully guess that they were also very worried about whether to send me.
+          </p>
+          
+          <p class="leading-relaxed mb-6 text-slate-700">
+             If I don't believe in myself, who will believe in me? No matter who asked, I <strong>confidently said I could do it.</strong>
+          </p>
+          
+          <p class="leading-relaxed text-slate-800 font-serif text-xl border-l-4 border-gold-accent pl-4 py-2 bg-gradient-to-r from-orange-50 to-transparent">
+             One day in the autumn of 2013, when the sky was high and the horses were fat 🍂, I received the long-awaited <strong>acceptance notice</strong>. 🎉 I then applied to register for the Russian preparatory faculty, somehow got my visa issued, and in the summer of 2014, I finally boarded a plane to the heart of Russia, <strong>Moscow</strong>. ✈️🇷🇺
+          </p>
+        `,
+      },
       comments: [],
     },
   ],

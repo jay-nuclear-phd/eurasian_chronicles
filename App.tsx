@@ -3,11 +3,14 @@ import { Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-
 import { Category, CategoryId, Post } from './types';
 import { BOOK_DATA, AUTHOR_NOTE } from './constants';
 import PostView from './components/PostView';
+import { useLanguage } from './contexts/LanguageContext';
 import { Menu, X, BookOpen, ChevronRight, ChevronDown, ChevronUp, PenTool, Lock, List } from 'lucide-react';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 // Page Components
 const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClick: (catId: CategoryId, postId: string) => void }> = ({ onCategoryClick, onPostClick }) => {
   const [expandedCategories, setExpandedCategories] = useState<CategoryId[]>([]);
+  const { language } = useLanguage();
 
   const toggleCategory = (id: CategoryId) => {
     setExpandedCategories(prev =>
@@ -27,7 +30,7 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-6">
           <span className="text-gold-accent font-serif italic mb-4 text-lg animate-pulse">JNP's Memoir</span>
           <h2 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 tracking-tight">
-            유라시아 견문록
+            {language === 'ko' ? '유라시아 견문록' : 'Eurasian Chronicles'}
           </h2>
         </div>
       </div>
@@ -37,10 +40,10 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
         <div className="flex items-center justify-center mb-8">
           <PenTool className="text-russia-blue" size={32} />
         </div>
-        <h3 className="text-2xl font-serif font-bold text-center text-slate-800 mb-8">{AUTHOR_NOTE.title}</h3>
+        <h3 className="text-2xl font-serif font-bold text-center text-slate-800 mb-8">{AUTHOR_NOTE.title[language]}</h3>
         <div 
           className="prose prose-slate mx-auto text-slate-600 whitespace-pre-wrap leading-loose"
-          dangerouslySetInnerHTML={{ __html: AUTHOR_NOTE.content }}
+          dangerouslySetInnerHTML={{ __html: AUTHOR_NOTE.content[language] }}
         />
         <div className="mt-10 text-right font-serif italic text-slate-500">
           - {AUTHOR_NOTE.author}
@@ -50,7 +53,7 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
       {/* Table of Contents (Mokcha) */}
       <div className="max-w-2xl mx-auto mt-16 px-4">
         <h3 className="text-2xl font-serif font-bold text-slate-800 mb-8 text-center flex items-center justify-center gap-2">
-          <List size={24} /> 목차
+          <List size={24} /> {language === 'ko' ? '목차' : 'Table of Contents'}
         </h3>
         <div className="flex flex-col bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden divide-y divide-slate-100">
           {BOOK_DATA.filter(c => c.id !== 'home').map((cat) => {
@@ -69,7 +72,7 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
                               ${isActive ? 'hover:bg-slate-50 text-slate-800' : 'text-slate-300 cursor-not-allowed bg-slate-50/50'}
                           `}
                       >
-                          <span className="font-serif font-bold text-lg group-hover:text-russia-blue transition-colors">{cat.title}</span>
+                          <span className="font-serif font-bold text-lg group-hover:text-russia-blue transition-colors">{cat.title[language]}</span>
                           {isActive ? <ChevronRight size={18} className="text-slate-400 group-hover:text-russia-blue" /> : <Lock size={16} />}
                       </Link>
                   )
@@ -85,7 +88,7 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
                               ${isActive ? 'hover:bg-slate-50 text-slate-800' : 'text-slate-300 cursor-not-allowed bg-slate-50/50'}
                           `}
                       >
-                          <Link to={`/${cat.id}`} className="font-serif font-bold text-lg group-hover:text-russia-blue transition-colors">{cat.title}</Link>
+                          <Link to={`/${cat.id}`} className="font-serif font-bold text-lg group-hover:text-russia-blue transition-colors">{cat.title[language]}</Link>
                           <div className="flex items-center gap-2 text-slate-400 group-hover:text-russia-blue">
                                 {!isActive ? <Lock size={16} /> : (isExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />)}
                           </div>
@@ -109,12 +112,12 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
                                       `}
                                   >
                                       <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${post.isActive === false ? 'bg-slate-200' : 'bg-slate-300'}`} />
-                                      <span className="truncate font-medium">{post.title}</span>
+                                      <span className="truncate font-medium">{post.title[language]}</span>
                                       {post.isActive === false && <Lock size={12} className="ml-auto text-slate-300" />}
                                   </Link>
                                 ))
                               ) : (
-                                <div className="px-8 py-4 text-sm text-slate-400 italic">게시글이 없습니다.</div>
+                                <div className="px-8 py-4 text-sm text-slate-400 italic">{language === 'ko' ? '게시글이 없습니다.' : 'No posts available.'}</div>
                               )}
                           </div>
                       )}
@@ -129,17 +132,18 @@ const HomePage: React.FC<{ onCategoryClick: (id: CategoryId) => void, onPostClic
 
 const CategoryPage: React.FC = () => {
     const { categoryId } = useParams<{ categoryId: string }>();
+    const { language } = useLanguage();
     const category = BOOK_DATA.find(c => c.id === categoryId);
 
     if (!category) {
-        return <div className="text-center">카테고리를 찾을 수 없습니다.</div>;
+        return <div className="text-center">{language === 'ko' ? '카테고리를 찾을 수 없습니다.' : 'Category not found.'}</div>;
     }
 
     return (
         <div className="animate-fadeIn">
             <header className="mb-12 text-center">
-                <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-3">{category.title}</h2>
-                <p className="text-slate-500 font-light">{category.description}</p>
+                <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-3">{category.title[language]}</h2>
+                <p className="text-slate-500 font-light">{category.description && category.description[language]}</p>
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -160,7 +164,7 @@ const CategoryPage: React.FC = () => {
                             <div className="h-48 overflow-hidden relative">
                                 <img
                                     src={post.imageUrl}
-                                    alt={post.title}
+                                    alt={post.title[language]}
                                     className={`w-full h-full object-cover transform duration-700 ${post.isActive === false ? 'grayscale' : 'group-hover:scale-110'}`}
                                 />
                                 <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
@@ -174,19 +178,19 @@ const CategoryPage: React.FC = () => {
                         <div className="p-6 flex flex-col flex-grow">
                             <div className="mb-auto">
                                 <span className="text-xs font-bold text-russia-blue uppercase tracking-wider mb-2 block">
-                                    {category.title}
+                                    {category.title[language]}
                                 </span>
                                 <h3 className={`text-xl font-serif font-bold mb-2 transition-colors ${post.isActive === false ? 'text-slate-400' : 'text-slate-800 group-hover:text-russia-blue'}`}>
-                                    {post.title}
+                                    {post.title[language]}
                                 </h3>
                                 <p className="text-slate-500 text-sm line-clamp-2 leading-relaxed">
-                                    {post.subtitle || "러시아에서의 기록..."}
+                                    {(post.subtitle && post.subtitle[language]) || (language === 'ko' ? "러시아에서의 기록..." : "Records from Russia...")}
                                 </p>
                             </div>
                             {post.isActive !== false && (
                                 <div className="mt-6 pt-4 border-t border-slate-100 flex justify-end items-center">
                                     <span className="flex items-center text-xs font-semibold text-slate-600 group-hover:translate-x-1 transition-transform">
-                                        읽기 <ChevronRight size={14} />
+                                        {language === 'ko' ? '읽기' : 'Read'} <ChevronRight size={14} />
                                     </span>
                                 </div>
                             )}
@@ -201,13 +205,14 @@ const CategoryPage: React.FC = () => {
 const PostPage: React.FC = () => {
   const { categoryId, postId } = useParams<{ categoryId: string, postId: string }>();
   const navigate = useNavigate();
+  const { language } = useLanguage();
 
   const allPosts = BOOK_DATA
     .filter(c => c.isActive)
     .flatMap(category => 
       category.posts
         .filter(p => p.isActive)
-        .map(post => ({ ...post, categoryId: category.id }))
+        .map(post => ({ ...post, categoryId: category.id, categoryTitle: category.title }))
     );
 
   const currentIndex = allPosts.findIndex(p => p.id === postId);
@@ -218,12 +223,21 @@ const PostPage: React.FC = () => {
   const post = category?.posts.find(p => p.id === postId);
 
   if (!category || !post) {
-    return <div className="text-center">포스트를 찾을 수 없습니다.</div>;
+    return <div className="text-center">{language === 'ko' ? '포스트를 찾을 수 없습니다.' : 'Post not found.'}</div>;
   }
   
   const handleBack = category.isSinglePost ? undefined : () => navigate(`/${categoryId}`);
 
-  return <PostView post={post} categoryTitle={category.title} onBack={handleBack} prevPost={prevPost} nextPost={nextPost} />;
+  const navPostToProps = (p: Post & { categoryId: string; categoryTitle: any; }) => ({
+    id: p.id,
+    title: p.title[language],
+    categoryId: p.categoryId,
+  });
+
+  const prevPostForNav = prevPost ? navPostToProps(prevPost as any) : null;
+  const nextPostForNav = nextPost ? navPostToProps(nextPost as any) : null;
+
+  return <PostView post={post} categoryTitle={category.title} onBack={handleBack} prevPost={prevPostForNav} nextPost={nextPostForNav} />;
 };
 
 // Main App Layout
@@ -231,6 +245,7 @@ function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const { language } = useLanguage();
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
@@ -260,7 +275,7 @@ function App() {
         <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <Link to="/" className="font-serif font-bold text-xl md:text-2xl text-russia-blue cursor-pointer flex items-center gap-2">
             <BookOpen size={24} />
-            <span>유라시아 견문록</span>
+            <span>{language === 'ko' ? '유라시아 견문록' : 'Eurasian Chronicles'}</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -277,7 +292,7 @@ function App() {
                 `}
               >
                 <div className="flex items-center gap-1">
-                  {cat.title}
+                  {cat.title[language]}
                   {cat.isActive === false && <Lock size={10} />}
                 </div>
                 {cat.isActive !== false && (
@@ -287,16 +302,19 @@ function App() {
             ))}
           </div>
 
-          <button className="lg:hidden p-2 text-slate-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
-            {isMobileMenuOpen ? <X /> : <Menu />}
-          </button>
+          <div className="flex items-center gap-2">
+            <LanguageSwitcher />
+            <button className="lg:hidden p-2 text-slate-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+              {isMobileMenuOpen ? <X /> : <Menu />}
+            </button>
+          </div>
         </div>
       </nav>
 
       {isMobileMenuOpen && (
         <div className="lg:hidden fixed inset-0 z-40 bg-white pt-24 px-6 overflow-y-auto animate-fadeIn">
           <div className="flex flex-col gap-6">
-             <Link to="/" className="text-lg font-serif font-bold text-slate-800 text-left">홈으로</Link>
+             <Link to="/" className="text-lg font-serif font-bold text-slate-800 text-left">{language === 'ko' ? '홈으로' : 'Home'}</Link>
             {BOOK_DATA.filter(c => c.id !== 'home').map((cat) => (
               <Link
                 key={cat.id}
@@ -308,8 +326,8 @@ function App() {
                   ${location.pathname.startsWith(`/${cat.id}`) ? 'text-russia-blue' : ''}
                 `}
               >
-                {cat.title}
-                {cat.isActive === false && <span className="text-xs bg-slate-100 px-2 py-1 rounded-full text-slate-400 font-normal">작성 중</span>}
+                {cat.title[language]}
+                {cat.isActive === false && <span className="text-xs bg-slate-100 px-2 py-1 rounded-full text-slate-400 font-normal">{language === 'ko' ? '작성 중' : 'In Progress'}</span>}
               </Link>
             ))}
           </div>
@@ -326,10 +344,10 @@ function App() {
 
       <footer className="bg-slate-900 text-slate-400 py-12 mt-12 border-t border-slate-800">
         <div className="container mx-auto px-6 text-center">
-          <h4 className="font-serif text-white text-lg mb-4">유라시아 견문록</h4>
+          <h4 className="font-serif text-white text-lg mb-4">{language === 'ko' ? '유라시아 견문록' : 'Eurasian Chronicles'}</h4>
           <p className="text-sm mb-8 max-w-md mx-auto">
-            러시아에서의 3년, 그리고 그 너머의 이야기. <br/>
-            JNP의 석사 생활과 여행의 기록을 담은 디지털 아카이브입니다.
+            {language === 'ko' ? '러시아에서의 3년, 그리고 그 너머의 이야기. ' : 'Three years in Russia, and the story beyond. '} <br/>
+            {language === 'ko' ? 'JNP의 석사 생활과 여행의 기록을 담은 디지털 아카이브입니다.' : "This is a digital archive of JNP's master's life and travel records."}
           </p>
           <div className="text-xs text-slate-600">
             &copy; {new Date().getFullYear()} JNP. All rights reserved.

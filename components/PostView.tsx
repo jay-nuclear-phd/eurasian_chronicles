@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Post } from '../types';
+import { Post, LocalizedString } from '../types';
 import CommentSection from './CommentSection';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 type NavPost = {
   id: string;
@@ -12,13 +13,14 @@ type NavPost = {
 
 interface PostViewProps {
   post: Post;
-  categoryTitle: string;
+  categoryTitle: LocalizedString;
   onBack?: () => void;
   prevPost?: NavPost | null;
   nextPost?: NavPost | null;
 }
 
 const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPost, nextPost }) => {
+  const { language } = useLanguage();
   const [localComments, setLocalComments] = useState(post.comments);
 
   useEffect(() => {
@@ -37,7 +39,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
     setLocalComments([...localComments, newComment]);
   };
 
-  const renderPostNavLink = (navPost: NavPost, type: 'prev' | 'next') => {
+  const renderPostNavLink = (navPost: NavPost | null | undefined, type: 'prev' | 'next') => {
     if (!navPost) {
       return <div className="w-1/2" />;
     }
@@ -49,7 +51,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
       >
         {isPrev && <ChevronLeft className="text-slate-400 group-hover:text-russia-blue" />}
         <div className={isPrev ? 'text-left' : 'text-right'}>
-          <div className="text-xs text-slate-500">{isPrev ? '이전 글' : '다음 글'}</div>
+          <div className="text-xs text-slate-500">{isPrev ? (language === 'ko' ? '이전 글' : 'Previous Post') : (language === 'ko' ? '다음 글' : 'Next Post')}</div>
           <div className="font-serif font-bold text-slate-700 group-hover:text-russia-blue truncate">{navPost.title}</div>
         </div>
         {!isPrev && <ChevronRight className="text-slate-400 group-hover:text-russia-blue" />}
@@ -64,21 +66,21 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
           onClick={onBack}
           className="mb-8 text-sm text-slate-500 hover:text-russia-blue flex items-center gap-1 transition-colors"
         >
-          ← 목록으로 돌아가기
+          ← {language === 'ko' ? '목록으로 돌아가기' : 'Back to List'}
         </button>
       )}
 
       {/* Header */}
       <header className="mb-10 text-center">
         <span className="inline-block px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold mb-4 tracking-wide">
-          {categoryTitle}
+          {categoryTitle[language]}
         </span>
         <h1 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4 leading-tight">
-          {post.title}
+          {post.title[language]}
         </h1>
         {post.subtitle && (
           <h2 className="text-lg md:text-xl text-slate-600 font-light italic mb-6">
-            {post.subtitle}
+            {post.subtitle[language]}
           </h2>
         )}
       </header>
@@ -88,7 +90,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
         <div className="mb-10 rounded-xl overflow-hidden shadow-lg aspect-video relative group">
           <img 
             src={post.imageUrl} 
-            alt={post.title} 
+            alt={post.title[language]} 
             className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent pointer-events-none" />
@@ -98,7 +100,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
       {/* Content */}
       <div 
         className="prose prose-lg prose-slate mx-auto font-serif text-slate-700 leading-loose"
-        dangerouslySetInnerHTML={{ __html: post.content }}
+        dangerouslySetInnerHTML={{ __html: post.content[language] }}
       />
       
       {/* Prev/Next Navigation */}

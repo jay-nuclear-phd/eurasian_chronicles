@@ -1,4 +1,9 @@
 
+export type LocalizedString = {
+  ko: string;
+  en: string;
+};
+
 export interface Comment {
   id: string;
   author: string;
@@ -8,9 +13,9 @@ export interface Comment {
 
 export interface Post {
   id: string;
-  title: string;
-  subtitle?: string;
-  content: string; // HTML or Markdown string
+  title: LocalizedString;
+  subtitle?: LocalizedString;
+  content: LocalizedString; // HTML or Markdown string
   imageUrl?: string;
   date?: string; // Made optional
   comments: Comment[];
@@ -31,8 +36,8 @@ export type CategoryId =
 
 export interface Category {
   id: CategoryId;
-  title: string;
-  description?: string;
+  title: LocalizedString;
+  description?: LocalizedString;
   isSinglePost: boolean; // true for Prologue/Epilogue
   posts: Post[];
   isActive?: boolean; // New field to control visibility/access

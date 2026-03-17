@@ -2,19 +2,26 @@ import { Category } from '../types';
 
 export const year2Category: Category = {
   id: 'year2',
-  title: '2년차, 대학원 입학',
-  description: '본격적인 대학원 생활의 시작',
+  title: { ko: '2년차, 대학원 입학', en: 'Year 2, Graduate School Admission' },
+  description: {
+    ko: '본격적인 대학원 생활의 시작',
+    en: 'The beginning of full-fledged graduate school life',
+  },
   isSinglePost: false,
   isActive: true,
   posts: [
     {
       id: 'post-200',
-      title: '새 보금자리를 찾아',
-      subtitle: '기숙사 탈출, 모스크바 아파트 구하기 대작전',
+      title: { ko: '새 보금자리를 찾아', en: 'Finding a New Home' },
+      subtitle: {
+        ko: '기숙사 탈출, 모스크바 아파트 구하기 대작전',
+        en: 'Escape from the Dormitory, The Great Moscow Apartment Hunt',
+      },
       imageUrl: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop', // Cozy apartment interior
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           예비학부 동안 정들었던 기숙사는 대학원에 진학하면서 더 이상 지낼 수 없다고 했다. 우리가 살던 기숙사는 아파트 형식으로 층은 달랐지만 아내가 방을 혼자 쓰고 있었을 뿐만 아니라, 무엇보다 모스크바 내 기숙사 중에는 아주 깔끔한 축에 속했기 때문에 아쉬움이 더욱 컸다. 😥 기숙사를 벗어나면 그동안 혜택을 누렸던 전기세나 온수 등 추가적인 비용도 발생한다는 점도 큰 고민거리였다.
         </p>
@@ -96,15 +103,102 @@ export const year2Category: Category = {
           러시아에서는 돈을 주고 집을 구하는 것도 전쟁이었고 또한 배움이었다. 낯선 땅, 낯선 이들을 이해하지 못했다면 그들의 배타성에 상처만 남았으리라 생각한다. 집을 구해야 한다는 절박한 상황 속이었지만 러시아도 다 사람 사는 곳이었고 그들을 이해하니 그들의 따뜻함 마저도 느껴졌던 소중한 경험이었다.
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The dormitory that I had grown fond of during the preparatory faculty was no longer available to me as I entered graduate school. The dormitory we lived in was apartment-style, and although my wife's room was on a different floor, she had it all to herself. Moreover, it was one of the cleanest dormitories in Moscow, so the disappointment was even greater. 😥 Another major concern was that leaving the dormitory would incur additional costs such as electricity and hot water, which we had been enjoying as benefits.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          However, the new dormitories we would be assigned to as we entered the main program were all terrible places where we would have to <span class="text-red-600 font-bold">coexist with cockroaches 🪳</span>. To ensure a minimum standard of living for the remaining two years and to successfully complete my studies, I had to move to a place 'fit for human habitation' somehow. If I hesitated, I could miss out on good listings, so I hurried to look for a new home.
+        </p>
+
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
+          <p class="leading-relaxed text-slate-800">
+            My friends from the preparatory faculty also jumped into the house-hunting war. ⚔️ Yesterday's colleagues had become our competitors overnight, looking for cheaper and better homes.
+          </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 House Hunting in Moscow</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As with any big city, Moscow has a population of about 10 million, and even more if you include the floating population, all sharing the limited space of this city. Therefore, places close to the subway and with good security were very expensive. Some acquaintances who were already living in apartments were paying more than 1.5 million won a month in rent, which was <span class="text-slate-500 line-through">a pie in the sky</span> for us. 💸 Even if we could afford it, compared to the very cheap accommodation provided by the military, the large amount of money that would go out every month for doing nothing was a waste. Since we hadn't bought a car in Russia, the house we were looking for had to be accessible by public transport.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          During that time when I couldn't waste a single moment, I learned that one of the biggest obstacles to finding a house in Moscow was the closed-mindedness and exclusivity of the Russian people. Even if I found a house I liked on a real estate website and called, the response on the other end of the line was cold.
+        </p>
+
+        <div class="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
+          <p class="leading-relaxed text-red-900">
+            There were countless landlords who said, <strong>"I can't rent to you if you're not Slavic."</strong> 😤 They were extremely reluctant to rent their homes to foreigners, as if they themselves were the purest people in the world. Perhaps they were worried that the smell of spices from other cultures would seep into the wallpaper, or that their homes would be damaged due to differences in lifestyle. Or it could have been a vague sense of rejection. From the perspective of the one being rejected, it was frustrating and absurd, but on the other hand, I could somewhat understand their wariness.
+          </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😱 A Series of Shocks, Russian-style Interior</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I looked at a few cheap listings that were said to be available to foreign tenants, but the scene that greeted me every time I opened the door was a series of shocks. The exterior of a huge apartment complex was belied by the fact that the interior of the house was entirely finished with wood. The pinnacle of Russian interior design was undoubtedly the carpets (rugs) laid everywhere. Not only the floor, but also the walls were occupied by carpets, perhaps as a way to block the cold or as a traditional preference.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The problem was the condition of their management. The carpets, which seemed to have absorbed decades of time, were full of dust even without checking, and a musty, unidentifiable smell emanated from them. 🤢
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In addition to this, Russians preferred orange-colored light bulbs instead of incandescent bulbs not only in the bathroom but everywhere in the house. The already dim interior due to the cloudy weather created an even darker and more subdued atmosphere under the orange lighting. The apartment, already full of creaky old wood, with its dirty carpets and dim orange lights, was reminiscent of a museum of the past.
+        </p>
+        <blockquote class="text-center font-serif text-xl font-bold text-russia-blue my-8 animate-pulse">
+          "No matter how much I had tackled my master's program with the 'I can do it' spirit while being illiterate in Russian, I didn't have the confidence to endure the remaining two years in a place like this."
+        </blockquote>
+        <div class="bg-slate-50 p-4 my-6 rounded-lg text-sm">
+          <span class="font-bold text-slate-700">💡 Warm Bulb vs. Cold Bulb</span><br/>
+          In Russian, an incandescent bulb was a 'cold bulb (холодная лампа)' and an orange bulb was a 'warm bulb (тёплая лампа),' so I could somewhat understand why they preferred the orange light.
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✨ A Home That Appeared Like Destiny</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Just as I was getting tired after so many fruitless visits, the anxiety that I might not be able to find a decent place to live at all crept up on me. At that moment, a house that was close to the school and looked quite good in the pictures came up for sale, as if by destiny. The landlord was Russian but was interested in European-style interior design. The house was not large, but I heard that it had been newly and cleanly renovated in a European style for rent.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In particular, what I liked the most were the large windows. Thanks to them, the house got a lot of sunlight from the outside. ☀️ The floor was not wood but a familiar floor covering, and the walls were also brightly plastered in white. It was a one-room apartment with a separate kitchen and bathroom, rather than a studio apartment. There was no separate living room, but it was not bad for two people to live in.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The landlady was a very cultured person. She spoke softly and listened patiently to my clumsy, stuttering Russian. In Russia, you have to renew your residence permit, called Registratsiya (Регистрация, Registration), every year, which meant that the landlord had to go to the community service center in person each time. Nevertheless, she willingly rented to us, who were foreigners. Although I was the one paying, I was so grateful that I was on the verge of tears. 🥹
+        </p>
+
+        <div class="bg-blue-50 border-t-4 border-b-4 border-blue-200 p-6 my-8 text-center">
+          <p class="text-2xl font-bold text-blue-900">Rent approx. 700,000 KRW</p>
+          <p class="text-blue-800 mt-2">Utilities (electricity, water/sewage) approx. 30,000 KRW/month</p>
+          <p class="text-sm text-blue-700 mt-2">(Based on the exchange rate at the time of ±18 KRW/RUB)</p>
+        </div>
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Russia, the burden of public utility fees was low because the state managed the heating for free. I was suddenly reminded of winter in Korea. At that time, it was popular in Korea to use a packaging material called 'bubble wrap' to block the cold air coming in through the windows. The old military apartment I lived in was on the top floor, the 5th floor, so it was even colder than other houses. Since there was no individual heating, I had to heat the entire house when I turned on the heating. So I remember studying wrapped in a blanket with a heating fan on in my room.
+        </p>
+        <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
+          "But now, thanks to the benevolent free heating of Russia, I no longer had to shiver from the cold in my room. If you ask a Russian what to do when the room is too hot because the temperature cannot be adjusted, they will say, one hundred out of one hundred, 'Open the window, that's all.' What a luxury."
+        </blockquote>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏰 Our Own Fortress, and a Housewarming Party</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the only room, there was a king-size bed in the middle that was spacious enough for two people. With the bed as the center, I created my own area with my desk on one side and my wife's desk on the other. Since our household goods were simple, one taxi was enough for the move. 🚚 On the day we left the dormitory we had grown fond of, my wife shed tears, probably because we were leaving the home that had helped us get through our first year in a strange place. I packed our belongings tightly into the trunk and back seat of the taxi, and my wife took the subway to our new home. After unpacking and filling the house with the necessary items one by one, our new fortress for the two of us for the remaining two years was complete.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          To celebrate our new home, we had a small housewarming party with two of our younger friends from the preparatory faculty. 🎉 The kitchen was small, so it was full with just four people sitting in it. There were also good things about the small kitchen. If we ran out of food while eating, we could cook more right away, and if we needed anything else, we could get it from the refrigerator, which was always within reach. We could even talk while cooking. After the housewarming party, I felt that I was mentally and physically ready for the battle of the remaining two years.
+        </p>
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Russia, even buying a house for money was a war and a learning experience. If I hadn't understood the strange land and the strange people, I think I would have only been hurt by their exclusivity. Although it was a desperate situation where I had to find a house, Russia was also a place where people lived, and once I understood them, it was a precious experience where I could even feel their warmth.
+        </p>
+      `,
+      },
     },
     {
       id: 'post-201',
-      title: '대학원 새내기',
-      subtitle: '동무들과의 첫 만남, 그리고 혹독한 전공의 맛',
+      title: { ko: '대학원 새내기', en: 'Graduate School Freshman' },
+      subtitle: {
+        ko: '동무들과의 첫 만남, 그리고 혹독한 전공의 맛',
+        en: 'First Meeting with Comrades, and the Harsh Taste of a Major',
+      },
       imageUrl: 'https://cdn-media.tass.ru/width/1020_b9261fa1/tass/m2/en/uploads/i/20190619/1223730.jpg', // Moscow State University
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           길 것만 같던 여름방학은 언제 흘러갔는지 흔적도 없이 증발해 버렸고, 어느새 대학원생으로서의 첫 학기가 막을 올렸다. 🎓 한국의 대학생이라면 수강 신청 기간마다 마우스 광클릭으로 🖱️ 스스로 시간표를 쟁취해야겠지만, 러시아는 참으로 ‘친절하게도’ 학부생은 물론 대학원생의 시간표까지 학교에서 알아서 짜준다. 뭐, 사실 사관학교 시절부터 국가가 정해준 시간표대로 살아온 나로서는 이런 수동적인 시스템에 별다른 불만이 없긴 했다.
         </p>
@@ -173,15 +267,89 @@ export const year2Category: Category = {
           말이 통하지 않아도 마음은 통할 수 있다는, 유학 생활에서 가장 중요한 진리를 나는 그날의 술잔 속에서 배울 수 있었다."
         </blockquote>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The summer vacation, which seemed like it would last forever, evaporated without a trace, and before I knew it, my first semester as a graduate student had begun. 🎓 If you're a university student in Korea, you have to fight for your own schedule by clicking your mouse like crazy 🖱️ during the course registration period, but in Russia, the school is so 'kind' as to make the schedule for not only undergraduate but also graduate students. Well, to be honest, I, who had lived according to a schedule set by the state since my military academy days, had no particular complaints about this passive system.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤝 Classmates, No, Comrades</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The master's program at Moscow State University is a little different from that of a Korean graduate school. Classmates who enter the same department at the same time take all classes together until graduation, with the exception of a few liberal arts courses. So it's much more natural to call them close-knit 'classmates' rather than loose 'university classmates.' Or maybe it's more appropriate to call them 'comrades (товарищ)' in the Soviet style...
+        </p>
+        <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue my-6">
+          <p class="leading-relaxed text-slate-700">
+            There were a total of 12 people in our class, and contrary to the scary and rigid name of the 'Department of Nuclear Physics,' there were as many as 3 female students. 👩‍🔬 A gender ratio of 25% is truly an amazing number for an engineering or natural sciences department.
+          </p>
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The composition of these 12 people is quite interesting. 8 of them were the so-called 'sacred bones' who came straight from the undergraduate program at Moscow State University, 1 was a domestic student from another university, and 1 was an international student from Kazakhstan. 🇰🇿 In fact, since Kazakhstan is a Russian-speaking country, he spoke the language perfectly, so the title of 'foreign student admission' was almost meaningless. And the remaining two spots were for the true beginner foreigners, me and my acquaintance. Moreover, since all of them had majored in nuclear physics since their undergraduate days, I couldn't help but be more nervous. 🤯
+        </p>
+        
+        <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 my-8">
+          <p class="leading-relaxed text-yellow-900 font-medium mb-2">🤫 The Bitter Truth of Capitalism</p>
+          <p class="leading-relaxed text-yellow-800">
+            A shocking fact that I later heard from my acquaintances was that two Russian students who were originally from this undergraduate program were dropped from the master's program to admit us two foreigners. While domestic students go to school without paying tuition and even receive a small scholarship, we have to pay 100% of the tuition, so from the school's perspective, we were a pretty 'lucrative' source of income. 💸 After facing this bitter truth of capitalism, I felt a strange sense of debt towards those two dropouts whom I had never even seen before. My Russian 'comrade' classmates comforted me by saying that those two got good jobs, so I shouldn't worry.
+          </p>
+        </div>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💪 The Strong Slavic Leader</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The leader of our class was a female student. She was dating a male student from the same class, and she was a perfect leader with a very strong personality, decisiveness, and kindness. When she went out with her classmates, she took charge of all the planning like a travel agency employee, and she also took good care of our studies, who were foreigners who couldn't speak the language well. She was a friend who made me feel the power of a strong Slavic woman.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In particular, her lecture notes were like a welcome rain in a drought, but the problem was that they were not easy to decipher. ✍️ Many Russians, regardless of gender, boast of terrible handwriting, and the class leader's handwriting was also at the level of another 'required major subject' that we had to complete. There were even times when she couldn't recognize her own scribbled handwriting, so we would often stare at the notebook together. Still, without those hard-to-decipher notes and the class leader's dedication, my safe graduation might have been impossible.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👨‍🏫 My Advisor</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The main job of a graduate student is research, isn't it? After meeting with the professor in charge of career counseling and telling him my desired field, my advisor was assigned a few days later. The professor's name was 'Belyshev Sergey Sergeyevich'. As you can immediately guess from the name, his father's name is also Sergey.
+        </p>
+        <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
+          (I will deal with the unique naming and patronymic system of Russians in more detail in Chapter 6, Russian Names).
+        </blockquote>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Russia, when you officially address someone with respect, you must call them by their 'first name' and 'patronymic' together. However, since I was still in the habit of casually calling my teachers by their first names during my preparatory faculty days, I made a few mistakes with the honorifics in the early days of my master's program and had to receive a sharp rebuke. Fortunately, my advisor was a very young and passionate scholar who looked to be at most three or four years older than me, and he diligently guided the lost international student even in his killer schedule.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵‍💫 A Time When the Soul Leaves the Body</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The first few weeks of graduate school were truly a time when the soul leaves the body. The master's program system had only been in place at Moscow State University for a few years. Before that, there was a unique Russian specialist program that only required one more year of study in the undergraduate program. It can be said that this was an effort to catch up with the Western system and reflect international trends. Since it was not yet a firmly established system, the schedule was often overturned and changed, which was very confusing.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In addition, I would be exhausted when I came home after listening to Russian major lectures all day long that I couldn't understand at all. During my preparatory faculty days, I used mathematics and science as tools to learn Russian, but when the main program began, the situation was completely reversed. Now, I had to <span class="text-red-600 font-bold">dig into Russian like crazy to understand the killer major classes.</span> 📚 Of course, as time went by, I realized that the vocabulary that appeared in the major classes was limited like a round song, and I learned my own survival methods.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍻 Chuseok, United by Alcohol</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Chuseok came about 3 weeks after the new semester started. 🌕 Of course, Chuseok was not a public holiday in Russia, but I wanted to say hello to my classmates and ask them to take good care of me in the future, so I invited them to a Korean restaurant in a hotel. In fact, at that time, Korean food was not popular in Moscow and the price was quite expensive. My friends seemed quite embarrassed by the spicy and unfamiliar-looking food that they had never seen before. They nodded their heads and said 'umm...' out of politeness, but I could read the unconcealable embarrassment on their stiff faces.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But what turned the atmosphere around was, of course, alcohol. As soon as a few rounds of Korean-style 'bomb shots,' a mixture of vodka and beer, began to circulate, the awkward atmosphere quickly heated up. 🍻 Perhaps because they were Russians who were hardened to strong alcohol, they were quickly fascinated by the subtle taste of the bomb shots, and from then on, they began to eat happily regardless of what the side dishes were.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          There were many times when we couldn't understand each other's words perfectly because I was not yet fluent in Russian, but the sound of laughter that erupted as we clinked our glasses together needed no translation. Even if the grammar was wrong and I couldn't remember the words, there was sincerity in the clumsy gestures we made as we looked at each other with flushed faces.
+        </p>
+
+        <blockquote class="text-center font-serif text-xl text-russia-blue my-10 border-y-2 border-slate-100 py-8 leading-relaxed">
+          "In the end, as we left the hotel restaurant that night, we had grown much closer. <br/>
+          It was the moment when the Korean holiday of Chuseok blossomed again in the cold night air of Moscow in the name of friendship. <br/>
+          I was able to learn the most important truth of my life as a student abroad in that day's glass of alcohol: that even if we can't communicate with words, our hearts can."
+        </blockquote>
+      `,
+      },
     },
     {
       id: 'post-202',
-      title: '인생 처음 오리엔테이션',
-      subtitle: '야생, 보드카, 그리고 무너진 텐트',
+      title: { ko: '인생 처음 오리엔테이션', en: 'First Orientation of My Life' },
+      subtitle: {
+        ko: '야생, 보드카, 그리고 무너진 텐트',
+        en: 'The Wild, Vodka, and a Collapsed Tent',
+      },
       imageUrl: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=1200&auto=format&fit=crop', // Camping in forest
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           반장으로부터 물리과 오리엔테이션이 있다는 이야기를 들었다. 모스크바가 교외의 어딘가 숲속 야영장에서 진행된다고 했다. 또한 우리과인 핵물리학과 뿐만이 아니라 물리학과 전체의 오리엔테이션이었기에 꽤나 규모가 크다고 한다. 같은 반 친구들이 대부분 간다기에 나와 지인도 호기심 반 기대 반으로 동참하기로 했다.
         </p>
@@ -231,15 +399,70 @@ export const year2Category: Category = {
         돌이켜보면 뼛속까지 야생적이고 날것 그대로였던 오리엔테이션이었다. 한국의 MT와는 차원이 다른, 진흙탕과 보드카, 그리고 무너진 텐트가 버무려진 진짜 생존 캠핑. 한국에서도 안 해본 대학 오리엔테이션을, 나는 이 낯선 러시아의 숲속에서 평생 잊지 못할 만큼 징하게 치러냈다.
         </blockquote>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I heard from the class leader that there would be a physics department orientation. It was said to be held at a forest campground somewhere in the suburbs of Moscow. It was also said to be quite large, as it was an orientation for the entire physics department, not just our nuclear physics department. Since most of my classmates were going, my acquaintance and I decided to join them, half out of curiosity and half in anticipation.
+        </p>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛒 Stocking Up on Combat Rations</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The first meeting point was a large supermarket near the train station. It was to stock up on 'combat rations' before heading into the wild. The sight of groups of people with their own tents and sleeping bags, filling their carts with vodka, beer, meat, bread, and sausages, was truly a spectacle. With our hands full of luggage, we boarded a Moscow suburban commuter train (or suburban railway) called an 'elektrichka (Электричка)'.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The train looked old and creaky, but once it started running, it boasted a speed that was completely different from what I had expected. Unlike its clunky exterior, its momentum as it relentlessly crossed the vast Russian plains was tremendous, and the scenery outside the window was so fast that it felt like it was being sucked backward. During the two-hour journey, instead of the urban landscape of Moscow, an endless birch forest sped by outside the window.
+        </p>
+        <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue my-6">
+          <p class="leading-relaxed text-slate-700">
+          When I was getting hungry, a friend put a piece of oil-cured fish on a piece of black bread and handed it to me. It was Selyodka (Сельдка, pickled herring), which Russians love most as a vodka snack. I hesitated for a moment at the shocking visual of the slippery, fishy-looking silver cross-section, but out of curiosity and consideration for my friend's sincerity, I closed my eyes and took a bite. Contrary to my expectation that it would smell fishy, the salty taste of the sea and the savory taste unique to fermented fish combined with the acidity of the heavy black bread was strangely good. As expected, what you see is not all there is. I learned a lesson again this time.
+          </p>
+        </div>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛺️ The Wild Itself, Camping in the Woods</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After getting off at the train station, we walked along the railroad tracks and then suddenly turned into a dense forest with no path. Just as I was wondering, 'Is there really a campground in a place like this?', a crowd of people appeared among the trees. It was a 100% raw forest with no toilets or sinks. Russian camping was indeed the wild itself. What campground...
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We arrived in the afternoon and had to hurry to find a place to pitch our tent before the sun went down. However, the forest floor was so damp that it was not just soft, but muddy. No matter how deep I hammered the pegs, the soil was so soft that the supports would not stay firm. We had to have some form of shelter before sunset, so we roughly set up the frame and finished the construction in a hurry. In front of the tent, we took out a mess kit and started cooking a simple meal, and we greeted the forest night in earnest by naturally sharing vodka and food with the surrounding students.
+        </p>
+        <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
+          Since it was a place no different from the wild, there were a lot of things we forgot to bring or were short of, but that wasn't a big problem. The students around us, as if by appointment, shared everything they had in their hands, from food to camping gear. Someone casually handed me a sausage, and another gave me their empty container to use instead of a cup. We also gave others what they needed without hesitation and gave and received help without any hesitation or saving face.
+        </blockquote>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎶 Gangnam Style in a Russian Forest</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Just as I was getting pleasantly drunk on vodka, I heard a loud, heart-pounding music coming from deep in the dark forest. I followed the sound and came to a fairly spacious clearing surrounded by trees. There was a crude but plausible stage and colorful lights installed there. With a loud welcome from a student who seemed to be the MC, the slogan of Moscow State University echoed through the night sky, and a frantic party began.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          A club in the woods where alcohol, music, and youth were intertwined. At that time, when we were dancing with our arms around each other's shoulders without even knowing each other's names, a familiar intro flowed from the speakers. It was Psy's 'Gangnam Style.' I never thought I would be doing the horse dance with hundreds of Russian students in a dark forest in a foreign country, Russia. Drunk on the overwhelming joy and a strange sense of pride, I danced more passionately than ever before.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After a round of dancing, I quickly got hungry. There was a group of people sitting around a bonfire in a corner of the clearing, so I naturally joined them. The taste of sausages skewered on the ends of tree branches lying around and grilled over the crackling bonfire was truly exquisite. The night of talking with friends I met in a foreign country while staring at the fire was full of romance.
+        </p>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛺️ Becoming a Human Gimbap</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But the romance ended there. When I returned to the tent, the tent, which had been unstable for a while, was already leaning like the Leaning Tower of Pisa. Already soaked in alcohol and fatigue, we crawled into the precarious tent with a 'whatever' attitude, the three of us: my Russian friend, my acquaintance, and me.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          My Russian friend, who had become my tent buddy, had clearly drunk far beyond his limit. Throughout the night, he would periodically run outside with a "blech" sound. I could tolerate waking up, but the real problem was that every time he came back after vomiting, he would keep bumping into the already flimsy tent supports.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          "Hey... the tent is going to collapse..." Despite my pleas, he didn't care. In the end, when we woke up the next morning, the three of us were not lying in a tent, but in the state of 'human gimbap,' sleeping with the collapsed tent fabric as a blanket.
+        </p>
+        <blockquote class="text-center font-serif text-xl text-russia-blue my-10 border-y-2 border-slate-100 py-8 leading-relaxed">
+        Looking back, it was an orientation that was wild and raw to the bone. It was a real survival camping mixed with mud, vodka, and a collapsed tent, on a different level from a Korean MT (membership training). I had never even been to a university orientation in Korea, but I went through this one in a strange Russian forest so intensely that I will never forget it for the rest of my life.
+        </blockquote>
+      `,
+      },
     },
     {
       id: 'post-203',
-      title: '교양과목',
-      subtitle: '러시아 대학의 시간표, 교양과목에 숨겨진 이야기',
+      title: { ko: '교양과목', en: 'Elective Courses' },
+      subtitle: {
+        ko: '러시아 대학의 시간표, 교양과목에 숨겨진 이야기',
+        en: 'The Story Behind the Timetable and Elective Courses at a Russian University',
+      },
       imageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1200&auto=format&fit=crop', // Library books
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           소련이 붕괴한지도 20년이 넘었지만 여전히 러시아에는 소련의 잔재를 많이 느낄 수 있다. 2화에서도 잠시 소개했지만 러시아 대학의 시간표 또한 우리가 아는 그것과는 사뭇 다르다. 요즘 한국에서는 중고등학생도 선택과목을 선호도 혹은 전략적으로 스스로 선택한다는데, 러시아에서는 대학생들 조차 학과에서 일괄적으로 배정해 주는 시간표를 군말 없이 따라야 하는 구조다. 😥
         </p>
@@ -288,15 +511,69 @@ export const year2Category: Category = {
           수업 방식은 문법과 회화를 두루 다루었다. 한국에 ‘성문 종합영어’가 있다면, 그들에게는 영국의 옥스포드나 캠브리지 교재를 기반으로 한 특유의 문법 교재가 있었다. 📖 ‘a’와 ‘the’ 같은 관사의 미묘한 차이나, ‘in’, ‘at’, ‘on’ 같은 전치사의 쓰임새를 지독할 정도로 반복 숙달시키는 책이었다. 🧐 영국 영어를 배우다 보니 친구들이 즐겨 보는 문화 콘텐츠도 달랐다. 한국 학생들이 ‘프렌즈’나 ‘모던 패밀리’를 보며 미국식 농담에 웃을 때, 러시아 친구들은 ‘셜록’이나 ‘닥터 후’ 같은 영국 드라마를 보며 베네딕트 컴버배치의 빠른 발음을 따라 하려 애썼다. 🕵️‍♂️ 러시아 땅에서 러시아어로 영어 수업을 듣는 기묘한 상황이 올 줄은 미처 몰랐지만, 그 생경하고 치열했던 시간들도 이제는 웃으며 반추할 수 있는 소중한 추억의 한 페이지가 되었다. 🌟
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Although it has been over 20 years since the collapse of the Soviet Union, you can still feel many remnants of the Soviet Union in Russia. As I briefly introduced in episode 2, the university timetable in Russia is also quite different from what we know. Nowadays in Korea, even middle and high school students choose their elective subjects based on their preference or strategy, but in Russia, even university students have to follow the timetable assigned by the department without complaint. 😥
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The timetable packed with required major subjects can be suffocating, but the one place where you can breathe is the 'free elective course' where you can choose and take one of the majors from another department each semester. Among the many subjects, the subject of 'Nuclear Chemistry' caught my eye. I thought that since I had studied chemistry in my undergraduate years and was now studying nuclear physics, there would be no other subject that I could get for free like this. 🧪 And I was tempted by the words of my Russian 'comrades' that I could get a good grade for free because the study was easy, so we all chose 'Geography'. 🗺️
+        </p>
+
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 my-6">
+          <p class="leading-relaxed text-slate-800">
+            At that time, my wife, who was a student in the translation and interpretation department, was persuaded with sweet words to take the same class, saying that geography was really easy and that our Russian friends who were taking it together would help with the difficult parts. 👩‍❤️‍👨 To be honest, rather than perfectly understanding the lecture content, I just enjoyed the time I spent sitting next to my wife. I didn't understand much, but sitting with my wife in class still made me feel like we were a CC (Campus Couple). 💑
+          </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📖 The History of Modern Physics: The Age of Intellectual Warfare</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In addition to elective courses, I also had to take designated liberal arts courses. Among them, 'The History of Modern Physics', which I took in my first semester, left a pretty deep impression. It was a class that dealt with the behind-the-scenes stories of the scientists who dominated the chaotic era when the solid walls of Newton's classical mechanics were torn down and a new world of electromagnetism and quantum mechanics was born. ⚛️ In particular, the episode about the stubborn Einstein, who denied the dual nature of light until his death, and the 'Fifth Solvay Conference', where the best geniuses of the time gathered to engage in intellectual warfare, was very interesting as a major. 🧑‍🔬 It was a precious time to get a glimpse of the human anguish and conflict hidden behind the formulas that filled the blackboard.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤯 The Great Wall, Russian Philosophy</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Another elective course, 'Russian Philosophy', was like a huge wall to me. Although it is said that language skills improve in a stepwise manner, the perceived difficulty level varies greatly from field to field. 📈 Science-related classes became easier to understand thanks to familiar formulas and Latin-based words, but I couldn't get a grasp of philosophical terms at all. More than 80% of the class time, I felt like I was wandering in a fog, but I stuck to the front row of the classroom with the desperate thought that 'if I just show my face, I'll at least avoid failing.' 😮‍💨 I just jotted down the words I knew from the professor's mouth in my notebook, but later I found that it was just a list of words that didn't even make sense in context.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The final gateway to Russian philosophy was to give a 10-minute presentation on a philosophical topic of my choice. 🗣️ The name of the street I lived on was 'Lobachevsky', a legendary Russian mathematician, and I was drawn to the topic by its familiarity after hearing that he had left a great mark on Russian cosmology. 🌌 However, when I actually started preparing, my mind went blank. All I could remember was Plato's 'Idea' that I had vaguely heard in a liberal arts class in college. Holding on to the faint memory of "something about the shadow cast by a torch in a cave...", I pulled a few all-nighters, researched materials, and completed a one-page manuscript. Thanks to memorizing it word for word as if I were engraving it on my brain, I was able to finish the course with the professor's benevolent smile. 😊
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🗣️ The Inescapable Fate, Russian Language Class</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          For foreign students like me, the Russian language is an inescapable fate. In the first semester, it was assigned a whopping 6 hours a week, so it was quite a large portion, but in the second semester, it was gradually reduced to 4 hours, and in the third semester, to 2 hours, giving me time to focus on my major. 🇷🇺 When I came to Russian class after struggling with headache-inducing physics formulas, my mind was so peaceful. 🧘 With only three or four students in a class, there were many opportunities to have casual conversations with the teacher. The students in the same class were all foreigners from the physics department, and we learned refined expressions often used in Russian academic papers or read and discussed short science texts, sharing the hardships of our study abroad life. 💬
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The reason why the Russian class was so comfortable was not just because I was free from the pressure of my major. The teacher who taught us at that time not only listened patiently to our clumsy Russian, but also told us her own stories in an interesting way. Once, I carefully confessed my worries in class. I said that I felt that Russians somehow discriminated against foreigners. I said that when I paid at the supermarket, the cashier would sometimes throw the change at me, and that I had been kicked out of a store even though it was not yet closing time, with the excuse that it was closing time. 😠
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The teacher, who was listening quietly to my story, smiled and waved her hands. 🙅‍♀️ "That's not because you're a foreigner. We Russians are like that to each other!" she said, telling us some of her own bizarre episodes. 🤣 Even though she was a very cultured person, she said she often met unfriendly people and sometimes did not hesitate to argue with them. 🗣️🔥
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We all had a good laugh listening to the teacher's story, and thanks to that, we were able to let go of the vague stereotypes and sharp misunderstandings we had about Russians like melting snow. 😌 Looking back, I think a good teacher is not just someone who conveys knowledge, but someone who deeply empathizes with the worries of others and breaks down the wall of prejudice with humor. 💖 The unexpected philosophy class I encountered in a foreign land was not in the classroom, but in the small conversations I had with the teacher. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🇬🇧 British English and Russian Accent</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I also took two semesters of English classes with my Russian classmates. Although they were students at Moscow State University (MSU), the most prestigious university in Moscow, I felt a strange sense of kinship in the fact that their English skills were not much different from mine. 😅 With the exception of one or two exceptionally skilled students, their level was similar to that of our students who had only dug into grammar. However, the peculiar thing was that they learned British English, not American English, as the original form. 🇬🇧 When the unique, rough, and strong Russian accent was added to this, the pronunciation of some words sounded very heterogeneous, making me tilt my head in confusion. 🤔
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The teaching method covered both grammar and conversation. If Korea has 'Seongmun Comprehensive English', they had their own grammar textbook based on British Oxford or Cambridge textbooks. 📖 It was a book that repeatedly drilled the subtle differences between articles like 'a' and 'the', and the usage of prepositions like 'in', 'at', and 'on' to the point of being tedious. 🧐 As I learned British English, I found that the cultural content that my friends enjoyed was also different. While Korean students laughed at American jokes while watching 'Friends' or 'Modern Family', my Russian friends tried to imitate the fast pronunciation of Benedict Cumberbatch while watching British dramas like 'Sherlock' or 'Doctor Who'. 🕵️‍♂️ I never thought I would be in the strange situation of taking an English class in Russian in Russia, but those unfamiliar and intense times have now become a precious page of memories that I can look back on with a smile. 🌟
+        </p>
+      `,
+      },
     },
     {
       id: 'post-204',
-      title: '전공과목',
-      subtitle: '러시아 학위 시스템과 혹독했던 전공 수업 이야기',
+      title: { ko: '전공과목', en: 'Major Subjects' },
+      subtitle: {
+        ko: '러시아 학위 시스템과 혹독했던 전공 수업 이야기',
+        en: 'The Russian Degree System and the Story of a Harsh Major Class',
+      },
       imageUrl: 'https://s3.youthkiawaaz.com/wp-content/uploads/2013/07/06214745/subjects1.jpg', // Physics Equations
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           서양의 시스템을 가져온 우리에게는 학사, 석사, 박사 이런 식의 프로그램이 익숙하지만 러시아에서는 그들만의 프로그램이 있다. 가장 먼저 마주하게 되는 생소한 이름은 석사과정과 비슷한 <strong>‘스페셜리스트(Специалист)’</strong> 과정이다. 🎓 이는 4년제 학사와 2년제 석사를 묘하게 섞어놓은 5년(혹은 5.5년) 과정의 학위다.
         </p>
@@ -353,15 +630,77 @@ export const year2Category: Category = {
           비록 강의실 칠판에 적혔던 수식들은 희미해졌을지 몰라도, 포기하지 않고 그 시간을 버텨낸 근성만큼은 내 삶의 지치지 않는 동력으로 깊이 각인되어 있다. 🔥
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          For those of us who have adopted the Western system, programs like bachelor's, master's, and doctoral degrees are familiar, but in Russia, they have their own programs. The first unfamiliar name you will encounter is the <strong>'Specialist (Специалист)'</strong> program, which is similar to a master's program. 🎓 This is a 5-year (or 5.5-year) degree program that is a strange mix of a 4-year bachelor's degree and a 2-year master's degree.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When you move on to the doctoral program, the name tags become even more complicated. 🤯 Instead of the designation we commonly know as Ph.D., there are two stages of doctoral degrees. The first is the <strong>Kandidat nauk (Кандидат наук)</strong>, which literally translates to <strong>'Candidate of Sciences'</strong>, a humble title, but it is internationally recognized as a regular doctoral program (Ph.D.). However, above that is the <strong>true final boss</strong>, the <strong>Doktor nauk (Доктор наук)</strong>. 👑 Holders of this degree, which can only be challenged after accumulating years of original research achievements even after obtaining the Kandidat degree, are treated almost like <strong>'living legends'</strong> in the academic world. Perhaps a similar example in the Western system would be a tenured faculty member, or even more.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📜 The Bologna Process and the New Wave</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In any case, although they have maintained this unique system that is quite different from ours, they could not go against the trend of the global era. 🌊 As Russian degrees were not fully recognized abroad or as problems arose in academic exchanges, voices calling for the adoption of the Western system began to grow louder. Eventually, in 2003, Russia joined the <strong>'Bologna Process'</strong>, the European degree standardization system, and underwent a major overhaul. 👨‍⚕️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          It was in this process that the 4-year bachelor's and 2-year master's (Магистратура) systems, which are familiar to us, were born. The Western-style master's program was transplanted into the Russian academic world, where the traditional 5-year 'specialist' program was firmly established. Moscow State University (MSU) also began to operate a master's program on a trial basis in some departments from the early 1990s, but it was not until 2011 that it officially began to separate the bachelor's and master's programs in accordance with the Bologna system and operate them in earnest.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵‍💫 The Chaos of 'University 5th Grade'</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In 2015, when I was studying, this new program had only been introduced for a short time, so there was a lot of confusion on campus. At the beginning of the semester, the timetable would change like a reed in the wind, and although it was called a master's program, the amount of coursework was overwhelming compared to research, so it was practically no different from <strong>'university 5th grade'</strong>. In particular, since I lacked a foundation in nuclear physics, I had to take a basic nuclear physics class every Saturday morning from a strict old grandmother professor. 👵 On Friday nights, I had no time for the romance of a foreign student because I was struggling with homework, but thanks to that harsh <strong>'welfare sacrifice'</strong>, I was able to acquire knowledge at a rapid pace. 💪
+        </p>
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 my-6">
+            <p class="leading-relaxed text-slate-800">
+                Among the courses I took, there was also an unexpected gem called 'Astroparticle Physics'. 💎 This course, which taught how particles create stars after the Big Bang, was taught by a spry 82-year-old grandfather professor, and it was very interesting, like an old story of a grandfather telling the myth of the birth of the universe. ✨ However, thanks to the professor's philosophy that the amount of knowledge acquired is proportional to the amount of homework, I could not escape from homework hell. 😈
+            </p>
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As an aside, my acquaintance's advisor was this professor, and he studied with a heavy heart every day, worried that something might happen to him before graduation. Whenever he went to Korea, he would buy health supplements that would be good for his health, such as red ginseng, and thanks to that, fortunately, the professor was healthy and my acquaintance was able to get his diploma stamped safely. 🙏
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💥 A Time of Disaster and Enlightenment</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I also remember a class that dealt with the Higgs boson using data from CERN. At that time, the existence of the Higgs boson had only been proven for a short time, so all the data was in a fog. 🌫️ Thanks to this, the correct answer to the exam questions was always concluded with the ambiguous sentence, "It is known that...".
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          On the other hand, the <strong>'superstring theory'</strong> class was a disaster. 💥 Even when I went to see the professor, I couldn't understand the feast of bizarre formulas, and in the end, I failed the exam. It turned out that a course that foreign students didn't need to take had been entered into the timetable by mistake. Although it disappeared from my transcript, I had to take another course as a price, so it was a case of <strong>'robbing Peter to pay Paul'</strong>. 🐒
+        </p>
+
+        <div class="bg-yellow-50 border-t-4 border-b-4 border-yellow-200 p-6 my-8 text-center">
+            <p class="text-yellow-900 leading-relaxed">
+                At first, I thought I didn't understand because my Russian was not good. I rummaged through the dictionary with a glimmer of hope that 'if I just knew a few more words, if I could just understand the professor's jokes and metaphors, these complicated formulas would magically solve themselves.' 📖 However, the cruel truth I realized over time was that things like superstring theory and the Higgs boson would have been just as incomprehensible even if I had learned them in my native Korean. Language was just a helping hand; in the face of the profundity of physics, my Russian classmates and I were all tearing our hair out equally. 🤯
+            </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧗 Overcoming the Barrier of Academia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the end, the barrier of academia was higher than the barrier of language, but ironically, the time I spent struggling to overcome that barrier was what made me grow. The nights I spent writing down physics terms that weren't even in the dictionary in the corner of my notebook and discussing with my Russian friends in clumsy Russian, "Why on earth is this formula like this?" (although it was usually me asking and them answering) became the solid backbone that supported my life as a student abroad. 💪 Most importantly, once I became familiar with some major-related vocabulary, I was able to trudge through major-related papers even if I couldn't read novels. 📜
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          It might have been close to impossible to perfectly acquire specialized knowledge in a language I had only learned for 1-2 years in a foreign country. However, all the trial and error of getting lost among the bizarre formulas that filled the blackboard and taking the wrong course in vain eventually became a precious page in the book of 'me'. 📖
+        </p>
+        <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
+          Angela Duckworth said in her book <strong>'Grit'</strong> that more important than genius is passion and perseverance towards a long-term goal. Looking back, my time in Moscow taught me more than just physics knowledge. I can now say with a clear memory and conviction that more important than perfect understanding was the perseverance of jumping into a strange world and staying there until the end, that is, 'grit'.
+        </blockquote>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Although the formulas written on the classroom blackboard may have faded, the grit of enduring that time without giving up is deeply engraved in my life as an untiring driving force. 🔥
+        </p>
+      `,
+      },
     },
     {
       id: 'post-205',
-      title: '나홀로 러시아 여행',
-      subtitle: '익숙함 너머의 낯선 매력, 러시아 시골 탐방기',
+      title: { ko: '나홀로 러시아 여행', en: 'Traveling Alone in Russia' },
+      subtitle: {
+        ko: '익숙함 너머의 낯선 매력, 러시아 시골 탐방기',
+        en: 'The Unfamiliar Charm Beyond the Familiar, a Tour of the Russian Countryside',
+      },
       imageUrl: 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdFycX4%2FbtrHp5ZCM45%2FAAAAAAAAAAAAAAAAAAAAAI9BUg4b5pYcZrw6XfyPuGzogBZIirKEp3_xCDoMcM3l%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1772290799%26allow_ip%3D%26allow_referer%3D%26signature%3DhYboyGd7lXQODlRu1cj2xkLI35g%253D',
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           학생이라면 누구나 기다리는 방학이 찾아왔다. 러시아도 한국과 마찬가지로 대학마다 과마다 시험 기간이 제각각이고 기말고사 마지막 날이 곧 공식적인 방학의 시작이었다. 운이 좋게도 우리 과는 아내가 다니는 통번역 학과를 포함한 다른 학과보다도 기말고사가 일찍 끝나 이른 방학을 맞이했다. 모처럼 찾아온 휴가에 어디라도 떠나고 싶었지만, 아내는 집이 좋다며 <strong>요지부동이었다.</strong> 🏡 그래서 2주 남짓 되는 방학기간 동안 첫 일주일은 평소 친하게 지내던 러시아 친구들의 고향집을 방문해 보기로 했다. 두 러시아 친구는 언어 교환으로 친해졌는데, 각각 카브로프와 쿠르가닌스크라는 작은 도시 출신으로 모스크바에서 공부 중이었다. 광활한 대륙에 사는 그들의 기준에서 한국은 아주 작은 나라일텐데 한국어를 배운다는 게 너무 신기했다. <strong>한류 만세!</strong> 🇰🇷🎉
         </p>
@@ -433,15 +772,92 @@ export const year2Category: Category = {
           연말 연시는 <strong>‘현지인 밀착형’ 여행</strong>으로 뜻깊게 보냈다. 일주일 내내 러시아인들에 둘러 쌓였더니 러시아어도 그 어느 때보다 많이 늘었다는 기분이 들었다. 모스크바의 도심에만 갇혀 있었다면 결코 알지 못했을 <strong>러시아의 진짜 얼굴이었다.</strong> 🧐 학위를 따고 지식을 쌓는 것도 중요하지만, 이렇게 낯선 대륙의 깊숙한 속살에 직접 부딪치며 사람 냄새를 맡는 것. 어쩌면 이것이야말로 내가 이 추운 나라까지 날아와 진정으로 배우고 싶었던 <strong>‘유라시아’의 진짜 모습이 아니었을까.</strong> ✨
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The vacation that every student awaits has arrived. Just like in Korea, the exam period in Russia varies from university to university and from department to department, and the last day of the final exams was the official start of the vacation. Fortunately, our department finished its final exams earlier than other departments, including my wife's translation and interpretation department, so we had an early vacation. I wanted to go somewhere for the long-awaited vacation, but my wife was <strong>adamant</strong> that she wanted to stay home. 🏡 So, for the first week of the two-week vacation, I decided to visit the hometowns of my close Russian friends. I became friends with two Russian friends through language exchange. They were from small cities called Kavrov and Kurganinsk, respectively, and were studying in Moscow. From their perspective, living on a vast continent, Korea would be a very small country, so it was amazing that they were learning Korean. <strong>Long live the Korean Wave!</strong> 🇰🇷🎉
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">A Difficult(?) Journey to the Russian Countryside 🚂</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          On a morning at the end of 2015, I woke up at dawn and met my Russian friend at the train station. My friend lived in a small city called Kavrov in the Vladimir Oblast, with a population of about 130,000. Perhaps because the city was small, there were not many direct trains from Moscow to Kavrov. Since we couldn't delay too much, we decided to use a transfer instead of a direct train, even though it was cumbersome. First, we took an elektrichka (suburban/commuter train) from Moscow to a fairly large city called Vladimir. There were no trains to Kavrov on that day either, so we took a bus to Kavrov. It takes about 4 hours by car, but it was <strong>quite inconvenient</strong> to go to a small village by public transport. 😩
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Surprisingly Delicious Russian Home Cooking 🍲</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After arriving at my friend's house, it goes without saying that we had a Russian-style lunch. We ate Russian dumplings called <strong>pelmeni</strong>, a meat soup called <strong>borscht</strong>, and a side of pickles. In fact, I was <strong>very surprised at how delicious it was.</strong> 😮 Based on my experience of eating out in Russia, my memory of eating out was not that great. They say that even Russians don't often eat out to eat delicious food. Rather, they say that they eat out when many people have to gather or when they can't entertain at home. They say that the best food is the food that is grown and eaten right away at a dacha, a country house outside the city. In any case, I was <strong>very pleased</strong> with the simple, yet neat and clean lunch that nicely shattered my prejudice against Russian food. 🥰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Exploring the City of Kavrov and an Unexpected Encounter, Dried Persimmons! 🍊</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Now we went outside and started exploring the city. We talked about our school days while looking at the school my friend had attended, and we went to a traditional market that was small but had everything. Among them, something caught my eye: <strong>dried persimmons.</strong> 🧡 I was surprised once by the fact that people here also make and eat dried persimmons, and <strong>twice by the surprisingly similar taste to that of Korea.</strong> 😲 For reference, the name of the city, Kavrov, is derived from the Russian word for carpet, kover (Ковёр), and perhaps that is why it is said that carpets, textiles, and suits are still very famous in Russia.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Endless Love of Russians for Walking 🚶‍♀️🚶‍♂️</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Next was a walk in the park. The love of Russians for walking is truly <strong>famous for being peculiar.</strong> So I told my friend in advance that I was hungry, so we should take a moderate walk and go eat. If I didn't do this, <strong>Russians would walk until I begged them to stop.</strong> 🥺 The park my friend took me to was quite large and had a lot to see for a small city. There was a small amusement park, a cultural center that my friend used to go to, and a nice restaurant. We went in because it was said to be a local맛집, but <strong>we were the only ones there.</strong> 🤷‍♀️ The price was cheap and the food was excellent, but it seemed that there were no people because everyone was spending the evening at home for the end of the year.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Konditerskaya Kolbasa, the National Snack of Russia 🍫</h3>
+        <div class="relative w-full h-80 mb-6">
+          <img
+            src="/images/russian_sweet_snack.jpg"
+            alt="Konditerskaya Kolbasa, the National Snack of Russia"
+            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+          />
+        </div>
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Back at my friend's house, we had a snack called <strong>Konditerskaya Kolbasa (Кондитерская колбаса)</strong> with tea. It literally translates to <strong>confectionery sausage</strong>, and it looks just like a sausage, but it's a very sweet dessert made of a lump of sugar. 🍪 It contains no meat at all, and is made by mixing crushed biscuits, cocoa powder, butter, sugar, nuts, and condensed milk, rolling it into a sausage shape, and hardening it in the refrigerator. It is also called the national snack of Russia, and it was <strong>one of the best</strong> Russian foods I have ever eaten. ⭐ It was especially good with tea. I personally thought it would go well with coffee, but Russians enjoy tea much more than coffee. If you are with a Russian friend, you can easily drink 5 cups of tea a day. As soon as you sit down, they will immediately offer you <strong>'chai (Чай, tea)?'</strong> ☕ It was a day with many events from the morning, so I <strong>fell asleep as if I had fainted.</strong> 😴
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Kimchi? No, Not Kimchi! 🤯</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The next day, I set out to visit another friend's house. That friend lived in an even smaller city called Kurganinsk. It was such a small and quiet town that, according to my friend, it was rare for foreigners other than Slavs to set foot there. When my friend's mother heard that I, a Korean, was visiting, she said she would <strong>make kimchi herself.</strong> 🥬 I was so grateful for her warm heart, but on the other hand, it was <strong>true that I was a little scared</strong> of kimchi made by a foreigner who didn't know kimchi well. 😨 In the end, I was able to politely decline with the highly diplomatic phrase, <strong>"I want to experience Russian culture more deeply."</strong> 😅
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Korean Carrots, What Russians Believe to Be Korean Food 🥕</h3>
+        <div class="relative w-full h-80 mb-6">
+          <img
+            src="/images/korean_carrot.jpg"
+            alt="Korean Carrots, What Russians Believe to Be Korean Food"
+            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+          />
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But my friend's parents seemed to be worried that I, a foreigner, would have a hard time with the food. So they served me a dish that Russians firmly believe to be Korean food, called <strong>Korean Carrots (Корейская морковь)</strong>. Unlike its name, <strong>Korean carrots are not a food found in Korea.</strong> This is a dish that the Koryo-saram, who were forcibly relocated to Central Asia in the past, made by shredding carrots, which were easier to obtain than cabbage, and mixing them with red pepper powder and oil because they missed kimchi so much. It is a common food that can be found in any supermarket in Russia, but when I told my friend's parents that there was no such food in Korea, they were truly <strong>shocked.</strong> 😱
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Unexpected Joy in the Snowy Countryside ❄️</h3>
+        <div class="relative w-full h-80 mb-6">
+          <img
+            src="/images/winter_hangout_russia.jpeg"
+            alt="Unexpected Joy in the Snowy Countryside"
+            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+          />
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I thought it would be boring, but the <strong>peaceful days in the snowy Russian countryside were quite enjoyable.</strong> 😊 I enjoyed tea time with at least 5 cups of tea a day, and I watched <strong>'Frozen'</strong> 🎬 at the only movie theater in town. In Russia, they often dub instead of using subtitles. I think it's because Russian words are long, so if they use subtitles, there would be too many words to read. The most fun I had in Kurganinsk was <strong>riding a sled tied to the back of a car.</strong> 🛷 Perhaps because I was a foreigner, they didn't drive too rough, but it was a really <strong>Russian-style, tough, bear-country game.</strong> 🐻‍❄️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The True Face of Russia, the Discovery of Eurasia 💖</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I spent the end of the year and the new year meaningfully with a <strong>'local-style' trip</strong>. After being surrounded by Russians for a whole week, I felt that my Russian had improved more than ever before. It was the <strong>real face of Russia</strong> that I would never have known if I had been confined to the city of Moscow. 🧐 It is important to get a degree and accumulate knowledge, but it is also important to directly encounter the deep inside of this strange continent and smell the scent of people. Perhaps this was the <strong>'real face of Eurasia'</strong> that I truly wanted to learn by flying to this cold country. ✨
+        </p>
+      `,
+      },
     },
     {
       id: 'post-206',
-      title: '기말고사, 석사 1년차 마무리',
-      subtitle: '러시아의 기묘한 시험 제도와 성장의 기록',
+      title: { ko: '기말고사, 석사 1년차 마무리', en: 'Final Exams, End of the First Year of Master’s' },
+      subtitle: {
+        ko: '러시아의 기묘한 시험 제도와 성장의 기록',
+        en: "Russia's Bizarre Exam System and a Record of Growth",
+      },
       imageUrl: 'https://api.ruslanguage.ru/uploads/torfl_exam_bg_b65fa1865b.jpg',
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           이전 글에서도 잠시 다뤘듯이, 러시아의 대학은 아주 <strong>특이한 시험 제도</strong>를 고수하고 있다. 학생들이 반기는 가장 큰 특징은 학기 중간을 괴롭히는 <strong>‘중간고사’가 아예 존재하지 않는다는 것</strong>이다. 🎉 오로지 학기 말에 치르는 기말고사 한 방으로 한 학기의 학업 성취도가 결정된다. 중간고사가 없다는 사실은 학기 초반 학생들에게 엄청난 해방감을 안겨주지만, 이는 곧 <strong>치명적인 달콤한 독약</strong>이기도 하다. ☠️ 긴장감이 바닥을 치며 학업을 소홀히 하다가, 기말고사가 다가오면 그동안 쌓인 엄청난 양의 지식 청구서를 한 번에 받아 들고 <strong>패닉에 빠지기 때문</strong>이다. 😱
         </p>
@@ -482,15 +898,61 @@ export const year2Category: Category = {
           러시아의 기말고사는 단순히 지식을 암기했는지 묻는 테스트가 아니었다. 정답이 없는 낯선 문제 앞에서 당황하지 않고, 자신이 아는 지식을 총동원해 <strong>논리적으로 상대를 설득해 내는 훈련.</strong> 🧠 어쩌면 이 거칠고 주관적인 '운 뽑기 구술 면접'이야말로, 훗날 어떤 돌발 상황에서도 자신의 연구를 꿋꿋하게 변호해야 할 학자들에게 필요한 <strong>가장 완벽한 예방주사</strong>가 아니었을까. 🩹
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As I briefly mentioned in a previous post, Russian universities adhere to a very <strong>peculiar exam system</strong>. The biggest feature that students welcome is that there are <strong>no 'midterm exams'</strong> that torment the middle of the semester. 🎉 A single final exam at the end of the semester determines the academic achievement of the entire semester. The fact that there are no midterms gives students a great sense of liberation at the beginning of the semester, but this is also a <strong>deadly sweet poison</strong>. ☠️ This is because students tend to neglect their studies with a low sense of tension, and when the final exams approach, they are hit with a huge bill of knowledge accumulated over time and <strong>fall into a panic</strong>. 😱
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Preparing for Exam Questions: A Mission Impossible Alone 🤝</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          About 2-3 weeks before the final exams, the professor <strong>provides a list of exam questions.</strong> There are no answers, only questions, and the amount is quite large. In addition, the questions received in this way were not the kind that could be answered simply. <strong>Multiple choice was not to be expected, and the level was such that you had to fully understand the contents of the book to answer.</strong> And some questions were open-ended, so there were also problems that required you to <strong>prove your own insight beyond the knowledge in the book.</strong> 🤔 There were 12 students in our class, and we were usually given 3-4 times the number of problems as the number of students in the class. Therefore, our class received about 30 to 40 problems for each subject.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As I said, the difficulty of the questions is high and the amount is quite large, so it is <strong>physically close to impossible</strong> to prepare all these answers alone. We shared the problems to be prepared with our classmates, prepared them individually, and then shared the answers later. Of course, there is a <strong>fatal trap</strong> here. ⚠️ If the answer of a friend who solved the problem assigned to me is poor, I have to take the bomb. Should I fully trust my friend's academic enthusiasm, or should I stay up all night and rearrange it with my own hands? It is a dizzying moment that combines a <strong>friendship test and Russian roulette</strong>. 😨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Drawing the Fateful 'Bilet (Билет)', a Single Piece of Paper That Divides Joy and Sorrow 🃏</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          On the day of the long-awaited exam, the classroom resembles a <strong>tense casino(?)</strong>. 🎰 The professor cuts the paper with the questions printed on it into thin, long strips and scatters them face down on the lectern. This is the time to draw the so-called <strong>'bilet (Билет, ticket)'</strong>. The students take turns going up and flipping over a piece of paper with a grim determination, as if they were reading their fortune for the day with a tarot card. At this time, the joy and sorrow of the classroom are divided. There are the main characters of a <strong>'lucky day'</strong> who, even if they have been lazy with their studies, miraculously draw the problem they have prepared, 🍀 and there are also victims of <strong>Murphy's Law</strong> who have memorized all but one problem all night long, only to draw the one they haven't seen. 😭 Some even had a cheerful professor who brought real poker cards and had them draw. ♠️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After confirming their fate, they have to return to their seats and pour out their answers to the given problem on a blank notebook for 30 minutes. Of course, open book is not allowed, and you have to <strong>rely solely on the remaining memories in your head.</strong> 🧠 When a student who has finished preparing raises their hand with a grim determination, the professor calls them to the seat next to the lectern. From now on, it is not a time for answers, but a time for <strong>'defense' and 'confession'</strong>. 🛡️ When I explain the logic I have written down with my mouth, the professor nods with a hawk's eye or <strong>sharply throws a follow-up question.</strong> 🤔 "Oh, you think so? Then what happens if this variable is added?" You have to <strong>defend against the pressure interview</strong> that comes at you with a hook to get a score. 🥵
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Subjective but Understandable Grading Criteria 👍</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Due to the nature of the oral exam, the grading criteria are <strong>bound to be very subjective.</strong> However, the Russian grading system is very <strong>simple and cool.</strong> 😎 Professors usually tend to give generous scores in respect of the student's logic, so the actual grades are divided into three: <strong>3 points (Удовлетворительно, satisfactory)</strong>, <strong>4 points (Хорошо, good)</strong>, and <strong>5 points (Отлично, excellent)</strong>. If your class attitude was poor and your answers were rambling, you would get 3 points. If you attended class well but your answers were not satisfactory, you would get 4 points. If you smoothly handled even the professor's pressure questions, you would get a perfect score of 5. At first glance, it may seem unfair because it is a lottery that relies on luck and a subjective oral exam. But surprisingly, I have never once been dissatisfied with my grades while studying in Russia. After revealing all my shortcomings by making eye contact with the professor 1:1, I <strong>realize most painfully whether I am a 3-point or 5-point person myself</strong>. 💡
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">A Strong Bond During the Cruel Final Exam Season 🫂</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Although there are no midterms, there are so many courses to take that foreign students are literally <strong>half-dead</strong> during the final exam season. 🧟‍♂️ But ironically, this cruel period was also a time of <strong>deepest solidarity with my classmates</strong>. 💖 All those times when we gathered in the library late at night, sharing snacks and comparing the answers we had prepared, and lamented our stupidity over the questions that none of us knew. 🤦
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">End of the First Year of Master's, the Thrill of a Perfect 5 ✨</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          During the first year of my master's program, since there were two semesters, I naturally <strong>took this terrible final exam twice.</strong> At first, it was <strong>a horror</strong> to even get my logic out of my mouth in stuttering Russian, and my mind would go blank in front of the professor's sharp follow-up questions. 😨 It was a blank slate with nothing coming to mind. But after finishing the final exams of the second semester, the thrill I felt when I saw the number <strong>'5 (Отлично)'</strong> scribbled by the professor in my student handbook (Zachyotka) was beyond words. 🌟
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Final Exams, the Perfect Vaccination for a Scholar 💉</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The final exams in Russia were not simply a test of whether you had memorized knowledge. It was a training to <strong>logically persuade the other party</strong> by mobilizing all the knowledge you have, without being flustered in front of an unfamiliar problem with no correct answer. 🧠 Perhaps this rough and subjective 'lucky draw oral interview' was the <strong>most perfect vaccination</strong> for scholars who would have to stubbornly defend their research in any unexpected situation in the future. 🩹
+        </p>
+      `,
+      },
     },
     {
       id: 'post-207',
-      title: '가족의 방문',
-      subtitle: '연고 없는 땅에서 만난 가장 반가운 손님들',
+      title: { ko: '가족의 방문', en: 'Family Visit' },
+      subtitle: {
+        ko: '연고 없는 땅에서 만난 가장 반가운 손님들',
+        en: 'The Most Welcome Guests in a Land with No Ties',
+      },
       imageUrl: 'https://tfifamily.org/wp-content/uploads/2022/03/family-visit.jpeg',
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <p class="leading-relaxed mb-6 text-slate-700">
           연고없는 먼 나라에서 이방인으로 살아갈 때, 아마 제일 반가운 일 중 하나는 단연코 <strong>가족이 방문하는 것</strong>이 아닐까 싶다. 👨‍👩‍👧‍👦 한 번은 친동생이 약 한 달 동안 나를 보러 놀러왔다. 우리는 연년생으로 <strong>친구처럼 어린 시절을 보냈다.</strong> 👫 항상 같은 운동을 하고 같은 게임을 하고 내가 재수학원에 가기 전까지 같은 침대에서 잤다. 하지만 서로 잘하는게 확연히 달라서 대학에서 완전히 다른 분야를 공부했고, 졸업을 하고도 가족이라는 것 외에는 접점이 별로 없었다. 동생은 군대도 다녀와야 했고 나는 러시아로 나왔다보니 그나마 더 만나기 힘들었다. 다행히 동생도 유학을 마치고 취업을 하기 전에 얼마간의 시간이 있어서 러시아에 나를 방문하러 올 수 있었다. 다만 당시 동생에게 여자친구가 있었는데 자신과 함께 시간을 보내지 않고 형을 보러 간다고 해서 <strong>삐졌다는 이야기를 나중에 들었다.</strong> 😅
         </p>
@@ -535,6 +997,52 @@ export const year2Category: Category = {
           대체 내가 아는 러시아와 동생이 겪은 러시아는 같은 나라가 맞나 싶어 헛웃음이 났지만, 그렇게 내가 경험하지 못한 <strong>다정한 러시아의 이면을 듬뿍 경험한 막내 동생은 ... 모스크바 국립대 학부생으로 입학하여 석사까지 내리 마쳤다.</strong> 🎓 연고 없는 툰드라 같은 유학 생활에서 가족들의 방문은 단순한 관광 가이드 역할 그 이상이었다. 동생과 밤새 맥주를 마시며 나누었던 실없는 농담들, 30분 만에 끝난 에르미타주 관람의 황당함, 그리고 사촌 동생이 남겨두고 간 훈훈한 미담까지. 그 모든 기억은 외롭고 고단했던 나의 모스크바 생활을 버티게 해 준 <strong>든든한 버팀목이 되어 주었다.</strong> 🌳
         </p>
       `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When living as a stranger in a distant country with no connections, perhaps one of the most welcome things is a <strong>family visit</strong>. 👨‍👩‍👧‍👦 Once, my younger brother came to visit me for about a month. We were born a year apart and <strong>spent our childhood like friends</strong>. 👫 We always played the same sports, played the same games, and slept in the same bed until I went to a cram school for the college entrance exam. However, since we were clearly good at different things, we studied completely different fields in college, and even after graduation, we didn't have much in common other than being family. My brother had to serve in the military, and I went to Russia, so it was even harder to meet. Fortunately, my brother also had some time before he got a job after finishing his studies, so he was able to come and visit me in Russia. However, I later heard that his girlfriend at the time was <strong>pouting</strong> because he was going to see his brother instead of spending time with her. 😅
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Meeting My Brother in Sochi 👋</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          My brother, who was a <strong>poor job seeker</strong> who had just finished his studies, had no choice but to find a cheap flight. 💸 Among them was a flight to Sochi via a city called Yekaterinburg. We planned to do some sightseeing in Sochi, go skiing, and experience a Russian sleeper train before going to Moscow. Kurganinsk, where we stayed in episode 7, was geographically very close to Sochi. I went to Sochi by train before my brother arrived, and I waited for him at the Sochi airport. I was <strong>so happy</strong> to see my brother at the Sochi airport! 🥰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Unexpected Charm of Sochi: Subtropical Beaches and Perennial Snow 🌴⛷️</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Sochi, we bought a tour package called an 'excursia (Экскурсия)' and went up to a mountain fortress around Sochi to see the scenery and also looked around the Olympic Park. Sochi is famous for being the city where the Winter Olympics were held, but the snowfields we know are actually a landscape of a mountainous region far from the city. In fact, the city of Sochi boasts a <strong>subtropical climate that is rare in Russia</strong>, and it is <strong>very mild</strong>, rarely dropping below zero even in winter. ☀️ There is perennial snow in the high-altitude areas like Rosa Khutor, which was the main stage of the Winter Olympics, but if you go down to the city, which is only an hour away by train, you can find an exotic beach promenade lined with palm trees. The fact that you can enjoy skiing on a snow-covered mountain and then come down a little to feel the spring-like sea breeze was the <strong>most attractive and bizarre twist</strong> that Sochi had. 😮
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Skiing in Rosa Khutor and a Romantic Sleeper Train Journey 🥩🚂</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After sightseeing, we moved to a village near a ski resort called Rosa Khutor, which is about 40 minutes away from downtown Sochi. We checked into our accommodation and went to do some simple grocery shopping. Hearing that <strong>beef was very cheap, I chose a steak with the grim determination to feed my brother steak until he was sick of it while he was in Russia.</strong> 🥩 I bought canned corn, some salad, and sauce, and had a hearty dinner at our accommodation. After that, my brother and I skied in Sochi for about 3 days and then took a train to Moscow. Even though we had to ride the train for over twenty hours, my brother seemed to enjoy the train journey. It was a very enjoyable time for all of us to go out and buy alcohol and food whenever the stop was long, and to eat the lunch boxes that the Russian grandmothers sold when the stop was short. There is no internet for most of the time the train is moving. I met my brother after a long time and we <strong>ate, drank, and talked a lot at our leisure</strong>, 💬 and before we knew it, we had arrived in Moscow.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Memories of Moscow: A North Korean Restaurant and the 'Taste of Socialism' 🍜</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Moscow, my wife was waiting for me. My wife was going to go to Korea for a while in a few days, so I only had about a week with my brother. We went to a place called Izmailovsky and bought a nice bear fur hat that Russians wear, and we also ate a skewered meat called shashlik. My wife, on a whim, wanted to go to a North Korean restaurant near our old dormitory. However, <strong>being a chicken, I was worried that it would cause some unnecessary diplomatic(?) problems, so I ended up not going.</strong> 🐔 As soon as my brother arrived, my wife persuaded him to go with her, so in the end, only the two curious ones went. They said they ordered things like Pyongyang naengmyeon and dumplings, but the taste was just so-so. I also tried the dumplings they brought back, and the <strong>dumpling skin was as thick as a glove and the vegetable taste was stronger than the meat taste, which made me think that this was indeed the 'taste of socialism'.</strong> 🤔
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">30-Minute Cut of the Hermitage Museum, the Beginning of a Legend 🖼️💨</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          A legendary anecdote that we will tease him about for a long time was born during our trip to St. Petersburg. The Hermitage Museum in St. Petersburg is famous as one of the <strong>world's three major art museums</strong>. 🏛️ Since I had already been to the museum, I only bought a ticket for my brother. At that time, there was even a service that rented out a device with a recording of announcer Kim Seong-ju's commentary, so I thought my brother would be able to appreciate the artworks at a leisurely pace for at least half a day. I was leisurely drinking tea in the museum square, but after only about thirty minutes, my brother <strong>burst out of the Hermitage Museum door.</strong> 🏃‍♂️ I was speechless at his <strong>amazing artistic(?) eye, which had broken through millions of works of art containing the souls of world-renowned masters in a '30-minute cut'.</strong> 🤯 Of course, I was no different.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Brotherly Time, and My Cousin's Russian Study Abroad Story 🇷🇺</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          My wife went to Korea for a while, and while I was left in Moscow, the brothers <strong>spent their time reminiscing about old memories.</strong> 🎮 During the day, we went around Moscow and did some sightseeing, and we conquered the street food. In the evening, we would sit side by side and play games together on the computer while eating steak with beer. My brother was especially <strong>fascinated by the grandeur of the circus</strong> in Russia. 🎪 The following summer, my aunt and cousins visited. My aunt and one of my cousins had a short and intense trip to Moscow and St. Petersburg for about a week, and my youngest cousin stayed in Moscow. She was studying Russian at a foreign language high school, and she said she wanted to <strong>stay a little longer to attend a Russian language academy and experience Russia properly</strong>. 🧐 It just so happened that my wife and I were also planning a trip for our summer vacation, so our apartment was empty.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The 'Kind Russia' My Youngest Cousin Discovered 😇</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          My youngest cousin stayed for about another month before returning to Korea, and it seems she really liked the country of Russia. And <strong>surprisingly, she told me that the Russian people were so kind, which surprised me.</strong> 😮 The story is that once, she suddenly felt dizzy and very lightheaded, and she fainted for a moment on the subway. The <strong>surrounding people, who looked stern, swarmed around her and helped her with all their hearts as if it were their own business</strong>. 🫂 And on the recommendation of those around her, she went to the hospital in an ambulance, and she was <strong>deeply moved by the fact that the nurses were as kind as angels and that there was no hospital bill at all</strong>. 💖 This was a <strong>180-degree different treatment</strong> from me, a poor foreign student who would get into arguments with strangers on the street who told me to "go back to your own country." 😲 It was truly something to live and see.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Family is My Strong Support 💪</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I chuckled, wondering if the Russia I knew and the Russia my cousin experienced were the same country, but my youngest cousin, who had fully experienced the <strong>kind side of Russia</strong> that I had not experienced, ... entered Moscow State University as an undergraduate and finished her master's degree. 🎓 In a tundra-like life of studying abroad with no connections, my family's visits were more than just a role of a tour guide. The silly jokes I shared with my brother over beer all night, the absurdity of the 30-minute tour of the Hermitage, and the heartwarming story that my cousin left behind. All of those memories became a <strong>strong support</strong> that helped me endure my lonely and tiring life in Moscow. 🌳
+        </p>
+      `,
+      },
     },
   ],
 };

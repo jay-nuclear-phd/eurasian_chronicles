@@ -2,20 +2,33 @@ import { Category } from '../types';
 
 export const russiaTravelCategory: Category = {
   id: 'russia_travel',
-  title: '러시아 여행',
-  description: '모스크바, 시베리아, 그리고 바이칼에서의 잊지 못할 추억들',
+  title: {
+    ko: '러시아 여행',
+    en: 'Russia Travel',
+  },
+  description: {
+    ko: '모스크바, 시베리아, 그리고 바이칼에서의 잊지 못할 추억들',
+    en: 'Unforgettable memories from Moscow, Siberia, and Baikal',
+  },
   isSinglePost: false,
   isActive: true,
   posts: [
     {
       id: 'russia-travel-1',
-      title: '러시아의 심장, 모스크바',
-      subtitle: '붉은 광장에서 참새 언덕까지, 유라시아의 심장을 걷다',
+      title: {
+        ko: '러시아의 심장, 모스크바',
+        en: 'Moscow, the Heart of Russia',
+      },
+      subtitle: {
+        ko: '붉은 광장에서 참새 언덕까지, 유라시아의 심장을 걷다',
+        en: 'From Red Square to Sparrow Hills, Walking the Heart of Eurasia',
+      },
       imageUrl:
         'https://upload.wikimedia.org/wikipedia/commons/8/85/Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg?q=80&w=1200&auto=format&fit=crop', // Moscow, Red Square
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ 낯선 여행객의 시선으로</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           등잔 밑이 어둡다고, 정작 본인이 사는 곳에는 어떤 관광지가 있는지 잘 모르고 산다. 돌이켜 보면 나도 마찬가지였다. 군 시절 연천에서 근무할 때는 수도 없이 재인폭포 앞을 지나다니면서도 그곳을 일부러 구경하러 오는 사람들이 있다는 사실조차 몰랐다. 부대 안에만 박혀 있었지 연천에 뭐가 있는지 하나도 몰랐던 것이다. 서울에 살 때도 마찬가지였다. 서울 산다고 서울 곳곳의 구경거리나 맛집을 다 아는 게 아니다. 오히려 한국에 여행 온 외국인이 나보다 명소에 대해 더 잘 꿰뚫고 있었다. 하지만 3년간 모스크바에 살면서, 나는 언제든 떠날 수 있는 가벼운 짐만으로 생활하고 있었기에 스스로를 마치 장기 여행객처럼 여겼다. 그러한 이방인의 마음가짐 덕분인지, 나는 부지런히 모스크바 이곳저곳을 돌아다닐 수 있었다.
@@ -61,16 +74,70 @@ export const russiaTravelCategory: Category = {
           한국 사람들은 보통 바다 건너 여행을 떠난다고 하면, 엽서에 나올 법한 아기자기하고 동화 같은 유럽의 풍경을 기대하곤 한다. 하지만 모스크바는 그런 전형적인 유럽의 말랑말랑한 모습과는 거리가 멀다. 그렇다고 아시아라고 부르기엔 무언가 억울한(?) 구석이 있다. 모스크바는 유럽도 아니고 아시아도 아닌, 그저 ‘유라시아’라는 아주 독특한 장르 그 자체를 구축하고 있는 도시다.
         </p>
       `,
+        en: `
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ Through the Eyes of a Strange Traveler</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As the saying goes, it's darkest under the lamp. People often live without knowing what tourist attractions are in their own area. Looking back, I was the same. When I was serving in the military in Yeoncheon, I passed by Jaein Falls countless times without even knowing that people deliberately came to see it. I was just stuck inside the base and knew nothing about what was in Yeoncheon. It was the same when I lived in Seoul. Living in Seoul doesn't mean you know all the sights and famous restaurants. In fact, a foreigner traveling in Korea knew more about the famous spots than I did. However, living in Moscow for three years, I lived with only a light luggage that I could leave at any time, so I considered myself a long-term traveler. Perhaps thanks to this stranger's mindset, I was able to diligently explore Moscow.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏰 Red Square, a History of Beauty and Blood</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Anyone who comes to Moscow will surely see the 'Red Square.' It is that much of a landmark that symbolizes Russia and Moscow. There is a rumor that in the past, there were many public executions here, and the square was always covered in red blood, hence the gruesome name Red Square. However, a more romantic theory is that the word 'red' in ancient Russian has the same root as the word 'beautiful.' Believe it or not. You can't always enter Red Square, but there is Lenin's Mausoleum where the mummified Lenin rests, and there is St. Basil's Cathedral, which you can enter for a small fee. It is more famous to us as the 'Tetris background,' but if you are mesmerized by the colorful onion-shaped domes and go inside, you may feel a strange sense of betrayal(?) as there is not much to see inside due to the characteristics of the Russian Orthodox Church. Right next to the square stands the magnificent 'GUM' luxury department store. Since the prices of the goods are ridiculously expensive, it is a place where there are far more window shoppers who just come to see the overwhelming interior than people who come to shop.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌳 Around Red Square, a Walk Through History</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          If you leave Red Square and look at the entrance, you will see a statue of 'Kuzma Minin' and 'Dmitry Pozharsky,' who organized the Russian militia and defended the country during the Polish-Lithuanian invasion. If you turn a little around the entrance of Red Square, the atmosphere changes completely and the 'Alexander Garden' appears. There, guards are on duty, guarding the 'Eternal Flame' and the Tomb of the Unknown Soldier, and if you're lucky, you can witness the changing of the guard ceremony. The Tomb of the Unknown Soldier is a sacred space that honors the soldiers who died in World War II, and it is a place where Putin often comes to pay his respects. Yes, that Putin you see on the news all the time. The garden itself is quite nice and worth seeing, with colorful flowers and the Romanov Obelisk. (As an aside, right next to the Alexander Garden was also the 'first McDonald's in Russia,' which symbolized cultural and economic exchange with the West during the Soviet era. However, even this historic store is now unfortunately closed due to the aftermath of the Russia-Ukraine war.)
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👑 The Heart of Power, the Kremlin</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Right next to Red Square is the heart of Russian power, the 'Kremlin' palace. You have to pay a small entrance fee, but this is a must-see course if you are traveling in Moscow. Of course, you can't open the door to Putin's actual office, but you can get a glimpse of the continent's bluff, including the Armory, the 'Tsar Bell' of enormous size that has never been rung, and the 'Tsar Cannon' that has never been fired. In the Cathedral Square in the center of the Kremlin, the Uspensky, Arkhangelsky, and Blagoveshchensky Cathedrals are gathered together. As I mentioned earlier, there is not much to see inside a Russian cathedral, but these three are exceptions. You can appreciate the most magnificent and wonderful icons (or icons) that you can visit in Russia.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎸 Arbat Street, a Street of Art and Youth</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The center of Moscow is surprisingly small, so you can easily walk around and see the sights if you have the stamina, without having to use transportation. The Bolshoi Theatre, which is like the Hall of Arts, and the quiet Novodevichy Convent are also excellent. A short ride on the subway or a taxi will take you to 'Arbat Street,' where the youth and culture of Moscow breathe. Here, you can see a statue of the great writer Pushkin and his wife, as well as a memorial space for 'Viktor Tsoi.' Viktor Tsoi was a third-generation Korean-Russian rocker who was active during the Soviet era, and he became a 'legend of Russia' by singing about the freedom and resistance of young people in an oppressed society. He died prematurely in an accident, but his memorial wall is still filled with graffiti and cigarette butts from fans who commemorate him.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍔 Shake Shack, the Specialty of Arbat</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          And another specialty of Arbat Street was none other than 'Shake Shack.' At that time, it was a precious item that you could barely taste after waiting in line for hours in Korea, but on Arbat Street, you could eat a hamburger in a very pleasant environment without a waiting line. So, whenever I had guests from Korea, I would always guide them to this quiet Shake Shack.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏞️ Parks, the Shelters of a Huge City</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Throughout the city center, there are huge parks, as befits the scale of the continent. If the weather is even a little clear, all the Russians in the neighborhood pour out into the parks to enjoy a walk, as if by appointment. In particular, Gorky Park and VDNKh Park transform into huge outdoor ice rinks in winter. Skate rentals are also available, so all you need to bring are thick winter clothes, a fur hat, and gloves. Night skating on the ice rink surrounded by colorful lights is quite romantic. However, romance is romance, and if you fall on the ice, it will hurt to the bone, so if you are a beginner skater, I strongly recommend that you wear hip protectors instead of trying to look cool.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐦 Sparrow Hills, the Panorama of the City</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          A little away from the center of Moscow, you will come across Sparrow Hills, where you can see the city's skyline at a glance. Standing on the hill with the overwhelming Stalinist-style building of Moscow State University at your back, the scenery of the city we have walked through so far unfolds like a panorama with the winding Moscow River. It is that much of a photo zone that many people visit in Moscow.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌍 Neither Europe nor Asia, but Eurasia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When Koreans travel across the sea, they usually expect the charming and fairy-tale-like scenery of Europe that you might see on a postcard. However, Moscow is far from that typical soft image of Europe. On the other hand, it feels somewhat unfair(?) to call it Asia. Moscow is neither Europe nor Asia, but a city that has built its own unique genre of 'Eurasia.'
+        </p>
+      `,
+      },
     },
     {
       id: 'russia-travel-2',
-      title: '시베리아 횡단열차',
-      subtitle: '끝없는 설원을 달리는 낭만과 생존의 기록',
+      title: {
+        ko: '시베리아 횡단열차',
+        en: 'The Trans-Siberian Railway',
+      },
+      subtitle: {
+        ko: '끝없는 설원을 달리는 낭만과 생존의 기록',
+        en: 'A Record of Romance and Survival Running Through the Endless Snowfields',
+      },
       imageUrl:
         'https://media.triple.guide/triple-cms/c_limit,f_auto,h_2048,w_2048/6e5ef7a9-efe4-4a82-8b4b-6de85029ca10.jpeg?q=80&w=1200&auto=format&fit=crop', // Trans-Siberian railway
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">낭만의 대륙 횡단 🚂</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           러시아에서 유학하며 가장 야심 차게 품었던 로망 중 하나는, 다름 아닌 시베리아 횡단열차를 타보는 것이었다. 한국 사람 중에도 이미 다녀온 사람들이 꽤 있고 관련 책도 있을 정도로, 조금만 손품을 팔면 꽤 많은 정보를 찾을 수 있었지만 무작정 몸을 싣고 대륙을 가로지르는 낭만을 포기할 순 없었다. 모스크바에서 맞는 첫 번째 겨울 방학, 그것도 하필 내 생일인 1월 1일 새해 첫날에 맞춰, 아내와 의리의 동생들인 P군, S양과 함께 바이칼 호수로 떠나는 여행을 계획했다.
@@ -126,16 +193,80 @@ export const russiaTravelCategory: Category = {
           모스크바에서 바이칼 호수의 관문인 이르쿠츠크까지는 다이렉트로 꼬박 4일이 걸리지만, 우리는 중간에 옴스크라는 큰 도시에 내려 하루를 묵었다. 시내 구경도 하고, 모처럼 식당에서 ‘진짜 밥’도 먹고, 숙소에서 따뜻한 물로 사람 몰골을 되찾았기에 총 5일이 걸린 여정이었다. 모스크바와 이르쿠츠크 간의 시차는 무려 5시간인데, 기차로 대략 하루를 이동할 때마다 시계가 한 시간씩 미래로(?) 당겨지는 신비로운 타임슬립을 경험했다. 신기하게도 이르쿠츠크는 모스크바에서 그토록 아득하게 멀리 떨어져 있었지만, 한국과의 시차는 고작 한 시간밖에 차이 나지 않았다. 대륙을 횡단하며 마침내 그리운 한국의 시간에 한 뼘 더 가까워진 기분이었다.
         </p>
       `,
+        en: `
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Romance of a Transcontinental Journey 🚂</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          One of the most ambitious romantic notions I had while studying in Russia was to ride the Trans-Siberian Railway. There were quite a few Koreans who had already been there, and there were even books about it, so I could find a lot of information with a little effort, but I couldn't give up the romance of just getting on and crossing the continent. During my first winter vacation in Moscow, on New Year's Day, January 1st, which also happened to be my birthday, I planned a trip to Lake Baikal with my wife and my loyal younger siblings, P and S.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💰 3rd Class, 2nd Class, and a Hotel on Wheels</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As an aside, anthropologists say that the roots of the Korean people are the ancient horse-riding people who roamed around Lake Baikal, but believe it or not. Russia's long-distance trains are largely divided into Platzkart, Coupe, and Lux, which can be easily understood as 3rd, 2nd, and 1st class. The price difference between each train car is quite large, but there is an absolute formula for easy classification according to your budget. The 3rd class Platzkart is definitely cheaper than a plane ticket, and the 2nd class Coupe is similar in price to a plane ticket, which causes a strange inner conflict. And the long-awaited 1st class Lux? I've never been on it, but it's almost twice the price of a plane ticket, so it's better to think of it as a 'hotel on wheels' rather than a means of transportation.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🫂 Platzkart, a Place to Feel the Real Russia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The 3rd class Platzkart is an open-plan cube space without a door, where 6 people are crammed together. Since it is a long-distance train, all seats are beds, and it has a unique structure with two people on top of each other on one side of the aisle, and two people on each side on the other side, for a total of four people. The only table where you can eat meals or snacks is attached to the first floor, so if the winner of the second-floor bed wants to eat something, they have to come down as if for an audience with the first-floor bed resident and ask for their understanding. Fortunately, Russians are well aware of this train system and don't really mind. I think there is nothing better than Platzkart for striking up a natural conversation with a stranger in Russia. I highly recommend it not only for the price but also for those who want to feel the 'real Russia' with their whole body.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🃏 'Durak', a Must-Know Card Game for Train Travel</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As an aside, if you are traveling by train in Russia, there is a card game that is good to know as a required liberal arts subject. It's called 'Durak (Дурак),' which literally means 'fool.' This is because the person who gets rid of all their cards first wins, and the one person who is stuck with cards until the end becomes the glorious 'fool.' I also learned this card game for the first time on the train, and I was able to build up my skills as a card sharp(?) through repeated practice with my Russian friends. Basically, two people play, but up to six people can enjoy it. The most peculiar thing is that the numbers 2, 3, 4, and 5 are boldly discarded from a poker deck. Therefore, excluding the joker, a total of 36 cards are used, not 52. If you buy a full deck of cards as you are used to doing in Korea, you may be flustered looking for the missing numbers.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔒 Coupe, Our Own Cozy Space</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Returning to the train story, the 2nd class Coupe has four people using one independent space with a door. The biggest difference from Platzkart is this 'door,' which can be opened and closed, blocking the noise from the aisle and allowing you to stay in a surprisingly cozy space. Since there were exactly four of us, we occupied this coupe without a moment's hesitation. It was uncomfortable to be mixed with strangers for several days, and above all, the fear of having to stay up all night with valuables in a money belt due to pickpocketing stories was great, so I was really glad that we had a combination of four people who could lock the door.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍜 Survival on the Train</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We stored our large luggage in the bunker-like space under the first-floor bed and took out only the food we needed for immediate survival. Each train car had a bathroom and a hot water dispenser (samovar) that gushed hot water, so we could eat and drink as much cup noodles, potato puree (a magical powder that turns into mashed potatoes in an instant when you pour hot water), tea, or coffee as we wanted. In particular, the Paldo Dosirak cup noodles, which are hard to find in Korea, are incredibly popular in Russia, to the point of being a national ramen, and one of the hidden secrets is that the container is square, so it doesn't tip over easily on a narrow table during a shaky train journey. Believe it or not.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦐 Shrimp Sleep and a Creepy Superstition</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The cabin space on the train was spacious, but the bed was resentfully a little small. Although I am quite tall in Korea, the length of this bed is also a bit disappointing for the average-sized Russian. It is about 180 cm long, and if you lie down with a pillow, it is not long enough to stretch your legs out. In the end, I had to sleep with my body twisted diagonally like a Tetris block or curled up on my side like a shrimp. Interestingly, Russians have a creepy superstition that "only the dead sleep with their limbs stretched out straight in a coffin," so they don't complain much about the short beds. I don't know if they are positive or quick to give up.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎉 New Year in Siberia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Our train to Baikal began to slide out of snow-covered Moscow on the night of December 31, 2014. Shortly thereafter, we greeted the new year of 2015 while running through the pitch-black darkness on a night train. New Year's on the Trans-Siberian Railway! It sounds incredibly romantic when you read it in writing, but reality was harsh. The view outside the window was nothing but endless pitch-black darkness, and the only signs of life were the occasional lights of small, nameless villages that we passed by. Still, if I had to squeeze out some romance, the stars in the night sky were amazingly clear because there was no light pollution around.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎴 The Charm of the Vast Snowfields and Station Stops</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          During the day, we passed the boring time by playing Hwatu (Korean card game) like professional gamblers against the backdrop of the vast Siberian plains. The train stopped at several stations along the way, letting people off and on. Most of them were small stations, but sometimes in big cities, it would stop for more than 30 minutes at a leisurely pace. When the train stopped, there were always grandmothers on one side of the platform selling steamed potatoes, meat, and dumplings. The price was reasonable and the taste was excellent for satisfying hunger on the train. On the train, we could go on an expedition to the dining car to buy food, or we could buy snacks from a crew member who periodically pushed a cart.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍗 KFC Chicken Scramble in the Extreme Cold</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          At a small village station whose name I don't even remember, the train stopped for quite a long time to refuel. We went outside, raided a convenience store for necessary items, and in the Siberian cold wave, with some kind of bravado, we even engaged in the madness of taking commemorative photos in our shorts and underwear after throwing off our outer clothes. Once, when we stopped in a big city called 'Yekaterinburg,' P and I once again sprinted to a KFC near the train station in our shorts. The pleasure of tearing into the precious chicken that we had procured through the harsh cold, while warming our frozen bodies in the warm train that was starting again! It was a truly, amazingly ecstatic taste.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⏳ The Time-Traveling Train</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          It takes a full 4 days to get from Moscow to Irkutsk, the gateway to Lake Baikal, but we got off in a big city called Omsk in the middle and stayed for a day. It was a 5-day journey because we also looked around the city, had a 'real meal' at a restaurant for a change, and regained our human form with warm water at our accommodation. The time difference between Moscow and Irkutsk is a whopping 5 hours, and we experienced a mysterious time slip where the clock was advanced by one hour for every day we traveled by train. Surprisingly, although Irkutsk was so far away from Moscow, the time difference with Korea was only one hour. It felt like I had finally gotten one step closer to the time of my beloved Korea while crossing the continent.
+        </p>
+      `,
+      },
     },
     {
       id: 'russia-travel-3',
-      title: '이르쿠츠크와 바이칼',
-      subtitle: '얼음 왕국에서 맛보는 훈제 오물과 스노모빌의 짜릿함',
+      title: {
+        ko: '이르쿠츠크와 바이칼',
+        en: 'Irkutsk and Baikal',
+      },
+      subtitle: {
+        ko: '얼음 왕국에서 맛보는 훈제 오물과 스노모빌의 짜릿함',
+        en: 'The Thrill of Smoked Omul and Snowmobiling in the Ice Kingdom',
+      },
       imageUrl:
         'https://i.namu.wiki/i/Zl5MyGIK8j9aB7KJCT2eiF5-I_3M9A3Lpie5967ZiYqngweaEBjEswltjGZwTgkTn_QscbaYHD9d-lpUbvKqiw.webp?q=80&w=1200&auto=format&fit=crop', // Lake Baikal frozen
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍲 시베리아의 포근한 도시, 이르쿠츠크</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           4일간의 열차 이동을 하며 컵라면, 마법의 감자 퓨레 가루, 그리고 패스트푸드로 간신히 연명했다. 그렇기에 목적지인 이르쿠츠크에 도착하자마자 우리 일행의 눈이 뒤집혀 찾은 것은 다름 아닌 식당에서 사람이 직접 요리해 주는 따뜻한 요리였다. 아침 일찍 도착하여 문을 연 곳이 많지 않았지만 다행히도 식당을 하나 찾아 몸과 마음을 녹일 수 있었다. 우리가 거쳐온 시베리아의 무시무시한 도시들과는 다르게, 이르쿠츠크의 날씨는 영하 5도에서 10도 사이로 애교 수준의 포근함(?)을 자랑했다. 도시는 크게 주민들의 거주 구역과 시내 중심가로 나뉘어 있었는데, 워낙 동네가 아담해서 택시만 타면 어디든 5분 이면 갈 수 있었다.
@@ -181,15 +312,69 @@ export const russiaTravelCategory: Category = {
           광활한 횡단열차로 시작해 바이칼 호수에서 정점을 찍은 겨울 여행은 쏜살같이 지나갔다. 돌아갈 때는 열차 비행기를 탔다. 또다시 4일간 기차를 탈 각오가 서지 않았다. 6시간을 날아가는 비행이었지만, 모스크바와 이르쿠츠크의 5시간 시차 덕분에 비행기를 타고 출발한 시간과 거의 똑같은 시간에 모스크바에 떨어지는 신기한 타임슬립을 경험했다. 하루가 30시간으로 늘어난 듯한 기묘한 기분과 함께 시베리아 횡단열차와 함께한 겨울여행도 막을 내렸다. 러시아의 겨울 방학은 총 3주. 여행에서 하얗게 불태운 2주를 뒤로하고, 이제 남은 일주일은 다가올 새 학기의 융단폭격을 견뎌내기 위해 얌전히 방구석에서 체력을 재충전할 시간이다.
         </p>
       `,
+        en: `
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍲 Irkutsk, a Cozy City in Siberia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          For four days on the train, we barely survived on cup noodles, magical potato puree powder, and fast food. Therefore, as soon as we arrived at our destination, Irkutsk, what our group looked for with our eyes wide open was none other than a warm dish cooked by a person in a restaurant. We arrived early in the morning, and there were not many places open, but fortunately, we were able to find a restaurant to warm our bodies and minds. Unlike the scary Siberian cities we had passed through, the weather in Irkutsk was a cute level of cozy(?), between -5 and -10 degrees Celsius. The city was largely divided into a residential area for residents and a downtown area, but the neighborhood was so small that you could get anywhere in 5 minutes by taxi.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚿 Cozy Accommodation and Hot Water Tank Roulette</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The accommodation we booked was in a residential area, so fortunately, there were pretty parks and restaurants nearby. Thanks to the generous host who allowed us to check in early, we were able to wash away the accumulated fatigue of our train journey in the cozy interior. We booked it on Booking.com, but it felt like we had rented someone's real home, like an Airbnb, and the Christmas decorations and the cat that was lounging around the house were very impressive. However, there was one fatal trap in this house, and that was the 'hot water tank roulette.' It was a system where it took time for the hot water to heat up, so if you went in right after someone had taken a long shower, you would have to face the disaster of being forced to take a cold shower. Perhaps because of the uncomfortable bed on the train or the warm breakfast we ate, we decided to replenish our energy first and then go out to see the sights of Irkutsk.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧊 The City That Became an Ice Kingdom</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Although the new year had dawned on our calendar, the Russian Orthodox Church celebrates Christmas on January 7. Thanks to this, from January 1st to 8th, the entire country of Russia enters a huge holiday mode. Since we arrived on January 5th, the New Year's tension had not yet subsided, and the excitement of Christmas Eve was added, so the city was truly in a festive mood. In the middle of the square stood a huge 2015 number and a wolf statue carved out of ice, and there were plenty of things to do and eat around. A large park near our accommodation had also been transformed into an ice kingdom. Faced with an ice castle, an ice maze, and an ice slide, our group forgot our dignity and returned to our childhood innocence, and the five of us grown adults spent the day rolling around on the ice of Irkutsk.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏞️ Listvyanka, the Gateway to Baikal</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After warming up in the city of Irkutsk, it was time to face our real destination, Lake Baikal. After a 30-40 minute bus ride, we arrived at the lakeside village of Listvyanka. I was secretly hoping to do some car drifting on the frozen lake, but unfortunately, the lake was not yet completely frozen, so I had to give up that ambition. However, Baikal had plenty to enjoy even when it wasn't frozen. Before our full-fledged exploration, we first visited the Lake Baikal Museum. It wasn't a huge museum, but it was the perfect place to get a glimpse of the history of this huge, sea-like lake, which contains 20% of the world's fresh water, and the unique creatures that live only here.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐟 Smoked Omul, a Delicacy of Baikal</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After filling our minds with knowledge at the museum, we leisurely walked through the village of Listvyanka, which was formed along the lakeshore. As you walk, you will smell a wonderful smell, which is the smell of smoked fish called Omul, which merchants sell on the street. It is a salmonid fish that lives only in Lake Baikal, and the price was reasonable and the taste was excellent. When you buy this smoked omul on the street, they put it in a plastic bag, and we ate it with our bare hands or gloved hands, giggling. Although the price was a strong fishy smell that did not go away from my gloves for a while, the taste of eating it on the street while looking at the vast Lake Baikal was a rare experience that was not inferior to a fancy restaurant.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐕 Dog Sledding, the Romance of Siberia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          If you come to Siberia, you are bound to have a romantic notion of dog sledding through the silver snowfields. We got some high-quality information from our host that there was a place near Baikal where you could go dog sledding, so we went there with high hopes. In my head, I imagined the fluffy, majestic sled dogs from the movies, but the ones I actually met were short-haired and quite slender(?) practical, compressed workers. Eight dogs pulled a sled carrying two people, including a guest and a musher who set the direction, but the speed was not as fast as I had imagined. But who cares? I had already gotten my money's worth just by getting a great story to tell: "I'm the guy who went dog sledding on the Siberian plains."
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏍️ Snowmobiling, More Thrilling Than Dog Sledding</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But to be honest, there was something that was a hundred million times more fun and thrilling than dog sledding. It was the snowmobile near the dog sledding experience center. I'm talking about the engine-powered snow sled that the safety guards at ski resorts ride. Unlike the slender dogs that looked exhausted, this machine, which let out a roaring sound as soon as it was started, instantly turned us into continental bikers(?). The moment I pulled the accelerator, the disappointment of the slow dog sledding was completely forgotten, and the thrill of madly racing through the endless silver snowfields of Russia engulfed my whole body. It was the moment when the capitalist speed of modern civilization dominated the Siberian plains. However, there is one thing to be careful about when enjoying this crazy speed. No matter how much you wear a helmet and are armed, the merciless snowstorm that the snowmobile creates can hit your face so hard that you can't see anything in front of you. If you're not careful, you could really see the 'end' of your life while running through the endless snowfields, so even if you're drunk on speed, you have to keep your eyes wide open and risk your life to secure your vision.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛷️ Skiing While Facing the Lake</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The finishing touch that completed our winter trip to Baikal was definitely the ski resort. The slopes here are not overwhelmingly long, but the view is second to none in the world. Unlike a normal ski resort where you only look down at the snow-covered, bare mountain peaks of the deep mountains, here you can ski downhill while facing the huge Lake Baikal. Even if you fall while skiing, you can just take a break and stare blankly at the magnificence of Lake Baikal. The scenery I saw with my own eyes at that time is still vivid in my memory.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👋 The End of a Dreamlike Winter Trip</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The winter trip, which started with a vast transcontinental train and culminated at Lake Baikal, passed by in a flash. We took a plane back. I was not prepared to ride the train for another 4 days. It was a 6-hour flight, but thanks to the 5-hour time difference between Moscow and Irkutsk, we experienced a strange time slip where we landed in Moscow at almost the same time as we departed. With the strange feeling that the day had stretched to 30 hours, our winter trip with the Trans-Siberian Railway also came to an end. The winter vacation in Russia is a total of 3 weeks. After burning through 2 weeks on our trip, it was time to recharge our batteries in the corner of our room for the remaining week to withstand the carpet bombing of the upcoming new semester.
+        </p>
+      `,
+      },
     },
     {
       id: 'russia-travel-4',
-      title: '아픔을 간직한 도시, 상트 페테르부르크',
-      subtitle: '눈부신 아름다움과 핏빛 역사가 공존하는 도시',
+      title: {
+        ko: '아픔을 간직한 도시, 상트 페테르부르크',
+        en: 'St. Petersburg, a City That Holds Pain',
+      },
+      subtitle: {
+        ko: '눈부신 아름다움과 핏빛 역사가 공존하는 도시',
+        en: 'A city where dazzling beauty and bloody history coexist',
+      },
       imageUrl: 'https://d3b39vpyptsv01.cloudfront.net/photo/1/2/aec606e62cd04ac98dad836388702a39.jpg?q=80&w=1200&auto=format&fit=crop', // St. Petersburg, Church of the Savior on Spilled Blood
       isActive: true,
       comments: [],
-      content: `
+      content: {
+        ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ 아름다움과 비극이 공존하는 도시</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           상트페테르부르크는 러시아의 제2의 도시로 불리지만, 그 위상과 자부심만큼은 수도 모스크바에 결코 뒤지지 않는다. 러시아 도시답게 면적은 서울의 두 배가 넘는 광활한 대지를 품고 있다. 모스크바의 임구가 약 1,300 만 명으로 서울의 천만명을 넘듯, 상트 페테르부르크는 부산의 330만 인구보다도 많은 약 560만 명의 인구가 거주하는 거대 메트로폴리스다. 18세기 표트르 대제가 ‘서구로 향하는 창’을 열기 위해 늪지대를 일구어 만든 이 계획도시는, 도시 전체가 유네스코 세계문화유산으로 지정될 만큼 눈부신 아름다움을 자랑한다. 하지만 이 화려한 유럽풍의 궁전과 낭만적인 운하를 걷다 보면, 이곳이 한때 상상조차 하기 힘든 생지옥이었다는 사실을 떠올리기 힘들다.
@@ -240,6 +425,58 @@ export const russiaTravelCategory: Category = {
           모스크바로 돌아가는 야간열차 안에서 멀어지는 불빛들을 바라보며 생각했다. 상트페테르부르크가 그토록 눈부시게 화려해 보였던 이유는, 역설적이게도 그 밑바닥에 짙게 깔린 역사적 아픔 때문일지도 모른다. 900일의 굶주림을 견뎌낸 핏빛 역사 위로 세워진 찬란한 금빛 돔, 차가운 늪지대 위에 세계 최고의 예술을 꽃피운 사람들의 지독한 생명력, 이 도시의 낭만은 온실 속 화초처럼 가볍고 얄팍한 아름다움이 아니었다. 그것은 매서운 겨울의 눈보라를 악착같이 버텨낸 야생화 같은 끈질긴 생명력의 결정체였다.
         </p>
       `,
+        en: `
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ A City of Coexisting Beauty and Tragedy</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          St. Petersburg is called the second city of Russia, but its status and pride are by no means inferior to the capital, Moscow. Like a typical Russian city, its area is more than twice that of Seoul, embracing a vast land. Just as Moscow's population of about 13 million exceeds Seoul's 10 million, St. Petersburg is a huge metropolis with a population of about 5.6 million, more than Busan's 3.3 million. This planned city, created by Peter the Great in the 18th century by cultivating a swamp to open a 'window to the West,' boasts a dazzling beauty that has earned the entire city a UNESCO World Heritage designation. However, as you walk through these splendid European-style palaces and romantic canals, it is hard to imagine that this place was once a living hell that is hard to even imagine.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚔️ 900 Days of Hell, the Siege of Leningrad</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          During the approximately 900-day brutal siege known as the Siege of Leningrad during World War II, the city was literally a swamp of starvation. It was common to boil and eat leather shoes and wallpaper when food was completely gone, and there is a history of horrific tragedy where people who lost their reason due to hunger went beyond eating dogs and cats on the street to even eating people. Because it is a city that endured such terrible pain and hunger with bone-crushing patience, the splendid architecture of St. Petersburg, standing tall under the gray sky, gives a strange and heavy thrill beyond simple beauty.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌹 Unforgettable March 8th, Women's Day</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Russia, March 8th is celebrated as International Women's Day, and we planned our trip accordingly. Koreans don't know much about it, but in Russia, Women's Day is a pretty big holiday. My wife had heard a romantic rumor(?) that "in Russia, on Women's Day, even strange men on the street give flowers to women to congratulate them," and she had been eagerly awaiting this first Women's Day. And what proved this romantic rumor to be true was none other than the landlady of our accommodation. As we were about to leave in the morning, the landlady shyly approached us and gave my wife a single rose to congratulate her on Women's Day. Thanks to the感动 of that warm flower received in a foreign land, my wife smiles and reminisces about St. Petersburg every Women's Day.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌉 A Giant Drawbridge That Splits the Night</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          There is one specialty that can never be left out when talking about St. Petersburg. It is the giant drawbridge that unfolds over the Neva River late at night. Unfortunately, you can't see it in the middle of winter when the river is frozen solid, but from late April to November when the river thaws, a spectacular sight is created every night. Usually starting with the Palace Bridge in front of the Hermitage Museum around 1:10 am, the giant bridges split in half and soar into the sky so that ships can pass. The sight of the thousands of tons of bridges, illuminated by colorful night lights, opening majestically is overwhelming enough to make you lose your mind. However, if you miss the time to cross the bridge while drunk on romance, you will have to wait endlessly for a taxi to return to your accommodation on the other side of the river, and you may be ripped off for the taxi fare, so checking the viewing time and route is essential for survival.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🖼️ The Pinnacle of Art, the Hermitage Museum</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The scale of the city definitely reaches its peak at the Hermitage Museum. It is said that this place, which is considered one of the world's three major museums along with the British Museum and the Louvre in France, is not enough to see in a whole week if you are well-versed in art. My wife and I, who lack artistic sense, did a speed run at a walking pace, but even just walking past, we were completely overwhelmed by the endlessly unfolding magnificent rooms and the enormous scale of the masterpieces. There is an audio guide with the voice of announcer Lee Sung-ju, but even without listening to the explanation, the fact that we were walking inside this huge winter palace with our own two feet was an ecstatic artistic experience in itself.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛪ Cathedrals with a Different Charm from Moscow</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          If Moscow has St. Basil's Cathedral, St. Petersburg has the Church of the Savior on Spilled Blood (or the Church on Blood). We, who had always believed that St. Basil's Cathedral was the king of Russian architecture, were speechless when we saw the details of the Church on Blood. It was clear that the level of the Church on Blood was a step above. At the Russian Museum located next to the Church on Blood, there was the simple fun of finding familiar paintings that seemed to be from textbooks, and St. Isaac's Cathedral, which we visited without much expectation, boasted an overwhelming grandeur that belied its fame.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏰 The Peter and Paul Fortress, a Prison for Intellectuals</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The Peter and Paul Fortress, located on a small island on the Neva River, was once used as a prison. This prison, which was said to be impossible to escape from because it was surrounded by the river on all sides, has housed countless intellectuals whose names are well-known. According to the guide, it was a kind of VIP resort-style(?) prison where only elites with 'slightly' bad crimes came, and real serious criminals were sent to Siberia without mercy. However, looking at the narrow and cold prison cells, I got a chilling realization that prison life is by no means easy in any country, let alone a resort. In addition, we also made sure to see the Summer Garden, which is said to be the summer resort of the Russian emperors, St. Petersburg State University, Putin's alma mater, and the red lighthouse.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚇 The Chilling Skinheads of the Subway</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When you use the subway in St. Petersburg, there are times when you get a chill down your spine, and that is when you come face to face with the skinheads you have only heard about. The skinheads are a far-right racist group who shave their heads very short or completely bald and wear military boots, and they are the object of fear itself for foreigners in Russia. The real reason they are scary is their unpredictable violence and blind hostility towards foreigners. To them, foreigners were not partners in conversation, but simply 'prey to be driven out of Russia,' so making eye contact with them meant being exposed to uncontrollable danger. In particular, around Hitler's birthday (April 20), their madness is said to reach its peak, and they commit unprovoked and indiscriminate lynchings.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✨ The Chilling Reality Hidden Behind the Glamour</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The scenery of the train station we returned to after a pleasant viewing was quite different. Unlike the quiet tourist attractions in winter, the warm station was crowded with beggars who had come to escape the cold. Russians firmly believe that they must do good deeds to go to heaven, so they are usually very generous with their alms, but perhaps because of that, this chilling reality, which is in stark contrast to the dazzling palaces of St. Petersburg, came to me as particularly bitter and heavy.
+        </p>
+        
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚂 The Romance of a City That Bloomed Like a Wildflower</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          On the night train back to Moscow, I thought as I watched the receding lights. The reason why St. Petersburg seemed so dazzlingly splendid might be, paradoxically, because of the deep historical pain that lay beneath it. The brilliant golden dome built on the bloody history of enduring 900 days of starvation, the terrible vitality of the people who made the world's best art bloom on the cold swamp, the romance of this city was not a light and flimsy beauty like a greenhouse flower. It was the crystallization of a tenacious vitality like a wildflower that had stubbornly endured the fierce winter blizzard.
+        </p>
+      `,
+      },
     },
   ],
 };

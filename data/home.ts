@@ -2,7 +2,10 @@ import { Category } from '../types';
 
 export const homeCategory: Category = {
   id: 'home',
-  title: '홈',
+  title: {
+    ko: '홈',
+    en: 'Home',
+  },
   isSinglePost: false,
   isActive: true,
   posts: [],
