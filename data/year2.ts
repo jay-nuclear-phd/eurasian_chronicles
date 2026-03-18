@@ -563,6 +563,137 @@ export const year2Category: Category = {
       },
     },
     {
+      id: 'post-203-extra',
+      title: { ko: '✨ 외전 (3) - 러시아 남자들', en: '✨ Side Story (3) - Russian Men' },
+      subtitle: {
+        ko: '불곰 같은 겉모습 속 마트료시카 같은 매력',
+        en: 'Matryoshka-like Charm Inside a Bear-like Exterior',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1200&auto=format&fit=crop', // Russian winter atmosphere
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아 남성들을 떠올리면 흔히들 한 손엔 보드카 병을 쥐고 영하 30도의 눈밭에서 불곰과 씨름을 할 것 같은 거칠고 마초적인 이미지를 상상한다. 실제로 그들은 꽤나 과격하고 무뚝뚝하지만, 사소한 일들에는 굉장히 관대(?) 혹은 무신경하고, 막상 마음의 문을 열면 생각보다 정이 넘치고 친근한 것도 사실이다. 학과 친구들을 제외하면 현지 남성들과 깊게 교류할 기회가 그리 많진 않았지만, 3년의 유학 생활 동안 내 피부로 직접 겪었던 몇 가지 일화를 통해 이 ‘불곰국 형님들’에 대해 단편적으로나마 소개하고자 한다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👊 길거리 격투기 직관? 호전적인 형님들</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          모스크바에 살다 보면 지인들의 부탁으로 종종 공항에 픽업을 나갈 때가 있었다. 공항에서 시내까지 택시로 한 시간 남짓 이동하는 동안, 나는 일일 가이드가 되어 모스크바에 대한 이런저런 썰을 풀어드리곤 했다. 나의 단골 레퍼토리 중 하나는 바로 러시아 남자들의 호전성에 대한 경고였다. 거리에서 심심치 않게 주먹다짐을 하는 모습을 볼 수 있다고 주의를 주면, 손님들은 대개 대수롭지 않게 넘겼다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 그 안일한 생각은 택시 창밖을 보면 여지없이 무너지곤 한다. 맹세컨데 러시아에 온 손님들은 공항에서 시내로 돌아올 때, 혹은 시내에서 공항으로 갈 때 둘 중에 한 번은 멱살을 잡고 주먹다짐을 하는 러시아인들의 실전 길거리 격투기(?)를 직관했다. 특히 번잡한 공항이나 기차역 근처에서는 본인의 남성성을 과시하려는 다혈질 형님들이 많아 크고 작은 다툼이 흔하게 일어난다. 🥊
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌙 심야의 지하철, 생존을 위한 팁</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          낮보다 더 조심해야 할 곳은 심야의 지하철역 근처다. 지금은 치안이 아주 많이 나아다고는 하지만, 늦은 밤 보드카에 절어 비틀거리는 러시아 취객을 마주치면 나도 모르게 손발이 떨려온다. 가끔 지하철 안에서 술기운에 시비를 거는 덩치들을 만나기도 하는데, 여기에 팁이 있다면 <span class="text-red-600 font-bold">‘절대 눈을 마주치지 말고 반대 방향으로 도망가라’</span>는 것이다. 🏃‍♂️ 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          싸워서 이길 확률도 희박하거니와, 철없는 유학생들이 밤늦게 술 마시고 배회하다 폭행을 당하거나 금품을 갈취당하는 사건은 교민 사회에서 하도 많이 들어 레퍼토리가 지루할 지경이다. 이국의 밤거리에서는 나의 남성성을 증명하려 들지 말고, 그저 조용히 생존을 택하는 것이 현명하다. 
+        </p>
+        <div class="bg-slate-50 p-4 my-6 rounded-lg text-sm border-l-4 border-slate-300">
+          모스크바 국립대 한인 학생회에서 모스크바 시내 투어를 시켜준 적이 있었는데 한국인 가이드가 전날 술 마시고 돌아다니다가 중앙아시아계 사람들에게 핸드폰과 금품을 빼앗겼다고 들은 적이 있다. 아무렇지 않게 이야기 하는 것으로 보아 한 두번 당해본게 아닌 듯 했는데도, 여전히 늦은 밤 술마시고 돌아다니다니… 그 가이드도 보통내기가 아니었다. 😵
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ 극한의 쿨함, 사과는 사치다</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그런데 참 아이러니하게도, 이토록 전투력이 높은 사람들이 일상의 사소한 일에는 무서울 정도로 무덤덤하다. 러시아 지하철 같은 공공장소에서 걷다가 어깨를 아주 세게 부딪히거나 발을 밟혀도, 이들은 좀처럼 뒤돌아보며 화를 내거나 사과를 하지 않는다. 그저 ‘길을 걷다 보면 부딪힐 수도 있지, 잘 가’ 식의 극한의 쿨함(?)이었다. 이들에게 웬만한 물리적 충돌은 삶의 작은 스크래치조차 되지 않는 듯했다. 남의 시선을 1도 신경 쓰지 않고 자기 갈 길만 가는 그 무덤덤함, 삶의 해탈은 그들의 신비로움을 더하기도 하였다. 🧘‍♂️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚂 기차 안에서 피어난 보드카 우정</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그들의 숨겨진 따뜻한 정을 제대로 느꼈던 건 남부 지역으로 향하는 장거리 기차 안에서였다. 하루는 4인 1실인 '쿠페' 칸을 러시아인 가족(아빠, 엄마, 중학생 딸)과 함께 쓰게 되었다. 나는 2층 침대를 썼고, 그 가족이 1층 두 칸과 남은 2층 한 칸을 사용했다. 시베리아 횡단열차 편에서 소개했듯, 러시아 기차의 룰에 따라 식사 때가 되면 1층 사람들에게 양해를 구하고 테이블을 함께 써야 한다. 자연스럽게 그들 가족의 식사 자리에 합석하게 되었고, 가벼운 대화가 오갔다. 🥪
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          싹싹한 아주머니가 주로 대화를 주도했고, 사춘기 딸은 스마트폰 화면만 뚫어져라 쳐다보기 바빴다. 기차 내에서는 인터넷도 안터지는데 뭘 그렇게 열심히 하는지 신기할 따름이었다. 그때, 창밖만 묵묵히 응시하며 과묵함의 끝을 보여주던 아저씨가 슬그머니 내 쪽을 보며 입을 열었다. <span class="italic text-slate-600">"혹시... 술 좀 할 줄 아나?"</span> 🥃
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          나는 속으로 쾌재를 부르며 "러시아 보드카가 최고 아니겠습니까? 저도 꽤 마십니다"라며 너스레를 떨었다. 그 순간, 아저씨의 굳어 있던 얼굴에 봄바람 같은 화색이 돌더니 짐 가방 깊숙한 곳에서 투명한 보드카 한 병을 마술처럼 꺼내 들었다. 옆에서 아주머니의 날카로운 레이저 눈빛이 내리꽂히는 것이 느껴졌지만, 이미 사나이들의 결의(?)를 막을 순 없었다. 🤝
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 사나이들의 결의, 국경을 넘다</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이참에 한국인의 매운(?) 주량을 제대로 보여주리라 마음먹고 한 잔 두 잔, 주거니 받거니 술잔을 부딪쳤다. 언어의 장벽 따위는 독한 알코올이 식도를 타고 넘어가는 순간 하얗게 휘발되어 버렸고, 우리는 이미 국경을 초월한 의형제나 다름없었다. 기어코 순식간에 보드카 한 병이 바닥을 드러내자, 아저씨는 호탕하게 웃으며 내 어깨를 퍽퍽 내리쳤다. “하하! 이 친구, 제대로 마실 줄 아는구먼!” 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          기차가 다음 역에 정차하자마자, 아저씨는 아주머니의 따가운 눈총을 뒤로한 채 승강장으로 튀어 나가 기어이 보드카 한 병을 더 보급해 오는 붉은 열정을 보여주었다. 각자 준비해 온 빵과 소시지를 넉넉하게 나눠 먹으며 밤이 깊도록 술잔을 기울였다. 🥖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          아저씨가 사 온 보드카마저 동이 났을 때, 나는 직감적으로 ‘아, 이제 내 턴이구나’라는 걸 깨달았다. 아저씨의 융숭한 대접에 보답하고자 다음 정차역에서 살 수 있는 보드카 중 꽤 그럴싸하고 좋은 놈으로 한 병 골라왔다. 병을 건네자 아저씨의 얼굴엔 벅찬 감동이 일렁였다. 얼큰하게 달아오른 술기운에, 다음 날이면 기억도 안 날 온갖 이야기들을 끊임없이 주고받았다. 무뚝뚝한 표정 속에 감춰져 있던 러시아 아버지의 훈훈한 정 덕분에, 끝없이 지루할 뻔했던 시베리아 기차 여행은 내 인생 가장 유쾌한 추억 중 하나로 남았다. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🪆 마트료시카 같은 그들</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          결국 러시아 남자들은 알면 알수록 까도 까도 새로운 매력이 나오는 ‘마트료시카’ 같은 존재들이다. 인형을 열면 그 속에 더 작은 인형이, 또 열면 새로운 인형이 끊임없이 튀어나오는 러시아의 전통 목각 인형 마트료시카처럼 말이다. 겉보기엔 찔러도 피 한 방울 안 나올 것 같은 무뚝뚝한 불곰 형님들이지만, 일단 내 바운더리 안의 사람이라고 인정하는 순간 아낌없이 보드카 잔을 채워주는 츤데레들이다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          돌이켜보면 러시아 사람들도 러시아라는 이 거대한 대륙과 꼭 닮았다. 그저 스쳐 지나가는 겉모습만 봐서는 진짜 속내를 알기 힘들지만, 오랫동안 곁에서 함께 부대끼고 잔을 부딪쳐 봐야 비로소 그 진국 같은 참매력을 온전히 느낄 수 있으니 말이다. 🇷🇺
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When you think of Russian men, you often imagine a rough and macho image, perhaps wrestling a brown bear in -30 degree snow with a bottle of vodka in one hand. In reality, while they are quite aggressive and blunt, it's also true that they are incredibly generous—or perhaps indifferent—to minor inconveniences, and they are surprisingly warm and friendly once they open their hearts. Aside from my classmates, I didn't have many chances to interact deeply with local men, but through several anecdotes I experienced during my three years of study, I'd like to introduce these 'Brown Bear Country Brothers' in a fragmented way.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👊 Witnessing Street Fighting? The Belligerent Brothers</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Living in Moscow, I often went to the airport for pickups at the request of acquaintances. During the hour-long taxi ride from the airport to the city, I would become a daily guide and tell various stories about Moscow. One of my regular repertoires was a warning about the aggressiveness of Russian men. When I warned them that they could easily see fistfights on the street, guests usually brushed it off.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          However, that complacent thought invariably crumbles when looking out the taxi window. I swear, guests who came to Russia witnessed real-life street fighting(?) between Russians grabbing each other's collars at least once, either on the way from the airport or back to the airport. Especially near busy airports or train stations, small and large fights are common because there are many hot-tempered men trying to show off their masculinity. 🥊
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌙 Midnight Subway, Tips for Survival</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The place to be even more careful than during the day is near subway stations late at night. Although security is said to have improved a lot now, my hands and feet tremble unconsciously when I encounter a Russian drunkard stumbling and soaked in vodka late at night. Sometimes I meet big guys who pick fights in the subway under the influence of alcohol, and if there's a tip, it's <span class="text-red-600 font-bold">'never make eye contact and run in the opposite direction.'</span> 🏃‍♂️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The probability of winning a fight is slim, and stories of immature international students wandering late at night after drinking and being assaulted or having their valuables stolen are so frequent in the Korean community that the repertoire is almost boring. In the night streets of a foreign country, it is wise to choose survival quietly rather than trying to prove your masculinity.
+        </p>
+        <div class="bg-slate-50 p-4 my-6 rounded-lg text-sm border-l-4 border-slate-300">
+          The Moscow State University Korean Student Association once gave a tour of downtown Moscow, and I heard that a Korean guide had his phone and valuables stolen by people of Central Asian descent while wandering around after drinking the night before. Judging by the way he talked about it nonchalantly, it seemed like it wasn't his first time, yet he still wandered around drinking late at night... that guide was quite something. 😵
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ Extreme Coolness, Apologies are a Luxury</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Ironically, people with such high combat power are terrifyingly indifferent to the minor things of daily life. Even if they bump shoulders very hard or get their feet stepped on while walking in public places like the Moscow subway, they rarely look back in anger or apologize. It was a kind of extreme coolness(?), as if to say, 'You can bump into someone while walking, have a nice day.' To them, most physical collisions didn't seem to leave even a small scratch on their lives. That indifference of just going one's way without caring even 1% about others' eyes, that transcendence of life added to their mystery. 🧘‍♂️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚂 Vodka Friendship Blossoming in a Train</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I truly felt their hidden warm heart in a long-distance train heading to the southern region. One day, I ended up sharing a 4-person 'kupe' (compartment) with a Russian family (father, mother, and middle school daughter). I used a top bunk, and the family used the two bottom bunks and the remaining top bunk. As introduced in the Trans-Siberian Railway episode, according to the rules of Russian trains, when it's time for a meal, you must ask for permission from the people on the first floor to use the table together. Naturally, I joined their family's mealtime, and light conversation ensued. 🥪
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The sociable lady mainly led the conversation, while the adolescent daughter was busy staring only at her smartphone screen. I was curious what she was doing so diligently since the internet doesn't even work in the train. At that moment, the man, who had been showing the height of reticence by silently staring only out the window, looked slightly toward me and opened his mouth. <span class="italic text-slate-600">"Do you... know how to drink a little?"</span> 🥃
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I cheered internally and joked, "Isn't Russian vodka the best? I drink quite a bit too." At that moment, the man's frozen face turned as bright as a spring breeze, and he magically pulled out a bottle of clear vodka from deep inside his luggage. I felt the sharp laser-like gaze of the lady beside him, but nothing could stop the resolve(?) of men anymore. 🤝
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 Men's Resolve, Crossing Borders</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I decided to show them the spicy(?) drinking capacity of Koreans and clinked glasses back and forth, one glass, two glasses. The language barrier evaporated into white the moment the strong alcohol slid down the esophagus, and we were already no different from sworn brothers who had transcended borders. When the bottle of vodka finally revealed its bottom in an instant, the man laughed heartily and slapped my shoulder hard. "Haha! This guy, you really know how to drink!"
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As soon as the train stopped at the next station, the man showed his red passion by running out to the platform and bringing one more bottle of vodka, leaving behind the lady's stinging glare. We shared the bread and sausages we had each prepared and tilted our glasses until late at night. 🥖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When even the vodka the man bought ran out, I instinctively realized, 'Ah, now it's my turn.' To repay the man's generous hospitality, I picked out a pretty decent and good bottle of vodka available at the next stop. When I handed him the bottle, a wave of deep emotion flickered on his face. In the drunken state of being tipsy, we continuously exchanged all sorts of stories that we wouldn't even remember the next day. Thanks to the warm heart of a Russian father hidden behind a blunt expression, the Siberian train journey, which could have been endlessly boring, remained one of the most pleasant memories of my life. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🪆 Like a Matryoshka</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the end, Russian men are like 'Matryoshkas,' where the more you know them, the more new charms come out. Just like the traditional Russian wooden doll Matryoshka, where when you open a doll, a smaller one pops out, and when you open it again, a new one keeps popping out. They look like blunt brown bear brothers who wouldn't bleed even if pricked, but they are 'tsunderes' who generously fill up vodka glasses the moment they recognize you as someone within their boundary.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Looking back, Russian people also closely resemble this vast continent of Russia. It's hard to know their true inner feelings just by looking at their passing exterior, but you can only fully feel their genuine, rich charm after rubbing shoulders and clinking glasses with them for a long time. 🇷🇺
+        </p>
+      `,
+      },
+    },
+    {
       id: 'post-204',
       title: { ko: '전공과목', en: 'Major Subjects' },
       subtitle: {
@@ -1040,6 +1171,151 @@ export const year2Category: Category = {
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Family is My Strong Support 💪</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           I chuckled, wondering if the Russia I knew and the Russia my cousin experienced were the same country, but my youngest cousin, who had fully experienced the <strong>kind side of Russia</strong> that I had not experienced, ... entered Moscow State University as an undergraduate and finished her master's degree. 🎓 In a tundra-like life of studying abroad with no connections, my family's visits were more than just a role of a tour guide. The silly jokes I shared with my brother over beer all night, the absurdity of the 30-minute tour of the Hermitage, and the heartwarming story that my cousin left behind. All of those memories became a <strong>strong support</strong> that helped me endure my lonely and tiring life in Moscow. 🌳
+        </p>
+      `,
+      },
+    },
+    {
+      id: 'post-207-extra',
+      title: { ko: '✨ 외전 (4) - 러시아 여자들', en: '✨ Side Story (4) - Russian Women' },
+      subtitle: {
+        ko: '얼음 공주와 시베리아 호랑이 바부시카 사이',
+        en: 'Between Ice Princesses and Siberian Tiger Babushkas',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1520106212299-d99c443e4568?q=80&w=1200&auto=format&fit=crop', // Moscow evening vibe
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아, 우크라이나 등 동슬라브 국가에 미인이 많다는 건 익히 알려진 사실이라, 한국 남성들 사이에서는 우스갯소리로 ‘장모님의 나라’로 불리기도 한다. “진짜로 길거리에 김태희가 밭을 매고 전지현이 소를 모느냐?”라고 묻는다면, 솔직한 내 영혼의 대답은 ‘Yes’라고 할 수 있다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✨ 압도적인 피지컬과 분위기</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          일단 피지컬부터가 압도적이다. 얼굴이 똑같이 생겼어도 평균적으로 키가 훌쩍 크고, 특히 하체가 길어 시원시원한 비율을 자랑한다. 게다가 걸음걸이나 옷차림에서 뿜어져 나오는 도도한 분위기 덕분에 일단 평균 점수 20점 이상을 주고 출발한다. 👠 한겨울에 두툼한 털코트와 롱부츠를 장착하고 눈길을 걷는 길쭉한 러시아 여성의 뒤태는 감탄을 자아낸다. 오밀조밀한 아시아인의 이목구비와 달리, 입체적이고 시원시원한 선을 가진 그들의 얼굴도 참 매력있다. 금발이 흔한 것은 아니지만, 자연스러운 갈색빛 머리카락을 가진 이들이 많았다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧟‍♀️ 고퀄리티 좀비? 겨울 아침의 풍경</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          다만 백인 특유의 얇은 피부 탓인지, 아니면 영양 상태(?)의 문제인지 쌩얼일 때는 푸른 정맥이 도드라져 보이는 경우가 많았다. 특히 한겨울 이른 아침, 모스크바 국립대로 등교하는 지하철 안에서 마주치는 핏기 없이 창백하고 푸른 실핏줄이 비치는 러시아 여대생들을 보고 있노라면, 예쁘긴 한데 어딘가 모르게 ‘고퀄리티 좀비’ 같다는 섬뜩한 기분이 들기도 했다. 나의 얄팍한 어휘력으로 묘사할 수 있는 그들의 외모 디테일은 대략 이 정도다. ❄️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎒 폭풍 성장, 고등학생인가 성인인가</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          어느 날 시내의 한 카페에서 차를 마시며 러시아인 친구를 기다리고 있었다. 그때 비슷한 옷을 맞춰 입은 무리가 우르르 들어와 한쪽 자리를 차지하더니 시끌벅적 떠들기 시작했다. 속으로 ‘다 큰 어른들이 공공장소 매너가 없네’라고 쯧쯧거리고 있을 무렵, 도착한 친구가 그들을 보며 무심하게 말했다. “어? 오늘 저 학교는 수업이 일찍 끝났나 보네.” 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그렇다. 그들은 교복을 입은 고등학생들이었다! 😲 러시아 고등학교 시스템을 몰랐던 나는 그들의 폭풍 성장한 피지컬과 완숙한(?) 얼굴만 보고 당연히 성인일 거라 단정했던 것이다. 듣기로는 14세에서 16세 전후로 급격히 성인화가 된다고 한다. 당시 내 사촌 여동생도 고등학생이었는데 비교해 보면 그냥 애와 어른이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍞 탄수화물의 저주와 체형 변화</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          거리에서 마주치는 러시아의 젊은 여성들은 대체로 살집이 없고 늘씬하다. 오히려 말랐다고 표현하는 게 맞을 정도다. 하지만 신기하게도 나이가 들고 중년이 되면 체형이 극적으로 변하는 경우가 많다. 데이터만 보면 미국의 여성 비만율(42%)에 비하면 러시아(25%)는 양반인 수준이긴 하지만 그들의 식습관을 곁에서 지켜보면 체형 변화의 이유가 짐작이 간다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          마트에서 가장 싸고 흔하게 구할 수 있는 식재료가 바로 빵과 감자다. 🥔 2~300원이면 투박한 바게트를 살 수 있고, 감자 역시 1kg에 3~400원 수준으로 껌값보다 싸다. 팍팍한 주머니 사정 때문에 이 저렴한 탄수화물 덩어리들이 주식이 될 수밖에 없는데, 고기보다 무섭다는 이 탄수화물 과다 섭취가 나잇살과 결합하며 요정 같던 아가씨들을 푸근한 체형으로 바꾸어 놓는 주범이 아닐까 싶다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ 애교(Aegyo)? 그런 건 없다</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          성격적인 면을 보자면, 대체로 러시아 여자들에게 애교를 기대해선 안 된다. 애초에 러시아어에는 애교라는 단어 자체가 존재하지 않아서, 한국 드라마를 번역할 때도 그냥 발음 나는 대로 ‘Aegyo’라고 표기할 정도다. 언어가 사고를 지배한다고 했던가, 이들에게 눈웃음치며 콧소리를 내는 애교는 미지의 영역이다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          게다가 러시아 여성들은 본인들이 타국 여성들보다 객관적으로 예쁘다는 사실을 아주 잘 알고 있어서인지 자존감이 하늘을 찌른다. 거리에서 마주치는 소녀나 아가씨들은 얼음장처럼 차갑다. 길을 묻거나 도움을 청할 때 어설픈 러시아어를 더듬거리면, 시베리아 벌판보다 더 냉랭한 시선을 꽂아버린다. 🧊
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 이 얼음벽도 일단 ‘내 사람’이라는 바운더리 안에 들어오면 사르르 녹아내린다. 우리 반 반장은 차갑고 도도한 여학생이었는데, 시험 기간에 공부가 너무 막막해 도와달라고 매달렸더니 기꺼이 자기 시간을 쪼개어 문제를 같이 풀어주는 천사 같은 모습을 보여주었다. 😇 친해지면 자신이 가진 게 적든 많든 따뜻하게 나누려 하는 그들의 반전 매력은 꽤나 뭉클하다. (대체 왜 모르는 사람에겐 그토록 무자비하게 철벽을 치지는 유학 생활이 끝날 때까지 풀지 못한 미스터리다.)
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👗 상체 노출 vs 하체 노출, 문화의 차이</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          날씨가 풀리면 여성들의 옷차림도 확 가벼워지는데, 이때 한국과의 흥미로운 문화 차이를 발견할 수 있다. 러시아 여성들은 가슴이 깊게 파인 과감한 상의는 즐겨 입는 반면, 짧은 치마는 좀처럼 입지 않는다. 한국에서는 가슴골을 노출하는 것에 더 보수적인 잣대를 들이대지만, 러시아에서는 반대로 짧은 치마를 입고 다니는 여성을 훨씬 더 가벼운 사람으로 취급하는 경향이 있다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          한국은 상대적으로 마르고 볼륨 있는 상체를 선호하는 편이지만, 러시아 남자들은 탄탄하고 큰 엉덩이를 가진 여성을 최고의 미인으로 친다. 🍑 어느 러시아 드라마에서 짝사랑에 빠진 여주인공이 친구에게 “난 별로 예쁘지도 않고, 엉덩이도 크지 않은데 어떡하지?”라며 한탄하는 장면만 봐도 ‘골반과 엉덩이 크기 = 미모의 척도’라는 이 동네의 확고한 공식(?)을 엿볼 수 있다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👵 최종 진화 형태, 바부시카(Babushka)</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          마지막으로 러시아 여성 생태계의 최종 진화 형태인 할머니에 대해 논하지 않을 수 없다. 한국 아줌마들도 종종 초인적인 괴력을 발휘하고 “여자는 약하지만 엄마는 강하다”며 삶의 훈장을 뽐내지만, 소련 시절을 거치고 러시아의 혹독한 날씨와 거친 환경을 견뎌낸 러시아 할머니들의 강인함은 타의 추종을 불허한다. 젊은 시절의 도도함은 온데간데없고, 세상 무서울 게 없는 거리의 무법자로 거듭난다. 🐯
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          솔직히 유학 시절 내가 거리의 불량배나 스킨헤드보다 더 피하고 싶었던 대상 1순위가 바로 성난 바부시카(할머니)들이었다. 한 번은 기차역에서 현금 대신 카드로 계산을 하다가 뒤에 줄 서 있던 할머니에게 욕을 얻어먹은 적이 있다. 카드로 계산하면 현금으로 할 때보다 더 느리다는 이유였다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          또 하루는 버스 뒷자리에 앉아 핸드폰만 쳐다보고 있었는데, 갑자기 근처에 앉아 있던 할머니가 사자후를 내질렀다. “이봐! 저기 젊은 아가씨가 서 있는데 왜 당장 자리를 안 비켜주나! 예의 없는 놈, 당장 네 나라로 돌아가라!” 😠 (러시아에선 노인뿐만 아니라 젊은 여성에게도 자리를 양보하는 게 남자의 기본 매너라나 뭐라나.) 하도 이런 일을 몇 번 당하다 보니, 한겨울 빙판길에서 러시아 할머니들이 “악!” 하고 미끄러지는 비명을 들을 때면 그 어떤 교향곡보다도 감미롭게(?) 들리기도 했다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐯 거대한 대륙을 지탱하는 힘</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          결국 러시아 여자들은 화려한 바비인형으로 태어나, 무뚝뚝하지만 정 많은 이웃집 누나를 거쳐, 종국에는 시베리아 호랑이도 때려잡을 법한 세상 거칠게 없는 바부시카(할머니)로 진화한다. 차가운 겉모습 뒤에 숨겨진 그들의 따뜻한 오지랖과 억척스러운 생활력은, 척박한 이 거대한 대륙을 지탱해 온 진짜 힘일지도 모른다. 🇷🇺
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          It's a well-known fact that there are many beauties in East Slavic countries like Russia and Ukraine, so among Korean men, it's jokingly referred to as the 'Land of the Mother-in-Law.' If you ask, 'Do women who look like Kim Tae-hee really plow fields and those who look like Jun Ji-hyun really herd cows?' my honest answer from the bottom of my soul would be 'Yes.'
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✨ Overwhelming Physical Presence and Aura</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          First of all, their physical presence is overwhelming. Even if their faces were the same, they are much taller on average and boast refreshing proportions with particularly long legs. Moreover, thanks to the haughty atmosphere emanating from their gait and attire, they start with an extra 20 points on average. 👠 The sight of a tall Russian woman walking through the snow in a thick fur coat and long boots in midwinter is truly admirable. Unlike the delicate features of Asians, their faces, with three-dimensional and refreshing lines, are also very attractive. Blonde hair isn't common, but many have natural brownish hair.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧟‍♀️ High-Quality Zombies? Winter Morning Scenery</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          However, perhaps due to the thin skin characteristic of Caucasians or nutritional(?) issues, blue veins often stand out when they are not wearing makeup. Especially in the early morning of midwinter, watching pale, bloodless Russian college students with visible blue capillaries on the subway to Moscow State University, I sometimes felt an eerie feeling that they were like 'high-quality zombies,' even though they were beautiful. These are roughly the details of their appearance that I can describe with my limited vocabulary. ❄️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎒 Rapid Growth, High Schoolers or Adults?</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          One day, I was waiting for a Russian friend at a cafe in the city, drinking tea. Then, a group of people dressed in similar clothes swarmed in, occupied one side, and started talking noisily. As I was clicking my tongue inwardly, thinking, 'Grown adults have no manners in public,' my friend arrived and said nonchalantly while looking at them, "Oh, I guess that school finished classes early today."
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          That's right. They were high school students in uniforms! 😲 I, who didn't know the Russian high school system, had naturally assumed they were adults based on their burst-grown physical presence and mature(?) faces. I heard that they undergo rapid maturation around the ages of 14 to 16. At that time, my cousin was also a high school student, and comparing them, it was just like a child and an adult.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍞 The Curse of Carbohydrates and Body Type Changes</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Young Russian women encountered on the street are generally slim and slender. It would be more accurate to describe them as thin. Surprisingly, however, their body types often change drastically as they age into middle age. Looking at the data, compared to the female obesity rate in the US (42%), Russia (25%) is at a decent level, but observing their eating habits from the side, one can guess the reason for the body type change.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The cheapest and most common ingredients available at the supermarket are bread and potatoes. 🥔 You can buy a coarse baguette for 200-300 KRW, and potatoes are also cheaper than gum at 300-400 KRW per kg. Due to tight pockets, these cheap lumps of carbohydrates inevitably become the staple food. This excessive intake of carbohydrates, which is said to be scarier than meat, combined with middle-age weight gain, seems to be the main culprit in turning fairy-like young ladies into cozy body types.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ Aegyo? There is No Such Thing</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In terms of personality, you generally shouldn't expect 'aegyo' from Russian women. In the first place, the word 'aegyo' itself does not exist in the Russian language, so when translating Korean dramas, they just write it as it sounds, 'Aegyo.' As they say language governs thought, aegyo—smiling with eyes and making nasal sounds—is unknown territory for them.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Moreover, perhaps because Russian women know very well that they are objectively more beautiful than women from other countries, their self-esteem is sky-high. The girls or young ladies you meet on the street are as cold as ice. If you stammer in clumsy Russian when asking for directions or help, they will pierce you with a gaze colder than the Siberian plains. 🧊
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          However, this ice wall also melts away once you enter the 'my person' boundary. Our class leader was a cold and haughty female student, but when I clung to her for help because studying for the exam was so overwhelming, she showed an angelic side by willingly splitting her time to solve problems with me. 😇 Their unexpected charm of trying to share warmly, whether they have little or much, once you become close, is quite touching. (Exactly why they put up such a merciless iron wall against strangers remained a mystery I couldn't solve until the end of my studies.)
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👗 Chest Exposure vs. Leg Exposure, a Cultural Difference</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When the weather warms up, women's clothing becomes much lighter, and at this time, an interesting cultural difference from Korea can be discovered. While Russian women enjoy wearing bold tops with deep necklines, they rarely wear short skirts. In Korea, a more conservative standard is applied to exposing cleavage, but in Russia, on the contrary, there is a tendency to treat women wearing short skirts as much 'lighter' people.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          While Korea relatively prefers a thin yet voluminous upper body, Russian men consider women with firm and large buttocks to be the most beautiful. 🍑 Just by looking at a scene in a Russian drama where the female protagonist, who is in love, laments to a friend, "I'm not particularly pretty and I don't have large buttocks, what should I do?", you can catch a glimpse of the firm formula of this neighborhood: 'Pelvis and buttock size = measure of beauty.'
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👵 The Final Evolution, Babushka</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Finally, one cannot help but discuss the final evolutionary form of the Russian female ecosystem: the grandmother. While Korean 'ajummas' also sometimes exert superhuman strength and boast of life's medals, saying "women are weak but mothers are strong," the toughness of Russian grandmothers, who have lived through the Soviet era and endured Russia's harsh weather and rough environment, is second to none. The haughtiness of their youth is nowhere to be found, and they are reborn as street outlaws who fear nothing in the world. 🐯
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Honestly, during my time as a student, the number one object I wanted to avoid more than street thugs or skinheads was angry 'babushkas' (grandmothers). Once, I was scolded by a grandmother standing behind me at a train station for paying with a card instead of cash. The reason was that paying with a card was slower than cash.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Another day, I was sitting in the back of a bus looking only at my phone, when suddenly a grandmother sitting nearby let out a lion's roar. "Hey! There's a young lady standing there, why don't you give up your seat right now! You mannerless fellow, go back to your country immediately!" 😠 (They say in Russia, it's a man's basic manner to give up a seat not only to the elderly but also to young women.) Having experienced such things several times, when I heard the "Ah!" scream of a Russian grandmother slipping on the icy road in midwinter, it sounded more melodious than any symphony(?).
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐯 The Power That Sustains the Vast Continent</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the end, Russian women are born as glamorous Barbie dolls, go through a phase as blunt but warm-hearted older sisters next door, and finally evolve into 'babushkas' (grandmothers) who could even take down a Siberian tiger. Their warm nosiness and tenacious vitality hidden behind a cold exterior might be the real power that has sustained this vast, barren continent. 🇷🇺
         </p>
       `,
       },
