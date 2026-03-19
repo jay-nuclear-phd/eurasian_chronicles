@@ -478,5 +478,411 @@ export const russiaTravelCategory: Category = {
       `,
       },
     },
+    {
+      id: 'russia-travel-5',
+      title: { ko: '모스크바 동부 여행', en: 'Traveling East of Moscow' },
+      subtitle: {
+        ko: '니즈니 노브고러드의 얼음 낚시와 카잔의 하얀 진주',
+        en: 'Ice Fishing in Nizhny Novgorod and the White Pearl of Kazan',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?q=80&w=1200&auto=format&fit=crop', // Kul Sharif Mosque, Kazan
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아의 광활한 대지를 횡단하는 여행자라면, 모스크바를 벗어나 진짜 대륙의 민낯을 마주하고 싶은 충동에 휩싸이기 마련이다. 러시아의 남성의 날 (2월 23일, 정식 명칭은 조국 수호자의 날) 연휴를 핑계 삼아, 사실은 그저 역마살이 도져서 훌쩍 떠난 이번 여행의 최종 목적지는 타타르스탄 공화국의 하얀 진주 카잔이었다. ❄️ 그리고 기차로 가는 길목에 자리한 거대한 상업 도시 니즈니 노브고러드에서 하루를 멈춰 가기로 했다. 
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue my-6 text-sm">
+          <p class="leading-relaxed text-slate-700 italic">
+            본격적인 이야기에 앞서 두 도시를 짧게 소개하자면, <strong>니즈니 노브고러드</strong>는 거대한 볼가강과 오카강이 만나는 지점에 위치한 러시아의 대표적인 상업 및 공업 중심지로, 탁 트인 강변 풍경과 고풍스러운 크렘린이 유명하다. 반면 <strong>카잔</strong>은 이슬람 문화와 러시아 정교회가 절묘하게 공존하는 이국적인 도시로, 모스크바와는 전혀 다른 새하얀 정갈함을 자랑하는 타타르스탄 공화국의 심장이다. ✨
+          </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏃‍♂️ 아내의 여권 실종 사건, 숨 가쁜 출발</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          2월 20일 저녁 짐을 챙겨 여유롭게 기차역으로 향하려던 참이었다. 그런데 아내가 여권을 집에 두고 왔다고 했다. 러시아에서는 어딜 가든 외국인이라면 반드시 여권과 거주자 등록증을 항시 가지고 다녀야 한다. 어딜가나 경찰들이 불시로 검문할 가능성이 있었고, 만약 해당 문서가 없다면 뇌물을 주거나 법원에 가서 관련 사항을 소명하고 벌금을 내야할 터였다. 😱
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          어쩌겠는가. 불쌍한 남편인 내가 숨이 턱이 닿도록 집으로 뛰어가 재빨리 아내의 여권을 챙겨 온 덕에 다행히 제 시간에 열차에 탑승 할 수 있었다. 모스크바에서 니즈니 노브고러드까지는 6시간 정도 걸린다. 우린 러시아의 찐한 분위기가 가득한 플라츠캇이라는 3등석 열차칸을 탔다. 🚂
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧱 니즈니 노브고러드: 꽝꽝 언 강과 벼룩시장</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아에서 기차역의 이름은 열차가 향하는 종착지의 이름을 따오는 경우가 많다. 우리가 니즈니 노브고러드에 도착한 기차역의 이름이 ‘모스콥스키’ 인 것만 봐도 알 수 있다. 아침을 대충 해결하고 날이 밝아오자 본격적으로 밖으로 나와 눈 쌓인 텅 빈 푸시킨 공원과 니즈니 노브고러드의 아르바트 거리를 걸었다. 거리를 걷다 마주친 중앙은행 건물을 슥 구경하고, 사람들이 웅성거리는 작은 벼룩시장으로 향했다. 🪙
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          세계 각국의 동전과 신기한 잡동사니들을 파는 시장 구경은 언제나 쏠쏠한 재미를 준다. 동전을 파는 아저씨의 콜렉션 중에 한국 동전도 발견해서 매우 반가웠다. 기념품을 하나둘 챙긴 뒤, 도시의 자랑인 니즈니 노브고러드 크렘린으로 발걸음을 옮겼다. 크렘린 성벽에서 내려다보는 꽝꽝 언 오카강의 전경은 그야말로 절경이었다. 근처에 있는 거대한 저택과 그 유명한 츠칼로프 계단도 둘러보았는데, 사실 웅장한 건축물이긴 했지만 흐린 날씨와 칙칙한 주변 환경이 어우러지니 기대했던 것만큼 로맨틱하진 않았다. 🌫️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎣 얼음 위 강태공들과 보드카 한 잔</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          어느 언덕 위로 올라가 도시 전경을 내려다보았지만, 잿빛 하늘과 굳은 표정의 사람들, 저 멀리 뿜어져 나오는 공장 연기 탓에 감동은 덜했다. 그때, 저 아래 얼어붙은 오카강 위로 조그맣고 까만 점들이 보였다. 호기심에 강가로 내려가 보니 그 점들의 정체는 두꺼운 얼음을 뚫고 낚시를 하는 러시아인들이 있었다. 🧊
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          조심스레 얼음판 위를 걸어, 낚시 중인 러시아인들 근처에 가보았다. 실제 뭔가가 잡히는지, 잡히면 얼마나 큰지, 그리고 얼음 낚시가 재미있는지 등 궁금했기 때문이었다. 낚시 중인 아저씨들 근처에는 하나같이 다 보드카 병이 보였다. 우리가 다가가자 선뜻 먼저 걸어준 아저씨 한 분이 계셨는데, 외국인인 우리가 꽤나 신기했나보다. 그날 잡은 물고기도 보여주시고 나에게 원하면 물고기 들고 사진도 같이 찍자고 먼저 권하였다. 그래서 내가 잡은 물고기도 아니지만 아저씨와 사이좋게 한 마리씩 들고는 인생에 길이 남을 추억도 하나 남길 수 있었다. 📸🐟
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕌 카잔: 순백의 성벽과 에메랄드빛 모스크</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          니즈니 노브고러드의 여정을 마치고 다음날 새벽, 카잔으로 향했다. 카잔은 첫인상부터 우중충했던 평범한 러시아 도시들과 달리, 거리가 무척 깨끗하고 건물들은 새하얀 빛을 뽐내고 있었다. 가장 먼저 카잔 대학교를 구경했다. 러시아에서는 도로명을 유명인의 이름을 따온 경우가 많은데 우리가 모스크바에서 살던 집 주소 역시 천재 수학자 ‘로바쳅스키’의 이름을 딴 ‘로바쳅스카바’ 거리 였다. 카잔 대학에서 아주 반갑게도 우리 동네 도로명 주소의 주인공인 ‘로바쳅스키’의 동상을 발견했다. 당연히 쌩판 모르는 남이었지만 그래도 어딘지 모르게 반가웠다. 🎓
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          점심으로는 타타르식 식당에 들어갔는데, 조금은 투박하지만 고기 향이 진하게 베어 있는 아주 담백한 맛의 음식이라 마음에 들었다. 🍽️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          모스크바에는 모스크바 크렘린이 있다면 카잔에는 카잔 크렘린이 있다. 붉은 색을 좋아하는 러시아인들의 특성과 다르게, 카잔의 크렘린은 다른 붉고 화려한 크렘린들과 달리 도시의 이미지처럼 새하얗고 정갈한 자태를 뽐낸다. 마치 순백의 성벽이 긴 세월 동안 이방의 문화를 고스란히 품어 안은 듯한 평온함마저 느껴진다. 🕊️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          크렘린 중앙에 자리 잡은 에메랄드빛 ‘쿨 샤리프 모스크’는 그야말로 압도적인 아름다움을 자랑했다. 하얀 대리석 벽면과 대비되는 선명한 에메랄드빛 지붕은 햇살을 받을 때마다 보석처럼 반짝이며, 이곳이 러시아 정교회와 이슬람 문화가 수백 년간 어우러져 피워낸 결정체임을 증명하고 있었다. 💎
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌖 두 도시의 대비, 대륙의 진짜 매력</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          모스크바로 돌아가는 이튿날 새벽 비행기를 타러 가는 택시 안, 창밖으로 멀어지는 카잔의 새하얀 도로를 바라보며 이번 여정을 가만히 되짚어 보았다. 잿빛 공장 연기 아래 화려했던 러시아 정교회의 건물들과 보드카를 옆에 두고 낚시하는 니즈니 노브고러드의 얼음 위 강태공들. 그리고 순백의 성벽 안에서 이슬람과 정교회가 평화롭게 어우러져 에메랄드빛으로 빛나던 카잔의 우아함. 🌖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          달라도 너무 다른 두 도시였지만, 이 극명한 대비야말로 끊임없이 나를 낯선 곳으로 이끄는 러시아 대륙의 진짜 매력이 아닐까. 연휴를 핑계 삼아 훌쩍 다녀온 짧은 일정이었지만, 러시아가 품은 이토록 다채롭고 아름다운 모습들에 다시 한번 놀라게 된 여행이었다. 🇷🇺
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As a traveler traversing the vast lands of Russia, one is bound to be swept away by the urge to leave Moscow and face the raw, unadorned face of the real continent. Using the Russian Men's Day (February 23rd, officially Defender of the Fatherland Day) holiday as an excuse—though in truth it was just a severe case of wanderlust—I set off for my final destination: Kazan, the white pearl of the Republic of Tatarstan. ❄️ Along the way by train, I decided to stop for a day in the massive commercial city of Nizhny Novgorod.
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue my-6 text-sm">
+          <p class="leading-relaxed text-slate-700 italic">
+            To briefly introduce the two cities before starting the story: <strong>Nizhny Novgorod</strong> is a representative commercial and industrial hub of Russia, located at the confluence of the mighty Volga and Oka rivers, famous for its open riverfront views and ancient Kremlin. <strong>Kazan</strong>, on the other hand, is an exotic city where Islamic culture and Russian Orthodoxy exquisitely coexist, the heart of Tatarstan boasting a pure white elegance entirely different from Moscow. ✨
+          </p>
+        </div>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏃‍♂️ The Missing Passport Incident, A Breathless Start</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          On the evening of February 20th, just as I was about to head leisurely to the train station after packing, my wife realized she had left her passport at home. In Russia, foreigners must always carry their passport and residence registration wherever they go. There was always the possibility of spot checks by the police, and without those documents, one would have to pay a bribe or explain the situation in court and pay a fine. 😱
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          What else could I do? As the pitiful husband, I ran home until I was out of breath, quickly grabbed her passport, and luckily managed to board the train just in time. The journey from Moscow to Nizhny Novgorod takes about 6 hours. We took a third-class 'Platskart' carriage, which is filled with the thick, authentic atmosphere of Russia. 🚂
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧱 Nizhny Novgorod: Frozen Rivers and Flea Markets</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Russia, train stations are often named after their final destination. You can tell by the fact that the station where we arrived in Nizhny Novgorod was named 'Moskovsky.' After a quick breakfast as dawn broke, we headed out in earnest to walk through the snow-covered, empty Pushkin Park and Nizhny Novgorod's Arbat Street. We glanced at the Central Bank building we encountered on the way and headed to a small, bustling flea market. 🪙
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Exploring markets selling coins from around the world and curious trinkets is always a lot of fun. I was very pleased to find a Korean coin among one vendor's collection. After picking up a few souvenirs, we moved toward the pride of the city, the Nizhny Novgorod Kremlin. The view of the solidly frozen Oka River from the Kremlin walls was truly breathtaking. We also looked around the massive mansion nearby and the famous Chkalov Stairs; while they were grand structures, the overcast weather and somewhat drab surroundings made them feel less romantic than expected. 🌫️
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎣 Anglers on Ice and a Shot of Vodka</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I climbed a hill to look down at the city panorama, but the impression was diminished by the gray sky, people with stiff expressions, and factory smoke billowing in the distance. Just then, I saw small black dots on the frozen Oka River below. Driven by curiosity, I went down to the riverbank and found that the dots were Russians fishing through holes drilled in the thick ice. 🧊
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I walked carefully onto the ice to approach the fishermen. I was curious if they were actually catching anything, how big the fish were, and if ice fishing was fun. Without fail, a bottle of vodka was visible near every one of them. One man reached out to us first, seemingly fascinated by us as foreigners. He showed us the fish he caught that day and invited me to take a photo holding one if I wanted. So, even though it wasn't a fish I caught, I stood side-by-side with him holding a fish, leaving behind a memory that will last a lifetime. 📸🐟
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕌 Kazan: Pure White Walls and the Emerald Mosque</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After finishing our journey in Nizhny Novgorod, we headed to Kazan at dawn the next day. Unlike ordinary Russian cities that felt gloomy from the first impression, Kazan's streets were very clean and its buildings shone with a pure white light. We first explored Kazan University. In Russia, streets are often named after famous people, and our address in Moscow was 'Lobachevskaya' street, named after the genius mathematician Lobachevsky. At Kazan University, I was delighted to find a statue of Lobachevsky, the namesake of our home street. He was a complete stranger, of course, but it felt oddly welcoming. 🎓
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          For lunch, we went to a Tatar restaurant; I liked the food, which was a bit rustic but had a deep aroma of meat and a very clean, savory taste. 🍽️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Just as Moscow has the Moscow Kremlin, Kazan has the Kazan Kremlin. Unlike the typical Russian preference for red, Kazan's Kremlin is pure white and elegant, matching the city's image. There's even a sense of tranquility, as if the white walls have peacefully embraced foreign cultures over long centuries. 🕊️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The emerald-colored 'Kul Sharif Mosque' situated in the center of the Kremlin boasted overwhelming beauty. The vibrant emerald roof, contrasting with the white marble walls, sparkled like a jewel whenever the sunlight hit it, proving that this place is the culmination of centuries of harmony between Russian Orthodoxy and Islamic culture. 💎
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌖 Contrast of Two Cities, The Continent's Real Charm</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the taxi heading to the airport for a pre-dawn flight back to Moscow, I quietly reflected on this journey while looking at Kazan's white roads receding through the window. The ornate Russian Orthodox buildings under gray factory smoke and the ice anglers of Nizhny Novgorod with vodka by their side. And the elegance of Kazan, where Islam and Orthodoxy blended peacefully within pure white walls, shining in emerald. 🌖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Though the two cities were so incredibly different, perhaps this stark contrast is the real charm of the Russian continent that constantly draws me to unfamiliar places. Although it was a short trip taken on the excuse of a holiday, it was a journey that made me marvel once again at the diverse and beautiful forms that Russia holds. 🇷🇺
+        </p>
+      `,
+      },
+    },
+    {
+      id: 'russia-travel-6',
+      title: { ko: '모스크바 남부 여행', en: 'Traveling South of Moscow' },
+      subtitle: {
+        ko: '러시아의 거친 도로 위에서 겪은 뇌물과 낭만 사이',
+        en: 'Between Bribes and Romance on the Rough Roads of Russia',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1547448415-e9f5b28e570d?q=80&w=1200&auto=format&fit=crop', // Russian landscape/road vibe
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          나는 여행 계획을 짤 때, 최대한 꽉꽉 일정을 눌러 담는 편이다. 예비학부 시절부터 친하게 지내오던 P군과 S양은 이런 우리(정확히 말하면 나)의 빡센 여행 방식을 궁금해 했다. 마침 연휴가 있어, 모스크바 남부 여행을 계획한다는 말에, 겁도 없이 이들은 우리와 합류하기로 하였다. 🚗 기차로 여행하는 낭만도 있지만 이번에는 차를 빌려 조금 더 구석구석 다녀보기로 했다. 사실 예전부터 러시아의 거친 도로를 직접 차를 몰고 달려보고 싶다는 로망도 있었다. 물론 한편으로는 이 대륙에서의 운전이 순탄한 낭만 여행이 되리라곤 기대하지 않았지만 말이다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 툴라(Tula) 도착과 대륙의 드라이버 데뷔</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          아침 일찍 집을 나서 지하철 역에서 P군, S양과 합류하여 일렉트리치카라는 교외철에 몸을 실었다. 꼭두새벽부터 일어나서 움직인 탓에 다들 기차 안에서 기절할 줄 알았건만, 웬걸. 잠은커녕 눈을 번뜩이며 카드 게임을 하고 이야기를 나누다 보니 어느새 첫 목적지인, 톨스토이의 영지로 유명한, 툴라라는 도시에 도착했다. 🚂
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          역에 내리자마자 가장 먼저 예약해 둔 렌터카를 찾으러 갔다. 오랜만의 운전인 데다 러시아 특유의 거친 도로 상태, 그리고 어디서 튀어나올지 모르는 불곰식 운전자들 때문에 처음엔 손에 땀이 흥건할 정도로 무서웠지만, 차차 적응이 되며 대륙의 드라이버로 거듭나고 있었다. 확실히 차가 있으니 여러모로 구경하기가 매우 편리했다. 이전에도 단체 투어로 툴라에 잠시 방문한 적이 있었는데, 이번에는 툴라 크렘린을 포함하여 그 때 둘러보지 못한 명소들을 샅샅히 볼 수 있었다. 🏰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ 실선 추월과 ‘뇌물 학생 할인’</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          다음으로 우리의 렌터카가 향한 곳은 제2차 세계대전 당시 격전지로 유명한 아룔이라는 도시였다. 열심히 엑셀을 밝으며 운전 중이었는데 도로에 차도 별로 없고 앞차가 너무 느리게 가기에 과감히 추월을 시도했다. 그런데 하필이면 추월 차선이 아닌 실선 구간에서 추월을 하는 바람에, 언덕 너머 잠복해 있던 경찰에게 딱 걸리고 말았다. 🛑
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          경찰은 차를 세운 나를 내리라고 하더니 경찰차로 끌고가 조수석에 앉히고는 대뜸 성의를 표현할 생각이 없는지 물었다. 그렇다. 정확히 <span class="text-red-600 font-bold">뇌물을 요구하는 것이었다.</span> 성의(?)의 양이 얼마나 되면 좋겠냐고 묻자 그는 5천 루블(당시 약 10만 원)이라고 했다. 💸
+        </p>
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
+          내가 주변 사람들에게 들은 이야기에 따르면 <strong>‘뇌물도 학생 할인이 된다’</strong>고 했다. 그래서 나는 믿져야 본전이라는 생각으로 경찰에게 “방학 때 잠깐 차를 빌려 나왔는데, 가난한 유학생이라 정말 돈이 없습니다”라며 세상 불쌍한 표정으로 학생증을 내밀었다. 놀랍게도 경찰은 내 처지를 갸륵하게 여긴 건지 요구액을 반으로 깎아주었다. 💳 
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그러면서 차량 대시보드 위에 금액을 놓고가라고 했다. 나는 실수로 돈을 차에 놓고 내린거고, 경찰은 내가 떠난 뒤 우연히 주인 모르는 그 돈을 발견했다는 스토리텔링을 만드는 거였다. 그렇게 나는 조금씩, 그러나 아주 확실하게 러시아의 생태계에 적응해 가고 있었다. 😒
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 아룔(Oryol)의 독수리와 요상한 ‘벨라지오’</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          경찰에게 뜯긴 속 쓰림을 안고 어둠이 깔린 아룔 시내에 진입했다. 아룔에서 웅장한 우스펜스키 사원과 아룔시의 상징인 거대한 독수리 상(Oryol은 러시아어로 독수리를 뜻한다) 등을 구경했다. 하지만 아룔에서 가장 기억에 남는 장소를 꼽으라면 유명 관광지가 아닌 단연 ‘벨라지오’라는 아주 요상한 음식점이다. 🦅
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이탈리아 음식 전문전이라고 내건 식당 내부는 캬바레처럼 생겼는데 내부에는 손님이 아무도 없었다. 그리고 식당 주인은 주문을 받으며 춤과 노래를 선보여도(?) 되는지 물어봤다. 조용히 식사를 하고 싶었던 우리가 극구 사양한 덕에 더욱 요상한 것을 볼 뻔한 위기를 넘길 수 있었다. 💃 캬바레 같은 분위기의 아무도 없는 식당에서 여사장의 춤과 노래라니… 게다가 음식도 별로라 최대한 빨리 그곳을 벗어나고 싶었다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ 쿠르스크의 탱크와 동화 마을 옐레츠</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          아룔을 떠나 남쪽으로 더 달려 쿠르스크에 도착했다. 쿠르스크는 2차 세계대전 당시 인류 역사상 가장 거대했던 전차전이 벌어졌던 역사적인 도시다. 도시에 들어서는 길목부터 당시의 치열함을 증명하듯 길가에 실제 탱크들이 줄지어 전시되어 있어 매우 흥미로웠다. 🚜
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이제 다시 모스크바가 있는 북쪽으로 방향을 돌려 올라가는 길에 옐레츠라는 작은 도시에 식사도 할 겸 잠시 들르기로 했다. 그런데 웬걸, 기대 없이 들어선 이 작은 도시는 마치 유럽의 작은 동화 마을을 그대로 옮겨놓은 듯, 아기자기한 건물들과 깨끗한 거리, 고풍스러운 교회들이 어우러져 탄성을 자아냈다. 🏘️ 이렇게 자유 여행 중에 예기치 않는 보물을 찾았을 때의 희열이란 말로 표현하기 힘들다. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 톨스토이의 숨결과 설원 속 샤슬릭</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          대문호 레프 톨스토이의 고향인 야스나야 폴랴나에서 톨스토이 생가를 마지막으로 여행은 어느 정도 마무리가 되었다. 여행의 마지막 밤, 무사히 한 대도 맞지 않고(?) 여행을 완수한 기념으로 숙소에서 바베큐 파티를 했다. 🍖 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          영하 10도의 간간히 칼바람이 불어오는 추위 속에서 타닥타닥 타오르는 장작불에 구워 먹는 기름진 샤슬릭(꼬치고기)의 맛은 모든 고생을 잊게 할 만큼 환상적이었다. 그간의 험난했던 여행의 에피소드들을 안주 삼아 복기하며 밤이 저물어 갔다. 🔥
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 과속 벌금 고지서의 ‘혜자’스러운 반전</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          다시 툴라로 돌아와 렌터카를 반납하고 우리를 모스크바로 데려다줄 일렉트리치카에 몸을 실었다. 모스크바에 다시 돌아온 나는 그 며칠 사이 모스크바의 살인적인 교통 체증과 탁한 공기마저 반갑게 느껴지는 걸 보니, 어지간히 이 도시에 정이 들었나 보다는 생각이 들어 실소가 났다. 🏙️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그리고 모스크바에 돌아온지 며칠 후에 집으로 과속 벌금 고지서 뭉치가 날아왔다. 무려 4번이나 과속 카메라에 찍힌 것이었다! 대륙의 도로에 심취한 나머지 단속 카메라의 존재를 잊은 대가였다. 📸 내심 벌금 폭탄을 맞을까 두려웠지만, 4건을 합친 벌금은 약 5~6만원 정도로 다행히 굉장히 저렴했다. 게다가 벌금 고지서를 받은 날로부터 20일 이내에 납부하면 벌금을 50% 감면해 주는 혜자스러운 룰도 있었다. 러시아는 참 여러모로, 파면 팔수록 좋은 쪽으로든 나쁜 쪽으로든 놀라움인 나라다. 🇷🇺
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          돌이켜보면 빡빡한 일정과 예측 불가능한 돌발 상황의 연속이었지만, 불평 한마디 없이 이 여정을 온전히 즐겨준 우리 일행들에게 이 자리를 빌려 깊은 고마움을 전하고 싶다. 낯선 빙판길을 함께 달리며 울고 웃었던 이 기억들은, 여전히 내 가슴 속에 추억이라는 이름으로 진하게 남아있다. 💖
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We left home early in the morning, met P and S at the subway station, and boarded the 'Elektrichka' (suburban train). I thought everyone would pass out on the train since we woke up at the crack of dawn, but to my surprise, they were wide awake, playing cards and talking. Before we knew it, we arrived in Tula, the city famous for Leo Tolstoy's estate. 🚂
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As soon as we got off at the station, we went to pick up the rental car we had reserved. It had been a while since I'd driven, and with Russia's notoriously rough roads and 'bear-like' drivers who could pop out from anywhere, I was scared enough to have sweaty palms at first. But I gradually adapted and was becoming a true continental driver. Having a car definitely made sightseeing much more convenient. I had visited Tula briefly on a group tour before, but this time I was able to thoroughly see the sights I'd missed, including the Tula Kremlin. 🏰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ Overtaking on a Solid Line and the 'Student Bribe Discount'</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Our rental car then headed to Oryol, a city famous as a battlefield during World War II. I was stepping on the gas and driving along when I saw there were few cars and the one in front was going too slowly, so I boldly attempted to overtake. Unfortunately, I overtook on a solid line section instead of a dashed one, and was immediately caught by a policeman hiding over the hill. 🛑
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The policeman told me to get out, led me to his car, sat me in the passenger seat, and bluntly asked if I intended to show my 'sincerity.' Yes, he was <span class="text-red-600 font-bold">asking for a bribe.</span> When I asked how much 'sincerity'(?) was required, he said 5,000 rubles (about 100,000 KRW at the time). 💸
+        </p>
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
+          According to stories I'd heard, <strong>'bribes also have student discounts.'</strong> So, thinking I had nothing to lose, I showed my student ID with the most pitiful expression possible and said, "I just rented this car for the holidays, and as a poor international student, I really have no money." Surprisingly, the policeman seemed to sympathize with my plight and cut the requested amount in half. 💳
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          He then told me to leave the money on the vehicle's dashboard. The storytelling was that I had 'accidentally' left the money in the car, and the policeman 'coincidentally' found the ownerless money after I left. In this way, I was gradually but very surely adapting to the Russian ecosystem. 😒
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 The Eagle of Oryol and the Strange 'Bellagio'</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Carrying the sting of being fleeced by the police, we entered downtown Oryol as darkness fell. In Oryol, we saw the grand Uspensky Cathedral and the massive eagle statue, the symbol of the city (Oryol means eagle in Russian). 🦅 But if I had to pick the most memorable place in Oryol, it wouldn't be a famous tourist spot, but a very strange restaurant called 'Bellagio.'
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The interior of the restaurant, which claimed to be an Italian specialty place, looked like a cabaret, and there were no other customers. The owner asked if she could perform(?) songs and dances while taking our order. Thanks to our firm refusal, wanting a quiet meal, we avoided an even weirder situation. 💃 Dancing and singing by a female owner in an empty, cabaret-like restaurant... Plus, the food wasn't great, so I wanted to get out of there as quickly as possible.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ Tanks of Kursk and the Fairytale Town of Yelets</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Leaving Oryol, we drove further south to Kursk. Kursk is a historical city where the largest tank battle in human history took place during World War II. It was fascinating to see actual tanks lined up along the road from the very entrance to the city, testifying to the intensity of the time. 🚜
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Turning north again toward Moscow, we decided to stop for a meal in a small town called Yelets. To our surprise, this small town we entered without expectations looked like a small European fairytale village, with charming buildings, clean streets, and ancient churches that made us gasp in admiration. 🏘️ It's hard to express the joy of finding such an unexpected treasure during a road trip. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 Tolstoy's Breath and Shashlik in the Snow</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The trip wound down with a visit to Leo Tolstoy's birthplace in Yasnaya Polyana. On the last night of the trip, we had a barbecue party at our accommodation to celebrate completing the journey without getting 'hit'(?) by anything. 🍖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the cold of -10°C with an occasional biting wind, the taste of greasy Shashlik (skewered meat) grilled over a crackling fire was fantastic enough to make us forget all the hardships. The night faded away as we reminisced about the various episodes of our arduous journey. 🔥
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 The 'Generous' Twist of Speeding Tickets</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Returning to Tula, we handed back the rental car and boarded the 'Elektrichka' back to Moscow. Returning to Moscow, I found myself chuckling at how even the murderous traffic and stale air felt welcoming after those few days, making me realize how much I'd grown fond of this city. 🏙️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          A few days after returning to Moscow, a stack of speeding tickets arrived at my house. I'd been caught by speeding cameras four times! It was the price of being so absorbed in the continental roads that I forgot about the existence of enforcement cameras. 📸 Two were for exceeding the limit by 20 km/h, and two were for exceeding it by 40 km/h. I was terrified of a fine bomb, but the total fine for all four cases was only about 50,000 to 60,000 KRW, which was surprisingly cheap. Plus, there was a 'generous' rule where the fine was reduced by 50% if paid within 20 days of receiving the notice. Russia is truly a country of surprises, for better or worse, the deeper you dig. 🇷🇺
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Looking back, it was a series of tight schedules and unpredictable events, but I want to take this opportunity to express my deep gratitude to our group who enjoyed this journey completely without a single word of complaint. These memories of laughing and crying while running together on unfamiliar icy roads remain deeply engraved in my heart under the name of 'memories.' 💖
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We left home early in the morning, met P and S at the subway station, and boarded the 'Elektrichka' (suburban train). I thought everyone would pass out on the train since we woke up at the crack of dawn, but to my surprise, they were wide awake, playing cards and talking. Before we knew it, we arrived in Tula, the city famous for Leo Tolstoy's estate. 🚂
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          As soon as we got off at the station, we went to pick up the rental car we had reserved. It had been a while since I'd driven, and with Russia's notoriously rough roads and 'bear-like' drivers who could pop out from anywhere, I was scared enough to have sweaty palms at first. But I gradually adapted and was becoming a true continental driver. Having a car definitely made sightseeing much more convenient. I had visited Tula briefly on a group tour before, but this time I was able to thoroughly see the sights I'd missed, including the Tula Kremlin. 🏰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ Overtaking on a Solid Line and the 'Student Bribe Discount'</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Our rental car then headed to Oryol, a city famous as a battlefield during World War II. I was stepping on the gas and driving along when I saw there were few cars and the one in front was going too slowly, so I boldly attempted to overtake. Unfortunately, I overtook on a solid line section instead of a dashed one, and was immediately caught by a policeman hiding over the hill. 🛑
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The policeman told me to get out, led me to his car, sat me in the passenger seat, and bluntly asked if I intended to show my 'sincerity.' Yes, he was <span class="text-red-600 font-bold">asking for a bribe.</span> When I asked how much 'sincerity'(?) was required, he said 5,000 rubles (about 100,000 KRW at the time). 💸
+        </p>
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
+          According to stories I'd heard, <strong>'bribes also have student discounts.'</strong> So, thinking I had nothing to lose, I showed my student ID with the most pitiful expression possible and said, "I just rented this car for the holidays, and as a poor international student, I really have no money." Surprisingly, the policeman seemed to sympathize with my plight and cut the requested amount in half. 💳
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          He then told me to leave the money on the vehicle's dashboard. The storytelling was that I had 'accidentally' left the money in the car, and the policeman 'coincidentally' found the ownerless money after I left. In this way, I was gradually but very surely adapting to the Russian ecosystem. 😒
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 The Eagle of Oryol and the Strange 'Bellagio'</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Carrying the sting of being fleeced by the police, we entered downtown Oryol as darkness fell. In Oryol, we saw the grand Uspensky Cathedral and the massive eagle statue, the symbol of the city (Oryol means eagle in Russian). 🦅 But if I had to pick the most memorable place in Oryol, it wouldn't be a famous tourist spot, but a very strange restaurant called 'Bellagio.'
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The interior of the restaurant, which claimed to be an Italian specialty place, looked like a cabaret, and there were no other customers. The owner asked if she could perform(?) songs and dances while taking our order. Thanks to our firm refusal, wanting a quiet meal, we avoided an even weirder situation. 💃 Dancing and singing by a female owner in an empty, cabaret-like restaurant... Plus, the food wasn't great, so I wanted to get out of there as quickly as possible.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ Tanks of Kursk and the Fairytale Town of Yelets</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Leaving Oryol, we drove further south to Kursk. Kursk is a historical city where the largest tank battle in human history took place during World War II. It was fascinating to see actual tanks lined up along the road from the very entrance to the city, testifying to the intensity of the time. 🚜
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Turning north again toward Moscow, we decided to stop for a meal in a small town called Yelets. To our surprise, this small town we entered without expectations looked like a small European fairytale village, with charming buildings, clean streets, and ancient churches that made us gasp in admiration. 🏘️ It's hard to express the joy of finding such an unexpected treasure during a road trip. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 Tolstoy's Breath and Shashlik in the Snow</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The trip wound down with a visit to Leo Tolstoy's birthplace in Yasnaya Polyana. On the last night of the trip, we had a barbecue party at our accommodation to celebrate completing the journey without getting 'hit'(?) by anything. 🍖
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In the cold of -10°C with an occasional biting wind, the taste of greasy Shashlik (skewered meat) grilled over a crackling fire was fantastic enough to make us forget all the hardships. The night faded away as we reminisced about the various episodes of our arduous journey. 🔥
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 The 'Generous' Twist of Speeding Tickets</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Returning to Tula, we handed back the rental car and boarded the 'Elektrichka' back to Moscow. Returning to Moscow, I found myself chuckling at how even the murderous traffic and stale air felt welcoming after those few days, making me realize how much I'd grown fond of this city. 🏙️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          A few days after returning to Moscow, a stack of speeding tickets arrived at my house. I'd been caught by speeding cameras four times! It was the price of being so absorbed in the continental roads that I forgot about the existence of enforcement cameras. 📸 Two were for exceeding the limit by 20 km/h, and two were for exceeding it by 40 km/h. I was terrified of a fine bomb, but the total fine for all four cases was only about 50,000 to 60,000 KRW, which was surprisingly cheap. Plus, there was a 'generous' rule where the fine was reduced by 50% if paid within 20 days of receiving the notice. Russia is truly a country of surprises, for better or worse, the deeper you dig. 🇷🇺
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Looking back, it was a series of tight schedules and unpredictable events, but I want to take this opportunity to express my deep gratitude to our group who enjoyed this journey completely without a single word of complaint. These memories of laughing and crying while running together on unfamiliar icy roads remain deeply engraved in my heart under the name of 'memories.' 💖
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Though the two cities were so incredibly different, perhaps this stark contrast is the real charm of the Russian continent that constantly draws me to unfamiliar places. Although it was a short trip taken on the excuse of a holiday, it was a journey that made me marvel once again at the diverse and beautiful forms that Russia holds. 🇷🇺
+        </p>
+      `,
+      },
+    },
+    {
+      id: 'russia-travel-6',
+      title: { ko: '모스크바 남부 여행', en: 'Traveling South of Moscow' },
+      subtitle: {
+        ko: '러시아의 거친 도로 위에서 겪은 뇌물과 낭만 사이',
+        en: 'Between Bribes and Romance on the Rough Roads of Russia',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1547448415-e9f5b28e570d?q=80&w=1200&auto=format&fit=crop', // Russian landscape/road vibe
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700">
+          나는 여행 계획을 짤 때, 최대한 꽉꽉 일정을 눌러 담는 편이다. 예비학부 시절부터 친하게 지내오던 P군과 S양은 이런 우리(정확히 말하면 나)의 빡센 여행 방식을 궁금해 했다. 마침 연휴가 있어, 모스크바 남부 여행을 계획한다는 말에, 겁도 없이 이들은 우리와 합류하기로 하였다. 🚗 기차로 여행하는 낭만도 있지만 이번에는 차를 빌려 조금 더 구석구석 다녀보기로 했다. 사실 예전부터 러시아의 거친 도로를 직접 차를 몰고 달려보고 싶다는 로망도 있었다. 물론 한편으로는 이 대륙에서의 운전이 순탄한 낭만 여행이 되리라곤 기대하지 않았지만 말이다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 툴라(Tula) 도착과 대륙의 드라이버 데뷔</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          아침 일찍 집을 나서 지하철 역에서 P군, S양과 합류하여 일렉트리치카라는 교외철에 몸을 실었다. 꼭두새벽부터 일어나서 움직인 탓에 다들 기차 안에서 기절할 줄 알았건만, 웬걸. 잠은커녕 눈을 번뜩이며 카드 게임을 하고 이야기를 나누다 보니 어느새 첫 목적지인, 톨스토이의 영지로 유명한, 툴라라는 도시에 도착했다. 🚂
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          역에 내리자마자 가장 먼저 예약해 둔 렌터카를 찾으러 갔다. 오랜만의 운전인 데다 러시아 특유의 거친 도로 상태, 그리고 어디서 튀어나올지 모르는 불곰식 운전자들 때문에 처음엔 손에 땀이 흥건할 정도로 무서웠지만, 차차 적응이 되며 대륙의 드라이버로 거듭나고 있었다. 확실히 차가 있으니 여러모로 구경하기가 매우 편리했다. 이전에도 단체 투어로 툴라에 잠시 방문한 적이 있었는데, 이번에는 툴라 크렘린을 포함하여 그 때 둘러보지 못한 명소들을 샅샅히 볼 수 있었다. 🏰
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ 실선 추월과 ‘뇌물 학생 할인’</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          다음으로 우리의 렌터카가 향한 곳은 제2차 세계대전 당시 격전지로 유명한 아룔이라는 도시였다. 열심히 엑셀을 밝으며 운전 중이었는데 도로에 차도 별로 없고 앞차가 너무 느리게 가기에 과감히 추월을 시도했다. 그런데 하필이면 추월 차선이 아닌 실선 구간에서 추월을 하는 바람에, 언덕 너머 잠복해 있던 경찰에게 딱 걸리고 말았다. 🛑
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          경찰은 차를 세운 나를 내리라고 하더니 경찰차로 끌고가 조수석에 앉히고는 대뜸 성의를 표현할 생각이 없는지 물었다. 그렇다. 정확히 <span class="text-red-600 font-bold">뇌물을 요구하는 것이었다.</span> 성의(?)의 양이 얼마나 되면 좋겠냐고 묻자 그는 5천 루블(당시 약 10만 원)이라고 했다. 💸
+        </p>
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
+          내가 주변 사람들에게 들은 이야기에 따르면 <strong>‘뇌물도 학생 할인이 된다’</strong>고 했다. 그래서 나는 믿져야 본전이라는 생각으로 경찰에게 “방학 때 잠깐 차를 빌려 나왔는데, 가난한 유학생이라 정말 돈이 없습니다”라며 세상 불쌍한 표정으로 학생증을 내밀었다. 놀랍게도 경찰은 내 처지를 갸륵하게 여긴 건지 요구액을 반으로 깎아주었다. 💳 
+        </div>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그러면서 차량 대시보드 위에 금액을 놓고가라고 했다. 나는 실수로 돈을 차에 놓고 내린거고, 경찰은 내가 떠난 뒤 우연히 주인 모르는 그 돈을 발견했다는 스토리텔링을 만드는 거였다. 그렇게 나는 조금씩, 그러나 아주 확실하게 러시아의 생태계에 적응해 가고 있었다. 😒
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 아룔(Oryol)의 독수리와 요상한 ‘벨라지오’</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          경찰에게 뜯긴 속 쓰림을 안고 어둠이 깔린 아룔 시내에 진입했다. 아룔에서 웅장한 우스펜스키 사원과 아룔시의 상징인 거대한 독수리 상(Oryol은 러시아어로 독수리를 뜻한다) 등을 구경했다. 하지만 아룔에서 가장 기억에 남는 장소를 꼽으라면 유명 관광지가 아닌 단연 ‘벨라지오’라는 아주 요상한 음식점이다. 🦅
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이탈리아 음식 전문전이라고 내건 식당 내부는 캬바레처럼 생겼는데 내부에는 손님이 아무도 없었다. 그리고 식당 주인은 주문을 받으며 춤과 노래를 선보여도(?) 되는지 물어봤다. 조용히 식사를 하고 싶었던 우리가 극구 사양한 덕에 더욱 요상한 것을 볼 뻔한 위기를 넘길 수 있었다. 💃 캬바레 같은 분위기의 아무도 없는 식당에서 여사장의 춤과 노래라니… 게다가 음식도 별로라 최대한 빨리 그곳을 벗어나고 싶었다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ 쿠르스크의 탱크와 동화 마을 옐레츠</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          아룔을 떠나 남쪽으로 더 달려 쿠르스크에 도착했다. 쿠르스크는 2차 세계대전 당시 인류 역사상 가장 거대했던 전차전이 벌어졌던 역사적인 도시다. 도시에 들어서는 길목부터 당시의 치열함을 증명하듯 길가에 실제 탱크들이 줄지어 전시되어 있어 매우 흥미로웠다. 🚜
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이제 다시 모스크바가 있는 북쪽으로 방향을 돌려 올라가는 길에 옐레츠라는 작은 도시에 식사도 할 겸 잠시 들르기로 했다. 그런데 웬걸, 기대 없이 들어선 이 작은 도시는 마치 유럽의 작은 동화 마을을 그대로 옮겨놓은 듯, 아기자기한 건물들과 깨끗한 거리, 고풍스러운 교회들이 어우러져 탄성을 자아냈다. 🏘️ 이렇게 자유 여행 중에 예기치 않는 보물을 찾았을 때의 희열이란 말로 표현하기 힘들다. ✨
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 톨스토이의 숨결과 설원 속 샤슬릭</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          대문호 레프 톨스토이의 고향인 야스나야 폴랴나에서 톨스토이 생가를 마지막으로 여행은 어느 정도 마무리가 되었다. 여행의 마지막 밤, 무사히 한 대도 맞지 않고(?) 여행을 완수한 기념으로 숙소에서 바베큐 파티를 했다. 🍖 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          영하 10도의 간간히 칼바람이 불어오는 추위 속에서 타닥타닥 타오르는 장작불에 구워 먹는 기름진 샤슬릭(꼬치고기)의 맛은 모든 고생을 잊게 할 만큼 환상적이었다. 그간의 험난했던 여행의 에피소드들을 안주 삼아 복기하며 밤이 저물어 갔다. 🔥
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 과속 벌금 고지서의 ‘혜자’스러운 반전</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          다시 툴라로 돌아와 렌터카를 반납하고 우리를 모스크바로 데려다줄 일렉트리치카에 몸을 실었다. 모스크바에 다시 돌아온 나는 그 며칠 사이 모스크바의 살인적인 교통 체증과 탁한 공기마저 반갑게 느껴지는 걸 보니, 어지간히 이 도시에 정이 들었나 보다는 생각이 들어 실소가 났다. 🏙️
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그리고 모스크바에 돌아온지 며칠 후에 집으로 과속 벌금 고지서 뭉치가 날아왔다. 무려 4번이나 과속 카메라에 찍힌 것이었다! 대륙의 도로에 심취한 나머지 단속 카메라의 존재를 잊은 대가였다. 📸 내심 벌금 폭탄을 맞을까 두려웠지만, 4건을 합친 벌금은 약 5~6만원 정도로 다행히 굉장히 저렴했다. 게다가 벌금 고지서를 받은 날로부터 20일 이내에 납부하면 벌금을 50% 감면해 주는 혜자스러운 룰도 있었다. 러시아는 참 여러모로, 파면 팔수록 좋은 쪽으로든 나쁜 쪽으로든 놀라움인 나라다. 🇷🇺
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          돌이켜보면 빡빡한 일정과 예측 불가능한 돌발 상황의 연속이었지만, 불평 한마디 없이 이 여정을 온전히 즐겨준 우리 일행들에게 이 자리를 빌려 깊은 고마움을 전하고 싶다. 낯선 빙판길을 함께 달리며 울고 웃었던 이 기억들은, 여전히 내 가슴 속에 추억이라는 이름으로 진하게 남아있다. 💖
+        </p>
+      `,
+      },
+    },
   ],
 };
