@@ -292,7 +292,7 @@ function App() {
                 `}
               >
                 <div className="flex items-center gap-1">
-                  {cat.title[language]}
+                  {(cat.shortTitle && cat.shortTitle[language]) || cat.title[language]}
                   {cat.isActive === false && <Lock size={10} />}
                 </div>
                 {cat.isActive !== false && (
@@ -326,7 +326,7 @@ function App() {
                   ${location.pathname.startsWith(`/${cat.id}`) ? 'text-russia-blue' : ''}
                 `}
               >
-                {cat.title[language]}
+                {(cat.shortTitle && cat.shortTitle[language]) || cat.title[language]}
                 {cat.isActive === false && <span className="text-xs bg-slate-100 px-2 py-1 rounded-full text-slate-400 font-normal">{language === 'ko' ? '작성 중' : 'In Progress'}</span>}
               </Link>
             ))}

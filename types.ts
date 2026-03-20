@@ -38,6 +38,7 @@ export type CategoryId =
 export interface Category {
   id: CategoryId;
   title: LocalizedString;
+  shortTitle?: LocalizedString; // For navigation header
   description?: LocalizedString;
   isSinglePost: boolean; // true for Prologue/Epilogue
   posts: Post[];

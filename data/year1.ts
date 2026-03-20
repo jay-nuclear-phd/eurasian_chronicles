@@ -9,6 +9,10 @@ export const year1Category: Category = {
     ko: '1년차, 예비학부',
     en: 'Year 1, Preparatory Faculty',
   },
+  shortTitle: {
+    ko: '1년차',
+    en: 'Year 1',
+  },
   description: {
     ko: '낯선 땅, 첫 번째 겨울',
     en: 'A Strange Land, The First Winter',

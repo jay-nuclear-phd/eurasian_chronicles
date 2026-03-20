@@ -3,6 +3,7 @@ import { Category } from '../types';
 export const year2Category: Category = {
   id: 'year2',
   title: { ko: '2년차, 대학원 입학', en: 'Year 2, Graduate School Admission' },
+  shortTitle: { ko: '2년차', en: 'Year 2' },
   description: {
     ko: '본격적인 대학원 생활의 시작',
     en: 'The beginning of full-fledged graduate school life',

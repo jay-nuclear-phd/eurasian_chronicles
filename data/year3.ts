@@ -3,6 +3,7 @@ import { Category } from '../types';
 export const year3Category: Category = {
   id: 'year3',
   title: { ko: '3년차, 석사 과정을 마치며', en: 'Year 3, Finishing the Master’s Program' },
+  shortTitle: { ko: '3년차', en: 'Year 3' },
   description: {
     ko: '러시아에서의 대학원 생활을 마무리하며',
     en: 'Concluding graduate school life in Russia',
