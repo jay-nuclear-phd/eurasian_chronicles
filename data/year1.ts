@@ -477,20 +477,20 @@ export const year1Category: Category = {
 
           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤔 How to Ask Questions</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            Not to mention English, which is most familiar to us, Russian is a very different language even compared to Japanese, which has a similar word order. First of all, the stress in an interrogative sentence is not at the end, but on the word being questioned. For example, in Korean, if you ask "너 학교에 다녀왔니?" (Did you go to school?), you would raise the intonation at the end, on "니?". But in Russian, you can ask the same sentence in three different ways just by changing the intonation.
+            Compared not only with English, which is most familiar to us, but even with Japanese, which has a similar word order, Russian feels like a very different language. One striking difference is that in a question, the stress does not fall at the end of the sentence, but on the word you want to ask about. For example, in Korean, if you ask "Did you go to school?", you would usually raise your intonation at the very end. In Russian, however, you can ask what is essentially the same sentence in three different ways simply by shifting the intonation.
           </p>
           <ul class="list-none space-y-2 mb-6 bg-slate-50 p-6 rounded-lg border border-slate-100">
             <li class="flex gap-3">
               <span class="font-bold text-russia-blue">1.</span>
-              <span>"너 학교에 다녀왔니?" (Confirming if <strong class="text-slate-900">you</strong> went, not someone else)</span>
+              <span>"<strong class="text-slate-900">Did you</strong> go to school?" (Confirming that <strong class="text-slate-900">you</strong> went, not someone else)</span>
             </li>
             <li class="flex gap-3">
               <span class="font-bold text-russia-blue">2.</span>
-              <span>"너 학교에 다녀왔니?" (Confirming if the place you went was <strong class="text-slate-900">school</strong>)</span>
+              <span>"Did you go to <strong class="text-slate-900">school</strong>?" (Confirming that the place you went was <strong class="text-slate-900">school</strong>)</span>
             </li>
             <li class="flex gap-3">
               <span class="font-bold text-russia-blue">3.</span>
-              <span>"너 학교에 다녀왔니?" (Confirming the action <strong class="text-slate-900">itself</strong>)</span>
+              <span>"Did you <strong class="text-slate-900">go</strong> to school?" (Confirming the action <strong class="text-slate-900">itself</strong>)</span>
             </li>
           </ul>
           <p class="leading-relaxed mb-6 text-slate-700">
