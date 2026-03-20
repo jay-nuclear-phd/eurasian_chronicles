@@ -23,7 +23,7 @@ export const year3Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           여름 방학이 한창이던 무렵, 아직은 새로운 학기가 시작하기 전 러시아어 선생님으로부터 러시아 문학 경연대회에 참여해 달라는 부탁을 받았다. 외국인을 대상으로 하는 이 경연대회는 모스크바 국립대뿐만 아니라 타 대학 유학생들도 참여하는 나름 규모 있는 행사였다. 하지만 실상을 들여다보니 모스크바 국립대에 할당된 상장은 넘쳐나는데, 정작 방학의 늪에서 빠져나오지 못한 참가 희망자가 턱없이 부족한 상태였다. 즉, 참여만 하면 상장 하나는 무조건 챙길 수 있는 <span class="font-bold text-russia-blue">‘참가상 대잔치’</span>나 다름없었다. 🏆
         </p>
 
@@ -79,7 +79,7 @@ export const year3Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           During the summer vacation, before the new semester had even begun, my Russian teacher asked me to participate in a Russian literature competition. This competition, for foreigners, was a fairly large event in which not only students from Moscow State University but also from other universities participated. However, looking at the reality, there were plenty of awards allocated to Moscow State University, but there was a severe shortage of applicants who had not yet emerged from the swamp of vacation. In other words, it was no different from a <span class="font-bold text-russia-blue">'participation award festival'</span> where you were guaranteed to get an award just for participating. 🏆
         </p>
 
@@ -148,7 +148,7 @@ export const year3Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           흔히 한국 사람들이 많이 아는 미국 비자 시스템은 비자가 만료되어도 유효한 체류 서류만 있으면 합법적 체류가 가능한 ‘입국권과 체류권의 분리’ 구조를 띠고 있다. 하지만 러시아는 비자 자체가 곧 체류 허가증이기 때문에, 비자의 만료는 곧 체류 자격의 상실을 의미한다. 이러한 시스템의 차이를 명확히 인지하지 못하면 러시아 생활에서 예기치 못한 행정적 낭패를 보기 십상이다.
         </p>
 
@@ -212,7 +212,7 @@ export const year3Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           The US visa system, which many Koreans are familiar with, has a 'separation of entry and residence rights' structure where you can legally stay as long as you have valid residence documents, even if your visa has expired. However, in Russia, the visa itself is the residence permit, so the expiration of the visa means the loss of residence status. If you do not clearly recognize this difference in systems, you are likely to face unexpected administrative difficulties in your life in Russia. 🛂
         </p>
 
@@ -298,7 +298,7 @@ export const year3Category: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">다시, 운명의 땅 키예프로 🚂</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           3주 뒤, 비자 인터뷰가 있는 운명의 날을 맞아 열차를 타고 다시 우크라이나 키예프로 향했다. 이젠 벌써 몇번 와봤다고 기차 이동도 능숙하고 키예프도 익숙하다. 일단 키예프에 온 목적인 비자부터 처리해야 했다. 제일 먼저 향한 곳은 지난 번에 에이즈 검사를 하러 갔던 병원이었다. 아내가 농담으로 “여보, 에이즈 양성 나오면 우린 어떻게 되는 거야?”라고 물었다. 맹세코 그럴 일은 없기에 생각도 해본 적 없지만, 아주 만약에 아주 혹시라도 그렇다면 비자가 문제가 아니라 내 인생이 심각하게 난처해질 것 같았다. 병원에서 ‘이상 없음’이라는 당연한 결과를 받았는데도 이상하리만큼 큰 안도감과 행복이 몰려왔다. 행복은 바로 당신 발밑에 있음을 잊지 말자. 
         </p>
 
@@ -345,7 +345,7 @@ export const year3Category: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Again, to the Fateful Land of Kyiv 🚂</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           Three weeks later, on the fateful day of the visa interview, I took a train to Kyiv, Ukraine again. I had been here a few times now, so I was skilled at train travel and familiar with Kyiv. First, I had to take care of the visa, which was the purpose of my visit to Kyiv. The first place I went to was the hospital where I had gone for an AIDS test last time. My wife jokingly asked, "Honey, what happens to us if you test positive for AIDS?" I swear there was no way that would happen, so I had never even thought about it, but if by some very slim chance it did, it would not be a visa problem, but my life would be in serious trouble. Even though I received the obvious result of 'no abnormalities' from the hospital, I felt an unusually great sense of relief and happiness. Let's not forget that happiness is right under your feet. ✨
         </p>
 
@@ -404,7 +404,7 @@ export const year3Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           나에게는 학부 시절 함께 튀르키예 여행을 함께 했던 두 명의 친구가 있다. 두 친구는 내가 러시아에 있을 때 각각 한국외국어대와 중앙대에서 학업을 하고 있었다. 겨울 방학 기간을 이용해서 모스크바에 방문하고 싶다고 했을 때 오랜만에 친구를 만난다는 사실에 기분이 들떴다. 추운 겨울에 모스크바에 오는 친구들에게 무엇을 보여줘야 할지 고민이 이만저만이 아니었다. 가족들이 방문했을 때 처럼 유명한 관광 명소들을 선별해서 보여줄 수 있지만 조금 더 날것의 ‘진짜 러시아 향’을 물씬 느끼게 해주고 싶었다. 
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -454,7 +454,7 @@ export const year3Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           I have two friends with whom I traveled to Turkey together during my undergraduate years. When I was in Russia, both of them were studying at Hankuk University of Foreign Studies and Chung-Ang University, respectively. When they said they wanted to visit Moscow during the winter vacation, I was excited to see my friends after a long time. I was at a loss as to what to show my friends who were coming to Moscow in the cold winter. I could show them famous tourist attractions, just as I did when my family visited, but I wanted to give them a more raw, 'real Russian scent'. 🤠
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -518,7 +518,7 @@ export const year3Category: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💌 뜻밖의 초대</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
 우리 부부는 러시아의 국민 SNS인 프콘탁테(VKontakte, 보통 VK라고 부른다)를 통해 한국어를 공부하고 싶어하던 또 다른 친구를 알게 되었다. 한국에 대한 관심과 한국어를 향한 열정이 대단했던 그 친구는 처음 알게 되었을 당시부터 만삭의 임신 중이었다. 언어 교환을 핑계로 만난 지 불과 몇 차례 되지 않았는데, 어느 날 친구는 우리 부부를 자신의 결혼식에 초대하고 싶다고 했다. 얼굴 몇 번 본 게 전부인 외국인을 덜컥 인생의 중대사에 초대하다니, 너무 빠른 친화력에 깜짝 놀랐다. 그래도 러시아의 결혼식에 직접 가서 현지 문화도 배우고 새로 사귄 친구도 축하해 주면 뜻깊을 것 같아 흔쾌히 초대에 응했다.
         </p>
 
@@ -560,7 +560,7 @@ export const year3Category: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💌 An Unexpected Invitation</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           My wife and I met another friend who wanted to study Korean through the Russian national social media platform, VKontakte (usually called VK). This friend, who had a great interest in Korea and a passion for the Korean language, was heavily pregnant from the time we first met. We had only met a few times under the pretext of language exchange, but one day, she said she wanted to invite us to her wedding. I was surprised by her fast friendliness, inviting a foreigner whom she had only seen a few times to a major event in her life. Still, I thought it would be meaningful to go to a Russian wedding in person, learn about the local culture, and congratulate our new friend, so I readily accepted the invitation.
         </p>
 
@@ -614,7 +614,7 @@ export const year3Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
 학부 시절에는 논문을 써 본 적이 없기 때문에 그럴싸한 논문을 써야 한다는 것 자체가 엄청난 부담이었다. 무엇보다 러시아어라는 거대한 언어의 장벽이 앞을 가로막고 있었는데, 한국어로 쓰라고 해도 막막할 판에 러시아어로 학술적인 글을 써야 한다니 한숨부터 절로 나왔다. 게다가 언어의 압박을 차치하고서라도, 석사 논문은 대략 80에서 120페이지까지 채워야 한다는 절대적인 분량 자체도 공포스러웠다. 전혀 다른 과목을 공부하던 사람이 도대체 어떻게 겨우 1-2년 공부한 학문의 그럴 싸한 논문을 쓸 수 있겠나. 하물며 러시아어로! 하지만 졸업이 코앞이라 하염없이 걱정만 하며 논문 작성을 더 이상 미룰 수는 없었다.
         </p>
 
@@ -653,7 +653,7 @@ export const year3Category: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤯 The Triple Threat of Despair: Language, Length, and Lack of Experience</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           Since I had never written a thesis during my undergraduate years, the very idea of having to write a decent one was a huge burden. Above all, the huge language barrier of Russian stood in my way, and I sighed just thinking about having to write an academic paper in Russian when it would have been daunting even in Korean. In addition, even apart from the pressure of the language, the sheer volume of a master's thesis, which had to be roughly 80 to 120 pages long, was also terrifying. How on earth could a person who had studied a completely different subject write a decent thesis in a field they had only studied for 1-2 years? Let alone in Russian! However, with graduation just around the corner, I couldn't postpone writing my thesis any longer while just worrying endlessly.
         </p>
 
@@ -707,7 +707,7 @@ export const year3Category: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 러시아의 국가 졸업시험, '고스(ГОС)'</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
 러시아에서는 논문방어 외에도 반드시 넘어야 할 또 다른 거대한 산이 있다. 바로 ‘고스(ГОС)’라고 불리는 국가  졸업시험이다. 각 과마다 시험문제와 난이도가 천차만별이라고 들었는데, 보통은 학위 기간 동안 들었던 수업 중에 서너 과목을 지정해 집중적으로 출제된다. 고스라고 해서 러시아의 다른 시험과 별로 다를 건 없었다. 고스에 출제될만한 문제들을 문제은행 식으로 시험보기 한 달 전에 나누어 주고, 시험 당일 교수님들 앞에서 그 중 임의의 한 문제를 뽑아 구술로 발표하는 제비뽑기 형식이었다. 문제는, 연구보다는 수업의 비중이 더 높은 러시아의 석사 과정 특성 상, 2년 동안 정말 많은 수업을 들었기에 수업 범위가 말도 안되게 넓었다는 점이다. 
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -752,7 +752,7 @@ export const year3Category: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 Russia's State Graduation Exam, 'GOS (ГОС)'</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           In Russia, in addition to the thesis defense, there is another huge mountain that must be climbed. It is the state graduation exam called 'GOS (ГОС)'. I heard that the exam questions and difficulty level vary greatly from department to department, but usually, three or four subjects from the courses taken during the degree program are designated and tested intensively. The GOS was not much different from other exams in Russia. A month before the exam, a list of problems that were likely to be on the GOS was distributed in a question bank format, and on the day of the exam, it was a lottery format where you would randomly draw one of the problems in front of the professors and present it orally. The problem was that, due to the nature of the Russian master's program where the proportion of classes is higher than research, the scope of the classes was ridiculously wide because we had taken so many classes for two years.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -810,7 +810,7 @@ export const year3Category: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎉 길고 길었던 여정의 끝, 새로운 시작</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
 5월 중순, 드디어 석사 학위를 쟁취하기 위한 모든 통과의례가 막을 내렸다. 공식적인 졸업식은 6월 말이었고 한국으로 돌아가는 비행기는 7월 중순이었으니, 내게는 무려 두 달이라는 금쪽같은 잉여 시간이 주어졌다. 물론 틈틈이 학교에 불려 가 러시아 특유의 그 끝도 없는 관료주의적 행정 서류들을 떼고 도장을 받아야 했지만, 고스(ГОС)와 논문 방어를 끝낸 마당에 그깟 서류 작업쯤이야 콧노래를 부르며 해치울 수 있었다. 이제 한국으로 돌아가면 언제 다시 밟아볼지 모르는 이 애증의 도시 모스크바. 나는 그간의 치열했던 유학 생활을 천천히 갈무리하며, 마지막으로 감사한 이들에게 인사를 전하고 정든이들에게 작별을 고해야 할 시간이 왔다. 
         </p>
 
@@ -849,7 +849,7 @@ export const year3Category: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎉 The End of a Long, Long Journey, a New Beginning</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           In mid-May, all the rites of passage to earn a master's degree finally came to an end. The official graduation ceremony was at the end of June, and my flight back to Korea was in mid-July, so I was given a precious surplus of two months. Of course, I had to be called to school from time to time to get endless bureaucratic administrative documents and stamps, which are characteristic of Russia, but after finishing the GOS and thesis defense, I could handle such paperwork while humming. Now, Moscow, this city of love and hate that I don't know when I'll be able to set foot on again once I return to Korea. As I slowly wrapped up my intense study abroad life, the time came to say goodbye to those I was grateful for and to bid farewell to those I had grown fond of.
         </p>
 

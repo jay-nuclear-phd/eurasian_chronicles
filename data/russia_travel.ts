@@ -30,7 +30,7 @@ export const russiaTravelCategory: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ 낯선 여행객의 시선으로</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           등잔 밑이 어둡다고, 정작 본인이 사는 곳에는 어떤 관광지가 있는지 잘 모르고 산다. 돌이켜 보면 나도 마찬가지였다. 군 시절 연천에서 근무할 때는 수도 없이 재인폭포 앞을 지나다니면서도 그곳을 일부러 구경하러 오는 사람들이 있다는 사실조차 몰랐다. 부대 안에만 박혀 있었지 연천에 뭐가 있는지 하나도 몰랐던 것이다. 서울에 살 때도 마찬가지였다. 서울 산다고 서울 곳곳의 구경거리나 맛집을 다 아는 게 아니다. 오히려 한국에 여행 온 외국인이 나보다 명소에 대해 더 잘 꿰뚫고 있었다. 하지만 3년간 모스크바에 살면서, 나는 언제든 떠날 수 있는 가벼운 짐만으로 생활하고 있었기에 스스로를 마치 장기 여행객처럼 여겼다. 그러한 이방인의 마음가짐 덕분인지, 나는 부지런히 모스크바 이곳저곳을 돌아다닐 수 있었다.
         </p>
 
@@ -76,7 +76,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ Through the Eyes of a Strange Traveler</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           As the saying goes, it's darkest under the lamp. People often live without knowing what tourist attractions are in their own area. Looking back, I was the same. When I was serving in the military in Yeoncheon, I passed by Jaein Falls countless times without even knowing that people deliberately came to see it. I was just stuck inside the base and knew nothing about what was in Yeoncheon. It was the same when I lived in Seoul. Living in Seoul doesn't mean you know all the sights and famous restaurants. In fact, a foreigner traveling in Korea knew more about the famous spots than I did. However, living in Moscow for three years, I lived with only a light luggage that I could leave at any time, so I considered myself a long-term traveler. Perhaps thanks to this stranger's mindset, I was able to diligently explore Moscow.
         </p>
 
@@ -139,7 +139,7 @@ export const russiaTravelCategory: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">낭만의 대륙 횡단 🚂</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           러시아에서 유학하며 가장 야심 차게 품었던 로망 중 하나는, 다름 아닌 시베리아 횡단열차를 타보는 것이었다. 한국 사람 중에도 이미 다녀온 사람들이 꽤 있고 관련 책도 있을 정도로, 조금만 손품을 팔면 꽤 많은 정보를 찾을 수 있었지만 무작정 몸을 싣고 대륙을 가로지르는 낭만을 포기할 순 없었다. 모스크바에서 맞는 첫 번째 겨울 방학, 그것도 하필 내 생일인 1월 1일 새해 첫날에 맞춰, 아내와 의리의 동생들인 P군, S양과 함께 바이칼 호수로 떠나는 여행을 계획했다.
         </p>
         
@@ -195,7 +195,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Romance of a Transcontinental Journey 🚂</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           One of the most ambitious romantic notions I had while studying in Russia was to ride the Trans-Siberian Railway. There were quite a few Koreans who had already been there, and there were even books about it, so I could find a lot of information with a little effort, but I couldn't give up the romance of just getting on and crossing the continent. During my first winter vacation in Moscow, on New Year's Day, January 1st, which also happened to be my birthday, I planned a trip to Lake Baikal with my wife and my loyal younger siblings, P and S.
         </p>
         
@@ -268,7 +268,7 @@ export const russiaTravelCategory: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍲 시베리아의 포근한 도시, 이르쿠츠크</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           4일간의 열차 이동을 하며 컵라면, 마법의 감자 퓨레 가루, 그리고 패스트푸드로 간신히 연명했다. 그렇기에 목적지인 이르쿠츠크에 도착하자마자 우리 일행의 눈이 뒤집혀 찾은 것은 다름 아닌 식당에서 사람이 직접 요리해 주는 따뜻한 요리였다. 아침 일찍 도착하여 문을 연 곳이 많지 않았지만 다행히도 식당을 하나 찾아 몸과 마음을 녹일 수 있었다. 우리가 거쳐온 시베리아의 무시무시한 도시들과는 다르게, 이르쿠츠크의 날씨는 영하 5도에서 10도 사이로 애교 수준의 포근함(?)을 자랑했다. 도시는 크게 주민들의 거주 구역과 시내 중심가로 나뉘어 있었는데, 워낙 동네가 아담해서 택시만 타면 어디든 5분 이면 갈 수 있었다.
         </p>
         
@@ -314,7 +314,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍲 Irkutsk, a Cozy City in Siberia</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           For four days on the train, we barely survived on cup noodles, magical potato puree powder, and fast food. Therefore, as soon as we arrived at our destination, Irkutsk, what our group looked for with our eyes wide open was none other than a warm dish cooked by a person in a restaurant. We arrived early in the morning, and there were not many places open, but fortunately, we were able to find a restaurant to warm our bodies and minds. Unlike the scary Siberian cities we had passed through, the weather in Irkutsk was a cute level of cozy(?), between -5 and -10 degrees Celsius. The city was largely divided into a residential area for residents and a downtown area, but the neighborhood was so small that you could get anywhere in 5 minutes by taxi.
         </p>
         
@@ -376,7 +376,7 @@ export const russiaTravelCategory: Category = {
       content: {
         ko: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ 아름다움과 비극이 공존하는 도시</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           상트페테르부르크는 러시아의 제2의 도시로 불리지만, 그 위상과 자부심만큼은 수도 모스크바에 결코 뒤지지 않는다. 러시아 도시답게 면적은 서울의 두 배가 넘는 광활한 대지를 품고 있다. 모스크바의 임구가 약 1,300 만 명으로 서울의 천만명을 넘듯, 상트 페테르부르크는 부산의 330만 인구보다도 많은 약 560만 명의 인구가 거주하는 거대 메트로폴리스다. 18세기 표트르 대제가 ‘서구로 향하는 창’을 열기 위해 늪지대를 일구어 만든 이 계획도시는, 도시 전체가 유네스코 세계문화유산으로 지정될 만큼 눈부신 아름다움을 자랑한다. 하지만 이 화려한 유럽풍의 궁전과 낭만적인 운하를 걷다 보면, 이곳이 한때 상상조차 하기 힘든 생지옥이었다는 사실을 떠올리기 힘들다.
         </p>
 
@@ -427,7 +427,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ A City of Coexisting Beauty and Tragedy</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           St. Petersburg is called the second city of Russia, but its status and pride are by no means inferior to the capital, Moscow. Like a typical Russian city, its area is more than twice that of Seoul, embracing a vast land. Just as Moscow's population of about 13 million exceeds Seoul's 10 million, St. Petersburg is a huge metropolis with a population of about 5.6 million, more than Busan's 3.3 million. This planned city, created by Peter the Great in the 18th century by cultivating a swamp to open a 'window to the West,' boasts a dazzling beauty that has earned the entire city a UNESCO World Heritage designation. However, as you walk through these splendid European-style palaces and romantic canals, it is hard to imagine that this place was once a living hell that is hard to even imagine.
         </p>
 
@@ -490,7 +490,7 @@ export const russiaTravelCategory: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           러시아의 광활한 대지를 횡단하는 여행자라면, 모스크바를 벗어나 진짜 대륙의 민낯을 마주하고 싶은 충동에 휩싸이기 마련이다. 러시아의 남성의 날 (2월 23일, 정식 명칭은 조국 수호자의 날) 연휴를 핑계 삼아, 사실은 그저 역마살이 도져서 훌쩍 떠난 이번 여행의 최종 목적지는 타타르스탄 공화국의 하얀 진주 카잔이었다. ❄️ 그리고 기차로 가는 길목에 자리한 거대한 상업 도시 니즈니 노브고러드에서 하루를 멈춰 가기로 했다. 
         </p>
 
@@ -547,7 +547,7 @@ export const russiaTravelCategory: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           As a traveler traversing the vast lands of Russia, one is bound to be swept away by the urge to leave Moscow and face the raw, unadorned face of the real continent. Using the Russian Men's Day (February 23rd, officially Defender of the Fatherland Day) holiday as an excuse—though in truth it was just a severe case of wanderlust—I set off for my final destination: Kazan, the white pearl of the Republic of Tatarstan. ❄️ Along the way by train, I decided to stop for a day in the massive commercial city of Nizhny Novgorod.
         </p>
 
@@ -617,7 +617,7 @@ export const russiaTravelCategory: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           나는 여행 계획을 짤 때, 최대한 꽉꽉 일정을 눌러 담는 편이다. 예비학부 시절부터 친하게 지내오던 P군과 S양은 이런 우리(정확히 말하면 나)의 빡센 여행 방식을 궁금해 했다. 마침 연휴가 있어, 모스크바 남부 여행을 계획한다는 말에, 겁도 없이 이들은 우리와 합류하기로 하였다. 🚗 기차로 여행하는 낭만도 있지만 이번에는 차를 빌려 조금 더 구석구석 다녀보기로 했다. 사실 예전부터 러시아의 거친 도로를 직접 차를 몰고 달려보고 싶다는 로망도 있었다. 물론 한편으로는 이 대륙에서의 운전이 순탄한 낭만 여행이 되리라곤 기대하지 않았지만 말이다. 
         </p>
 
@@ -679,7 +679,7 @@ export const russiaTravelCategory: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
         </p>
 
@@ -741,7 +741,7 @@ export const russiaTravelCategory: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
         </p>
 
@@ -803,7 +803,7 @@ export const russiaTravelCategory: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           Though the two cities were so incredibly different, perhaps this stark contrast is the real charm of the Russian continent that constantly draws me to unfamiliar places. Although it was a short trip taken on the excuse of a holiday, it was a journey that made me marvel once again at the diverse and beautiful forms that Russia holds. 🇷🇺
         </p>
       `,

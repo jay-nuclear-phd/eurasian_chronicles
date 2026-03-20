@@ -23,7 +23,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           예비학부 동안 정들었던 기숙사는 대학원에 진학하면서 더 이상 지낼 수 없다고 했다. 우리가 살던 기숙사는 아파트 형식으로 층은 달랐지만 아내가 방을 혼자 쓰고 있었을 뿐만 아니라, 무엇보다 모스크바 내 기숙사 중에는 아주 깔끔한 축에 속했기 때문에 아쉬움이 더욱 컸다. 😥 기숙사를 벗어나면 그동안 혜택을 누렸던 전기세나 온수 등 추가적인 비용도 발생한다는 점도 큰 고민거리였다.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -105,7 +105,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           The dormitory that I had grown fond of during the preparatory faculty was no longer available to me as I entered graduate school. The dormitory we lived in was apartment-style, and although my wife's room was on a different floor, she had it all to herself. Moreover, it was one of the cleanest dormitories in Moscow, so the disappointment was even greater. 😥 Another major concern was that leaving the dormitory would incur additional costs such as electricity and hot water, which we had been enjoying as benefits.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -200,7 +200,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           길 것만 같던 여름방학은 언제 흘러갔는지 흔적도 없이 증발해 버렸고, 어느새 대학원생으로서의 첫 학기가 막을 올렸다. 🎓 한국의 대학생이라면 수강 신청 기간마다 마우스 광클릭으로 🖱️ 스스로 시간표를 쟁취해야겠지만, 러시아는 참으로 ‘친절하게도’ 학부생은 물론 대학원생의 시간표까지 학교에서 알아서 짜준다. 뭐, 사실 사관학교 시절부터 국가가 정해준 시간표대로 살아온 나로서는 이런 수동적인 시스템에 별다른 불만이 없긴 했다.
         </p>
         
@@ -269,7 +269,7 @@ export const year2Category: Category = {
         </blockquote>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           The summer vacation, which seemed like it would last forever, evaporated without a trace, and before I knew it, my first semester as a graduate student had begun. 🎓 If you're a university student in Korea, you have to fight for your own schedule by clicking your mouse like crazy 🖱️ during the course registration period, but in Russia, the school is so 'kind' as to make the schedule for not only undergraduate but also graduate students. Well, to be honest, I, who had lived according to a schedule set by the state since my military academy days, had no particular complaints about this passive system.
         </p>
         
@@ -351,7 +351,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           반장으로부터 물리과 오리엔테이션이 있다는 이야기를 들었다. 모스크바가 교외의 어딘가 숲속 야영장에서 진행된다고 했다. 또한 우리과인 핵물리학과 뿐만이 아니라 물리학과 전체의 오리엔테이션이었기에 꽤나 규모가 크다고 한다. 같은 반 친구들이 대부분 간다기에 나와 지인도 호기심 반 기대 반으로 동참하기로 했다.
         </p>
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛒 전투 식량 비축</h3>
@@ -401,7 +401,7 @@ export const year2Category: Category = {
         </blockquote>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           I heard from the class leader that there would be a physics department orientation. It was said to be held at a forest campground somewhere in the suburbs of Moscow. It was also said to be quite large, as it was an orientation for the entire physics department, not just our nuclear physics department. Since most of my classmates were going, my acquaintance and I decided to join them, half out of curiosity and half in anticipation.
         </p>
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛒 Stocking Up on Combat Rations</h3>
@@ -464,7 +464,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           소련이 붕괴한지도 20년이 넘었지만 여전히 러시아에는 소련의 잔재를 많이 느낄 수 있다. 2화에서도 잠시 소개했지만 러시아 대학의 시간표 또한 우리가 아는 그것과는 사뭇 다르다. 요즘 한국에서는 중고등학생도 선택과목을 선호도 혹은 전략적으로 스스로 선택한다는데, 러시아에서는 대학생들 조차 학과에서 일괄적으로 배정해 주는 시간표를 군말 없이 따라야 하는 구조다. 😥
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -513,7 +513,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           Although it has been over 20 years since the collapse of the Soviet Union, you can still feel many remnants of the Soviet Union in Russia. As I briefly introduced in episode 2, the university timetable in Russia is also quite different from what we know. Nowadays in Korea, even middle and high school students choose their elective subjects based on their preference or strategy, but in Russia, even university students have to follow the timetable assigned by the department without complaint. 😥
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -575,7 +575,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           러시아 남성들을 떠올리면 흔히들 한 손엔 보드카 병을 쥐고 영하 30도의 눈밭에서 불곰과 씨름을 할 것 같은 거칠고 마초적인 이미지를 상상한다. 실제로 그들은 꽤나 과격하고 무뚝뚝하지만, 사소한 일들에는 굉장히 관대(?) 혹은 무신경하고, 막상 마음의 문을 열면 생각보다 정이 넘치고 친근한 것도 사실이다. 학과 친구들을 제외하면 현지 남성들과 깊게 교류할 기회가 그리 많진 않았지만, 3년의 유학 생활 동안 내 피부로 직접 겪었던 몇 가지 일화를 통해 이 ‘불곰국 형님들’에 대해 단편적으로나마 소개하고자 한다.
         </p>
 
@@ -634,7 +634,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           When you think of Russian men, you often imagine a rough and macho image, perhaps wrestling a brown bear in -30 degree snow with a bottle of vodka in one hand. In reality, while they are quite aggressive and blunt, it's also true that they are incredibly generous—or perhaps indifferent—to minor inconveniences, and they are surprisingly warm and friendly once they open their hearts. Aside from my classmates, I didn't have many chances to interact deeply with local men, but through several anecdotes I experienced during my three years of study, I'd like to introduce these 'Brown Bear Country Brothers' in a fragmented way.
         </p>
 
@@ -706,7 +706,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           서양의 시스템을 가져온 우리에게는 학사, 석사, 박사 이런 식의 프로그램이 익숙하지만 러시아에서는 그들만의 프로그램이 있다. 가장 먼저 마주하게 되는 생소한 이름은 석사과정과 비슷한 <strong>‘스페셜리스트(Специалист)’</strong> 과정이다. 🎓 이는 4년제 학사와 2년제 석사를 묘하게 섞어놓은 5년(혹은 5.5년) 과정의 학위다.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -763,7 +763,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           For those of us who have adopted the Western system, programs like bachelor's, master's, and doctoral degrees are familiar, but in Russia, they have their own programs. The first unfamiliar name you will encounter is the <strong>'Specialist (Специалист)'</strong> program, which is similar to a master's program. 🎓 This is a 5-year (or 5.5-year) degree program that is a strange mix of a 4-year bachelor's degree and a 2-year master's degree.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -833,7 +833,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           학생이라면 누구나 기다리는 방학이 찾아왔다. 러시아도 한국과 마찬가지로 대학마다 과마다 시험 기간이 제각각이고 기말고사 마지막 날이 곧 공식적인 방학의 시작이었다. 운이 좋게도 우리 과는 아내가 다니는 통번역 학과를 포함한 다른 학과보다도 기말고사가 일찍 끝나 이른 방학을 맞이했다. 모처럼 찾아온 휴가에 어디라도 떠나고 싶었지만, 아내는 집이 좋다며 <strong>요지부동이었다.</strong> 🏡 그래서 2주 남짓 되는 방학기간 동안 첫 일주일은 평소 친하게 지내던 러시아 친구들의 고향집을 방문해 보기로 했다. 두 러시아 친구는 언어 교환으로 친해졌는데, 각각 카브로프와 쿠르가닌스크라는 작은 도시 출신으로 모스크바에서 공부 중이었다. 광활한 대륙에 사는 그들의 기준에서 한국은 아주 작은 나라일텐데 한국어를 배운다는 게 너무 신기했다. <strong>한류 만세!</strong> 🇰🇷🎉
         </p>
 
@@ -905,7 +905,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           The vacation that every student awaits has arrived. Just like in Korea, the exam period in Russia varies from university to university and from department to department, and the last day of the final exams was the official start of the vacation. Fortunately, our department finished its final exams earlier than other departments, including my wife's translation and interpretation department, so we had an early vacation. I wanted to go somewhere for the long-awaited vacation, but my wife was <strong>adamant</strong> that she wanted to stay home. 🏡 So, for the first week of the two-week vacation, I decided to visit the hometowns of my close Russian friends. I became friends with two Russian friends through language exchange. They were from small cities called Kavrov and Kurganinsk, respectively, and were studying in Moscow. From their perspective, living on a vast continent, Korea would be a very small country, so it was amazing that they were learning Korean. <strong>Long live the Korean Wave!</strong> 🇰🇷🎉
         </p>
 
@@ -990,7 +990,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           이전 글에서도 잠시 다뤘듯이, 러시아의 대학은 아주 <strong>특이한 시험 제도</strong>를 고수하고 있다. 학생들이 반기는 가장 큰 특징은 학기 중간을 괴롭히는 <strong>‘중간고사’가 아예 존재하지 않는다는 것</strong>이다. 🎉 오로지 학기 말에 치르는 기말고사 한 방으로 한 학기의 학업 성취도가 결정된다. 중간고사가 없다는 사실은 학기 초반 학생들에게 엄청난 해방감을 안겨주지만, 이는 곧 <strong>치명적인 달콤한 독약</strong>이기도 하다. ☠️ 긴장감이 바닥을 치며 학업을 소홀히 하다가, 기말고사가 다가오면 그동안 쌓인 엄청난 양의 지식 청구서를 한 번에 받아 들고 <strong>패닉에 빠지기 때문</strong>이다. 😱
         </p>
 
@@ -1031,7 +1031,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           As I briefly mentioned in a previous post, Russian universities adhere to a very <strong>peculiar exam system</strong>. The biggest feature that students welcome is that there are <strong>no 'midterm exams'</strong> that torment the middle of the semester. 🎉 A single final exam at the end of the semester determines the academic achievement of the entire semester. The fact that there are no midterms gives students a great sense of liberation at the beginning of the semester, but this is also a <strong>deadly sweet poison</strong>. ☠️ This is because students tend to neglect their studies with a low sense of tension, and when the final exams approach, they are hit with a huge bill of knowledge accumulated over time and <strong>fall into a panic</strong>. 😱
         </p>
 
@@ -1085,7 +1085,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           연고없는 먼 나라에서 이방인으로 살아갈 때, 아마 제일 반가운 일 중 하나는 단연코 <strong>가족이 방문하는 것</strong>이 아닐까 싶다. 👨‍👩‍👧‍👦 한 번은 친동생이 약 한 달 동안 나를 보러 놀러왔다. 우리는 연년생으로 <strong>친구처럼 어린 시절을 보냈다.</strong> 👫 항상 같은 운동을 하고 같은 게임을 하고 내가 재수학원에 가기 전까지 같은 침대에서 잤다. 하지만 서로 잘하는게 확연히 달라서 대학에서 완전히 다른 분야를 공부했고, 졸업을 하고도 가족이라는 것 외에는 접점이 별로 없었다. 동생은 군대도 다녀와야 했고 나는 러시아로 나왔다보니 그나마 더 만나기 힘들었다. 다행히 동생도 유학을 마치고 취업을 하기 전에 얼마간의 시간이 있어서 러시아에 나를 방문하러 올 수 있었다. 다만 당시 동생에게 여자친구가 있었는데 자신과 함께 시간을 보내지 않고 형을 보러 간다고 해서 <strong>삐졌다는 이야기를 나중에 들었다.</strong> 😅
         </p>
 
@@ -1130,7 +1130,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           When living as a stranger in a distant country with no connections, perhaps one of the most welcome things is a <strong>family visit</strong>. 👨‍👩‍👧‍👦 Once, my younger brother came to visit me for about a month. We were born a year apart and <strong>spent our childhood like friends</strong>. 👫 We always played the same sports, played the same games, and slept in the same bed until I went to a cram school for the college entrance exam. However, since we were clearly good at different things, we studied completely different fields in college, and even after graduation, we didn't have much in common other than being family. My brother had to serve in the military, and I went to Russia, so it was even harder to meet. Fortunately, my brother also had some time before he got a job after finishing his studies, so he was able to come and visit me in Russia. However, I later heard that his girlfriend at the time was <strong>pouting</strong> because he was going to see his brother instead of spending time with her. 😅
         </p>
 
@@ -1188,7 +1188,7 @@ export const year2Category: Category = {
       comments: [],
       content: {
         ko: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           러시아, 우크라이나 등 동슬라브 국가에 미인이 많다는 건 익히 알려진 사실이라, 한국 남성들 사이에서는 우스갯소리로 ‘장모님의 나라’로 불리기도 한다. “진짜로 길거리에 김태희가 밭을 매고 전지현이 소를 모느냐?”라고 묻는다면, 솔직한 내 영혼의 대답은 ‘Yes’라고 할 수 있다. 
         </p>
 
@@ -1254,7 +1254,7 @@ export const year2Category: Category = {
         </p>
       `,
         en: `
-        <p class="leading-relaxed mb-6 text-slate-700">
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
           It's a well-known fact that there are many beauties in East Slavic countries like Russia and Ukraine, so among Korean men, it's jokingly referred to as the 'Land of the Mother-in-Law.' If you ask, 'Do women who look like Kim Tae-hee really plow fields and those who look like Jun Ji-hyun really herd cows?' my honest answer from the bottom of my soul would be 'Yes.'
         </p>
 
