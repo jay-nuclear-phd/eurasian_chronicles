@@ -7,7 +7,7 @@ export const year1Category: Category = {
   id: 'year1',
   title: {
     ko: '1년차, 예비학부',
-    en: 'Year 1, Preparatory Faculty',
+    en: 'Year 1, Pre-University Program',
   },
   shortTitle: {
     ko: '1년차',
