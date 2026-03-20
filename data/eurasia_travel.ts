@@ -138,5 +138,122 @@ export const eurasiaTravelCategory: Category = {
       `,
       },
     },
+    {
+      id: 'eurasia-travel-2',
+      title: {
+        ko: '사이가 좋지 못한 지중해의 두 나라 - 튀르키예, 그리스',
+        en: 'Two Mediterranean Neighbors on Bad Terms: Turkiye and Greece',
+      },
+      subtitle: {
+        ko: '음식으로 겨루고 역사로 충돌한 두 지중해 이웃',
+        en: 'Two Mediterranean Neighbors Who Clash in History and Compete in Cuisine',
+      },
+      imageUrl:
+        'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1200&auto=format&fit=crop',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          이제 눈부신 태양과 에메랄드빛 바다가 일렁이는 지중해로 무대를 옮겨볼 차례다. 이번 이야기의 주인공은 지중해를 사이에 두고 마주 본 두 나라, 튀르키예(구 터키)와 그리스다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵 징글징글한 이웃, 튀르키예와 그리스</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          세계 어느 곳에나 이웃 나라끼리는 사이가 안 좋다는 암묵적인 룰(?)이 있지만, 튀르키예와 그리스의 관계는 그중에서도 가히 스펙터클한 수준을 자랑한다. 이들의 앙숙 역사는 수백 년 전으로 거슬러 올라간다. 과거 그리스는 오스만 제국(현 튀르키예)의 지배를 약 400년 가까이 받았다. 19세기 초 그리스가 피 터지는 독립 전쟁을 치르며 갈라선 이후에도, 두 나라는 에게해의 영토 문제와 영공 침범, 그리고 뒤에 소개할 분단 섬 문제 등으로 끊임없이 으르렁거려 왔다. 오죽하면 축구 국가대표팀 경기라도 열리는 날엔 총성 없는 전쟁이 벌어지고, 양국 국민들 사이에서는 상대방을 깎아내리는 농담이 일상처럼 쓰일 정도다. 우리의 한일 관계보다 더하면 더했지 결코 덜하지 않은, 그야말로 징글징글한 애증의 이웃이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ 앙숙이지만 닮은 식탁</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 참으로 아이러니하게도, 이렇게 서로를 앙숙이라 부르며 잡아먹지 못해 안달인 두 나라가 가장 치열하게 자존심 대결을 펼치는 분야가 있으니, 바로 음식이다. 서로 자기네 음식이 훨씬 더 맛있고 훌륭하다며 한 치의 양보도 없이 으르렁대지만, 지중해성 기후라는 같은 지붕 아래서 수백 년간 부대끼며 살아서인지 이들의 식문화는 소름 돋을 정도로 닮아 있다. 신선한 올리브오일과 토마토, 향긋한 허브와 요거트를 듬뿍 사용한 지중해식 요리는 두 나라 모두 예술의 경지에 올라 있다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          가장 대표적인 예가 바로 그리스의 자이로(Gyro)와 튀르키예의 되네르 케밥(Döner Kebab)이다. 커다란 고기 덩어리를 쇠꼬챙이에 수직으로 꽂아 빙글빙글 돌려가며 불에 구운 뒤, 겉면의 바삭하게 익은 고기를 얇게 썰어내어 빵에 채소와 함께 싸 먹는 그 환상적인 맛! 이름만 다를 뿐 조리 방식부터 생김새, 심지어 입안 가득 퍼지는 황홀한 육즙까지 형제처럼 똑 닮아 있다. 서로 "우리가 원조고 저들이 베낀 것!"이라며 핏대를 세우지만, 관광객인 우리 입장에서는 이 자존심 건 미식 경쟁이 그저 반가울 따름이다. 마치 앙숙인 두 일류 기업이 앞다투어 품질 경쟁을 벌일 때 소비자가 최고의 혜택을 누리듯, 여행자는 그저 이 두 경쟁사 사이에서 가장 맛있는 결과물만 쏙쏙 골라 먹으며 궁극의 이득을 챙기면 그만이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✈️ 나를 튀르키예로 이끈 대학 동기</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          내가 튀르키예라는 나라를 처음 방문한 것은 학부 시절이었다. 사실 그때까지만 해도 나는 튀르키예가 정확히 지도 상 어디 붙어 있는지도 모르는, 여행에 무지한 학생이었다. 그런 나를 이 매력적인 나라로 이끈 건 다름 아닌 대학 동기였다. 그 친구의 아버지는 당시 튀르키예 주재 한국 대사관에서 국방무관으로 근무하고 계셨다. 덕분에 튀르키예를 제집 드나들듯 여러 번 가봤던 그 친구는, 현지인 뺨치는 알짜배기 여행 조언과 꿀팁을 아낌없이 전수해 주었다. 동기의 강력한 추천과 완벽한 브리핑 덕분에 떠났던 첫 튀르키예 여행은 내 인생의 여행 지도를 완전히 바꿔놓았다. 그때의 기억이 어찌나 강렬하고 좋았던지, 훗날 아내의 손을 잡고 다시 한번 찾아갔고, 어머니가 러시아로 나를 보러 오셨을 때도 주저 없이 비행기 표를 끊어 모시고 갔을 정도다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕌 미식과 유적의 성지, 튀르키예</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          튀르키예는 프랑스, 중국과 함께 세계 3대 미식 국가로 불릴 만큼 먹거리가 풍성하지만, 볼거리와 즐길 거리도 그에 못지않다. 동양과 서양, 이슬람과 기독교의 문화가 한데 뒤섞여 신비로운 오라를 뿜어내는 이스탄불, 수만 년의 시간이 빚어낸 기암괴석들 사이로 수백 개의 열기구가 떠오르는 카파도키아, 새하얀 석회 붕 위로 에메랄드빛 온천수가 흘러내리는 파묵칼레, 그리고 지중해의 눈부신 햇살 아래 패러글라이딩과 휴양을 즐길 수 있는 레저의 천국 페티예까지. 게다가 역사가 어찌나 깊은지, 길을 걷다 발에 무언가 툭 걸려 내려다보면 그게 몇천 년 전 로마 시대의 유물 기둥인 나라가 바로 튀르키예다. 발길 닿는 모든 곳이 야외 박물관이자 미식의 성지였다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ 신화와 바다의 나라, 그리스</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          튀르키예가 웅장하고 다채로운 매력으로 압도한다면, 바다 건너 그리스 역시 이에 결코 뒤지지 않는 찬란함을 뽐낸다. 그리스 음식의 특징을 꼽으라면 단연 신선함과 직관적인 맛이다. 질 좋은 올리브유가 듬뿍 들어간 그릭 샐러드, 바비큐를 기반으로 숯불 향을 가득 머금은 고기 꼬치구이 수블라키, 그리고 입맛을 돋우는 다채로운 향신료의 조화는 완벽 그 자체였다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그리스는 우리가 미디어를 통해 접했던 환상적인 풍경들이 실존하는 곳이기도 하다. 당시 러시아인들 사이에서도 선풍적인 인기를 끌었던 드라마 ‘태양의 후예’를 기억하는가? 극 중 유시진 대위(송중기 분)와 강모연(송혜교 분)이 사랑을 속삭이던, 깎아지른 절벽 아래 녹슬고 버려진 난파선이 있던 그 비현실적인 해변은 바로 그리스의 자킨토스(Zakynthos) 섬에 있다. 또한, "라라라 라라라라~" 하는 청량한 배경음악과 함께 배우 손예진이 뛰놀던 포카리스웨트 광고 속 하얀 골목과 파란 지붕의 성당은 수많은 허니무너들의 로망인 산토리니다. 여기에 유럽 문화의 탯줄이자 고대 신화가 살아 숨 쉬는 아테네, 미노아 문명의 신비로운 흔적을 간직한 크레타 섬까지. 그리스는 발을 들이는 순간 여행자를 신화 속 주인공으로 만들어버리는 마법 같은 힘을 지녔다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚧 둘의 갈등이 새겨진 섬, 키프로스</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이 두 나라의 징글징글한 관계를 이야기할 때 절대 빼놓을 수 없는 아주 흥미롭고도 슬픈 섬이 하나 있다. 지중해 동쪽에 떠 있는 키프로스(혹은 사이프러스)라는 섬이다. 제주도의 약 5배 크기인 이 아름다운 섬은 현재 튀르키예와 그리스계 주민들의 갈등으로 인해 나라가 남북으로 완전히 쪼개져 있다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          과거 영국의 식민 지배에서 독립한 후, 섬 안에서 다수를 차지하던 그리스계 주민들과 소수의 튀르키예계 주민들 사이의 피비린내 나는 유혈 충돌이 벌어졌다. 결국 1974년, 튀르키예 군대가 자국민 보호를 명분으로 섬의 북쪽을 점령해 버렸고, 그 결과 남쪽은 그리스계의 키프로스 공화국으로, 북쪽은 튀르키예계의 북키프로스 튀르키예 공화국으로 나뉘어 버렸다. 섬의 수도인 니코시아의 한가운데로는 유엔 통제하에 철조망과 장벽이 처진 그린 라인이 지나간다. 전 세계에서 유일하게 남은 분단 수도인 셈이다. 이 쪼개진 섬은 두 나라의 지독한 역사적 앙금과 영토 분쟁의 현주소를 가장 적나라하게 보여주는 살아있는 박물관이다. 다행히도 관광객은 여권만 가지고 있다면 쉽게 이 국경을 넘나 들 수 있다. 
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          춥고 칙칙했던 러시아 대륙의 길고 긴 겨울을 벗어나, 튀르키예와 그리스가 뿜어내는 지중해의 찬란한 햇살과 다채로운 미식을 온몸으로 즐길 수 있었던 것은 그야말로 완벽한 해방감이었다. 단순히 입과 눈만 즐거웠던 것이 아니라, 두 나라가 치열하게 얽히며 빚어낸 흥미로운 역사적 스토리까지 깊이 있게 배울 수 있어 더욱 뜻깊은 여정이었다. 특히 교과서 속 활자로만 무미건조하게 읽던 영토 분쟁의 역사를, 키프로스처럼 실제로 철조망이 처진 채 갈라져 있는 분단 수도의 검문소를 두 발로 직접 넘나들며 마주하니 그 묵직한 현실이 훨씬 더 생생하게 피부로 와닿았다.
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          Now it is time to move the stage to the Mediterranean, where dazzling sunlight and emerald seas shimmer in every direction. The protagonists of this story are two countries facing each other across that sea: Turkiye, formerly Turkey, and Greece.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵 Turkiye and Greece, Two Exhaustingly Hostile Neighbors</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          There seems to be an unspoken rule almost everywhere in the world that neighboring countries do not get along, but the relationship between Turkiye and Greece is spectacular even by that standard. Their long history as bitter rivals goes back hundreds of years. In the past, Greece lived under the rule of the Ottoman Empire, present-day Turkiye, for nearly four hundred years. Even after Greece broke away through a bloody war of independence in the early nineteenth century, the two countries continued to growl at each other over territorial disputes in the Aegean Sea, violations of airspace, and the divided-island problem that I will mention later. Their hostility is so notorious that when the national football teams play, it feels like a war without gunfire, and jokes mocking the other side are used almost casually among ordinary people. If anything, their relationship is even more exhausting than that between Korea and Japan, a truly tangled mix of resentment and attachment.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ Rival Nations, Nearly Identical Tables</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Yet ironically, the field in which these two countries, forever eager to call each other enemies, seem to compete most fiercely is food. Each insists that its own cuisine is far better and nobler than the other's, refusing to yield even an inch, but because they have lived side by side for centuries under the same Mediterranean climate, their food cultures resemble each other to an almost uncanny degree. Mediterranean cooking enriched with fresh olive oil, tomatoes, fragrant herbs, and generous amounts of yogurt reaches an artistic level in both countries.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The clearest example is Greece's gyro and Turkiye's doner kebab. A huge mass of meat is skewered vertically, rotated slowly over heat, and then shaved into thin slices of crisp outer meat to be wrapped in bread with vegetables. That glorious taste. The names differ, but the cooking method, the appearance, and even the rich juices that burst across the mouth are so similar they feel like siblings. Both sides passionately insist, “We are the original, and they copied us!” But from the perspective of a traveler, this proud culinary rivalry is nothing but welcome news. Just as consumers benefit when two top-tier companies compete fiercely in quality, travelers can simply enjoy the most delicious results from both sides and walk away with the ultimate advantage.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✈️ The College Friend Who Led Me to Turkiye</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The first time I visited Turkiye was during my undergraduate years. To be honest, at that point I was a hopelessly travel-ignorant student who did not even know exactly where Turkiye sat on the map. The one who led me to this fascinating country was a university friend. His father was then serving as the defense attache at the Korean embassy in Turkiye. Because of that, my friend had visited Turkiye so many times that he moved through it almost as if it were his own home, and he generously passed on practical travel advice and local tips that rivaled those of any resident. Thanks to his strong recommendation and flawless briefing, that first trip to Turkiye completely redrew the map of travel in my life. The memory was so powerful and so good that later I returned with my wife, and when my mother came to Russia to visit me, I did not hesitate to buy her a plane ticket and take her there as well.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕌 Turkiye, a Sanctuary of Food and Ruins</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Turkiye is often mentioned alongside France and China as one of the world's three great culinary nations, and its food is indeed abundant, but its sights and experiences are no less remarkable. There is Istanbul, radiating a mysterious aura from the intermingling of East and West, Islam and Christianity; Cappadocia, where hundreds of hot-air balloons rise among rock formations shaped over tens of thousands of years; Pamukkale, where emerald-colored thermal waters flow over brilliant white travertine terraces; and Fethiye, a paradise of leisure where one can enjoy paragliding and rest under the dazzling Mediterranean sun. Its history is so deep that you can be walking along, feel something strike your foot, glance down, and discover that it is a Roman column from thousands of years ago. Everywhere the feet could reach felt at once like an open-air museum and a sacred site of gastronomy.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ Greece, Land of Myth and Sea</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          If Turkiye overwhelms through grandeur and variety, Greece across the sea shines with a brilliance that is every bit its equal. The defining feature of Greek food, if I had to choose one, would be its freshness and directness of flavor. Greek salad drenched in good olive oil, souvlaki skewers filled with the aroma of charcoal from the grill, and the perfect harmony of vivid spices that awaken the appetite all felt nearly flawless.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Greece is also a place where the dreamlike scenery we know from the media truly exists. Do you remember the drama Descendants of the Sun, which was wildly popular among Russians at the time as well? The unreal beach with the rusted shipwreck lying beneath sheer cliffs, where Captain Yoo Si-jin and Kang Mo-yeon whispered their love, is on the Greek island of Zakynthos. And those white alleys and blue-domed churches from the Pocari Sweat commercial, where Son Ye-jin ran beneath the bright refrain of “la la la la la la,” are in Santorini, long cherished as a honeymoon fantasy. Add to that Athens, the cradle of European civilization where ancient myths still seem alive, and Crete, which preserves the mysterious traces of the Minoan civilization. The moment one sets foot in Greece, it has the magical power to turn a traveler into the protagonist of a myth.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚧 Cyprus, the Island Marked by Their Conflict</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          There is one island that is both fascinating and deeply sad, and it can never be left out when speaking of the exhausting relationship between these two nations. That island is Cyprus, floating in the eastern Mediterranean. Roughly five times the size of Jeju Island, this beautiful place is now completely split north and south because of conflict between Turkish and Greek Cypriot communities.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          After gaining independence from British colonial rule, Cyprus descended into bloody clashes between the Greek Cypriot majority and the Turkish Cypriot minority. In the end, in 1974, the Turkish military occupied the northern part of the island under the pretext of protecting its own ethnic community. As a result, the south became the Greek Cypriot Republic of Cyprus, and the north became the Turkish Republic of Northern Cyprus. Through the middle of Nicosia, the island's capital, runs the Green Line, fenced with barbed wire and barriers under United Nations control. It is the only divided capital left in the world. This split island is a living museum that lays bare the bitter historical sediment and territorial conflict between the two countries more vividly than anywhere else. Fortunately, tourists can cross that border quite easily as long as they carry a passport.
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Escaping the long and bleak winters of the cold Russian continent and immersing myself in the radiant Mediterranean sunlight and diverse cuisine of Turkiye and Greece was nothing short of a perfect sense of liberation. It was not simply a matter of pleasing the eyes and the palate. The journey felt even more meaningful because it also allowed me to learn, in a vivid and layered way, the historical stories created by the fierce entanglement of these two countries. In particular, the history of territorial disputes, which I had previously encountered only as dry textbook print, felt far more tangible and weighty when I crossed in person through checkpoints in a divided capital like Cyprus, where barbed wire still cuts through the city.
+        </p>
+      `,
+      },
+    },
   ],
 };

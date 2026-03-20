@@ -56,7 +56,7 @@ Email: onestark1204@naver.com
 
 Thank you.`,
   },
-  author: 'JNP',
+  author: 'Jeongwon Seo',
 };
 
 export const UI_STRINGS = {
