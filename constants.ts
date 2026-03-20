@@ -58,3 +58,31 @@ Thank you.`,
   },
   author: 'JNP',
 };
+
+export const UI_STRINGS = {
+  commentSection: {
+    title: { ko: '독자 한마디', en: 'Reader Comments' },
+    empty: { ko: '첫 번째 독자가 되어주세요.', en: 'Be the first to leave a comment.' },
+    formTitle: { ko: '메시지 남기기', en: 'Leave a Message' },
+    namePlaceholder: { ko: '이름 (닉네임)', en: 'Name (Nickname)' },
+    passwordPlaceholder: { ko: '비밀번호', en: 'Password' },
+    contentPlaceholder: { ko: '이 글에 대한 생각이나 응원의 메시지를 남겨주세요.', en: 'Please leave your thoughts or a message of support.' },
+    submit: { ko: '등록하기', en: 'Post' },
+    update: { ko: '수정하기', en: 'Update' },
+    cancel: { ko: '취소', en: 'Cancel' },
+    edit: { ko: '수정', en: 'Edit' },
+    delete: { ko: '삭제', en: 'Delete' },
+    passwordPrompt: { ko: '비밀번호를 입력하세요:', en: 'Please enter your password:' },
+    wrongPassword: { ko: '비밀번호가 일치하지 않습니다.', en: 'Incorrect password.' },
+  },
+  visitorCounter: {
+    count: { ko: (n: string) => `당신은 ${n}번째 방문자입니다.`, en: (n: string) => `You are the ${n}th visitor.` },
+    loading: { ko: '방문자 수를 불러오는 중입니다...', en: 'Loading visitor count...' },
+    congrats: { ko: (n: string) => `🎉 ${n}번째 방문을 축하합니다! 🎉`, en: (n: string) => `🎉 Congratulations on being the ${n}th visitor! 🎉` },
+  },
+  postView: {
+    backToList: { ko: '목록으로 돌아가기', en: 'Back to List' },
+    prevPost: { ko: '이전 글', en: 'Previous Post' },
+    nextPost: { ko: '다음 글', en: 'Next Post' },
+  },
+};

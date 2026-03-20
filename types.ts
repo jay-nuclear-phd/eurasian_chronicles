@@ -9,6 +9,7 @@ export interface Comment {
   author: string;
   content: string;
   date: string;
+  password?: string;
 }
 
 export interface Post {

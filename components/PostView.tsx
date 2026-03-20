@@ -4,6 +4,7 @@ import { Post, LocalizedString } from '../types';
 import CommentSection from './CommentSection';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { UI_STRINGS } from '../constants';
 
 type NavPost = {
   id: string;
@@ -23,20 +24,33 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
   const { language } = useLanguage();
   const [localComments, setLocalComments] = useState(post.comments);
 
+  const t = UI_STRINGS.postView;
+
   useEffect(() => {
     // Reset comments when post changes
     setLocalComments(post.comments);
   }, [post]);
 
 
-  const handleAddComment = (content: string, author: string) => {
+  const handleAddComment = (content: string, author: string, password?: string) => {
     const newComment = {
       id: Date.now().toString(),
       content,
       author,
       date: new Date().toLocaleDateString(),
+      password,
     };
     setLocalComments([...localComments, newComment]);
+  };
+
+  const handleUpdateComment = (id: string, content: string) => {
+    setLocalComments(localComments.map(c => 
+      c.id === id ? { ...c, content } : c
+    ));
+  };
+
+  const handleDeleteComment = (id: string) => {
+    setLocalComments(localComments.filter(c => c.id !== id));
   };
 
   const renderPostNavLink = (navPost: NavPost | null | undefined, type: 'prev' | 'next') => {
@@ -51,7 +65,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
       >
         {isPrev && <ChevronLeft className="text-slate-400 group-hover:text-russia-blue" />}
         <div className={isPrev ? 'text-left' : 'text-right'}>
-          <div className="text-xs text-slate-500">{isPrev ? (language === 'ko' ? '이전 글' : 'Previous Post') : (language === 'ko' ? '다음 글' : 'Next Post')}</div>
+          <div className="text-xs text-slate-500">{isPrev ? t.prevPost[language] : t.nextPost[language]}</div>
           <div className="font-serif font-bold text-slate-700 group-hover:text-russia-blue truncate">{navPost.title}</div>
         </div>
         {!isPrev && <ChevronRight className="text-slate-400 group-hover:text-russia-blue" />}
@@ -66,7 +80,7 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
           onClick={onBack}
           className="mb-8 text-sm text-slate-500 hover:text-russia-blue flex items-center gap-1 transition-colors"
         >
-          ← {language === 'ko' ? '목록으로 돌아가기' : 'Back to List'}
+          ← {t.backToList[language]}
         </button>
       )}
 
@@ -112,7 +126,12 @@ const PostView: React.FC<PostViewProps> = ({ post, categoryTitle, onBack, prevPo
 
       {/* Comments */}
       <div className="mt-16">
-        <CommentSection comments={localComments} onAddComment={handleAddComment} />
+        <CommentSection 
+          comments={localComments} 
+          onAddComment={handleAddComment} 
+          onUpdateComment={handleUpdateComment}
+          onDeleteComment={handleDeleteComment}
+        />
       </div>
     </article>
   );

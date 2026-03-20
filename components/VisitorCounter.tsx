@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { UI_STRINGS } from '../constants';
 
 const Toast = ({ message, show }) => {
   if (!show) return null;
@@ -10,8 +12,11 @@ const Toast = ({ message, show }) => {
 };
 
 const VisitorCounter = () => {
+  const { language } = useLanguage();
   const [count, setCount] = useState<number | null | 'error'>(null);
   const [showCongrats, setShowCongrats] = useState(false);
+
+  const t = UI_STRINGS.visitorCounter;
 
   useEffect(() => {
     // Using a more reliable counter service and added better error handling.
@@ -42,15 +47,15 @@ const VisitorCounter = () => {
       return null;
     }
     if (typeof count === 'number') {
-      return <p>당신은 {count.toLocaleString()}번째 방문자입니다.</p>;
+      return <p>{t.count[language](count.toLocaleString())}</p>;
     }
-    return <p>방문자 수를 불러오는 중입니다...</p>;
+    return <p>{t.loading[language]}</p>;
   }
 
   return (
     <div className="text-center text-sm">
       {renderContent()}
-      <Toast message={`🎉 ${typeof count === 'number' ? count.toLocaleString() : ''}번째 방문을 축하합니다! 🎉`} show={showCongrats} />
+      <Toast message={typeof count === 'number' ? t.congrats[language](count.toLocaleString()) : ''} show={showCongrats} />
     </div>
   );
 };
