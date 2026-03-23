@@ -76,8 +76,7 @@ export const eurasiaTravelCategory: Category = {
           철학적 영감은 얻지 못했지만, 칼리닌그라드 여행이 편하고 즐거웠던 이유는 이곳이 100% 러시아 본토와 똑같이 굴러간다는 점이었다. 어찌 보면 당연한 일이었다. 비행기를 타고 바다를 건너가도 제주도가 한국이듯, 이곳도 엄연한 러시아 영토니까! 벨라루스 여행 때처럼 환전을 고민할 필요 없이 모스크바 지갑에 있던 러시아 루블을 그대로 꺼내 썼고, 핸드폰 역시 유심을 새로 살 필요 없이 러시아 통신사가 빵빵하게 터졌다. 붉은 벽돌의 독일풍 건축물들이 묘하게 섞여 있긴 했지만, 거리를 걷는 무뚝뚝한 사람들도, 투박한 식당의 음식 맛도, 심지어 살을 에는 매서운 추위마저도 우리에겐 너무나 친숙한 모스크바의 그것이었다. 아무리 동떨어져 있어도, 러시아는 뼛속까지 러시아였다.
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧩 러시아의 경계에서 만난 두 얼굴</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           유라시아라는 거대한 퍼즐 조각 위에서 만난 벨라루스와 칼리닌그라드는 참으로 얄궂은 대조를 이루었다. 언어와 화폐의 이름까지 같아서 이웃 동네 마실 가듯 만만하게 넘나들다, 결국 국경 수비대에게 덜미를 잡혀 반성문까지 쓰게 만든 서늘한 외국 벨라루스. 그리고 낯선 유럽 연합 국가들에 빙 둘러싸여 있어 비행기로 가야 하지만, 일말의 여지 없는 100퍼센트 러시아 칼리닌그라드. 얄팍한 지식만 믿고 덤비기엔 아직 나는 많이 부족했고, 그렇지만 한 발 한 발 착실하게 배워나가고 있었다.
         </p>
@@ -130,8 +129,7 @@ export const eurasiaTravelCategory: Category = {
           Although we gained no philosophical inspiration, Kaliningrad was comfortable and enjoyable for one simple reason: it operated exactly like mainland Russia, one hundred percent. In one sense, that was only natural. Just as Jeju Island is still Korea even if one flies over the sea to reach it, this too was undeniably Russian territory. Unlike our trip to Belarus, there was no need to worry about exchanging money; we simply pulled Russian rubles out of the same wallet we used in Moscow. Our phones worked the same way too, with no need to buy a new SIM card, because our Russian carrier had perfectly good service there. There were curious traces of German-style red-brick architecture mixed in here and there, but the blunt people on the streets, the rough taste of the food in the restaurants, and even the bitter cold that cut into the flesh all felt intimately familiar to us, just like Moscow. No matter how far detached it was, Russia was Russia to the marrow.
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧩 Two Contrasting Faces on Russia's Edge</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           Belarus and Kaliningrad, encountered on the vast puzzle board of Eurasia, formed an oddly fitting contrast. Belarus was the chillingly foreign country that felt casual enough to cross into as if going to a neighboring district, because even the language and the name of the currency seemed the same, only to end with us being caught by border guards and forced to write statements of reflection. Kaliningrad, by contrast, was surrounded by unfamiliar European Union countries and had to be reached by plane, yet it was one hundred percent Russia without the slightest ambiguity. I was still far too inexperienced to charge in armed only with shallow knowledge, but step by step, I was learning.
         </p>
@@ -197,8 +195,7 @@ export const eurasiaTravelCategory: Category = {
           과거 영국의 식민 지배에서 독립한 후, 섬 안에서 다수를 차지하던 그리스계 주민들과 소수의 튀르키예계 주민들 사이의 피비린내 나는 유혈 충돌이 벌어졌다. 결국 1974년, 튀르키예 군대가 자국민 보호를 명분으로 섬의 북쪽을 점령해 버렸고, 그 결과 남쪽은 그리스계의 키프로스 공화국으로, 북쪽은 튀르키예계의 북키프로스 튀르키예 공화국으로 나뉘어 버렸다. 섬의 수도인 니코시아의 한가운데로는 유엔 통제하에 철조망과 장벽이 처진 그린 라인이 지나간다. 전 세계에서 유일하게 남은 분단 수도인 셈이다. 이 쪼개진 섬은 두 나라의 지독한 역사적 앙금과 영토 분쟁의 현주소를 가장 적나라하게 보여주는 살아있는 박물관이다. 다행히도 관광객은 여권만 가지고 있다면 쉽게 이 국경을 넘나 들 수 있다. 
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏝️ 분쟁과 햇살이 교차하는 지중해의 기억</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           춥고 칙칙했던 러시아 대륙의 길고 긴 겨울을 벗어나, 튀르키예와 그리스가 뿜어내는 지중해의 찬란한 햇살과 다채로운 미식을 온몸으로 즐길 수 있었던 것은 그야말로 완벽한 해방감이었다. 단순히 입과 눈만 즐거웠던 것이 아니라, 두 나라가 치열하게 얽히며 빚어낸 흥미로운 역사적 스토리까지 깊이 있게 배울 수 있어 더욱 뜻깊은 여정이었다. 특히 교과서 속 활자로만 무미건조하게 읽던 영토 분쟁의 역사를, 키프로스처럼 실제로 철조망이 처진 채 갈라져 있는 분단 수도의 검문소를 두 발로 직접 넘나들며 마주하니 그 묵직한 현실이 훨씬 더 생생하게 피부로 와닿았다.
         </p>
@@ -247,8 +244,7 @@ export const eurasiaTravelCategory: Category = {
           After gaining independence from British colonial rule, Cyprus descended into bloody clashes between the Greek Cypriot majority and the Turkish Cypriot minority. In the end, in 1974, the Turkish military occupied the northern part of the island under the pretext of protecting its own ethnic community. As a result, the south became the Greek Cypriot Republic of Cyprus, and the north became the Turkish Republic of Northern Cyprus. Through the middle of Nicosia, the island's capital, runs the Green Line, fenced with barbed wire and barriers under United Nations control. It is the only divided capital left in the world. This split island is a living museum that lays bare the bitter historical sediment and territorial conflict between the two countries more vividly than anywhere else. Fortunately, tourists can cross that border quite easily as long as they carry a passport.
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏝️ Mediterranean Sunlight and the Weight of Division</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           Escaping the long and bleak winters of the cold Russian continent and immersing myself in the radiant Mediterranean sunlight and diverse cuisine of Turkiye and Greece was nothing short of a perfect sense of liberation. It was not simply a matter of pleasing the eyes and the palate. The journey felt even more meaningful because it also allowed me to learn, in a vivid and layered way, the historical stories created by the fierce entanglement of these two countries. In particular, the history of territorial disputes, which I had previously encountered only as dry textbook print, felt far more tangible and weighty when I crossed in person through checkpoints in a divided capital like Cyprus, where barbed wire still cuts through the city.
         </p>
@@ -266,7 +262,7 @@ export const eurasiaTravelCategory: Category = {
         en: 'A Baltic Road Trip Through Painful History and the Peculiar Chemistry of Three Siblings',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1603190287605-e6ade32fa852?q=80&w=1200&auto=format&fit=crop',
+        'https://img1.daumcdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/8EQu/image/v4P69mZDWlPT3y0f5E_UFLCB26Q?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
@@ -316,8 +312,7 @@ export const eurasiaTravelCategory: Category = {
           그런데 더 기가 막힌 사실은 이 아름다운 바닷길의 끝이 어디로 이어지냐는 것이다. 도로를 따라 쭉 직진하다 보면, 바로 앞선 여행기에서 다루었던 러시아의 기형적인 외딴섬 영토, 칼리닌그라드의 국경과 맞닥뜨리게 된다. 유럽 한복판의 그림 같은 국립공원을 달리다 그 끝에서 또다시 100% 찐 러시아 본토와 마주하게 되다니! 
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌊 서로 다른 기억이 만나는 발트해의 끝</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           러시아와 국경을 맞대고 있는 인접 국가들은 좋든 싫든 러시아와 떼려야 뗄 수 없는 묵직한 역사를 공유하고 있다. 모스크바에서 유학 생활을 하며 러시아인이 쓴 러시아 역사에 대해 배웠지만, 국경 하나를 넘어 발트 3국의 시선에서 마주한 과거는 완전히 다른 얼굴을 하고 있었다. 러시아인들이 자랑스러워하는 위대한 통합과 해방의 역사가, 이웃 나라 사람들에게는 결코 잊을 수 없는 침략과 억압으로 뼈저리게 기억되고 있었으니 말이다. 우리가 렌터카 운전대를 잡고 넘었던 것은 단순한 지도상의 경계선이 아니라, 이처럼 복잡하게 얽힌 서로 다른 기억과 시선의 경계였던 셈이다. 철없는 무계획으로 호기롭게 떠나 고생도 제법 했지만, 발트해를 따라 달린 이 로드트립은 내게 세상을 한층 입체적으로 바라보는 새로운 렌즈를 달아주며 잊지 못할 완벽한 여정으로 막을 내렸다.
         </p>
@@ -368,8 +363,7 @@ export const eurasiaTravelCategory: Category = {
           But the even more astonishing fact was where the end of that beautiful seaside road eventually led. If you simply continued driving straight, you would find yourself face to face with the border of Kaliningrad, Russia's strange exclave, the very territory discussed in the previous travel essay. To drive through a picturesque national park in the middle of Europe and then, at the road's end, encounter once again one hundred percent unmistakable Russia. That was almost too absurd to be real.
         </p>
 
-        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌊 At the Baltic's Edge, Between Clashing Memories</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
           Countries that share a border with Russia, whether they like it or not, also share a heavy and inseparable history with it. While studying in Moscow, I learned Russian history as written by Russians, but once I crossed a border and looked at the past from the perspective of the Baltic states, it wore an entirely different face. The great history of integration and liberation so proudly remembered by Russians was remembered by their neighbors instead as invasion and oppression that could never be forgotten. What we crossed in our rental car was not merely a line on a map, but a boundary between conflicting memories and perspectives intricately tangled together. We set out recklessly and suffered our fair share of trouble, but this road trip along the Baltic Sea ended as a perfect and unforgettable journey, one that gave me a new lens through which to see the world in richer dimensions.
         </p>
@@ -387,7 +381,7 @@ export const eurasiaTravelCategory: Category = {
         en: 'Three Very Different Countries Beneath One Mountain Range and a Tangle of History',
       },
       imageUrl:
-        'https://img1.daumcdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/8EQu/image/v4P69mZDWlPT3y0f5E_UFLCB26Q',
+        'https://dimg.donga.com/wps/NEWS/IMAGE/2019/03/20/94630330.5.jpg',
       isActive: true,
       comments: [],
       content: {
