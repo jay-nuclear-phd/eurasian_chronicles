@@ -995,5 +995,118 @@ export const year3Category: Category = {
       `,
       },
     },
+    {
+      id: 'post-308',
+      title: { ko: '외전 (6) - 아내의 입장', en: "Side Story (6) - From My Wife's Point of View" },
+      subtitle: {
+        ko: '불도저 같은 남편 옆 조수석에서 버텨낸 유학의 시간',
+        en: 'The Years of Study Abroad Endured from the Passenger Seat Beside a Bulldozer of a Husband',
+      },
+      imageUrl: 'https://cdn.gamsanews.co.kr/news/photo/202510/21052_27815_1835.jpg',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+군인인 남편이 중위 계급장을 단 지 얼마 되지 않았을 무렵, 우리는 풋풋한 신혼부부가 되었다. 깨가 쏟아져도 모자랄 판에, 이 인간이 나와는 단 한마디 상의도 없이 덜컥 남수단 파병을 지원했다는 청천벽력 같은 소식을 들고 왔다. 도대체 나랑 결혼은 왜 한 건지, 신혼 초부터 생때같은 마누라를 청산과부로 만들 작정인지 분통이 터졌다. 파병을 가면 최소 6개월은 생이별인데 말이다. 하지만 불행 중 다행이랄까, 남편은 달랑 토익 점수 하나 믿고 통역장교에 지원하는 무모한 패기를 부렸고, 그의 그 조악한 영어 실력 덕분에 보기 좋게 파병 선발에서 탈락했다. 나는 속으로 쾌재를 불렀다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌍 남수단 다음엔 러시아라니</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+그런데 그 평화도 잠시, 얼마 지나지 않아 이번에는 러시아로 간단다. 기가 막히고 코가 막힐 노릇이었다. 러시아에 가서 무려 3년이나 지내야 하는데, 심지어 전공도 생소한 핵물리학 석사를 받으러 간다는 것이다. 러시아어 알파벳도 모르고, 핵물리는커녕 화학과 출신인 주제에 도대체 거기서 뭘 어떻게 하겠다는 건지 도통 이해가 되지 않았다. 그나마 파병 때와는 달리 가족 동반이 가능하다는 사실 하나가 유일한 위안이었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎯 지원자 1명, 그리고 불길한 예감</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+며칠 뒤 남편이 콧노래를 부르며 면접을 보고 돌아왔다. 지원자가 본인 하나뿐이라 무조건 합격할 것 같다며 혼자 김칫국을 사발로 마시고 있었다. 내 속이 타들어 가는 것도 모른 채 싱글벙글하는 그를 보며, 속으로는 ‘에이, 설마 군에서도 생각이 있으면 러시아어 한마디 못하는 저 인간을 진짜로 보내겠어?’ 하며 애써 불안감을 억눌렀다. 하지만 기어코 남편은 합격 통보를 받아오고야 말았다. 면접관이 본인의 숨겨진 가능성을 보았다나 뭐라나.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📚 불똥은 결국 내게 튀었다</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+그렇게 비행기 티켓을 끊고 예비학부 등록을 알아보며 본격적인 출국 준비가 시작되었다. 그러더니 불똥이 갑자기 내게 튀었다. 나보고도 러시아에 가서 3년 동안 가만히 있지 말고 공부를 하라는 것이었다. 러시아에 가서 도대체 내가 뭘 하겠냐는 말에 한동안 말문이 턱 막혔지만, 결국 남편과 친정 가족들의 지독한 등살에 떠밀려 나는 얼떨결에 예비학부에 지원서를 넣고 말았다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚕 공항 택시 사기와 더닝 크루거의 시작</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+나보다 이틀 먼저 러시아 땅을 밟은 남편은 아주 기세가 등등했다. 하지만 그 근거 없는 자신감이 박살 나는 데는 그리 오랜 시간이 걸리지 않았다. 공항으로 나를 데리러 온 그가 현지 택시 기사에게 보기 좋게 사기를 당해 바가지를 쓴 것이다. 생돈이 날아간 건 몹시 아까웠지만, 한편으로는 그 근거 없는 기세가 초장에 꺾여버린 게 내심 고소하고 다행스러웠다. 더닝 크루거 효과라고 들어보셨는지 모르겠다. 진정한 실력은 나의 철저한 무지를 뼈저리게 깨달은 바로 그 순간부터 시작되는 법이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 예비학부로 끝날 줄 알았던 공부</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+꾸질꾸질한 러시아 기숙사에서의 1년은 생각보다 견딜 만했다. 예비학부만 마치면 내 공부도 끝날 줄 알았는데, 이번에는 기어이 석사 과정까지 밟으라는 남편의 폭탄선언이 이어졌다. 그때는 정말 머리끝까지 화가 났다. 하지만 결국 이번에도 그 등살에 밀려 통번역 학과에 덜컥 지원하고 말았다. 아직도 남편과 가끔 당시 일을 회상할 때면 종종 내 석사 학위에 들어간 그 학비에 대해 이야기하곤 한다. 과연 그때 그 돈으로 비트코인을 샀으면 우리의 인생이 어떻게 달라졌을까 하고 말이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 오기로 버틴 석사 과정</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+억지로 떠밀려 시작한 석사 과정이 순탄할 리 없었다. 뚜렷한 목표 의식도, 초심도 부족했기에 매일이 고비였다. 하지만 책상머리에 앉아 러시아어 사전과 씨름하며 무식하게 밀어붙이는 남편을 볼 때면 묘한 오기가 생겼다. 진짜 저 인간은 계획도 없이 막무가내로 직진하는구나 싶으면서도, 나 역시 마음을 다잡게 되는 이상한 동기부여가 되었다. 주변의 도움을 받긴 했지만, 그렇게 꾸역꾸역 수업을 듣고 논문까지 써내며 졸업장을 손에 쥐었을 때의 그 벅찬 성취감은 결코 말로 이룰 수 없었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕵️ 졸업장에 찍힌 뜻밖의 국적</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+아, 내 석사 졸업장에 얽힌 아주 기가 막힌 에피소드가 하나 있다. 졸업 전 서류 확인을 대충 한 탓에, 내 국적이 'Republic of Korea'가 아닌 'DPRK', 즉 북한으로 찍혀 나온 것이다. 졸업장에 박힌 그 활자를 수정하려면 또 엄청난 시간과 서류 작업이 필요하다길래, 어차피 석사 졸업장을 다시 꺼내볼 일이 얼마나 있겠냐는 심정으로 쿨하게 한국으로 들고 들어왔다. 일상생활에 큰 문제는 없었지만, 남편은 이 절호의 기회를 놓치지 않고 틈만 나면 나를 간첩이라며 놀려댄다. 내가 군대에 대해 뭐라도 물어볼라치면 “왜 북에서 시켰어?”라며 깐족거린다. 심지어 자기 월급 내역도 군사기밀이라 함부로 발설할 수 없단다. 내 참 어이가 없어서. 아직 등짝을 덜 맞았다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚜 불도저 남편 옆에서 산다는 것</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+주변 사람들은 남편의 엄청난 추진력을 보며 대단하다고들 칭찬한다. 밖에서 볼 때는 참 멋있고 대단해 보일지도 모른다. 하지만 한 치 앞도 모르는 그 불도저 같은 추진력에 묶여 질질 끌려다녀야 하는 바로 옆의 당사자는 매 순간이 서바이벌이고 가끔은 다 때려치우고 싶은 충동을 느낀다. 내가 참아야지. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💫 그래도 지루할 틈 없는 인생</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+그래도 그 무식하고 용감한 불도저에 강제로 올라타지 않았더라면 내 인생에 유학이라는 단어가 존재하기나 했을까. 복장 터질 때가 한두 번이 아니었지만, 남편 덕에 남들은 못할 많은 경험을 했다. 과연 누가 3년간의 시간과 돈을 들여 북한 국적이 찍힌 석사 졸업장을 들고 올 수 있겠는가. 앞뒤 재지 않고 돌진하는 남편 덕분에 내 인생은 결코 평탄치 않았지만, 단 한순간도 지루할 틈 없이 스펙터클하게 흘러가고 있다. 가끔은 이 피곤한 불도저의 조수석에 앉아 있는 내 팔자가 기구하다 싶으면서도, 어디 가서도 우리 가족 굶기지는 않겠다는 생각이 든다. 진짜 할 수 있다고 외치면 다 되는 줄 아나 봐... 이 사람과 함께 산지도 벌써 만으로 13년... 이젠 정말 그런 것 같기도...
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+Not long after my husband, a career soldier, had pinned on his lieutenant bars, we became a fresh newlywed couple. At a time when we should have been drowning in marital bliss, he came to me with the thunderbolt news that he had applied for deployment to South Sudan without discussing a single word of it with me. I was furious. Why on earth had he married me in the first place, if he was planning to make his bride a living widow from the very start of our marriage? A deployment meant at least six months of painful separation. But perhaps fortune was still on my side, because my husband recklessly applied to become an interpreter officer with nothing but a TOEIC score to his name, and thanks to his embarrassingly crude English skills, he failed the selection in spectacular fashion. Inside, I rejoiced.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌍 If Not South Sudan, Then Russia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+But that peace did not last long. Before long, he announced that this time he was going to Russia. It was enough to leave me speechless. He was supposed to live there for a full three years, and on top of that, he was going to pursue a master's degree in the unfamiliar field of nuclear physics. He did not even know the Russian alphabet, and never mind nuclear physics, he was a chemistry major. I simply could not understand what he thought he was going to do there or how he planned to manage it. The only consolation, unlike the deployment issue, was that family accompaniment was allowed.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎯 One Applicant and a Bad Feeling</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+Several days later, my husband came back from the interview humming cheerfully. Since he had been the only applicant, he was already gulping down bowls of imaginary celebratory soup all by himself, convinced that he would definitely pass. Watching him beam without the slightest awareness that my insides were burning, I tried to calm my anxiety by thinking, "Come on, if the military has any sense at all, would they really send a man who cannot speak a word of Russian?" But in the end, he really did come home with an acceptance notice. Apparently the interviewers had seen his hidden potential or something of the sort.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📚 The Spark Landed on Me</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+Once the plane tickets were booked and the preparatory faculty enrollment was being arranged, our departure preparations began in earnest. Then suddenly the spark flew to me. He told me that I too should not just sit idle in Russia for three years, but should study there as well. For a while I was left completely speechless at the thought of what on earth I was supposed to do in Russia, but in the end I was pushed along by my husband's relentless pressure and my family's equally persistent urging, and somehow found myself submitting an application to the preparatory faculty.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚕 Airport Taxi Scam and the Start of Dunning-Kruger</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+My husband, who had landed in Russia two days before I did, was brimming with confidence. But it did not take long for that baseless confidence to be smashed to pieces. When he came to pick me up at the airport, he was neatly scammed by a local taxi driver and charged a ridiculous amount. It was painful to lose the money, of course, but on the other hand, I secretly felt satisfied and relieved that his groundless swagger had been broken so early. I do not know whether you have heard of the Dunning-Kruger effect, but true ability begins at precisely the moment one painfully realizes one's own profound ignorance.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 The Studies That Were Supposed to End Early</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+That one year in a grimy Russian dormitory was more bearable than I had expected. I thought my own studies would end once I finished the preparatory faculty, but then my husband dropped another bombshell and insisted that I should go all the way into a master's program too. At that point I was furious to the tips of my hair. But once again, I ended up being pushed along and somehow applied to the interpreting and translation department. Even now, when my husband and I recall those days, we often talk about the tuition money that went into my master's degree and wonder how our lives might have changed if we had bought Bitcoin with that money instead.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 A Master's Degree Fueled by Stubbornness</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+There was no way a master's program begun by sheer coercion was going to go smoothly. I lacked both a clear sense of purpose and the original passion one ought to have, so every day felt like an uphill battle. But whenever I saw my husband sitting at his desk wrestling with a Russian dictionary and charging ahead by brute force, something strangely defiant stirred inside me. I would think, "That man really is charging straight ahead without a single plan," yet somehow it became a strange source of motivation that made me steady my own mind as well. I did receive help from people around me, but the overwhelming sense of accomplishment I felt when I finally dragged myself through classes, wrote a thesis, and held the diploma in my hands is something that words can never fully capture.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕵️ The Unexpected Nationality on My Diploma</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+Ah, there is one truly absurd episode connected to my master's diploma. Because I had checked the paperwork too carelessly before graduation, my nationality was printed not as "Republic of Korea" but as "DPRK," meaning North Korea. I was told that correcting those letters on the diploma would require an enormous amount of time and more paperwork, so I coolly brought it back to Korea thinking that there would hardly be many occasions in life when I would take out my master's diploma again anyway. It caused no great problem in everyday life, but my husband has never once missed the chance to tease me about it, calling me a spy whenever he gets the opportunity. If I ask him anything about the military, he snaps back with, "Why, did the North send you?" He even says he cannot reveal the details of his salary because it is military secret information. Honestly. He clearly has not been smacked on the back enough yet.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚜 What It Means to Live Beside a Bulldozer</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+People around us often praise my husband's incredible drive and say he is impressive. From the outside, I am sure he does look admirable and remarkable. But for the person right next to him, who has to be dragged around by that bulldozer-like momentum that knows nothing of what lies even one step ahead, every moment feels like survival, and sometimes I am overcome by the urge to throw everything away. I suppose I just have to endure it.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💫 Still, Never a Dull Life</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+And yet, if I had not been forcibly hauled aboard that ignorant but courageous bulldozer, would the word "study abroad" ever have existed in my life at all? There were countless moments when he drove me to the brink of bursting with frustration, but thanks to him I experienced many things most people never could. After all, who else could spend three years of time and money only to come home carrying a master's diploma stamped with North Korean nationality? Thanks to a husband who charges forward without weighing the consequences, my life has never been peaceful, but it has also never had a single dull moment. Sometimes I think my fate is truly strange, sitting in the passenger seat beside this exhausting bulldozer, yet at the same time I feel certain that wherever we go, he will never let our family starve. Maybe he really does believe that if he just shouts that he can do it, everything will somehow work out. It has already been thirteen full years living with this man... and now I am beginning to think he might actually be right...
+        </p>
+      `,
+      },
+    },
   ],
 };
