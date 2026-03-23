@@ -255,5 +255,233 @@ export const eurasiaTravelCategory: Category = {
       `,
       },
     },
+    {
+      id: 'eurasia-travel-3',
+      title: {
+        ko: '발트 3국 - 에스토니아, 라트비아, 리투아니아',
+        en: 'The Baltic States: Estonia, Latvia, and Lithuania',
+      },
+      subtitle: {
+        ko: '발트해를 따라 달리며 만난 상처의 역사와 삼 형제의 케미',
+        en: 'A Baltic Road Trip Through Painful History and the Peculiar Chemistry of Three Siblings',
+      },
+      imageUrl:
+        'https://images.unsplash.com/photo-1603190287605-e6ade32fa852?q=80&w=1200&auto=format&fit=crop',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          이번 무대는 러시아의 거대한 그림자를 벗어나 발트해의 낭만을 품은 세 나라, 이른바 ‘발트 3국’이라 불리는 에스토니아, 라트비아, 리투아니아이다. 우리는 상트페테르부르크에서 렌터카를 빌려 직접 운전대를 잡고 발트 3국으로 넘어갔다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚗 국경을 넘는 렌터카의 변수들</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          우리는 여권만 들고 고속도로 톨게이트 지나듯 국경을 넘으면 될 줄 알았건만, 렌터카로 국경을 넘는 일은 상상 이상으로 깐깐한 작업이었다. 사전에 렌터카 약관에 국경 통과 가능 여부를 파악해야 했고, 국가 간 이동에 필요한 차량 보험과 온갖 복잡한 서류들이 존재한다는 사실을 우리는 국경 검문소에 도착해서야 깨달았다. 뜻이 있는 곳에는 길이 있다고 했던가. 시간은 좀 걸렸지만 어찌저찌 러시아 땅을 벗어나 발트 3국의 땅을 밟을 수 있었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚨 국경 너머에서도 통하던 생존 기술</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          고난은 여기서 끝이 아니었다. 국경을 넘었다는 해방감과 뻥 뚫린 도로에 취해 나도 모르게 액셀을 깊게 밟았던 모양이다. 아주 살짝 제한 속도를 넘겼을 즈음, 어디선가 귀신같이 현지 경찰이 나타나 우리 차를 세웠다. 국경에서 진을 다 뺐는데 벌금 폭탄까지 맞을까 봐 심장이 덜컥 내려앉았지만, 놀랍게도 이 동네 경찰 역시 러시아에서 익히 겪었던 것처럼 ‘대화’가 통하는 분들이었다. 진심을 담은 ‘성의’를 표현함으로서 별탈 없이 여행을 이어갈 수 있었다. 러시아 대륙에서 배운 생존 기술이 발트해에서도 통한다는 사실에 어이가 없었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏰 탈린: 중세 도시와 헬싱키행 페리</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          우리의 첫 목적지였던 에스토니아의 수도 탈린의 구시가지는 유럽 전체를 통틀어 중세의 모습이 가장 완벽하게 보존된 곳 중 하나다. 붉은 지붕이 오밀조밀 늘어선 전망대에 올라 발트해의 푸른 바다를 내려다보는 맛도 훌륭하지만, 여기서 절대 놓칠 수 없는 꿀팁이 하나 있다. 탈린은 바다 하나를 사이에 두고 핀란드의 헬싱키와 마주 보고 있어, 대형 페리를 타면 단 2시간 남짓 만에 헬싱키에 닿는다. 배 안에서 면세 쇼핑을 즐기고 데크에서 맥주 한 잔에 시원한 바닷바람을 맞다 보면 어느새 북유럽 땅이다. 당일치기로도 충분히 가능하니 에스토니아에 간다면 고려해보기를 추천한다. 지리적으로 가까운 탓인지 에스토니아도 북유럽의 사우나 문화가 발달해 있다. 우리는 에어비앤비를 이용했는데 운 좋게도 숙소 내에 사우나가 있었다. 고된 여행 후에 노곤한 몸을 사우나에서 녹여도 좋을 듯 하다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕯️ 리가에서 마주한 점령의 기억</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          중세 동화와 북유럽의 낭만을 뒤로하고 남쪽으로 달려 도착한 곳은 중간에 위치한 라트비아의 수도, 리가였다. 화려한 아르누보 양식의 건물들 덕분에 '발트해의 파리'라 불리는 아름다운 도시지만, 그 화려함 이면에는 아주 서늘하고 아픈 역사가 숨 쉬고 있었다. 리가 중심부에는 라트비아 점령 박물관이 있는데, 이곳은 1940년 소련에 의해 강제로 합병당하고 억압받았던 50년간의 처절한 역사를 고스란히 담고 있다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          수많은 지식인이 시베리아로 강제 유배를 당하고, 고유의 언어와 문화를 빼앗길 뻔했던 이들의 처절한 역사는 일제강점기를 겪은 우리 한국의 뼈아픈 근현대사와 너무나도 완벽하게 겹쳐 보였다. 지구 반대편의 낯선 나라 박물관에서 가슴이 먹먹해지는 묘한 동질감을 느낄 줄이야. 그제야 나는 이 동네에서 무심코 러시아어로 길을 묻거나 음식을 주문하는 게 얼마나 눈치 없는 행동인지 깊이 깨달았다. 현지인들이 내 러시아어를 찰떡같이 알아들으면서도 짐짓 모른 척 영어로 대답했던 것은, 명동 한복판에서 일본어로 당당하게 길을 묻는 관광객을 보는 한국인의 심정과 같았으리라.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤝 세트로 묶이지만 서로 다른 삼 형제</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이렇게 뼈아픈 역사를 공유하고 있지만, 재미있게도 발트 3국을 여행하다 보면 아주 기막힌 모순을 발견하게 된다. 외부인의 눈에는 늘 세트로 묶이는 세 나라이지만, 정작 본인들은 언어도 서로 달라 말도 통하지 않는다. 또한 에스토니아는 스스로를 북유럽이라 우기고, 라트비아는 그 사이에서 샌드위치처럼 끼어 센터 부심을 부리며, 가장 남쪽의 리투아니아는 찬란했던 과거 제국 시절의 자부심으로 뭉쳐 있다. 이들은 말이 통하지 않아 서로 만났을 때 영어를 쓰거나, 역설적이게도 그토록 증오하는 러시아어로 소통해야만 하는 웃픈 현실을 공유하고 있다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          평소엔 서로 촌스럽고 느리다며 디스전을 펼치지만, 동쪽의 거대한 불곰(러시아)이 으르렁거리는 순간 이들은 1초의 망설임도 없이 대동단결한다. 1989년, 독립을 열망하며 세 나라 국민 약 200만 명이 손에 손을 잡고 무려 600km에 달하는 거대한 '인간 띠(발트의 길)'를 만들어 낸 것이 바로 그 증거다. 티격태격하다가도 위기 앞에서는 가장 끈끈해지는 이 삼 형제의 기막힌 케미야말로, 발트 3국이 그 거친 역사 속에서 살아남을 수 있었던 진짜 비결이 아닐까.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏞️ 리투아니아의 성과 모래톱</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이 얄궂은 삼 형제의 막내 격이자 우리의 마지막 종착지인, 가장 남쪽의 리투아니아로 향했다. 호수 한가운데 덩그러니 떠 있는 붉은 벽돌의 트라카이성은 당장이라도 디즈니 동화 속 기사가 백마를 타고 튀어나올 것만 같은 로맨틱한 풍경이 일품이었다. 그리고 바다 위를 달리는 듯한 착각을 불러일으키는 쿠로니안 스핏 국립공원도 꼭 가봐야 할 곳 중 하나이다. 폭이 좁고 길쭉한 모래톱으로 이루어진 이 신비로운 지형은 양옆으로 끝없이 펼쳐진 발트해를 끼고 있다. 창문을 내리고 양쪽 바다에서 불어오는 바람을 맞으며 좁은 도로를 질주하는 기분은 그야말로 환상적이었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧭 길 끝에서 다시 만나는 러시아</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그런데 더 기가 막힌 사실은 이 아름다운 바닷길의 끝이 어디로 이어지냐는 것이다. 도로를 따라 쭉 직진하다 보면, 바로 앞선 여행기에서 다루었던 러시아의 기형적인 외딴섬 영토, 칼리닌그라드의 국경과 맞닥뜨리게 된다. 유럽 한복판의 그림 같은 국립공원을 달리다 그 끝에서 또다시 100% 찐 러시아 본토와 마주하게 되다니! 
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아와 국경을 맞대고 있는 인접 국가들은 좋든 싫든 러시아와 떼려야 뗄 수 없는 묵직한 역사를 공유하고 있다. 모스크바에서 유학 생활을 하며 러시아인이 쓴 러시아 역사에 대해 배웠지만, 국경 하나를 넘어 발트 3국의 시선에서 마주한 과거는 완전히 다른 얼굴을 하고 있었다. 러시아인들이 자랑스러워하는 위대한 통합과 해방의 역사가, 이웃 나라 사람들에게는 결코 잊을 수 없는 침략과 억압으로 뼈저리게 기억되고 있었으니 말이다. 우리가 렌터카 운전대를 잡고 넘었던 것은 단순한 지도상의 경계선이 아니라, 이처럼 복잡하게 얽힌 서로 다른 기억과 시선의 경계였던 셈이다. 철없는 무계획으로 호기롭게 떠나 고생도 제법 했지만, 발트해를 따라 달린 이 로드트립은 내게 세상을 한층 입체적으로 바라보는 새로운 렌즈를 달아주며 잊지 못할 완벽한 여정으로 막을 내렸다.
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          This time, the stage moves beyond Russia's vast shadow to three countries carrying the romance of the Baltic Sea: Estonia, Latvia, and Lithuania, the so-called Baltic states. We rented a car in Saint Petersburg, took the wheel ourselves, and drove across into the Baltics.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚗 The Complications of Crossing Borders in a Rental Car</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We had assumed we could simply carry our passports and cross the border as casually as passing through a highway tollgate, but taking a rental car across a national border turned out to be far more demanding than expected. We only realized upon arriving at the checkpoint that we were supposed to confirm in advance whether the rental agreement even allowed border crossings, and that there were separate insurance requirements and all kinds of complicated documents needed for international travel by car. Still, where there is a will, there is a way. It took time, but somehow we managed to leave Russian soil behind and step onto the land of the Baltic states.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚨 Survival Skills That Worked Beyond the Border</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          That was not the end of our troubles. I must have grown intoxicated with the relief of crossing the border and the wide-open road ahead, because before I knew it I was pressing the accelerator a little too deeply. The moment we went just slightly over the speed limit, a local police officer appeared almost supernaturally from nowhere and pulled us over. We had already been drained at the border, so the thought of getting hit with a massive fine made my heart sink. But surprisingly, the police in this region were also the sort with whom one could have a “conversation,” much like the ones I had already learned about in Russia. By expressing the proper sincerity, we were able to continue the journey without serious trouble. It was absurd to realize that the survival techniques learned on the Russian continent also worked on the Baltic coast.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏰 Tallinn: A Medieval City and the Ferry to Helsinki</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Our first destination was Tallinn, the capital of Estonia, whose Old Town is one of the best-preserved medieval urban landscapes in all of Europe. Climbing up to the viewpoint to look out over the blue waters of the Baltic Sea beyond its clusters of red roofs is already wonderful, but there is also one essential tip that should never be missed. Tallinn sits directly across the sea from Helsinki in Finland, and by large ferry you can reach Helsinki in just a little over two hours. Enjoy duty-free shopping on board, stand on the deck with a beer in hand and a sharp sea breeze in your face, and before you know it you are in the Nordics. It is easy enough for a day trip, so if you visit Estonia, it is well worth considering. Perhaps because of that geographic closeness, Estonia has also developed a Nordic-style sauna culture. We stayed in an Airbnb and were lucky enough to have a sauna in the accommodation itself. After a tiring journey, there is little better than letting your weary body melt in the heat.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🕯️ Riga and the Memory of Occupation</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Leaving behind medieval fairy-tale scenery and Nordic romance, we drove south and arrived in Riga, the capital of Latvia, positioned in the middle of the three countries. It is a beautiful city often called the “Paris of the Baltic” thanks to its magnificent Art Nouveau architecture, but behind that elegance there breathes a cold and painful history. In central Riga stands the Museum of the Occupation of Latvia, a place that preserves the full anguish of the fifty years during which the country was forcibly annexed and oppressed by the Soviet Union after 1940.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The desperate history of intellectuals being deported to Siberia and a people nearly losing their own language and culture overlapped with painful precision with Korea's own modern history under Japanese colonial rule. I had never expected to feel such a heavy, intimate sense of kinship in the museum of a distant country on the other side of the world. Only then did I fully realize how tactless it was to casually ask for directions or order food in Russian in this part of the world. The reason locals understood my Russian perfectly well yet deliberately replied in English must have been something like the feeling a Korean person would have upon seeing a tourist confidently asking for directions in Japanese in the middle of Myeong-dong.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤝 Three Siblings Grouped Together, Yet Entirely Different</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          What is fascinating is that even while sharing such painful history, the Baltic states reveal a striking contradiction once you travel through them. To outsiders they are always bundled together as a neat set of three, but in reality their languages are different enough that they cannot naturally understand one another. Estonia insists on thinking of itself as Nordic, Latvia carries itself with the pride of the one stuck in the middle like the filling of a sandwich, and Lithuania, the southernmost, is held together by the pride of its once-glorious imperial past. When they do meet, they often have to rely on English, or more ironically still, on Russian, the very language they resent so deeply. It is a quietly tragic and darkly funny reality they all share.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In ordinary times they mock one another as provincial and slow, but the moment the giant bear to the east starts growling, they unite without a second of hesitation. The clearest proof came in 1989, when about two million people across the three countries joined hands in a human chain stretching some six hundred kilometers in a shared cry for independence, the event now known as the Baltic Way. That bizarre chemistry between these three brothers, bickering in peacetime but inseparable in crisis, may well be the true reason the Baltic states survived such a harsh history.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏞️ Lithuania's Castle and Sand Spit</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          We then headed to Lithuania, the southernmost country, the youngest-feeling of these troublesome three brothers, and our final stop. Trakai Castle, a red-brick fortress floating alone in the middle of a lake, offered such a romantic view that it felt as though a knight from a Disney fairy tale might burst out at any moment on horseback. Another place that should not be missed is Curonian Spit National Park, whose narrow ribbon of land creates the illusion that you are driving directly over the sea. This mysterious strip of sand stretches long and thin with the Baltic waters spread endlessly on both sides. Rolling down the window and racing along the narrow road while wind blew in from the sea on either side felt simply fantastic.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧭 Meeting Russia Again at the End of the Road</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But the even more astonishing fact was where the end of that beautiful seaside road eventually led. If you simply continued driving straight, you would find yourself face to face with the border of Kaliningrad, Russia's strange exclave, the very territory discussed in the previous travel essay. To drive through a picturesque national park in the middle of Europe and then, at the road's end, encounter once again one hundred percent unmistakable Russia. That was almost too absurd to be real.
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Countries that share a border with Russia, whether they like it or not, also share a heavy and inseparable history with it. While studying in Moscow, I learned Russian history as written by Russians, but once I crossed a border and looked at the past from the perspective of the Baltic states, it wore an entirely different face. The great history of integration and liberation so proudly remembered by Russians was remembered by their neighbors instead as invasion and oppression that could never be forgotten. What we crossed in our rental car was not merely a line on a map, but a boundary between conflicting memories and perspectives intricately tangled together. We set out recklessly and suffered our fair share of trouble, but this road trip along the Baltic Sea ended as a perfect and unforgettable journey, one that gave me a new lens through which to see the world in richer dimensions.
+        </p>
+      `,
+      },
+    },
+    {
+      id: 'eurasia-travel-4',
+      title: {
+        ko: '캅카스 3국 - 에르메니아, 아제르바이잔, 조지아',
+        en: 'The Three Caucasus States: Armenia, Azerbaijan, and Georgia',
+      },
+      subtitle: {
+        ko: '산맥 아래 얽힌 역사와 전혀 다른 세 나라의 매력',
+        en: 'Three Very Different Countries Beneath One Mountain Range and a Tangle of History',
+      },
+      imageUrl:
+        'https://img1.daumcdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/8EQu/image/v4P69mZDWlPT3y0f5E_UFLCB26Q',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          흑해와 카스피해 사이, 유럽과 아시아의 경계를 가로지르는 거대한 자연의 장벽이 있다. 신화 속 프로메테우스가 인간에게 불을 훔쳐다 준 죄로 쇠사슬에 묶여 독수리에게 간을 파먹히던 형벌의 무대, 바로 캅카스 산맥이다. 그리고 이 웅장한 산줄기의 품에 안겨 있는 세 나라가 바로 이번 여행기의 주인공인 아제르바이잔, 아르메니아, 조지아다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧭 서로 붙어 있지만 전혀 다른 세 나라</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          이 세 나라는 지리적으로 딱 붙어 있고 과거 모두 소비에트 연방에 속해 있었지만, 막상 뚜껑을 열어보면 종교도, 언어도, 분위기도 완전히 다른 매력을 뿜어낸다. 얽히고설킨 이들의 관계를 조금 알고 가면 여행이 훨씬 흥미로워진다. 구소련에서 독립한 국가들인 만큼 러시아와의 관계가 꽤나 복잡한데, 조지아는 2008년 러시아와 직접 전쟁까지 치르며 국교를 단절했을 만큼 반러시아 정서가 강하다. 아르메니아는 주변국들의 위협 속에서 러시아를 일종의 안보 방패막이로 삼아왔으나 최근에는 그 관계마저 차갑게 식어가고 있다. 반면 아제르바이잔은 풍부한 오일 머니를 바탕으로 러시아의 눈치를 덜 보며 꽤나 독자적인 노선을 걷고 있다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚔️ 국경선에 새겨진 철천지원수의 역사</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          무엇보다 골치 아픈 것은 아르메니아와 아제르바이잔의 철천지원수 관계다. 두 나라는 오랫동안 영토 분쟁으로 피를 흘려왔는데, 지도를 확대해 보면 그 기형적인 국경선에 두 눈을 의심할 지경이다. 아제르바이잔 영토 한가운데 아르메니아 사람들이 사는 섬 같은 지역이 둥둥 떠 있고, 반대로 아르메니아 영토 안쪽이나 너머에도 아제르바이잔의 영토가 조각조각 떨어져 있다. 마치 멱살을 잡고 싸우다 서로의 옷자락이 뜯겨 나간 듯한 이 복잡한 영토 덕분에 두 나라의 국경은 완전히 폐쇄되어 있다. 당연히 여행객도 이 두 나라를 직접 오갈 수는 없다. 우리는 아제르바이잔을 방문한 후 조지아를 거쳐 아르메니아로 넘어갔는데, 아르메니아 입국 심사에서 우리 여권에 찍힌 아제르바이잔 도장을 보며 왜 그곳에 갔었는지 철저하게 검문하는 모습만 봐도 두 나라 사이의 팽팽한 긴장감을 오롯이 느낄 수 있었다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 천국 같은 물가와 지옥 같은 도로</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          정치적으로는 이토록 살벌한 동네지만, 여행자에게 캅카스 3국은 그야말로 은혜로운 천국이다. 세 나라의 가장 치명적인 매력은 바로 극강의 가성비다. 분위기 좋은 고급 레스토랑에서 식사하는 비용은 둘이서 2만원이 채 안된다. 하지만 캅카스 3국 여행의 치명적인 단점도 있다. 세 나라 모두 화려한 도시 중심부를 조금만 벗어나면 도로 사정이 처참할 정도로 열악해진다는 것이다. 아스팔트 곳곳에 폭탄이라도 맞은 듯 커다란 웅덩이가 파여 있는데 보수조차 제대로 되어 있지 않다. 창밖 풍경에 취해 주의를 기울이지 않고 운전하다가는 덜컹거리는 충격에 차체와 함께 영혼까지 사정없이 흔들리기 일쑤였다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ 바쿠의 하얀 마천루와 불의 야경</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          산유국인 아제르바이잔의 수도 바쿠에 들어서면, 자본주의 향이 물씬 풍기는 압도적인 현대식 건물들이 여행자를 맞이한다. 거리는 티끌 하나 없이 깨끗했고 건물들은 눈부시게 하얀색으로 빛나 도시 전체가 거대한 갤러리처럼 느껴졌다. 실제로 도시 곳곳에 예술적 감각이 묻어나는 갤러리들도 심심치 않게 눈에 띄었다. 특히 밤이 되면 도시 어디서나 보이는 거대한 플레임 타워가 화려한 붉은빛을 뿜어내며 압도적인 야경을 선사한다. 이 타워는 나라에 막대한 부를 가져다준 석유와 천연가스, 즉 불의 나라라는 아제르바이잔의 정체성을 상징적으로 보여준다. 이 도시가 진짜 매력적인 이유는, 이렇듯 번쩍이는 하얀 마천루가 솟아오른 바로 옆에 촘촘한 골목길과 성벽으로 둘러싸인 구시가지가 완벽하게 보존되어 있다는 점이다. 천 년 전 실크로드의 상인들이 걷던 길과 현대의 빌딩 숲이 한 프레임 안에 들어오는 풍경은 무척이나 이색적이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐄 소 떼가 지배하는 아르메니아의 산길</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          반면 아르메니아는 국토의 대부분이 해발 1,000미터가 넘는 고산지대로 이루어진 첩첩산중의 나라다. 굽이치는 산길을 다니다 보면 잊을 만할 때쯤 도로의 진정한 지배자들을 마주하게 된다. 바로 동네 소 떼들이다. 느긋하게 꼬리를 흔들며 왕복 2차선 도로를 완전히 점거한 채 유유자적 걸어가는 소 떼를 만나면 인간의 경적 따위는 아무런 소용이 없다. 그저 차를 세우고 소님들이 식사를 마치고 길을 비켜주실 때까지 한없이 겸손한 자세로 기다려야 한다. 바쁜 일정 중에 길을 막아선 이 뻔뻔한 녀석들에게 화가 날 법도 하지만, 우리에겐 아주 훌륭한 복수 방법이 있다. 바로 그날 저녁 식당에 가서 숯불에 바싹 구운 소고기 꼬치구이 샤슬릭을 아주 맛있게 씹어 삼키는 것이다. 낮에 길 위에서 당했던 길막의 설움을 훌륭한 고기 육즙으로 갚아주고 나면 장엄한 캅카스의 산맥 풍경이 한층 더 아름답게 느껴진다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍷 조지아, 미식과 와인의 성지</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          마지막으로 조지아는 미식과 와인의 성지다. 척박한 러시아에서도 조지아 식당은 믿고 먹는 고급 맛집으로 통한다. 갓 구운 빵 위에 치즈와 계란 노른자를 얹어 쓱쓱 비벼 먹는 하차푸리, 진한 고기 육즙이 폭포수처럼 쏟아지는 거대한 전통 만두 힌깔리는 지금도 군침이 돌게 만든다. 게다가 조지아는 인류 최초의 와인 발상지라는 자부심을 가지고 있다. 어느 집에 가나 자신들만의 비법으로 와인을 담그고 있었고, 동네 사람들과 눈인사를 나누며 조금만 친해져도 찰랑거리는 홈메이드 와인을 공짜로 듬뿍 얻어먹을 수 있는 와인 천국이었다.  
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🗿 조지아에서 마주한 스탈린의 그림자</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          조지아 여행에서 결코 빼놓을 수 없는 또 하나의 흥미로운 포인트는 바로 ‘스탈린’이다. 악명 높은 소련의 독재자 스탈린이 바로 고리라는 조지아의 작은 도시 출신이기 때문이다. 이곳에는 그의 생가와 함께 거대한 스탈린 박물관이 자리 잡고 있는데, 이를 대하는 현지인들의 시선은 무척이나 복잡 미묘해 보였다. 조지아는 러시아의 지배와 간섭을 치가 떨리게 싫어하면서도, 정작 그 무시무시한 소련 제국을 쥐락펴락했던 최고 권력자가 자국 출신이라는 사실에 일부 기성세대들은 일종의 비틀린 자부심을 품고 있는 듯했다. 수많은 사람을 숙청한 피도 눈물도 없는 폭군과 ‘개천에서 용 난’ 동네의 자랑거리 사이에서 빚어지는 이 기괴한 아이러니는, 캅카스의 복잡한 역사를 다시 한번 실감케 했다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛰️ 하나의 산맥 아래, 전혀 다른 현재</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          캅카스 산맥이라는 거대한 지붕 아래, 한때 소련이라는 하나의 붉은 깃발로 묶여 있던 세 나라. 하지만 거대한 제국의 그림자가 걷힌 지금, 이들은 완전히 다른 모습으로 각자의 현재를 살아가고 있다. 넘쳐나는 오일 머니로 번쩍이는 미래 도시를 짓고 있는 아제르바이잔, 첩첩산중의 대자연 속에서 묵묵히 자신들만의 고유한 시간과 신앙을 지켜가는 아르메니아, 그리고 아픈 역사를 뒤로한 채 향긋한 와인 잔을 부딪치며 낭만을 노래하는 조지아까지. 과거의 상처와 얽히고설킨 정세를 품고 있으면서도 저마다의 눈부신 색깔로 새로운 내일을 써 내려가는 이 다채로운 세 나라는, 내 추억 속 가장 강렬하고도 매혹적인 페이지를 자리하고 있다. 
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          Between the Black Sea and the Caspian Sea lies a vast natural wall that cuts across the boundary between Europe and Asia. In myth, it was the stage of the punishment where Prometheus, chained for stealing fire for humankind, had his liver devoured by an eagle. That place is the Caucasus Mountains. Cradled within this magnificent range are the three countries that star in this travel essay: Azerbaijan, Armenia, and Georgia.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🧭 Close Together, Yet Completely Different</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Geographically, these three countries sit right next to one another, and all of them once belonged to the Soviet Union. But once you actually open the lid, they radiate completely different charms in religion, language, and atmosphere. If you know even a little about their tangled relationships, the trip becomes far more interesting. As former Soviet republics, each has a complicated relationship with Russia. Georgia is strongly anti-Russian, to the point that it fought a direct war with Russia in 2008 and severed diplomatic ties. Armenia, surrounded by threats from neighboring countries, long treated Russia as a kind of security shield, but recently even that relationship has been growing cold. Azerbaijan, by contrast, has been able to follow a fairly independent course thanks to its abundant oil wealth and the freedom that comes from not having to mind Russia quite as much.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚔️ A Bitter Feud Etched into the Border</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Above all, the most troublesome issue is the mortal enmity between Armenia and Azerbaijan. The two countries have shed blood for a long time over territorial disputes, and if you zoom in on a map, their bizarre border is enough to make you doubt your own eyes. In the middle of Azerbaijani territory, there are island-like areas inhabited by Armenians, while in and beyond Armenian territory there are also scattered fragments of Azerbaijani land. Because of this complicated patchwork, as though the two had grabbed each other by the collar and torn away pieces of one another's clothes, the border between them is completely closed. Naturally, travelers cannot move directly between the two countries either. After visiting Azerbaijan, we passed through Georgia and then entered Armenia, and just seeing the Armenian immigration officers thoroughly question us about why we had gone there when they spotted the Azerbaijani stamp in our passports was enough to make us feel the full tension between the two countries.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 Heavenly Prices, Hellish Roads</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Politically, this region may be fierce and forbidding, but for travelers the three Caucasus countries are a blessed paradise. Their most lethal charm is their extraordinary value for money. A meal for two at a stylish high-end restaurant costs less than 20,000 won. But there is also a crippling downside to traveling through the Caucasus three. In all three countries, once you move even a little beyond the glittering city centers, the roads become shockingly poor. Huge potholes yawn across the asphalt as if bombs had gone off, and many are not even properly repaired. If you drove while intoxicated by the scenery outside the window and failed to stay alert, it was easy to get jolted so hard that not only the car but your soul felt violently shaken.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏙️ Baku's White Skyscrapers and Fiery Nights</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The moment you enter Baku, the capital of oil-rich Azerbaijan, overwhelming modern buildings soaked in the scent of capitalism greet the traveler. The streets were spotless, and the buildings shone a dazzling white, making the entire city feel like one enormous gallery. Actual galleries full of artistic sensibility were also easy to spot throughout the city. At night, the gigantic Flame Towers visible from almost anywhere in the city blaze with brilliant red light and create a spectacular skyline. The towers symbolically express Azerbaijan's identity as the Land of Fire, enriched by oil and natural gas. What makes the city truly attractive is that right beside these gleaming white skyscrapers, the old city of tight alleyways and defensive walls has been perfectly preserved. The sight of the path once walked by Silk Road merchants a thousand years ago sharing a single frame with a modern forest of high-rises feels strikingly unusual.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐄 Armenia's Mountain Roads, Ruled by Cows</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Armenia, by contrast, is a country of deep mountains, with most of its land made up of highlands more than 1,000 meters above sea level. As you wind along the mountain roads, sooner or later you come face to face with the true rulers of the road: local herds of cows. When you encounter them leisurely swishing their tails and taking over the entire two-lane road as they stroll along at their own pace, a human car horn is utterly useless. All you can do is stop the car and wait in complete humility until their bovine majesties finish dining and kindly make way. It would be understandable to get angry at these shameless creatures for blocking the road during a busy schedule, but we had an excellent method of revenge. That evening, we went to a restaurant and happily chewed and swallowed shashlik, beef skewers grilled crisp over charcoal. Once the sorrow of being blocked on the road during the day had been repaid with rich meat juices, the majestic mountain scenery of the Caucasus somehow felt even more beautiful.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍷 Georgia, a Sanctuary of Food and Wine</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Lastly, Georgia is a holy land of food and wine. Even in harsh Russia, Georgian restaurants are known as dependable high-end places to eat. Khachapuri, freshly baked bread topped with cheese and egg yolk and mixed together before eating, and khinkali, giant traditional dumplings bursting with rich meat juices like a waterfall, still make my mouth water. On top of that, Georgia takes pride in being the birthplace of the world's first wine. Every household seemed to make wine according to its own secret method, and it was a paradise of wine where, if you exchanged greetings with the locals and grew even a little friendly, you could receive generous amounts of homemade wine for free.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🗿 Stalin's Shadow in Georgia</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Another intriguing point that can never be left out of a trip to Georgia is Stalin. The infamous Soviet dictator Stalin was from Gori, a small city in Georgia. There stands a huge Stalin Museum along with his birthplace, and the local gaze toward it seemed extremely complex and ambiguous. Georgia shudders with hatred toward Russian rule and interference, yet some of the older generation seemed to harbor a kind of twisted pride in the fact that the supreme ruler who once manipulated that terrifying Soviet empire was a son of their own country. This grotesque irony, born between a merciless tyrant who purged countless people and the local pride of a man who rose from humble origins, once again made the complicated history of the Caucasus feel vividly real.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛰️ Different Presents Beneath One Vast Roof</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Beneath the giant roof of the Caucasus Mountains stand three countries that were once tied together under the single red flag of the Soviet Union. But now that the shadow of that great empire has lifted, they are living out their own present in completely different forms. Azerbaijan is building a gleaming future city with overflowing oil money. Armenia quietly preserves its own time and faith amid the grandeur of deep mountain nature. Georgia, leaving painful history behind, sings of romance while clinking fragrant glasses of wine. Carrying past wounds and tangled geopolitics within them, yet writing tomorrow in their own dazzling colors, these richly varied three countries occupy one of the most intense and captivating pages in my memory.
+        </p>
+      `,
+      },
+    },
   ],
 };
