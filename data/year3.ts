@@ -1002,7 +1002,7 @@ export const year3Category: Category = {
         ko: '불도저 같은 남편 옆 조수석에서 버텨낸 유학의 시간',
         en: 'The Years of Study Abroad Endured from the Passenger Seat Beside a Bulldozer of a Husband',
       },
-      imageUrl: 'https://cdn.gamsanews.co.kr/news/photo/202510/21052_27815_1835.jpg',
+      imageUrl: 'https://plus.unsplash.com/premium_photo-1683140986063-437420273345?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8',
       isActive: true,
       comments: [],
       content: {
