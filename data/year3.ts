@@ -506,6 +506,113 @@ export const year3Category: Category = {
       },
     },
     {
+      id: 'post-303a',
+      title: { ko: '외전 (5) - 러시아인의 연애관', en: 'Side Story (5) - Russian Views on Love' },
+      subtitle: {
+        ko: '고백은 없어도 사랑은 시작되고, 이혼은 놀랍게 쿨하다',
+        en: 'Love Begins Without a Confession, and Divorce Arrives with Surprising Coolness',
+      },
+      imageUrl: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1200&auto=format&fit=crop',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          인류의 영원한 베스트셀러, 러브스토리. 드라마, 영화, 소설을 막론하고 남의 연애사만큼 도파민을 솟구치게 하는 소재가 또 있을까? 그들이 지지고 볶다 해피엔딩을 맞든, 눈물의 새드엔딩을 맞든, 우리는 남의 사랑 이야기를 훔쳐보며 대리 만족을 느끼곤 한다. 그래서 이번엔 눈 내리는 대륙, 러시아 사람들의 연애와 결혼, 그리고 이혼을 아우르는 매운맛 연애관에 대해 이야기해 볼까 한다. 물론 나 역시 이 흥미진진한 생태계를 온몸으로 직접 부딪혀(?) 보았으면 완벽한 현장 르포가 되었겠지만, 참으로 불운하게도(?) 나는 러시아 땅을 밟기 전 이미 품절남이었다. 따라서 이 챕터는 철저히 주변인들의 생생한 증언과 나의 날카로운 관찰에 기반한 전지적 유부남 시점의 이야기임을 미리 밝혀 둔다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💘 고백 없는 연애의 시작</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          한국에서는 보통 누군가 용기를 내어 고백하고, 이를 받아들이면 “우리 오늘부터 1일이야”라며 공식적인 연애가 시작된다. 하지만 러시아식 연애는 결이 조금 다르다. 일단 ‘사귀자’는 명확한 선언이나 고백의 단계가 생략되는 경우가 허다하다. 그저 만나서 밥 먹고, 차 마시고, 자연스럽게 스킨십이 이어지면서 스며들듯 연인이 된다. 요즘은 K-드라마의 영향으로 한국식 연애 개념을 아는 현지 여성들도 늘었지만, 여전히 러시아인들끼리는 “나랑 사귈래?”라는 말이 꽤나 어색하고 간지러운 모양이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 스킨십과 진취적인 매력</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          또 하나 눈여겨볼 점은, 러시아 여성들이 사랑 앞에서는 꽤나 진취적이고 적극적이라는 것이다. 호감이 있는 남성에게는 거침없이 다가가 은근한 스킨십을 시도하기도 한다. 그러니 러시아 현지인이 훅 들어오는 스킨십에 ‘나한테 반했나?’ 하며 실실 쪼개고만 있어서는 안 된다. 몇 번 웃으며 받아주다가는 상대방이 이미 사귀는 사이라고 단정 지어버리는 아찔한 대참사가 일어날 수 있기 때문이다. 스킨십 진도 역시 한국보다 훨씬 개방적이다. 또 한 가지 흥미로운 건 한국 특유의 대실 문화는 거의 없고, 젊은 청춘들의 모든 뜨거운 역사는 주로 좁은 기숙사나 빈집에서 이루어진다는 사실이다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌹 데이트의 절대 룰: 홀수 꽃다발</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          사귀자는 명확한 선언은 생략할지언정, 이 무뚝뚝한 불곰국 상남자들도 데이트를 할 때만큼은 엄격하게 지키는 로맨틱한 룰이 하나 있다. 바로 꽃 선물이다. 러시아 여성에게 데이트 신청을 하려면 꽃다발은 거의 필수템에 가까운데, 여기서 꽃송이는 무조건 홀수여야만 한다는 절대 어겨서는 안 될 금기가 있다. 러시아에서 짝수의 꽃은 오직 장례식에서 망자에게 바칠 때만 쓰기 때문이다. 만약 러시아 여성을 만갈 기회가 있다면, 만약 뭣도 모르고 숫자가 딱 떨어지는 게 예쁘다며 짝수의 꽃을 내미는 실수는 하지 말자. 감사 인사는 넣어두어도 좋다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🥃 결혼 이후의 현실과 K-드라마 판타지</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 이 화려한 로맨스를 지나 결혼의 현실로 넘어가면 이야기가 조금 슬퍼진다. 러시아 남자들을 떠올리면 흔히 소파에 늘어져 TV를 보며 보드카를 들이켜는 배불뚝이 대머리 아저씨 이미지가 강한데, 안타깝게도 이 편견은 제법 높은 타율로 현실과 일치한다. 러시아는 나폴레옹 전쟁과 제2차 세계대전이라는 참혹한 역사를 거치기도 했고, 무엇보다 남성들의 과도한 음주와 사고로 인한 낮은 기대수명 탓에 여전히 전체 성비가 여초 현상(여성 100명당 남성 86명 수준)을 띤다. 실제로 통계를 보면 러시아 여성의 기대수명은 78~79세에 달하지만, 남성의 기대수명은 68세 남짓에 불과하다. 이러한 불균형이 러시아 남자들에게 이성을 선택하는 부분에 있어서 우위를 점할 수 있는 일종의 특권을 쥐여주기도 했다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          모스크바의 살인적인 물가 탓에 대부분의 가정은 맞벌이가 필수다. 그런데 여자가 밖에서 똑같이 돈을 벌어와도 여전히 집안일과 육아는 오롯이 여성의 몫으로 남는 경우가 허다하다. 아내가 뼈 빠지게 집안일을 하는 동안, 소파와 혼연일체가 되어 보드카를 홀짝이는 남편들의 모습. K-드라마 속 다정한 한국 남자들의 모습이 러시아 젊은 여성들 사이에서 판타지처럼 소비되며 가정적인 남자가 최고의 이상형으로 떠오른 것에는 다 이유가 있는 셈이다. 한국인 남성들이여, 세계로!
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📉 75% 이혼율의 충격</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          그렇다면 이들의 끝은 어떨까? 놀랍게도 러시아의 이혼율은 약 75%에 달한다. 물론 이 수치가 네 쌍 중 세 쌍이 무조건 이혼한다는 뜻은 아니다. 한 해 동안 발생한 혼인 건수 대비 이혼 건수를 나눈 통계이다 보니, 같은 사람이 여러 번 이혼하고 재혼하는 이른바 ‘N차 이혼’ 건수도 중복으로 카운트되어 체감 수치를 확 끌어올린 경향이 있다. 내 주변의 지인들이나 학부모들을 보아도 그 정도로 이혼 가정이 넘쳐나진 않았다. 물론 47% 정도인 한국에 비하면 엄청나게 높은 것은 엄연한 사실이다. 생각해 보니 한국도 꽤 높다. 조심해야겠다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ 헤어짐도 냉정하게</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          나는 이 압도적인 이혼율의 원인을 나름대로 분석해 보았다. 첫째, 러시아인들은 독립심이 강하고, 국가에서 대학까지 무상 교육과 장학금을 지원하는 경우가 많아 부모가 이혼해도 자녀들이 겪는 경제적, 심리적 타격이 상대적으로 적다. 둘째, 불타오르면 일단 직진하는 성향 탓에 결혼을 굉장히 이른 나이에 한다. 여성들은 보통 대학 재학 중이나 졸업 직후인 20대 초반에 웨딩드레스를 입는 경우가 흔하다. 어린 나이의 결혼이 나쁜 것은 아니지만, 경제적으로나 정서적으로 덜 성숙한 상태이다 보니 이혼의 문턱도 쉽게 넘는 듯하다.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          마지막으로, 헤어지는 과정이 쿨하다 못해 춥다. 이혼 절차가 비교적 간단하고, 애정의 부재는 아주 합당하고 충분한 이혼 사유로 인정받는다. 이혼 또한 인생의 큰 흠결이나 주홍 글씨로 인식되지 않는다. 한 번은 영어를 배우기 위해 러시아 현지인 선생님에게 3~4개월 정도 과외를 받은 적이 있다. 어느 날 영어로 가족관계에 대해서 공부하며 물어봤는데, 그 선생님이 아주 해맑게 “우리 아빠는 이혼을 네 번 했고, 우리 엄마는 네 번째 아내이고, 지금 아빠랑 사는 새엄마는 아빠의 다섯 번째 아내야”라고 말하는 게 아닌가! 한국의 막장 드라마도 이보다 더 할 순 없을 거라는 생각이 머리에 스쳤다. 
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          잠시 가만히 생각해 보니 평생 잘못된 선택을 붙들고 삶을 견디는 것보다, 쿨하게 털고 새로운 사랑을 찾아 떠나는 그들의 방식이 훨씬 합리적일지도 모른다. 그들의 말을 3년간 듣다 보면 묘하게 설득을 당할 때가 있다. 남의 시선이나 사회적 체면보다는 지금 내 심장이 뛰는 감정에 충실하고, 불꽃처럼 사랑하다 식으면 미련 없이 돌아서는 이들. 교과서에서 배울 수 없는 찐한 삶의 교훈을 주는 러시아 사람들이다. 결국 연애와 삶에 절대적인 정답은 없으며, 세상에는 참으로 다양한 사람들이 저마다의 다채로운 방식으로 사랑하고 살아간다는 것을 이 먼곳에서 다시금 깨닫게 된다.
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          Humanity's eternal bestseller is the love story. Whether in dramas, films, or novels, what subject sends dopamine rushing quite like someone else's romance? Whether they fight their way to a happy ending or collapse into a tearful tragedy, we peek into other people's love lives and enjoy the thrill secondhand. So this time, I want to talk about the spicy worldview of love in Russia, covering dating, marriage, and divorce across that snowy continent. Of course, this would have been the perfect field report if I had personally thrown myself into that fascinating ecosystem, but unfortunately(?) I was already a married man before I ever set foot in Russia. So let me make it clear in advance: this chapter is built entirely on vivid testimony from people around me and my own sharp observations, all filtered through the point of view of a married outsider.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💘 When Love Begins Without a Confession</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          In Korea, romance usually begins when someone gathers their courage, makes a confession, and the other person accepts it with something like, "From today, we're officially together." Russian-style dating feels a little different. Quite often, there is no clear declaration, no formal "Let's date," and no ceremonial confession at all. People simply meet, eat, drink tea, grow physically close, and before they know it, they have drifted naturally into being a couple. These days, thanks to the influence of K-dramas, more local women are familiar with the Korean dating model, but among Russians themselves, the phrase "Will you go out with me?" still seems to feel rather awkward and embarrassingly sweet.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 Skinship and Forward Charm</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Another thing worth noticing is that Russian women can be quite bold and proactive when it comes to love. If they like a man, they may approach him directly and even attempt subtle physical contact. So if a Russian local suddenly gets physically affectionate, it is dangerous to sit there grinning and thinking, "Does she like me?" If you smile and play along a few times, the other person may already decide that the two of you are dating, and a dizzying misunderstanding may follow. The pace of physical intimacy is also far more open than in Korea. Another interesting point is that Korea's distinctive motel-room culture is practically nonexistent there, and much of youthful romantic history seems to unfold instead in cramped dormitories or empty apartments.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌹 The Absolute Rule of Dating: Odd-Numbered Flowers</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Even if they skip the explicit declaration of dating, these gruff men of the land of bears still follow one strict romantic rule when they go on dates: flowers. If you want to ask out a Russian woman, a bouquet is close to mandatory, and there is one taboo that must never be broken. The number of flowers must always be odd. In Russia, even-numbered flowers are reserved only for funerals and offerings to the dead. So if you ever get the chance to meet a Russian woman, do not make the mistake of offering an even-numbered bouquet just because the symmetry looks nice. You can save your thanks for this advice.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🥃 Marriage, Reality, and the K-Drama Fantasy</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But once you move past the bright romance and enter the reality of marriage, the story becomes a little sadder. When people picture Russian men, they often imagine a pot-bellied balding man sprawled on the couch, watching television and drinking vodka, and sadly this stereotype matches reality with a fairly high batting average. Russia went through brutal chapters such as the Napoleonic Wars and World War II, and above all, men still have a relatively low life expectancy because of excessive drinking and accidents. As a result, the country still shows a female-heavy sex ratio, roughly 86 men for every 100 women. Statistics show that Russian women tend to live to around 78 or 79, while men average only around 68. This imbalance has also given Russian men a kind of advantage when it comes to choosing partners.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Because of Moscow's punishing cost of living, dual-income households are practically essential. Yet even when women earn money outside the home just as much as men do, housework and childcare often remain almost entirely their responsibility. The wife works herself to the bone while the husband becomes one with the sofa and sips vodka. There is a reason why the image of the caring Korean man in K-dramas has become a fantasy among many young Russian women, and why the family-oriented man has risen to the top of the ideal-husband list. Korean men, to the world!
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📉 The Shock of a 75% Divorce Rate</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          So how do these stories end? Surprisingly, Russia's divorce rate reaches about 75 percent. Of course, that does not mean that three out of every four couples inevitably divorce. The figure is based on the number of divorces in a given year relative to the number of marriages in that same year, which means repeated divorces and remarriages by the same individual can be counted multiple times and inflate the number dramatically. Even among the acquaintances and parents I knew, divorced families were not quite that overwhelmingly common. Still, compared with Korea's roughly 47 percent, it is undeniably very high. Come to think of it, Korea's number is not exactly low either. We should probably all be careful.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">❄️ Breaking Up with Cold Efficiency</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I came up with my own rough explanation for this overwhelming divorce rate. First, Russians tend to be highly independent, and the state often supports education with free tuition and scholarships all the way through university, so the economic and psychological blow to children can be relatively smaller even if their parents divorce. Second, when they catch fire emotionally, they tend to charge ahead, which leads many people to marry at a very young age. It is common for women to put on a wedding dress in their early twenties, while still in university or right after graduation. Early marriage is not inherently bad, but when people are still less mature financially and emotionally, the threshold for divorce may also become easier to cross.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Lastly, the process of parting ways is so cool that it almost feels cold. Divorce procedures are relatively simple, and the absence of affection is recognized as a fully valid reason for divorce. Divorce is not necessarily treated as a deep stain on one's life or as scarlet-letter material. Once, I studied English for about three or four months with a local Russian tutor. One day, while we were learning how to talk about family relationships in English, I asked her a question, and she cheerfully said, "My dad has been divorced four times, my mom was his fourth wife, and the stepmother living with him now is his fifth wife." In that moment, I thought even a Korean melodrama could not have topped that plot.
+        </p>
+
+        <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
+
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The more I sit with it, the more I wonder whether their way might actually be more rational than clinging to a wrong choice for life and enduring it forever. After listening to them for three years, I found myself strangely persuaded at times. They stay true to the feelings that make their hearts race right now rather than to public opinion or social face, and when love burns out after flaring up like fire, they turn away without regret. Russians taught me raw lessons about life that no textbook ever could. In the end, there is no absolute right answer in love or in life, and being far away in that distant land reminded me once again that the world is full of people who love and live in richly different ways.
+        </p>
+      `,
+      },
+    },
+    {
       id: 'post-304',
       title: { ko: '러시아의 결혼식', en: 'A Russian Wedding' },
       subtitle: {
