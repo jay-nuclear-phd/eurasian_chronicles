@@ -16,12 +16,12 @@ export const eurasiaTravelCategory: Category = {
     {
       id: 'eurasia-travel-1',
       title: {
-        ko: '러시아인 듯 아닌 듯 - 벨라루스, 칼리닌그라드',
-        en: 'Not Quite Russia, Yet Somehow Russia: Belarus and Kaliningrad',
+        ko: '벨라루스, 칼리닌그라드',
+        en: 'Belarus and Kaliningrad',
       },
       subtitle: {
-        ko: '서늘한 국경의 실수와 유럽 한복판의 러시아',
-        en: 'A Chilling Border Mistake and a Piece of Russia in the Heart of Europe',
+        ko: '러시아인 듯 아닌 듯',
+        en: 'Not Quite Russia, Yet Somehow Russia',
       },
       imageUrl:
         'https://metro.co.uk/wp-content/uploads/2022/06/SEI_110669880.jpg?quality=90&strip=all&w=646?q=80&w=1200&auto=format&fit=crop',
@@ -139,12 +139,12 @@ export const eurasiaTravelCategory: Category = {
     {
       id: 'eurasia-travel-2',
       title: {
-        ko: '사이가 좋지 못한 지중해의 두 나라 - 튀르키예, 그리스',
-        en: 'Two Mediterranean Neighbors on Bad Terms: Turkiye and Greece',
+        ko: '튀르키예, 그리스',
+        en: 'Turkiye and Greece',
       },
       subtitle: {
-        ko: '음식으로 겨루고 역사로 충돌한 두 지중해 이웃',
-        en: 'Two Mediterranean Neighbors Who Clash in History and Compete in Cuisine',
+        ko: '사이가 좋지 못한 지중해의 두 나라',
+        en: 'Two Mediterranean Neighbors on Bad Terms',
       },
       imageUrl:
         'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1200&auto=format&fit=crop',
@@ -207,7 +207,7 @@ export const eurasiaTravelCategory: Category = {
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵 Turkiye and Greece, Two Exhaustingly Hostile Neighbors</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          There seems to be an unspoken rule almost everywhere in the world that neighboring countries do not get along, but the relationship between Turkiye and Greece is spectacular even by that standard. Their long history as bitter rivals goes back hundreds of years. In the past, Greece lived under the rule of the Ottoman Empire, present-day Turkiye, for nearly four hundred years. Even after Greece broke away through a bloody war of independence in the early nineteenth century, the two countries continued to growl at each other over territorial disputes in the Aegean Sea, violations of airspace, and the divided-island problem that I will mention later. Their hostility is so notorious that when the national football teams play, it feels like a war without gunfire, and jokes mocking the other side are used almost casually among ordinary people. If anything, their relationship is even more exhausting than that between Korea and Japan, a truly tangled mix of resentment and attachment.
+          There seems to be an unspoken rule almost everywhere in the world that neighboring countries do not get along, but the relationship between Turkiye and Greece is spectacular even by that standard. Their long history as bitter rivals goes back hundreds of years. In the past, Greece lived under the rule of the Ottoman Empire, present-day Turkiye, for nearly four hundred years. Even after Greece broke away through a war of independence in the early nineteenth century, the two countries continued to growl at each other over territorial disputes in the Aegean Sea, violations of airspace, and the divided-island problem that I will mention later. Their hostility is so notorious that when the national football teams play, it feels like a war without gunfire, and jokes mocking the other side are used almost casually among ordinary people. If anything, their relationship is even more exhausting than that between Korea and Japan, a truly tangled mix of resentment and attachment.
         </p>
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ Rival Nations, Nearly Identical Tables</h3>
@@ -254,12 +254,12 @@ export const eurasiaTravelCategory: Category = {
     {
       id: 'eurasia-travel-3',
       title: {
-        ko: '발트 3국 - 에스토니아, 라트비아, 리투아니아',
-        en: 'The Baltic States: Estonia, Latvia, and Lithuania',
+        ko: '에스토니아, 라트비아, 리투아니아',
+        en: 'Estonia, Latvia, and Lithuania',
       },
       subtitle: {
-        ko: '발트해를 따라 달리며 만난 상처의 역사와 삼 형제의 케미',
-        en: 'A Baltic Road Trip Through Painful History and the Peculiar Chemistry of Three Siblings',
+        ko: '발트 3국',
+        en: 'The Baltic States',
       },
       imageUrl:
         'https://img1.daumcdn.net/thumb/R1280x0.fwebp/?fname=http://t1.daumcdn.net/brunch/service/user/8EQu/image/v4P69mZDWlPT3y0f5E_UFLCB26Q?q=80&w=1200&auto=format&fit=crop',
@@ -373,12 +373,12 @@ export const eurasiaTravelCategory: Category = {
     {
       id: 'eurasia-travel-4',
       title: {
-        ko: '캅카스 3국 - 에르메니아, 아제르바이잔, 조지아',
-        en: 'The Three Caucasus States: Armenia, Azerbaijan, and Georgia',
+        ko: '아르메니아, 아제르바이잔, 조지아',
+        en: 'Armenia, Azerbaijan, and Georgia',
       },
       subtitle: {
-        ko: '산맥 아래 얽힌 역사와 전혀 다른 세 나라의 매력',
-        en: 'Three Very Different Countries Beneath One Mountain Range and a Tangle of History',
+        ko: '캅카스 3국',
+        en: 'The Three Caucasus States',
       },
       imageUrl:
         'https://dimg.donga.com/wps/NEWS/IMAGE/2019/03/20/94630330.5.jpg',
@@ -480,12 +480,12 @@ export const eurasiaTravelCategory: Category = {
     {
       id: 'eurasia-travel-5',
       title: {
-        ko: '중앙아시아의 두 거인 - 카자흐스탄과 기르기스스탄',
-        en: 'The Two Giants of Central Asia: Kazakhstan and Kyrgyzstan',
+        ko: '카자흐스탄, 키르기스스탄',
+        en: 'Kazakhstan and Kyrgyzstan',
       },
       subtitle: {
-        ko: '닮은 얼굴들, 거대한 자연, 그리고 뜻밖의 환대',
-        en: 'Familiar Faces, Vast Nature, and Unexpected Hospitality',
+        ko: '중앙아시아의 두 거인',
+        en: 'The Two Giants of Central Asia',
       },
       imageUrl:
         'https://central-asia.guide/wp-content/uploads/2021/07/Altyn_Arashan_Valley_Kyrgyzstan-1024x683.jpg',
@@ -580,6 +580,129 @@ In the midst of all this immense nature, the most lasting impression we encounte
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ Warm Invitations on Distant Soil</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
 Remarkably, in Kazakhstan and Kyrgyzstan these sudden, heartwarming invitations were an ordinary part of daily life. The man from the rental car company who had lent us the vehicle also waved us over without hesitation and told us to come by in the evening because he would be grilling meat. Even a stranger on the street, who had asked whether I was Kazakhstani, readily invited us to dinner. In a land unimaginably far from Korea, among people who looked astonishingly like us and who approached strangers in distress without the slightest hesitation to offer them a seat at their dinner table, we experienced such generous hospitality that this trip felt warmer than almost any other I have taken.
+        </p>
+      `,
+      },
+    },
+    {
+      id: 'eurasia-travel-6',
+      title: {
+        ko: '이집트',
+        en: 'Egypt',
+      },
+      subtitle: {
+        ko: '러시아인의 최애 여행국',
+        en: "The Russians' Favorite Travel Destination",
+      },
+      imageUrl:
+        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=1200&auto=format&fit=crop',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          이집트는 우리에게는 영화 ‘미라’의 배경으로 친숙한 곳이자, 피라미드와 스핑크스로 대변되는 아득하고 찬란한 고대 역사를 품은 신비의 나라다. 하지만 러시아 사람들에게 이집트는 조금 다른 의미로 다가온다. 일 년의 절반 이상이 춥고 흐린 날이 대부분인 러시아인들에게 일 년 내내 따뜻한 햇살과 에메랄드빛 홍해가 펼쳐진 이집트는 그야말로 지상 낙원이기 때문이다. 소련 붕괴 이후 주머니 사정이 넉넉해진 러시아인들은 저렴하고 시설 좋은 이집트의 휴양지로 물밀듯 몰려갔다. 1990년대부터 러시아인들이 많이 방문하는 휴양지에서는 길거리 표지판조차 러시아어로 적혀 있고 상인들이 러시아어로 호객을 할 정도로 러시아인의 국민 앞마당이나 다름없는 곳이 되었다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✈️ 꽉 막힌 하늘길을 돌아가는 여정</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 내가 모스크바에서 지내던 시절에는 러시아에서 이집트로 가는 하늘길이 꽉 막혀 있었다. 2015년 말 시나이반도 상공에서 발생한 끔찍한 러시아 여객기 폭탄 테러 사건 때문에 두 나라 간의 직항 노선이 전면 중단되었기 때문이다. 이집트의 따뜻한 바다는 영영 못 보나 싶었는데, 기회는 우연히 찾아왔다. 비자 문제로 우크라이나에 잠시 머물던 중 길거리에서 이집트 휴양지 전단지를 발견했다. 여전히 우크라이나와 이집트 사이의 하늘 길은 열려 있었다. 홀린 듯이 그 길로 해당 전단지의 여행사를 방문했고, 겨울에 첫 방문을 계획했다. 남들이 모스크바에서 오들오들 떠는 동안 홍해의 휴양지에서 수영복 차림으로 시원한 맥주를 들이킬 생각을 하니 벌써부터 몸이 달았다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏖️ 홍해의 휴양지와 살벌한 카이로행</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          첫 목적지는 시나이반도의 최남단 휴양지, 샤름엘셰이크였다. 올인클루시브 호텔을 예약한 덕분에 모스크바에서 잔뜩 얼어붙고 긴장했던 몸을 완벽하게 녹일 수 있었다. 휴양지임에도 불구하고 물가가 워낙 저렴해서 둘이서 고급 마사지 숍에서 스파와 마사지를 받는 호사를 부렸다. 며칠 푹 쉬다가 이틀짜리 카이로 투어 상품을 끊어 버스에 올랐는데, 수도로 이동하는 내내 도로 분위기가 꽤나 살벌했다. 삼엄한 무장 경비와 황량한 사막을 뚫고 도착한 카이로에서는 박물관과 스핑크스, 피라미드를 차례로 돌았다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐪 피라미드 앞에서 벌어지는 치열한 흥정</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          카이로 외곽 기자 고원에 우뚝 솟은 피라미드들은 그야말로 압도적이었다. 특히 가장 거대한 쿠푸왕의 대피라미드 앞에 서면, 수천 년 전 고대 이집트인들의 집념과 거대한 스케일에 절로 턱이 벌어질 지경이다. 이 거대한 무덤들을 제대로 즐기려면 현지인처럼 터번을 두르고 낙타 등에 올라타 사막을 거니는 것을 추천한다. 다만, 이곳의 호객 행위는 상상을 초월할 정도로 지독하니 정신을 바짝 차려야 한다. 무언가를 하기 전에는 무조건, 확실하게 가격부터 완벽히 흥정을 끝내야 한다. 그렇지 않으면 지갑에서 돈이 줄줄 새어 나가는 마법을 맛보게 된다. 시도 때도 없이 손을 벌리고 팁을 요구한다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📸 인생샷과 맞바꾼 팁의 전쟁</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          스핑크스와 피라미드 앞에서도 방심은 금물이다. 어김없이 웬 이집트인이 친근하게 다가와 사진을 찍어주겠다며 은근슬쩍 카메라를 달라고 손을 내민다. 뻔한 수작인 걸 알면서도 주변을 둘러보면, 그들이 다른 관광객들을 상대로 스핑크스에 뽀뽀를 시키거나 피라미드를 손가락으로 집어 올리는 등 엄청나게 재미있는 포즈를 연출해 주고 있다. 진짜 평생 남을 '인생샷'을 찍어주고 있으니 그 유혹을 쉽사리 거절하기가 어렵다. 
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          홀린 듯 카메라를 넘겨주면 그들은 바닥에 눕고 구르며 열정적인 사진작가로 빙의한다. 문제는 셔터 소리가 멈춘 직후다. 예술혼을 불태운 그들은 아주 당당하고 노골적으로 팁을 요구한다. 물론 끝까지 안 주고 버틸 수도 있겠지만, 방금 전까지 함께 깔깔대며 명작을 남긴 그 유쾌한 분위기 속에서 돈을 안 주고 매몰차게 돌아서기란 참으로 어려운 구조다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍕 피라미드를 바라보며 즐기는 피자 한 조각</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          기자의 피라미드를 방문한다면 절대 놓치지 말아야 할 엄청난 꿀팁이 하나 있다. 피라미드 매표소 바로 앞에는 다른 이집트 음식점들 사이에 피자헛이 하나 자리 잡고 있다. 이 피자헛 테라스에 앉아 피자와 함께하는 스핑크스와 피라미드의 야경은 말로 다 할 수 없을 만큼 굉장하다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ 고대 이집트의 심장, 룩소르로 향하는 길</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          첫 이집트의 강렬하고 달콤한 기억 덕분에 두 번째 방문은 아예 자유여행으로 판을 키웠다. 이번에는 지난번에 가지 못했던 홍해 연안의 후르가다 리조트에서 며칠 푹 쉰 뒤, 고대 이집트의 수도였던 룩소르로 향했다. 가이드 없이 단둘이 시외버스를 타고 후르가다에서 룩소르로 넘어가는 길은 지난번 카이로행보다 한술 더 떠서 살벌함의 극치였다. 도시를 넘어갈 때마다 마치 엄격한 국경 검문소처럼 총을 든 경비대가 버스를 세우고 삼엄하게 검문을 했다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚖 택시 한 대로 즐기는 파라오의 유산</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          하지만 룩소르는 그 모든 긴장감을 기꺼이 감수할 만큼 엄청난 곳이었다. 룩소르에 도착한 우리는 택시를 한 대 통째로 대절했다. 하루 종일 기사님이 운전해 주는 택시를 타고 점심 식사까지 포함해 쓴 돈이 우리 돈으로 고작 2~3만 원 남짓이었으니, 가성비라는 단어로는 턱없이 부족하다. 택시 기사 아저씨는 투탕카멘을 비롯한 파라오들의 무덤이 모여 있는 웅장한 왕가의 계곡부터 룩소르의 알짜배기 관광 명소들을 아주 편안하게 척척 데려다주었다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛽ 물보다 싼 기름, 이집트의 가성비</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          기사님이 주유소에 들렀을 때 기름 가격을 보았다. 1리터에 약 300원이었다. 분명 방금 편의점에서 500 mL 생수를 500원에 샀는데, 기름이 물보다 싼 나라가 있다더니 이집트가 그랬다. 우스갯소리로 이집트에서는 주유소에서 기름을 넣을 때, 차량 주유구가 아닌 차량 밖에 기름을 한바탕 뽑아내고 나서야 ‘아, 잘 나오는구만!’하고 주유를 시작한다는 말이 있다. 한국에서는 기름 한 방울 아까워서 다 넣고 탈탈 털며 더 나올 게 없나 살피던 과거의 나를 떠올리며 세상 허무함을 느꼈다. 
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌅 러시아인의 진짜 비결, 이집트의 따뜻한 바닷바람</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          러시아인들은 칙칙하고 매서운 눈보라 속에서 그저 이 악물고 살아남고 있던 게 아니었다. 일 년 내내 따사로운 햇살과 에메랄드빛 홍해가 찰랑거리는 완벽한 도피처, 이집트라는 기가 막힌 피난처를 등 뒤에 숨겨두고 있었던 것이다. 매서운 동장군 앞에서도 여유를 잃지 않던 그들의 진짜 비결은 독한 보드카도 있지만, 언제든 훌쩍 떠날 수 있는 이집트의 따뜻한 바닷바람이었음을.
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+          Egypt is a place familiar to us as the setting of the movie 'The Mummy,' a land of mystery embracing an ancient and brilliant history represented by the Pyramids and the Sphinx. However, for Russians, Egypt holds a slightly different meaning. For those who face cold and cloudy days for more than half the year, Egypt, with its year-round warm sunshine and emerald-colored Red Sea, is truly a paradise on earth. After the collapse of the Soviet Union, Russians with growing pockets flocked to Egypt's affordable yet high-quality resorts. Since the 1990s, in resorts popular with Russians, even street signs are written in Russian, and merchants solicit in Russian, making it almost like a national backyard for them.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">✈️ A Journey Around Blocked Skies</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But during my time in Moscow, the sky route from Russia to Egypt was tightly blocked. Direct flights between the two countries had been completely suspended due to a terrible Russian passenger plane bombing over the Sinai Peninsula in late 2015. I thought I might never see the warm waters of Egypt, but the opportunity came by chance. While staying in Ukraine for a while due to visa issues, I found a flyer for an Egyptian resort on the street. The sky route between Ukraine and Egypt was still open. As if possessed, I visited the travel agency on the flyer and planned my first visit in winter. The thought of drinking cold beer in a swimsuit at a Red Sea resort while others were shivering in Moscow already made my body tingle with excitement.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏖️ Red Sea Resorts and the Grim Path to Cairo</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The first destination was Sharm El Sheikh, a resort at the southernmost tip of the Sinai Peninsula. Thanks to booking an all-inclusive hotel, I was able to perfectly melt my body, which had been frozen and tense in Moscow. Despite being a resort, the cost of living was so low that we indulged in the luxury of getting spas and massages at a high-end massage shop. After resting for a few days, I hopped on a bus for a two-day Cairo tour, but the atmosphere on the road while moving to the capital was quite grim. Passing through heavy armed guards and the desolate desert, we arrived in Cairo and visited the museum, the Sphinx, and the Pyramids in turn.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🐪 Fierce Haggling in Front of the Pyramids</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The pyramids towering on the Giza Plateau outside Cairo were simply overwhelming. Standing in front of the Great Pyramid of Khufu, the largest of them all, one's jaw naturally drops at the persistence and grand scale of the ancient Egyptians thousands of years ago. To properly enjoy these giant tombs, I recommend wrapping a turban like a local and walking through the desert on a camel's back. However, be warned that the solicitation here is persistent beyond imagination, so you must stay alert. Before doing anything, you must unconditionally and clearly finish haggling over the price. Otherwise, you will experience the magic of money leaking out of your wallet. They reach out and demand tips at every turn.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📸 The Battle of Tips Exchanged for Life Shots</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Even in front of the Sphinx and Pyramids, you cannot let your guard down. Invariably, an Egyptian will approach you friendly and reach out his hand to take your camera, saying he will take a picture for you. Even though it's a predictable trick, if you look around, they are creating incredibly fun poses for other tourists, like making them kiss the Sphinx or pick up the Pyramids with their fingers. Since they are taking 'life shots' that will truly last a lifetime, it's hard to easily refuse the temptation.
+        </p>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Once you hand over the camera as if possessed, they transform into passionate photographers, lying and rolling on the ground. The problem is right after the shutter sound stops. Having burned their artistic spirit, they boldly and overtly demand a tip. Of course, you could hold out until the end, but in that pleasant atmosphere where you just laughed together and left a masterpiece, it's a structure where it's truly difficult to turn away coldly without giving money.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍕 A Slice of Pizza with a Pyramid View</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          If you visit the Pyramids of Giza, there is one incredible tip you must not miss. Right in front of the Pyramid ticket office, there is a Pizza Hut nestled among other Egyptian restaurants. Sitting on this Pizza Hut terrace, the night view of the Sphinx and Pyramids with pizza is so magnificent that words cannot describe it.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏛️ To Luxor, the Heart of Ancient Egypt</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          Thanks to the intense and sweet memories of the first Egypt trip, I expanded the second visit to an independent trip. This time, after resting for a few days at a resort in Hurghada on the Red Sea coast, which I couldn't visit last time, I headed to Luxor, the capital of ancient Egypt. The road from Hurghada to Luxor by intercity bus, taken by just the two of us without a guide, was the height of grimness, even more so than the previous trip to Cairo. Every time we crossed into a new city, an armed guard unit stopped the bus and conducted a strict inspection, like at a strict border crossing.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚖 Pharaoh's Legacy Enjoyed with a Single Taxi</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          But Luxor was a place incredible enough to willingly endure all that tension. Arriving in Luxor, we chartered a whole taxi. The money we spent on a taxi driven by a driver all day, including lunch, was only about 20,000 to 30,000 won in our money, so the word 'cost-effectiveness' is woefully insufficient. The taxi driver took us comfortably and efficiently to all the core tourist attractions of Luxor, from the magnificent Valley of the Kings, where the tombs of pharaohs including Tutankhamun are gathered.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛽ Fuel Cheaper Than Water: Egypt's Value</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          I saw the price of oil when the driver stopped at a gas station. It was about 300 won per liter. I had just bought 500 mL of bottled water at a convenience store for 500 won, and although I had heard of countries where oil is cheaper than water, Egypt was exactly that. There is a joke that in Egypt, when putting oil at a gas station, they first spray a bunch of oil outside the car's fuel inlet and only after saying, 'Oh, it's coming out well!' do they start refueling. Recalling my past self in Korea, who felt every drop of oil was precious and shook it out to see if any more would come, I felt the world's futility.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌅 The Russians' Real Secret: Egypt's Warm Sea Breeze</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+          The Russians were not just gritting their teeth and surviving in the gloomy and fierce blizzard. They had a perfect escape, a wonderful refuge called Egypt, where warm sunshine and the emerald Red Sea shimmered all year round, hidden behind their backs. The real secret to their leisure even in the face of the bitter Old Man Winter was not only strong vodka but the warm sea breeze of Egypt, where they could fly away at any time.
         </p>
       `,
       },
