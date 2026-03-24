@@ -477,5 +477,112 @@ export const eurasiaTravelCategory: Category = {
       `,
       },
     },
+    {
+      id: 'eurasia-travel-5',
+      title: {
+        ko: '중앙아시아의 두 거인 - 카자흐스탄과 기르기스스탄',
+        en: 'The Two Giants of Central Asia: Kazakhstan and Kyrgyzstan',
+      },
+      subtitle: {
+        ko: '닮은 얼굴들, 거대한 자연, 그리고 뜻밖의 환대',
+        en: 'Familiar Faces, Vast Nature, and Unexpected Hospitality',
+      },
+      imageUrl:
+        'https://central-asia.guide/wp-content/uploads/2021/07/Altyn_Arashan_Valley_Kyrgyzstan-1024x683.jpg',
+      isActive: true,
+      comments: [],
+      content: {
+        ko: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+캅카스의 세 국가는 공통적으로 나이가 많은 사람들은 러시아어를 잘 알지만 젊은 세대로 갈수록 점점 러시아어를 잘 모르고 서투르다. 그렇다 하더라도 언어의 뿌리가 비슷한지, 그동안 배운 러시아어와 손짓 발짓을 동원하면 그나마 의사소통이 되었다. 어쨌든 영어보다는 훨씬 나았다. 이렇게 캅사스 3국이 어떻게든 러시아어에서 벗어나 모국어의 정체성을 찾으려는 묘한 긴장감을 보였다면, 중앙아시아의 카자흐스탄과 키르기스스탄은 결이 다르다. 젊은 세대를 포함한 거의 모든 국민이 모국어와 러시아어를 완벽하고 유창하게 구사하는 진정한 이중언어 국가들이다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👀 한국인과 놀라울 만큼 닮은 얼굴들</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+이 지역을 여행하며 느낀 또 하나의 흥미로운 점은 사람들의 친숙한 생김새였다. 과거 몽골 제국의 거대한 영토였던 탓인지, 현지인들의 외모는 한국인과 놀라울 정도로 쏙 빼닮아 있었다. 검은 머리에 갈색 눈, 동양적인 이목구비 덕분에 우리 부부는 금세 현지 풍경 속에 위화감 없이 녹아들었다. 오죽하면 두 나라를 여행하는 내내 가장 많이 들은 말이 "당신 카자흐스탄 사람이냐"는 질문이었을까. 내가 어설픈 러시아어로 입을 떼기 전까지는 그 누구도 나를 이방인으로 의심하지 않았다. 재미있는 건 아내를 향한 시선이었다. 이목구비가 뚜렷해 약간 이국적으로 생긴 아내와 걷고 있으면, 현지인들은 우리를 보며 "출세한 카자흐스탄 남자가 예쁜 외국인 아내를 데리고 다닌다"며 부러운 눈길을 보냈다. 졸지에 자수성가한 현지인이 되어 묘하게 으쓱해지는 웃지 못할 해프닝이었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛢️ 거대한 땅, 거대한 자원, 카자흐스탄</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+먼저 카자흐스탄은 영토가 엄청나게 넓다. 세계에서 9번째로 큰 나라이자 중앙아시아의 압도적인 맹주이며, 기름이 펑펑 솟아나는 유수의 산유국이다. 이런 거대한 경제 규모와 영토에도 불구하고 정치, 문화적으로는 여전히 러시아의 짙은 그늘 아래 있는 듯한 인상을 받았다. 우리가 방문했을 당시만 해도 물가가 믿을 수 없을 만큼 저렴해서 매 끼니를 사치스럽게 즐겼는데, 최근에는 물가가 훌쩍 뛰었다고 하니 묘한 격세지감이 든다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏔️ 한여름 도시 너머의 천산산맥</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+우리는 그 거대한 대륙을 다 보지는 못하고 알마티라는 도시만 방문했다. 사과의 고향이라는 뜻을 가진 알마티는 가로수가 울창한 깨끗한 현대 도시이면서도, 도시 어디서나 천산산맥의 장엄한 만년설을 병풍처럼 볼 수 있는 매력적인 곳이었다. 우리가 알마티를 방문한 것은 한여름이었다. 도심은 반팔을 입고 걸어도 땀이 흘러내릴 만큼 뜨거운 여름의 열기로 가득했지만, 고개를 들어 앞을 보면 새하얀 눈이 덮인 거대한 산맥이 마치 비현실적인 합성 사진처럼 도시를 굽어보고 있었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛪ 시장과 성당이 품은 알마티의 생기</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+도심 한가운데의 볼거리도 훌륭하다. 울창한 판필로프 공원 안에는 쇠못을 단 하나도 사용하지 않고 오직 목재로만 조립해 만들었다는 동화 같은 색감의 젠코프 러시아 정교회 대성당이 웅장하게 서 있다. 또한, 중앙아시아 사람들의 날것 그대로의 활기를 느끼고 싶다면 현지 최대 시장인 그린 바자르를 빼놓을 수 없다. 산더미처럼 쌓인 신선한 과일과 향신료, 그리고 유목민의 소울푸드인 말고기와 각종 치즈 냄새가 뒤섞인 시장통은 처음엔 정신이 없지만 천천히 뿜어내는 매력에 나 또한 서서히 젖어 들었다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😊 유독 더 닮은 나라, 키르기스스탄</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+카자흐스탄이 거대한 규모로 여행자를 압도한다면, 이웃 나라 키르기스스탄은 좀 더 포근하고 신비로운 매력을 간직했다. 키르기스스탄 사람들은 한국 사람들과 유독 닮았는데 이에 짧은 에피소드 하나를 소개하고자 한다. 나는 러시아에 오기 전 경기도 이천에 있는 국방어학원에서 공부를 하며 키르기스스탄를 사귄 적이 있었다. 하루는 그 친구와 이천 시내를 걷던 중에 친구의 태권도 사범님을 만났는데, 나를 가리키며 “고향에서 친구가 왔나봐?”라고 말씀하셨다. 내가 한국 사람이라고 유창하게(?) 말하자, “친구는 한국말을 어디서 배웠는지 잘하네!”라고 하셨다. 나는 날 때부터 한국 사람이라며 주민등록증까지 보여주고 나서야 사범님은 의심의 눈초리를 거두셨다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌊 호수라기엔 너무 거대한 이식쿨</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+이렇듯 우리와 닮은 사람들의 나라, 키르기스스탄 한가운데 보석처럼 박혀 있는 거대한 호수, 이식쿨은 이 나라의 상징이다. 우리는 렌터카를 빌려 이 호수를 한 바퀴 도는 야심 찬 로드트립을 계획했는데, 도착하자마자 그 압도적인 규모에 입을 다물지 못했다. 지평선 끝이 보이지 않고 짠내 섞인 파도가 찰랑거리는 모습은 호수가 아니라 완벽한 바다였다. 호수변 백사장에서는 따뜻한 옥수수와 수박을 바구니에 담아 파는 아이들이 유독 많았다. “가랴차야 꾸꾸루자 (뜨거운 옥수수)!”를 외치며 끈질기게 호객 행위를 하던 아이들의 카랑카랑한 목소리가 아직도 귓가에 생생하다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤝 길 위에서 만난 가장 깊은 인상, 사람들</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+이 거대한 대자연 속에서 우리가 마주한 가장 깊은 인상은 다름 아닌 사람들의 따뜻한 정이었다. 키르기스스탄을 여행하던 중, 렌터카 바퀴가 갓길 옆 웅덩이로 푹 빠져 오도 가도 못하는 아찔한 상황이 벌어졌다. 당황해서 땀을 뻘뻘 흘리고 있는데, 마침 흙먼지를 날리며 지나가던 낡은 봉고차 한 대가 우리 앞에 멈춰 섰다. 차 문이 열리더니 사람들이 우르르 쏟아져 나와 마치 자기 일처럼 차를 밀고 당겨 기어코 구덩이에서 빼내 주었다. 고맙다고 연신 고개를 숙이는 우리에게 그들은 대수롭지 않게 씩 웃으며, 오늘 자기들 집에서 파티가 열리니 꼭 오라며 뜻밖의 다정한 초대를 건넸다.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ 낯선 땅에서 받은 포근한 초대</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+놀랍게도 카자흐스탄과 키르기스스탄에서는 이런 뜬금없고 훈훈한 초대가 아주 흔한 일상이었다. 우리에게 차를 빌려준 렌터카 업체 아저씨도 저녁에 고기를 구울 테니 오라고 스스럼없이 손짓했고, 길거리에서 나에게 카자흐스탄 사람이냐고 묻던 낯선 이조차 저녁 식사에 선뜻 우리를 초대했다. 한국에서 엄청나게 멀리 떨어진 낯선 땅에서 우리와 놀라울 정도로 쏙 빼닮은 사람들과, 곤경에 처한 이방인에게 스스럼없이 다가와 선뜻 저녁 식탁의 한자리를 내어주는 그들의 넉넉한 환대 덕분에 이 여행은 그 어느 여행보다 더욱 포근하다고 느껴졌다.
+        </p>
+      `,
+        en: `
+        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
+In the three Caucasus countries, older people generally speak Russian well, but the younger the generation, the less comfortable and fluent they are in it. Even so, perhaps because the roots of the languages are somewhat related, I could still manage basic communication by combining the Russian I had learned with hand gestures and body language. In any case, it worked far better than English. If the three Caucasus countries seemed to carry a curious tension as they tried to break away from Russian and reclaim the identity of their native languages, Kazakhstan and Kyrgyzstan in Central Asia felt different. They are true bilingual countries where almost everyone, including the younger generations, speaks both the national language and Russian perfectly and fluently.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👀 Faces Strikingly Similar to Ours</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+Another fascinating thing I felt while traveling through this region was how familiar the people looked. Perhaps because this land had once been part of the vast Mongol Empire, the appearance of the locals was astonishingly similar to that of Koreans. Black hair, brown eyes, and East Asian features allowed my wife and me to blend into the local scenery almost instantly without any sense of awkwardness. The phrase I heard most often throughout both countries was, "Are you Kazakhstani?" Until I opened my mouth in clumsy Russian, no one seemed to suspect that I was an outsider. What made it especially amusing was the way people looked at my wife. When I walked beside my wife, whose well-defined features made her look a little more exotic, locals would gaze at us with envy, as though thinking, "That successful Kazakhstani man is walking around with a pretty foreign wife." It was an absurd but funny little incident that left me oddly puffed up as an accidental self-made local.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛢️ Vast Land, Vast Resources, Kazakhstan</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+To begin with, Kazakhstan is enormous. It is the ninth largest country in the world, the overwhelming leader of Central Asia, and one of the major oil-producing nations where petroleum gushes from the ground. Yet despite that massive territory and economy, I still had the impression that politically and culturally it remained under Russia's deep shadow. When we visited, prices were unbelievably cheap, and we indulged luxuriously at every meal. Hearing that prices have risen sharply in recent years gives me a strange sense of how much time has passed.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏔️ The Tian Shan Beyond the Summer City</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+We did not see that vast country in full, and visited only the city of Almaty. Almaty, whose name means the hometown of apples, was an attractive place: a clean modern city lined with leafy trees, yet one where the majestic, snow-covered Tian Shan mountains could be seen from anywhere as if they were a painted screen. We visited Almaty in the height of summer. The city center was filled with such oppressive heat that sweat rolled down even while walking in short sleeves, yet whenever you lifted your head and looked ahead, a massive white mountain range covered in snow loomed over the city like an unreal composited photograph.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⛪ Almaty's Cathedral and Bazaar</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+The sights in the middle of the city are excellent as well. In the lush Panfilov Park stands the grand Zenkov Russian Orthodox Cathedral, a structure with fairy-tale colors said to have been assembled entirely from wood without the use of a single nail. And if one wants to feel the raw, unfiltered energy of Central Asian life, the Green Bazaar, the city's largest market, cannot be missed. At first the market street, with its mountain-like piles of fresh fruit, spices, and the mingled smells of horse meat and all kinds of cheese, the soul food of nomads, feels overwhelming. But slowly, I too found myself soaking into its steadily unfolding charm.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😊 Kyrgyzstan, Even More Strangely Familiar</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+If Kazakhstan overwhelms the traveler with sheer scale, neighboring Kyrgyzstan holds a softer and more mysterious charm. Kyrgyz people look especially similar to Koreans, and I want to share one short episode related to that. Before coming to Russia, I had once become acquainted with someone from Kyrgyzstan while studying at the Defense Language Institute in Icheon, Gyeonggi Province. One day, while walking through downtown Icheon with that friend, we ran into his taekwondo instructor, who pointed at me and said, "It looks like a friend from your hometown has come." When I fluently(?) replied that I was Korean, he said, "Wow, your friend speaks Korean really well. Where did he learn it?" Only after I insisted that I had been Korean from birth and even showed him my resident registration card did he finally drop his suspicious gaze.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌊 Issyk-Kul, Too Vast to Be Just a Lake</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+In this country of people who look so much like us, the giant lake set like a jewel in the middle of Kyrgyzstan, Issyk-Kul, is its very symbol. We rented a car and planned an ambitious road trip circling the lake, and the moment we arrived, we were struck speechless by its scale. The horizon was nowhere in sight, and the salty-smelling waves lapped against the shore so convincingly that it did not feel like a lake at all, but like a perfect sea. Along the sandy shore there were especially many children selling warm corn and watermelon from baskets. Even now, I can still vividly hear their ringing voices as they persistently cried out, "Goryachaya kukuruza! Hot corn!"
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤝 The Deepest Impression: People's Warmth</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+In the midst of all this immense nature, the most lasting impression we encountered was not the scenery but the warmth of the people. While traveling in Kyrgyzstan, our rental car wheel suddenly sank deep into a puddle beside the roadside, leaving us in a frightening situation where we could neither move forward nor backward. We were panicking and dripping with sweat when an old van, kicking up clouds of dust, happened to stop in front of us. The door swung open, and a whole group of people poured out, pushing and pulling our car as though it were their own problem until they finally got it out of the hole. As we bowed repeatedly in thanks, they only smiled casually and told us that there was a party at their house that day and that we absolutely had to come, offering us an unexpectedly warm invitation.
+        </p>
+
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍽️ Warm Invitations on Distant Soil</h3>
+        <p class="leading-relaxed mb-6 text-slate-700">
+Remarkably, in Kazakhstan and Kyrgyzstan these sudden, heartwarming invitations were an ordinary part of daily life. The man from the rental car company who had lent us the vehicle also waved us over without hesitation and told us to come by in the evening because he would be grilling meat. Even a stranger on the street, who had asked whether I was Kazakhstani, readily invited us to dinner. In a land unimaginably far from Korea, among people who looked astonishingly like us and who approached strangers in distress without the slightest hesitation to offer them a seat at their dinner table, we experienced such generous hospitality that this trip felt warmer than almost any other I have taken.
+        </p>
+      `,
+      },
+    },
   ],
 };
