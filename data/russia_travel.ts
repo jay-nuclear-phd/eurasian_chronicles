@@ -680,7 +680,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
+          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory program, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
         </p>
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>
@@ -742,7 +742,7 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory faculty, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
+          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory program, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
         </p>
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>

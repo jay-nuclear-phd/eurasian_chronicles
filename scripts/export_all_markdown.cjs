@@ -13,7 +13,6 @@ const CATEGORY_FILES = [
   'year3.ts',
   'russia_travel.ts',
   'eurasia_travel.ts',
-  'appendix.ts',
   'epilogue.ts',
 ];
 

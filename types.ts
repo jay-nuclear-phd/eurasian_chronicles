@@ -32,7 +32,6 @@ export type CategoryId =
   | 'russia_travel' 
   | 'eurasia_travel' 
   | 'feelings' 
-  | 'appendix' 
   | 'epilogue';
 
 export interface Category {

@@ -106,7 +106,7 @@ export const year2Category: Category = {
       `,
         en: `
         <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          The dormitory that I had grown fond of during the preparatory faculty was no longer available to me as I entered graduate school. The dormitory we lived in was apartment-style, and although my wife's room was on a different floor, she had it all to herself. Moreover, it was one of the cleanest dormitories in Moscow, so the disappointment was even greater. 😥 Another major concern was that leaving the dormitory would incur additional costs such as electricity and hot water, which we had been enjoying as benefits.
+          The dormitory that I had grown fond of during the preparatory program was no longer available to me as I entered graduate school. The dormitory we lived in was apartment-style, and although my wife's room was on a different floor, she had it all to herself. Moreover, it was one of the cleanest dormitories in Moscow, so the disappointment was even greater. 😥 Another major concern was that leaving the dormitory would incur additional costs such as electricity and hot water, which we had been enjoying as benefits.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
           However, the new dormitories we would be assigned to as we entered the main program were all terrible places where we would have to <span class="text-red-600 font-bold">coexist with cockroaches 🪳</span>. To ensure a minimum standard of living for the remaining two years and to successfully complete my studies, I had to move to a place 'fit for human habitation' somehow. If I hesitated, I could miss out on good listings, so I hurried to look for a new home.
@@ -114,7 +114,7 @@ export const year2Category: Category = {
 
         <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
           <p class="leading-relaxed text-slate-800">
-            My friends from the preparatory faculty also jumped into the house-hunting war. ⚔️ Yesterday's colleagues had become our competitors overnight, looking for cheaper and better homes.
+            My friends from the preparatory program also jumped into the house-hunting war. ⚔️ Yesterday's colleagues had become our competitors overnight, looking for cheaper and better homes.
           </p>
         </div>
 
@@ -179,7 +179,7 @@ export const year2Category: Category = {
           In the only room, there was a king-size bed in the middle that was spacious enough for two people. With the bed as the center, I created my own area with my desk on one side and my wife's desk on the other. Since our household goods were simple, one taxi was enough for the move. 🚚 On the day we left the dormitory we had grown fond of, my wife shed tears, probably because we were leaving the home that had helped us get through our first year in a strange place. I packed our belongings tightly into the trunk and back seat of the taxi, and my wife took the subway to our new home. After unpacking and filling the house with the necessary items one by one, our new fortress for the two of us for the remaining two years was complete.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          To celebrate our new home, we had a small housewarming party with two of our younger friends from the preparatory faculty. 🎉 The kitchen was small, so it was full with just four people sitting in it. There were also good things about the small kitchen. If we ran out of food while eating, we could cook more right away, and if we needed anything else, we could get it from the refrigerator, which was always within reach. We could even talk while cooking. After the housewarming party, I felt that I was mentally and physically ready for the battle of the remaining two years.
+          To celebrate our new home, we had a small housewarming party with two of our younger friends from the preparatory program. 🎉 The kitchen was small, so it was full with just four people sitting in it. There were also good things about the small kitchen. If we ran out of food while eating, we could cook more right away, and if we needed anything else, we could get it from the refrigerator, which was always within reach. We could even talk while cooking. After the housewarming party, I felt that I was mentally and physically ready for the battle of the remaining two years.
         </p>
         <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -309,7 +309,7 @@ export const year2Category: Category = {
           (I will deal with the unique naming and patronymic system of Russians in more detail in Chapter 6, Russian Names).
         </blockquote>
         <p class="leading-relaxed mb-6 text-slate-700">
-          In Russia, when you officially address someone with respect, you must call them by their 'first name' and 'patronymic' together. However, since I was still in the habit of casually calling my teachers by their first names during my preparatory faculty days, I made a few mistakes with the honorifics in the early days of my master's program and had to receive a sharp rebuke. Fortunately, my advisor was a very young and passionate scholar who looked to be at most three or four years older than me, and he diligently guided the lost international student even in his killer schedule.
+          In Russia, when you officially address someone with respect, you must call them by their 'first name' and 'patronymic' together. However, since I was still in the habit of casually calling my teachers by their first names during my preparatory program days, I made a few mistakes with the honorifics in the early days of my master's program and had to receive a sharp rebuke. Fortunately, my advisor was a very young and passionate scholar who looked to be at most three or four years older than me, and he diligently guided the lost international student even in his killer schedule.
         </p>
         
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😵‍💫 A Time When the Soul Leaves the Body</h3>
@@ -317,7 +317,7 @@ export const year2Category: Category = {
           The first few weeks of graduate school were truly a time when the soul leaves the body. The master's program system had only been in place at Moscow State University for a few years. Before that, there was a unique Russian specialist program that only required one more year of study in the undergraduate program. It can be said that this was an effort to catch up with the Western system and reflect international trends. Since it was not yet a firmly established system, the schedule was often overturned and changed, which was very confusing.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          In addition, I would be exhausted when I came home after listening to Russian major lectures all day long that I couldn't understand at all. During my preparatory faculty days, I used mathematics and science as tools to learn Russian, but when the main program began, the situation was completely reversed. Now, I had to <span class="text-red-600 font-bold">dig into Russian like crazy to understand the killer major classes.</span> 📚 Of course, as time went by, I realized that the vocabulary that appeared in the major classes was limited like a round song, and I learned my own survival methods.
+          In addition, I would be exhausted when I came home after listening to Russian major lectures all day long that I couldn't understand at all. During my preparatory program days, I used mathematics and science as tools to learn Russian, but when the main program began, the situation was completely reversed. Now, I had to <span class="text-red-600 font-bold">dig into Russian like crazy to understand the killer major classes.</span> 📚 Of course, as time went by, I realized that the vocabulary that appeared in the major classes was limited like a round song, and I learned my own survival methods.
         </p>
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍻 Chuseok, United by Alcohol</h3>

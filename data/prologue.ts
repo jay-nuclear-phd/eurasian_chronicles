@@ -172,7 +172,7 @@ export const prologueCategory: Category = {
           </p>
           
           <p class="leading-relaxed text-slate-800 font-serif text-xl border-l-4 border-gold-accent pl-4 py-2 bg-gradient-to-r from-orange-50 to-transparent">
-             One day in the autumn of 2013, when the sky was high and the horses were fat 🍂, I received the long-awaited <strong>acceptance notice</strong>. 🎉 I then applied to register for the Russian preparatory faculty, somehow got my visa issued, and in the summer of 2014, I finally boarded a plane to the heart of Russia, <strong>Moscow</strong>. ✈️🇷🇺
+             One day in the autumn of 2013, when the sky was high and the horses were fat 🍂, I received the long-awaited <strong>acceptance notice</strong>. 🎉 I then applied to register for the Russian preparatory program, somehow got my visa issued, and in the summer of 2014, I finally boarded a plane to the heart of Russia, <strong>Moscow</strong>. ✈️🇷🇺
           </p>
         `,
       },
