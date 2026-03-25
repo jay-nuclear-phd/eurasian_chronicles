@@ -1,4 +1,4 @@
-import { Category } from '../types';
+﻿import { Category } from '../types';
 
 export const russiaTravelCategory: Category = {
   id: 'russia_travel',
@@ -680,131 +680,64 @@ export const russiaTravelCategory: Category = {
       `,
         en: `
         <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory program, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
+          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since our preparatory program days, had always been curious about the way we traveled, or more precisely, the way I traveled. Since there happened to be a holiday, they boldly decided to join us when I said I was planning a trip to the south of Moscow. While there is certainly a romance to traveling by train, this time we decided to rent a car so that we could explore more corners along the way. To be honest, I had long dreamed of driving across Russia's rough roads myself. Of course, I never expected driving on this continent to turn into a simple and peaceful romantic getaway.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Tula and a Driver's Debut</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          We left home early in the morning, met P and S at the subway station, and boarded the 'Elektrichka' (suburban train). I thought everyone would pass out on the train since we woke up at the crack of dawn, but to my surprise, they were wide awake, playing cards and talking. Before we knew it, we arrived in Tula, the city famous for Leo Tolstoy's estate. 🚂
+          We left home early in the morning, met up with P and S at the subway station, and boarded an elektrichka, the suburban train. Since we had all been up since before dawn, I assumed everyone would instantly fall asleep in their seats, but that was not the case at all. Instead, we stayed wide awake, playing card games and talking, and before long we had reached our first destination, Tula, the city famous for Tolstoy's estate.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          As soon as we got off at the station, we went to pick up the rental car we had reserved. It had been a while since I'd driven, and with Russia's notoriously rough roads and 'bear-like' drivers who could pop out from anywhere, I was scared enough to have sweaty palms at first. But I gradually adapted and was becoming a true continental driver. Having a car definitely made sightseeing much more convenient. I had visited Tula briefly on a group tour before, but this time I was able to thoroughly see the sights I'd missed, including the Tula Kremlin. 🏰
+          As soon as we got off at the station, we went to pick up the rental car we had booked in advance. It had been a long time since I had last driven, and between Russia's notoriously rough road conditions and the wildly unpredictable drivers who could appear out of nowhere, I was honestly nervous enough for my palms to sweat at first. But little by little I adjusted, and I could feel myself becoming a true driver of the continent. Having a car made sightseeing enormously convenient. I had visited Tula once before on a group tour, but this time I was finally able to take a proper look around the places I had missed back then, including the Tula Kremlin.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ Overtaking on a Solid Line and the 'Student Bribe Discount'</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">A Solid Line and a Student Discount</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Our rental car then headed to Oryol, a city famous as a battlefield during World War II. I was stepping on the gas and driving along when I saw there were few cars and the one in front was going too slowly, so I boldly attempted to overtake. Unfortunately, I overtook on a solid line section instead of a dashed one, and was immediately caught by a policeman hiding over the hill. 🛑
+          Our next destination was Oryol, a city known as a battlefield from the Second World War. I was driving along enthusiastically with my foot on the gas when I noticed that there were not many cars on the road and the one in front of me was moving painfully slowly, so I boldly decided to overtake. The problem was that I did it on a solid line rather than a broken one, and naturally I was caught at once by a police officer who had been hiding beyond the hill.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          The policeman told me to get out, led me to his car, sat me in the passenger seat, and bluntly asked if I intended to show my 'sincerity.' Yes, he was <span class="text-red-600 font-bold">asking for a bribe.</span> When I asked how much 'sincerity'(?) was required, he said 5,000 rubles (about 100,000 KRW at the time). 💸
+          The officer told me to step out of the car, led me to the police vehicle, sat me down in the passenger seat, and then bluntly asked whether I had any intention of showing "sincerity." In other words, he was openly asking for a bribe. When I asked how much "sincerity" he had in mind, he answered that he wanted 5,000 rubles, which at the time came to about 100 dollars.
         </p>
         <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
-          According to stories I'd heard, <strong>'bribes also have student discounts.'</strong> So, thinking I had nothing to lose, I showed my student ID with the most pitiful expression possible and said, "I just rented this car for the holidays, and as a poor international student, I really have no money." Surprisingly, the policeman seemed to sympathize with my plight and cut the requested amount in half. 💳
+          According to what I had heard from people around me, even bribes came with a student discount. So I decided that I had nothing to lose and pulled out my student ID with the saddest expression I could manage, telling him, "I only rented this car for the holiday, and I am just a poor international student. I really do not have any money." To my surprise, the officer seemed to take pity on my situation and cut the amount in half.
         </div>
         <p class="leading-relaxed mb-6 text-slate-700">
-          He then told me to leave the money on the vehicle's dashboard. The storytelling was that I had 'accidentally' left the money in the car, and the policeman 'coincidentally' found the ownerless money after I left. In this way, I was gradually but very surely adapting to the Russian ecosystem. 😒
+          He then told me to leave the money on the dashboard of the car. The unspoken story was that I had accidentally left the cash there when getting out, and after I had gone, the officer had just happened to discover that ownerless money. In that way, I realized that I was adapting, little by little but very surely, to the ecosystem of Russia.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 The Eagle of Oryol and the Strange 'Bellagio'</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Eagle of Oryol and Bellagio</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Carrying the sting of being fleeced by the police, we entered downtown Oryol as darkness fell. In Oryol, we saw the grand Uspensky Cathedral and the massive eagle statue, the symbol of the city (Oryol means eagle in Russian). 🦅 But if I had to pick the most memorable place in Oryol, it wouldn't be a famous tourist spot, but a very strange restaurant called 'Bellagio.'
+          Carrying the bitter aftertaste of being shaken down by the police, we entered Oryol after dark. There we visited the grand Uspensky Cathedral and the giant eagle statue that symbolizes the city, since Oryol literally means eagle in Russian. But if I had to choose the place in Oryol that remained most vividly in my memory, it would not be one of the famous sights at all, but rather a very strange restaurant called Bellagio.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          The interior of the restaurant, which claimed to be an Italian specialty place, looked like a cabaret, and there were no other customers. The owner asked if she could perform(?) songs and dances while taking our order. Thanks to our firm refusal, wanting a quiet meal, we avoided an even weirder situation. 💃 Dancing and singing by a female owner in an empty, cabaret-like restaurant... Plus, the food wasn't great, so I wanted to get out of there as quickly as possible.
+          The place advertised itself as a restaurant specializing in Italian cuisine, yet the interior looked more like a cabaret, and there was not a single other customer inside. The owner even asked whether it would be alright if she sang and danced while taking our order. Fortunately, because we firmly declined and said we just wanted to eat quietly, we narrowly escaped witnessing something even stranger. A female owner singing and dancing in an empty restaurant with a cabaret atmosphere would have been memorable enough, but the food itself was not good either, so all I wanted was to get out of there as quickly as possible.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ Tanks of Kursk and the Fairytale Town of Yelets</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Kursk and Fairytale Yelets</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Leaving Oryol, we drove further south to Kursk. Kursk is a historical city where the largest tank battle in human history took place during World War II. It was fascinating to see actual tanks lined up along the road from the very entrance to the city, testifying to the intensity of the time. 🚜
+          Leaving Oryol behind, we drove farther south and arrived in Kursk. Kursk is a historic city where the largest tank battle in human history took place during the Second World War. Even from the roads entering the city, real tanks were lined up on display as if to testify to the ferocity of that battle, and I found it fascinating.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Turning north again toward Moscow, we decided to stop for a meal in a small town called Yelets. To our surprise, this small town we entered without expectations looked like a small European fairytale village, with charming buildings, clean streets, and ancient churches that made us gasp in admiration. 🏘️ It's hard to express the joy of finding such an unexpected treasure during a road trip. ✨
+          After that, we turned back north toward Moscow and decided to make a brief stop in a small town called Yelets to have a meal. But unexpectedly, this tiny town turned out to be one of the most delightful surprises of the trip. It looked as though a small European fairytale village had been lifted whole and placed there, with charming buildings, spotless streets, and elegant old churches all coming together to draw a gasp from us. The thrill of stumbling upon an unexpected treasure like that in the middle of an independent trip is difficult to put into words.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 Tolstoy's Breath and Shashlik in the Snow</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Tolstoy and Shashlik in the Snow</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          The trip wound down with a visit to Leo Tolstoy's birthplace in Yasnaya Polyana. On the last night of the trip, we had a barbecue party at our accommodation to celebrate completing the journey without getting 'hit'(?) by anything. 🍖
+          The journey came more or less to a close with a visit to Yasnaya Polyana, the hometown of the great writer Leo Tolstoy, where we saw his home. On the last night of the trip, we held a barbecue party at our lodging to celebrate the fact that we had completed the journey without anyone getting seriously "hit" by anything.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          In the cold of -10°C with an occasional biting wind, the taste of greasy Shashlik (skewered meat) grilled over a crackling fire was fantastic enough to make us forget all the hardships. The night faded away as we reminisced about the various episodes of our arduous journey. 🔥
+          In the freezing weather of minus ten degrees Celsius, with a bitter wind blowing through from time to time, the rich taste of shashlik grilling over a crackling wood fire was so wonderful that it made all the hardships of the trip fade away. We spent the evening recalling one absurd episode after another from our rugged little journey.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 The 'Generous' Twist of Speeding Tickets</h3>
+        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Twist of Speeding Tickets</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Returning to Tula, we handed back the rental car and boarded the 'Elektrichka' back to Moscow. Returning to Moscow, I found myself chuckling at how even the murderous traffic and stale air felt welcoming after those few days, making me realize how much I'd grown fond of this city. 🏙️
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          A few days after returning to Moscow, a stack of speeding tickets arrived at my house. I'd been caught by speeding cameras four times! It was the price of being so absorbed in the continental roads that I forgot about the existence of enforcement cameras. 📸 Two were for exceeding the limit by 20 km/h, and two were for exceeding it by 40 km/h. I was terrified of a fine bomb, but the total fine for all four cases was only about 50,000 to 60,000 KRW, which was surprisingly cheap. Plus, there was a 'generous' rule where the fine was reduced by 50% if paid within 20 days of receiving the notice. Russia is truly a country of surprises, for better or worse, the deeper you dig. 🇷🇺
+          We returned to Tula, handed back the rental car, and boarded the elektrichka that would take us to Moscow. Once I was back in Moscow, I caught myself almost laughing at how even the city's murderous traffic jams and stale air somehow felt welcome again. That was when I realized, rather sadly, that I must really have grown attached to the place.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          Looking back, it was a series of tight schedules and unpredictable events, but I want to take this opportunity to express my deep gratitude to our group who enjoyed this journey completely without a single word of complaint. These memories of laughing and crying while running together on unfamiliar icy roads remain deeply engraved in my heart under the name of 'memories.' 💖
-        </p>
-      `,
-        en: `
-        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          When I plan a trip, I tend to pack the schedule as tightly as possible. P and S, who had been close friends since the preparatory program, were curious about our (or rather, my) intense way of traveling. Since there was a holiday, they fearlessly decided to join us when I said I was planning a trip to southern Moscow. 🚗 While there's a romance to traveling by train, this time we decided to rent a car to explore more nooks and crannies. Honestly, I've always had a dream of driving on Russia's rough roads myself. Of course, I didn't expect driving on this continent to be a smooth romantic journey.
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚉 Arrival in Tula and Debut as a Continental Driver</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          We left home early in the morning, met P and S at the subway station, and boarded the 'Elektrichka' (suburban train). I thought everyone would pass out on the train since we woke up at the crack of dawn, but to my surprise, they were wide awake, playing cards and talking. Before we knew it, we arrived in Tula, the city famous for Leo Tolstoy's estate. 🚂
+          A few days after we got back, a whole bundle of speeding tickets arrived at my home. I had been caught by speed cameras no fewer than four times. It was the price I paid for becoming too intoxicated by the roads of the continent and forgetting that speed cameras existed at all. I was afraid I had been hit with a disastrous fine, but fortunately the total for all four tickets came to only about 50 to 60 dollars, which was surprisingly cheap. On top of that, there was even a generous rule by which the fine would be reduced by 50 percent if it was paid within twenty days of receiving the notice. In so many ways, Russia is a country that keeps surprising you, both for better and for worse, the more deeply you get to know it.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
-          As soon as we got off at the station, we went to pick up the rental car we had reserved. It had been a while since I'd driven, and with Russia's notoriously rough roads and 'bear-like' drivers who could pop out from anywhere, I was scared enough to have sweaty palms at first. But I gradually adapted and was becoming a true continental driver. Having a car definitely made sightseeing much more convenient. I had visited Tula briefly on a group tour before, but this time I was able to thoroughly see the sights I'd missed, including the Tula Kremlin. 🏰
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👮‍♂️ Overtaking on a Solid Line and the 'Student Bribe Discount'</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Our rental car then headed to Oryol, a city famous as a battlefield during World War II. I was stepping on the gas and driving along when I saw there were few cars and the one in front was going too slowly, so I boldly attempted to overtake. Unfortunately, I overtook on a solid line section instead of a dashed one, and was immediately caught by a policeman hiding over the hill. 🛑
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          The policeman told me to get out, led me to his car, sat me in the passenger seat, and bluntly asked if I intended to show my 'sincerity.' Yes, he was <span class="text-red-600 font-bold">asking for a bribe.</span> When I asked how much 'sincerity'(?) was required, he said 5,000 rubles (about 100,000 KRW at the time). 💸
-        </p>
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6 text-sm">
-          According to stories I'd heard, <strong>'bribes also have student discounts.'</strong> So, thinking I had nothing to lose, I showed my student ID with the most pitiful expression possible and said, "I just rented this car for the holidays, and as a poor international student, I really have no money." Surprisingly, the policeman seemed to sympathize with my plight and cut the requested amount in half. 💳
-        </div>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          He then told me to leave the money on the vehicle's dashboard. The storytelling was that I had 'accidentally' left the money in the car, and the policeman 'coincidentally' found the ownerless money after I left. In this way, I was gradually but very surely adapting to the Russian ecosystem. 😒
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🦅 The Eagle of Oryol and the Strange 'Bellagio'</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Carrying the sting of being fleeced by the police, we entered downtown Oryol as darkness fell. In Oryol, we saw the grand Uspensky Cathedral and the massive eagle statue, the symbol of the city (Oryol means eagle in Russian). 🦅 But if I had to pick the most memorable place in Oryol, it wouldn't be a famous tourist spot, but a very strange restaurant called 'Bellagio.'
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          The interior of the restaurant, which claimed to be an Italian specialty place, looked like a cabaret, and there were no other customers. The owner asked if she could perform(?) songs and dances while taking our order. Thanks to our firm refusal, wanting a quiet meal, we avoided an even weirder situation. 💃 Dancing and singing by a female owner in an empty, cabaret-like restaurant... Plus, the food wasn't great, so I wanted to get out of there as quickly as possible.
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🛡️ Tanks of Kursk and the Fairytale Town of Yelets</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Leaving Oryol, we drove further south to Kursk. Kursk is a historical city where the largest tank battle in human history took place during World War II. It was fascinating to see actual tanks lined up along the road from the very entrance to the city, testifying to the intensity of the time. 🚜
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Turning north again toward Moscow, we decided to stop for a meal in a small town called Yelets. To our surprise, this small town we entered without expectations looked like a small European fairytale village, with charming buildings, clean streets, and ancient churches that made us gasp in admiration. 🏘️ It's hard to express the joy of finding such an unexpected treasure during a road trip. ✨
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 Tolstoy's Breath and Shashlik in the Snow</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          The trip wound down with a visit to Leo Tolstoy's birthplace in Yasnaya Polyana. On the last night of the trip, we had a barbecue party at our accommodation to celebrate completing the journey without getting 'hit'(?) by anything. 🍖
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          In the cold of -10°C with an occasional biting wind, the taste of greasy Shashlik (skewered meat) grilled over a crackling fire was fantastic enough to make us forget all the hardships. The night faded away as we reminisced about the various episodes of our arduous journey. 🔥
-        </p>
-
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">💸 The 'Generous' Twist of Speeding Tickets</h3>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Returning to Tula, we handed back the rental car and boarded the 'Elektrichka' back to Moscow. Returning to Moscow, I found myself chuckling at how even the murderous traffic and stale air felt welcoming after those few days, making me realize how much I'd grown fond of this city. 🏙️
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          A few days after returning to Moscow, a stack of speeding tickets arrived at my house. I'd been caught by speeding cameras four times! It was the price of being so absorbed in the continental roads that I forgot about the existence of enforcement cameras. 📸 Two were for exceeding the limit by 20 km/h, and two were for exceeding it by 40 km/h. I was terrified of a fine bomb, but the total fine for all four cases was only about 50,000 to 60,000 KRW, which was surprisingly cheap. Plus, there was a 'generous' rule where the fine was reduced by 50% if paid within 20 days of receiving the notice. Russia is truly a country of surprises, for better or worse, the deeper you dig. 🇷🇺
-        </p>
-        <p class="leading-relaxed mb-6 text-slate-700">
-          Looking back, it was a series of tight schedules and unpredictable events, but I want to take this opportunity to express my deep gratitude to our group who enjoyed this journey completely without a single word of complaint. These memories of laughing and crying while running together on unfamiliar icy roads remain deeply engraved in my heart under the name of 'memories.' 💖
-        </p>
-      `,
-        en: `
-        <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-          Though the two cities were so incredibly different, perhaps this stark contrast is the real charm of the Russian continent that constantly draws me to unfamiliar places. Although it was a short trip taken on the excuse of a holiday, it was a journey that made me marvel once again at the diverse and beautiful forms that Russia holds. 🇷🇺
+          Looking back, the trip was a nonstop sequence of tightly packed plans and unpredictable incidents. Even so, I want to use this chance to express my deep gratitude to the friends who enjoyed the whole journey without a single complaint. Those memories of laughing and groaning together as we raced along unfamiliar icy roads still remain deeply etched in my heart under the name of memory.
         </p>
       `,
       },
