@@ -13,6 +13,8 @@ const CATEGORY_FILES = [
   'year2.ts',
   'eurasia_travel.ts',
   'year3.ts',
+  'epilogue.ts',
+  'acknowledgments.ts',
 ];
 
 function loadCategory(filePath) {

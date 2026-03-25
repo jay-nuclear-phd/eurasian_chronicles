@@ -14,6 +14,7 @@ const CATEGORY_FILES = [
   'russia_travel.ts',
   'eurasia_travel.ts',
   'epilogue.ts',
+  'acknowledgments.ts',
 ];
 
 function loadCategory(filePath) {

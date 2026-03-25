@@ -6,3 +6,4 @@ export * from './year3';
 export * from './russia_travel';
 export * from './eurasia_travel';
 export * from './epilogue';
+export * from './acknowledgments';

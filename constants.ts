@@ -8,6 +8,7 @@ import {
   russiaTravelCategory,
   eurasiaTravelCategory,
   epilogueCategory,
+  acknowledgmentsCategory,
 } from './data';
 
 export const BOOK_DATA: Category[] = [
@@ -19,6 +20,7 @@ export const BOOK_DATA: Category[] = [
   eurasiaTravelCategory,
   year3Category,
   epilogueCategory,
+  acknowledgmentsCategory,
 ];
 
 export const AUTHOR_NOTE = {
