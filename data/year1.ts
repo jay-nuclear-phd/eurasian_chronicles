@@ -632,7 +632,7 @@ export const year1Category: Category = {
 
            <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📐 러시아어로 배우는 수학</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             다시 수업 이야기로 돌아가 보자. 나는 핵물리학 전공을 희망한다고 밝혔기에 러시아어 외에도 일주일에 수학 두 빠라, 물리 두 빠라를 들었다. 러시아어는 인쇄체와 필기체가 상당히 달라 초반부터 쉽지 않았다. 게다가 현지인들의 필기체는 매우 흘려 쓰는 경우가 많아, 외국인 입장에서는 해독 자체가 도전이었다. ✍️
+             다시 수업 이야기로 돌아가 보자. 내가 지원한 자리는 핵공학이었지만 모스크바 국립대에는 핵공학과가 없고 핵물리학과만 존재했다. 결국 나는 핵물리학 전공을 희망한다고 밝혔고, 그에 따라 러시아어 외에도 일주일에 수학 두 빠라, 물리 두 빠라를 들었다. 진짜 문제는 러시아어였다. 러시아어는 인쇄체와 필기체가 상당히 달라 초반부터 쉽지 않았다. 게다가 현지인들의 필기체는 매우 흘려 쓰는 경우가 많아, 외국인 입장에서는 해독 자체가 도전이었다. ✍️
            </p>
            <p class="leading-relaxed mb-6 text-slate-700">
              문법도 만만치 않았다. 동사는 시제와 인칭에 따라 변화하고, 명사는 격·수·성에 따라 형태가 달라진다. 어떤 언어든 어렵지만, 러시아어는 문법적 변형이 특히 풍부한 언어라고 할 수 있다.
@@ -712,7 +712,7 @@ export const year1Category: Category = {
 
            <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📐 Learning Math in Russian</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             Let's get back to the classes. Since I said I wanted to major in nuclear physics, I took two paras of math and two paras of physics a week in addition to Russian. Russian was not easy from the beginning because the printed and cursive scripts are quite different. Moreover, the cursive of native speakers is often very sloppy, so it was a challenge for foreigners to decipher it. ✍️
+             Let’s get back to the story about my classes. I had originally applied for Nuclear Engineering, but Moscow State University didn't have a Nuclear Engineering department—only Nuclear Physics. So, I stated my intention to major in Nuclear Physics. As a result, on top of my Russian language courses, I had to take two paras of math and two paras of physics every week. Russian was not easy from the beginning because the printed and cursive scripts are quite different. Moreover, the cursive of native speakers is often very sloppy, so it was a challenge for foreigners to decipher it. ✍️
            </p>
            <p class="leading-relaxed mb-6 text-slate-700">
              The grammar was not easy either. Verbs change according to tense and person, and nouns change according to case, number, and gender. Every language is difficult, but Russian is a language with particularly rich grammatical variations.
