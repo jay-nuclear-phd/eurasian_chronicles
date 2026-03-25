@@ -120,7 +120,7 @@ export const year2Category: Category = {
 
         <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 House Hunting in Moscow</h3>
         <p class="leading-relaxed mb-6 text-slate-700">
-          As with any big city, Moscow has a population of about 10 million, and even more if you include the floating population, all sharing the limited space of this city. Therefore, places close to the subway and with good security were very expensive. Some acquaintances who were already living in apartments were paying more than 1.5 million won a month in rent, which was <span class="text-slate-500 line-through">a pie in the sky</span> for us. 💸 Even if we could afford it, compared to the very cheap accommodation provided by the military, the large amount of money that would go out every month for doing nothing was a waste. Since we hadn't bought a car in Russia, the house we were looking for had to be accessible by public transport.
+          As with any big city, Moscow has a population of about 10 million, and even more if you include the floating population, all sharing the limited space of this city. Therefore, places close to the subway and with good security were very expensive. Some acquaintances who were already living in apartments were paying more than 1,500 dollars a month in rent, which was <span class="text-slate-500 line-through">a pie in the sky</span> for us. 💸 Even if we could afford it, compared to the very cheap accommodation provided by the military, the large amount of money that would go out every month for doing nothing was a waste. Since we hadn't bought a car in Russia, the house we were looking for had to be accessible by public transport.
         </p>
         <p class="leading-relaxed mb-6 text-slate-700">
           During that time when I couldn't waste a single moment, I learned that one of the biggest obstacles to finding a house in Moscow was the closed-mindedness and exclusivity of the Russian people. Even if I found a house I liked on a real estate website and called, the response on the other end of the line was cold.
@@ -162,9 +162,9 @@ export const year2Category: Category = {
         </p>
 
         <div class="bg-blue-50 border-t-4 border-b-4 border-blue-200 p-6 my-8 text-center">
-          <p class="text-2xl font-bold text-blue-900">Rent approx. 700,000 KRW</p>
-          <p class="text-blue-800 mt-2">Utilities (electricity, water/sewage) approx. 30,000 KRW/month</p>
-          <p class="text-sm text-blue-700 mt-2">(Based on the exchange rate at the time of ±18 KRW/RUB)</p>
+          <p class="text-2xl font-bold text-blue-900">Rent approx. 700 USD</p>
+          <p class="text-blue-800 mt-2">Utilities (electricity, water/sewage) approx. 30 USD/month</p>
+          <p class="text-sm text-blue-700 mt-2">(Based on the exchange rate at the time of 70± RUB/USD)</p>
         </div>
 
         <p class="leading-relaxed mb-6 text-slate-700">
