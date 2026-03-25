@@ -33,9 +33,7 @@ export const AUTHOR_NOTE = {
 
 이곳은 제가 러시아에서 3년 동안 석사 과정을 밟으며 겪었던 경험과 감정, 그리고 유라시아 대륙 곳곳을 누볐던 여행의 기록을 담은 공간입니다.
 
-현재 이 기록들의 제목을 <strong>'유라시아 견문록'</strong>이라 붙여두었지만, 개인적으로는 아직 딱 맞는 옷을 입히지 못한 기분이 들어 글을 써 내려가며 계속 고민할 예정입니다. 혹시 글을 읽으시다가 이 공간에 어울리는 더 좋은 제목이 떠오른다면 언제든 추천 부탁드립니다.
-
-제가 이 기록들을 공유하는 이유는 거창한 성과를 자랑하기 위함이 아닙니다. 낯선 땅에서의 도전이 두렵기도 했지만, 결국 <strong>'누구든 할 수 있다'</strong>는 응원의 메시지를 전하고 싶었습니다. 한 개인의 소소하고도 치열했던 날들이 누군가에게는 작은 용기가 되기를 바랍니다.
+이 책의 제목은 <strong>'유라시아 견문록'</strong>입니다. 제가 이 기록들을 공유하는 이유는 거창한 성과를 자랑하기 위함이 아닙니다. 낯선 땅에서의 도전이 두렵기도 했지만, 결국 <strong>'누구든 할 수 있다'</strong>는 응원의 메시지를 전하고 싶었습니다. 한 개인의 소소하고도 치열했던 날들이 누군가에게는 작은 용기가 되기를 바랍니다.
 
 프롤로그부터 에필로그까지, 차근차근 저의 발자취를 따라와 주신다면 더할 나위 없이 기쁠 것입니다. 여러분과의 소통은 언제든 환영합니다. 궁금한 점이 있거나 이야기를 나누고 싶다면 댓글을 남겨주시거나, 아래 메일로 편하게 연락해 주세요.
 
@@ -46,9 +44,7 @@ Email: onestark1204@naver.com
 
 This is a space that contains the records of my experiences, emotions, and travels across the Eurasian continent during my three-year master's program in Russia.
 
-I have currently titled these records <strong>'Eurasian Chronicles'</strong>, but I personally feel that I haven't found the perfect fit yet, so I plan to keep thinking about it as I write. If you come up with a better title that suits this space while reading, please feel free to recommend it at any time.
-
-I am not sharing these records to boast of any great achievements. The challenges in a foreign land were daunting, but ultimately, I wanted to convey a message of encouragement that <strong>'anyone can do it.'</strong> I hope that one individual's small yet fierce days can become a small courage for someone.
+The title of this book is <strong>'Eurasian Chronicles'</strong>. I am not sharing these records to boast of any great achievements. The challenges in a foreign land were daunting, but ultimately, I wanted to convey a message of encouragement that <strong>'anyone can do it.'</strong> I hope that one individual's small yet fierce days can become a small courage for someone.
 
 From the prologue to the epilogue, I would be more than happy if you would follow my footsteps step by step. Communication with you is always welcome. If you have any questions or want to talk, please leave a comment or feel free to contact me at the email below.
 
