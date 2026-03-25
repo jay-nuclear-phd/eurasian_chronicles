@@ -52,7 +52,7 @@ export const acknowledgmentsCategory: Category = {
           자신의 연애마저 뒷전으로 미루고 먼 타국까지 형을 보러 달려와 준 든든한 내 동생, 이역만리로 떠나는 막내 여동생을 위해 멀리서도 아낌없는 응원을 보내주신 두 분의 처형에게도 깊은 감사를 표한다. 더불어 3년이라는 긴 시간 동안 잊지 않고 이모부를 반갑게 맞아준 듬직한 첫째 조카, 그리고 돌잡이 때 떠났음에도 귀국 후 나를 또렷이 기억해 주어 뭉클함을 안겨준 사랑스러운 둘째 조카까지 모두가 내게는 살아가는 힘이었다.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📖 독자와 아버지께</h3>
+        <hr class="my-10 border-slate-300" />
         <p class="leading-relaxed mb-6 text-slate-700">
           마침내 내 인생의 첫 책이 세상에 나오게 되었다. 서툴고 투박했을 나의 유라시아 유랑기를 끝까지 흥미롭게 읽고 따라와 주신 독자 여러분께 고개 숙여 깊은 감사를 드린다.
         </p>
@@ -88,7 +88,7 @@ export const acknowledgmentsCategory: Category = {
           I also offer deep thanks to my dependable younger brother, who even put his own love life aside and came all the way to a distant foreign country just to see his older brother, and to my two sisters-in-law, who sent unstinting support from afar for their youngest sister setting off to the far ends of the earth. Along with them, my sturdy eldest nephew, who never forgot me and always welcomed his uncle warmly through those three long years, and my lovely second nephew, who had only been a baby when I left yet still remembered me clearly when I returned, all of them gave me strength to keep going.
         </p>
 
-        <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📖 To My Readers and My Father</h3>
+        <hr class="my-10 border-slate-300" />
         <p class="leading-relaxed mb-6 text-slate-700">
           At last, the first book of my life has come into the world. I bow my head in deep gratitude to all the readers who followed my clumsy and rough-edged wandering across Eurasia all the way to the end with interest and generosity.
         </p>
