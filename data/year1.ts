@@ -31,188 +31,83 @@ export const year1Category: Category = {
         en: 'The Flight to Russia, and a Harsh Initiation',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop', // Airplane wing or airport
+        'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
         ko: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            개인적인 사정으로 아내보다 이틀 먼저 출국을 하게 되었다. 인천국제공항에는 어머니와 동생이 나와주었고 작별을 한 뒤 비행기에 몸을 실었다.
+            개인적인 사정으로 아내보다 이틀 먼저 출국하게 되었다. 인천국제공항에는 어머니와 동생이 나와주었고 작별을 한 뒤 비행기에 몸을 실었다. 군인정신이 몸에 밴 나는 예비학부를 포함한 3년간의 석사과정을 마쳐야 하는 임무(?)를 완수해야 했기에 비장한 마음으로 비행기 좌석에 앉았다. 하지만 부모형제, 친구들을 못 본다는 생각이 나서 그런지 낯선 땅에 대한 막연한 두려움 때문인지 눈물이 났다. 비행기 출발 전 기내방송이 나왔을 때가 ‘드디어 정말 떠나는구나’ 하는 마음에 제일 많이 울었다.
           </p>
-          
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">비행기 안에서의 눈물과 와인</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            군인정신이 몸에 밴 나는 예비학부를 포함한 3년간의 석사과정을 마쳐야 하는 <span class="font-bold text-russia-blue">임무(?)</span>를 완수해야 했기에 비장한 마음으로 좌석에 앉았다. 하지만 부모형제, 친구들을 못 본다는 생각이 나서 그런지, 낯선 땅에 대한 막연한 두려움 때문인지 눈물이 났다. 😭
+            기분이 조금 안정되나 싶을 때, 비행기 내에는 기내식이 나왔다. 승무원의 식사와 함께 어떤 음료를 마시겠냐는 질문에 나는 뭔가에 이끌린 듯 와인을 달라고 했다. 왠지 알콜이 조금 도움이 되지 않을까 하는 마음에서였다. 하지만 결과는 정반대였다. 와인을 마시고 나니 한 번 더 이유 모를 슬픔과 두려움이 울컥했다. 가까스로 스스로를 다독이고 나니 잠이 몰려왔다. 14시간의 비행 동안 기내식은 두 번 나온다. 비행기가 이륙하고 안정된 고도에 접어들었을 때와 목적지 도착 전이다. 첫 기내식을 먹고 다음 기내식이 나올 때까지 잤으니 꽤나 잘 잔 셈이다. 두 번째 기내식이 나왔을 때도 비슷한 일이 반복되었다. 또 와인을 주문했고 와인과 식사를 마치고는 또다시 한 번 울컥하고는 착륙할 때까지 잠을 잤다. 먹고 울고 자는 걸 반복하니 14시간의 비행이 짧게 느껴졌고 어느새 모스크바 셰레메티예보 국제공항에 도착해 있었다.
           </p>
 
-          <p class="leading-relaxed mb-8 text-slate-700">
-            비행기 출발 전 기내방송이 나왔을 때가 드디어 정말 떠나는구나 하는 마음에 제일 많이 울었다.
-          </p>
-
-          <div class="bg-slate-50 p-6 rounded-xl border-l-4 border-russia-blue mb-8">
-            <p class="leading-relaxed text-slate-700 italic">
-              "기분이 조금 안정되나 싶을 때, 비행기 내에는 기내식이 나왔다. 승무원의 식사와 함께 어떤 음료를 마시겠냐는 질문에 나는 뭔가에 이끌린듯 <span class="font-bold text-wine-600">와인 🍷</span>을 달라고 했다. 왠지 알콜이 조금 도움이 되지 않을까 하는 마음에서였다."
-            </p>
-          </div>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">모스크바 도착과 기숙사 생활</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-             하지만 결과는 정반대였다. 와인을 마시고 나니 한 번 더 이유 모를 슬픔과 두려움이 울컥했다. 가까스로 스스로를 다독이고 나니 잠이 몰려왔다. 한참을 푹 잔 것 같다. 기내식을 주고 있을 때 다시 깨어났고, 비슷한 일이 반복되었다. 또 와인을 주문했고 와인과 식사를 마치고는 또다시 한 번 울컥하고는 또 잠에 들었다. 😴
-             <br/><br/>
-             그렇게 14시간의 비행이 짧게 느껴졌고 어느새 <strong>모스크바 세례메티예보 국제공항</strong>에 도착해 있었다. 🇷🇺
+            한국에서 몇 개월 공부했던 러시아어로는 모스크바 현지인의 말을 거의 알아듣지 못했다. 그래도 공항에서 엄청나게 많은 사람들이 택시 호객행위를 한다는 건 알 수 있었다. 나는 미리 모스크바 국립대 학생회의 입학안내 서비스를 신청했기에 마중 나온 사람이 있었고 안전하게 모스크바 시내 근처에 있는 기숙사까지 일행과 이동할 수 있었다. 공항에서 기숙사까지는 약 한 시간 조금 넘게 걸렸는데 택시 안에서 본 모스크바의 풍경은 모든 게 다 신기할 따름이었다.
           </p>
-
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
           <p class="leading-relaxed mb-6 text-slate-700">
-            한국에서 잠시 공부했던 러시아어로는 모스크바 현지인의 말을 거의 알아듣지 못했다. 그래도 공항에서 엄청나게 많은 사람들이 택시 호객행위를 한다는 건 알 수 있었다. 🚕
+            도착한 기숙사는 지하철이 바로 옆에 있는 역세권 중의 역세권이었다. 말이 기숙사지 사실상 방이 두 개인 아파트였다. 각 방에는 두 명씩 들어갈 수 있었으니 한 호수에는 학생 네 명까지 살 수 있었다. 방 하나에는 나와 나보다는 대여섯 살 어린 룸메가 들어갔고, 다른 방에는 운 좋은 한국인이 혼자 방을 쓰게 되었다. 방은 온통 오래된 목재로 되어 있었다. 나무로 된 침대에는 침대보와 담요가 있었는데 모두 정말 너무 오래되어서 사용할 수가 없었다. 특히 담요는 엄청 두껍고 까끌해서 바로 옷장 구석에 보관해 두었다.
           </p>
-          
           <p class="leading-relaxed mb-6 text-slate-700">
-            나는 미리 모스크바 국립대 학생회의 입학안내 서비스를 신청했기에 마중 나온 사람이 있었고, 안전하게 모스크바 시내 근처에 있는 기숙사까지 일행과 이동할 수 있었다. 공항에서 기숙사까지는 약 한 시간 조금 넘게 걸렸는데 택시 안에서 본 모스크바의 풍경은 모든 게 다 신기할 따름이었다.
+            한국인의 눈에는 턱없이 추레하고 더러워 보여도 해당 기숙사는 그나마 깨끗하게 관리가 잘 된 편이라고 들었다. 다른 기숙사에는 화장실 변기에 엉덩이를 대고 앉는 물건이 없는 경우도 많았고 바퀴벌레도 나오는 경우도 많다고 한다. 그리고 한 방에 6명까지도 들어가야 하는 경우도 있다고 하는데 책상은 4개 밖에 없어서 두 명은 방에서 공부를 할 수 조차 없었다. 상대적으로 깨끗한 방과 2인실의 기숙사에서 살게 된 우리는 정말 운이 좋은 편이었다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 낯선 기숙사, 첫 번째 밤</h3>
-          
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">석회수와 낯선 첫날밤</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            도착한 기숙사는 지하철이 바로 옆에 있는 역세권 중의 역세권이었다. 말이 기숙사지 사실상 방이 두 개인 아파트였다. 각 방에는 두 명씩 들어갈 수 있었으니 한 호수에는 학생 네 명까지 살 수 있었다. 방 하나에는 나와 나보다는 대여섯 살 어린 룸메가 들어갔고, 다른 방에는 운 좋은 한국인이 혼자 방을 쓰게 되었다.
+            방을 조금 둘러보고는 당장 급한 물부터 해결을 해야 했다. 대부분의 유럽처럼 수도꼭지를 틀면 나오는 물은 모두 석회질이기에 요로결석의 이유로 함부로 마시지 말라고 했다. 수돗물을 유리컵에 받으면 둥둥 떠다니는 흰색의 부유물이 보였고, 물을 끓이거나 증발시키면 테두리 부분이 허옇게 남았다. 누군가는 그래도 우리 몸에는 괜찮다고 하는 사람들도 있었지만 정말 마시고 싶지 않았다. 필요한 물과 간식을 샀고, 잠시 혼자 밖에 나가 모스크바의 밤하늘 아래 잠시 생각에 잠겼다. ‘이제 진짜 러시아 생활을 시작하는구나. 과연 어떤 모험이 기다리고 있을까’, 설레는 마음과 미지의 불안함이 교대로 나를 어지럽히던 밤이었다. 별로 아늑하지 못한 기숙사에서의 첫날밤이었지만 하루 종일 새로운 곳에서의 생활에 잔뜩 긴장했다가 마음이 놓여서인지 잠은 잘 잤다.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">관료주의와 행정 절차</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            방은 온통 오래된 목재로 되어 있었다. 그래도 다행인 건 해당 기숙사는 그나마 깨끗하게 관리가 된 편이라 바퀴벌레는 나오지 않는다고 했다. 나무로 된 침대에는 침대보와 담요가 있었는데 모두 정말 너무 오래되어서 사용할 수가 없었다. 특히 담요는 엄청 두껍고 까끌해서 바로 옷장 구석에 보관해 두었다.
+            러시아의 대학/대학원에 진학하기 위해선 예비학부를 거치는 것이 일반적이었다. 예비학부를 등록하려면 러시아어 공증을 받고 여권 복사본을 러시아어로 번역하여 제출해야 했다. 다른 나라의 공증과 번역은 인정해 주지 않기에, 아무리 대한민국 국방부가 보증하고 국제여권이 증명하더라도 구소련의 잔재가 가득한 러시아의 낡은 행정 시스템 앞에서는 무용지물이었다. 다음으로는 대형마트에 가서 필요한 물품들을 구입했다. 특히 이불과 베개는, 러시아 생활이 아무리 험난하더라도 최소한 잠자리만큼은 나를 배신하지 않기를 바라는 마음으로, 최대한 포근하고 푹신한 것으로 신중히 골랐다.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">선배의 굴욕과 택시 사기</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            방을 조금 둘러보고는 당장 급한 물부터 해결을 해야 했다. 대부분의 유럽처럼 수도꼭지를 틀면 나오는 물은 모두 <strong>석회</strong>이기에 요로결석의 이유로 함부로 마시지 말라고 했다. 끓이더라도 석회가 둥둥 떠다니는 게 보이기에 별로 마시고 싶은 생각도 들지 않았다. 🚰
+            아내는 예정대로 내가 러시아에 오고 이틀 뒤에 왔다. 그래도 이틀 먼저 러시아에 온 ‘선배’로서 어깨에 힘을 잔뜩 주고 의기양양하게 공항으로 향했다. 겨우 이틀 만에 보는 거였지만 심적으로 의지할 사람이 생겨서 그런지 아내가 매우 반가웠다. 내가 오는 날 도와준 사람의 말로는 3만원 이상 절대 주지 말라고 해서 호객행위 하는 사람들이 금액을 부를 때마다 거절했다. 하지만 어떤 호객꾼이 곧잘 3만원에 해주겠다고 하여 이 호객꾼에게 가격을 지불하고 그 택시를 탔다. 그때만 해도 모든 게 잘 풀리나 싶었다. 하지만 이건 러시아를 만만하게 본 크디큰 오산이었다.
           </p>
-          
-          <p class="leading-relaxed mb-8 text-slate-700">
-            필요한 물과 간식을 샀고, 잠시 혼자 밖에 나가보니 이제 진짜 러시아 생활을 시작한다는 생각이 들었다. <span class="bg-yellow-100 px-1">과연 어떤 모험이 기다리고 있을까, 설레는 마음과 미지의 불안함이 교대로 나를 어지럽히던 밤이었다.</span> 별로 아늑하지 못한 기숙사에서의 첫날밤이었지만 하루 종일 새로운 곳에서의 생활에 잔뜩 긴장했다가 마음이 놓여서인지 잠은 잘 잤다.
-          </p>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📝 관료주의와 마주하다</h3>
-
           <p class="leading-relaxed mb-6 text-slate-700">
-            러시아의 대학/대학원에 진학하기 위해선 예비학부를 거치는 것이 일반적이기에 함께 온 사람들과 함께 예비학부를 등록하러 갔다. 예비학부를 등록하려면 러시아어 공증을 받고 여권 복사본을 러시아어로 번역하여 제출해야 했다. 
-            <br/><br/>
-            다른 나라의 공증과 번역은 인정해 주지 않기에, 아무리 대한민국 국방부가 보증하고 국제여권이 증명해도, 구소련의 잔재가 가득한 러시아의 낡은 책상 앞에서는 무용지물이었다. 다음으로는 대형마트에 가서 필요한 물품들을 구입했다. 특히 이불과 베개는 최대한 포근하고 푹신한 것으로 신중히 골랐다. 🛌
-          </p>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚕 선배(?)의 굴욕: 택시 사기</h3>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            아내는 예정대로 내가 러시아에 오고 이틀 뒤에 왔다. 그래도 이틀 먼저 러시아에서 산 ‘선배’로서 어깨에 힘을 잔뜩 주고 의기양양하게 공항으로 향했다. 😤 겨우 이틀 만에 보는 거였지만 심적으로 의지할 사람이 생겨서 그런지 아내가 매우 반가웠다.
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            내가 오는 날 도와준 사람의 얘기로는 3만 원 이상 절대 주지 말라고 해서 호객행위 하는 사람들이 금액을 부를 때마다 거절했다. 하지만 어떤 호객꾼이 곧잘 3만 원에 해주겠다고 하여 그 택시를 탔다. 그 때만 해도 모든 게 잘 풀리나 싶었다. 
-          </p>
-          
-          <div class="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
-            <p class="leading-relaxed text-red-900 font-medium mb-2">💸 기숙사에 도착하니 기사가 택시비를 요구했다.</p>
-            <p class="leading-relaxed text-red-800">
-              택시비를 이미 냈다고 하니, 그건 중계료이고 택시비가 <strong>18만 원</strong>이 나왔으니 내라고 한다. 아는 한국 사람에게 전화해서 도움을 요청했으나 역시 쉽지 않았다. 이런 택시기사를 하는 사람들이 러시아 마피아와도 연결되어 있는 경우도 있다고 하기도 하고, 이제 막 도착했는데 문제를 일으키고 싶지 않아 눈물을 머금고 비용을 지불했다.
-            </p>
-          </div>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            흐린 하늘과 추운 날씨, 불친절한 사람들, 나의 멍청함으로 인한 사기... 이 모든 것들이 러시아의 첫인상을 망치기에 충분했다. 이제 시작이라고 생각하니 앞으로 남은 3년이 막막하기도 했다. 
-          </p>
-          
-          <p class="leading-relaxed mb-6 text-slate-800 font-bold text-lg text-center my-10">
-            "정신을 바짝 차려야만 이 낯선 곳, 낯선 사람들 사이에서<br/>무사히 원하는 목표를 달성할 수 있을 듯했다. 👊"
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            그래도 한편으로는 ‘다 사람 사는 곳인데’ 하는 스스로의 위안을 했다. 그렇게 러시아에서의 첫 며칠은 분노와 다짐으로 순식간에 지나갔다.
+            일절 말이 없던 택시기사는 기숙사에 도착하니 돌연 택시비를 요구했다. 택시비를 이미 냈다고 하니, 그건 중계료이고 택시비가 18만원이 나왔으니 내라고 한다. 아는 한국 사람에게 전화해서 도움을 요청했으나 역시 쉽지 않았다. 이런 택시기사들이 러시아 마피아와도 연결되어 있는 경우도 있다고 하기도 하고, 이제 막 도착했는데 문제를 일으키고 싶지 않아 비용을 지불할 수밖에 없었다. 흐린 하늘과 추운 날씨, 불친절한 사람들, 나의 멍청함으로 인한 사기, 이 모든 것들이 러시아의 첫인상을 망치기에 충분했다. 이제 시작이라고 생각하니 앞으로 남은 3년이 막막하기도 했다.
           </p>
         `,
         en: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            For personal reasons, I had to leave for Russia two days before my wife. My mother and younger sibling came to see me off at Incheon International Airport, and after saying our goodbyes, I boarded the plane.
+            Due to personal reasons, I left for Russia two days before my wife. My mother and younger brother saw me off at Incheon International Airport. As a soldier at heart, I sat in my seat with grim determination to complete my three-year mission, including the preparatory program. However, tears fell, perhaps from the thought of leaving my family and friends or a vague fear of this unfamiliar land. I cried the most when the cabin announcement played before departure, realizing I was finally leaving.
           </p>
-          
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Tears and Wine on the Plane</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            With a soldier's spirit ingrained in me, I sat down with a grim determination to complete the <span class="font-bold text-russia-blue">mission(?)</span> of finishing my three-year master's program, including the preparatory program. However, tears welled up, perhaps because I thought about not being able to see my parents, siblings, and friends, or perhaps because of a vague fear of the unfamiliar land. 😭
+            Just as I started to calm down, the in-flight meal was served. When asked for a drink, I instinctively asked for wine, hoping alcohol might help. It had the opposite effect. After drinking, another wave of inexplicable sadness and fear hit me. After barely composing myself, I fell asleep. During the 14-hour flight, two meals are served. I slept from the first meal until the second, which means I slept quite well. The same thing happened with the second meal. I ordered wine again, felt emotional again, and slept until landing. Eating, crying, and sleeping made the 14-hour flight feel short, and soon I arrived at Moscow Sheremetyevo International Airport.
           </p>
 
-          <p class="leading-relaxed mb-8 text-slate-700">
-            I cried the most when the in-flight announcement was made before departure, as it finally hit me that I was really leaving.
-          </p>
-
-          <div class="bg-slate-50 p-6 rounded-xl border-l-4 border-russia-blue mb-8">
-            <p class="leading-relaxed text-slate-700 italic">
-              "Just as I was starting to feel a little calmer, the in-flight meal was served. When the flight attendant asked what I would like to drink with my meal, I found myself asking for <span class="font-bold text-wine-600">wine 🍷</span>, as if drawn by something. I thought maybe a little alcohol would help."
-            </p>
-          </div>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Arrival in Moscow and Dormitory Life</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-             However, the result was the complete opposite. After drinking the wine, another wave of inexplicable sadness and fear washed over me. After barely managing to compose myself, I felt sleepy. I think I slept soundly for a while. I woke up when they were serving another meal, and the same thing repeated. I ordered wine again, and after finishing my meal and wine, I felt another surge of emotion and fell asleep again. 😴
-             <br/><br/>
-             The 14-hour flight felt short, and before I knew it, I had arrived at <strong>Moscow Sheremetyevo International Airport</strong>. 🇷🇺
+            With the little Russian I had studied for a few months, I could barely understand the locals. However, I could tell there were many taxi touts at the airport. Having pre-arranged a pickup service from the MSU student council, I safely reached a dormitory near downtown. The hour-long drive from the airport to the dorm was filled with fascinating new sights.
           </p>
-
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
           <p class="leading-relaxed mb-6 text-slate-700">
-            With the little Russian I had studied in Korea, I could barely understand the locals in Moscow. Still, I could tell that a huge number of people were soliciting for taxis at the airport. 🚕
+            The dormitory was in a prime location right next to a subway station. It was essentially a two-room apartment unit. Each room housed two people, meaning up to four students per unit. I shared a room with a roommate six years younger than me. The room was filled with old wood furniture. The wooden beds had linens and blankets so old they were unusable. The blankets were thick and scratchy, so I tucked them away in the closet.
           </p>
-          
           <p class="leading-relaxed mb-6 text-slate-700">
-            I had pre-arranged for an admission guidance service from the Moscow State University student council, so there was someone to meet me, and I was able to travel safely with my group to a dormitory near the city center. It took a little over an hour from the airport to the dormitory, and the scenery of Moscow from the taxi was all so new and fascinating.
+            Though it looked humble to Korean eyes, this dorm was considered well-maintained. In others, you had to bring your own toilet seats or deal with cockroaches and six roommates sharing a room with only four desks. We were quite lucky to have a relatively clean room for two.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🏠 A Strange Dorm, The First Night</h3>
-          
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Hard Water and the First Night</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            The dormitory I arrived at was in a prime location, right next to a subway station. It was called a dormitory, but it was actually an apartment with two rooms. Each room could accommodate two people, so up to four students could live in one unit. I shared a room with a roommate who was five or six years younger than me, and in the other room, a lucky Korean got to have the room all to himself.
+            The first urgent matter was the water. Like most of Europe, the tap water was hard, and I was warned not to drink it due to kidney stones. White particles floated in a glass of water, and boiling it left a white ring. I really didn't want to drink it. After buying water and snacks, I stood under the Moscow night sky. "So, life in Russia truly begins. What adventures await?" It was a night of alternating excitement and anxiety. Despite the not-so-cozy dorm, I slept well after a long day of tension.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Bureaucracy and Administrative Procedures</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            The room was entirely made of old wood. Fortunately, this dormitory was relatively well-maintained, so they said there were no cockroaches. The wooden bed had a bedsheet and a blanket, but they were all so old that I couldn't use them. The blanket, in particular, was incredibly thick and scratchy, so I immediately stored it in a corner of the closet.
+            Registering for the preparatory program required notarized translations of my passport into Russian. Documents from other countries, no matter how official, were useless against the old Russian administrative system—a remnant of the Soviet era. I went to a supermarket to buy necessities, choosing the softest blankets and pillows, hoping at least my bed wouldn't betray me during this tough journey.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">A Senior's Humiliation and the Taxi Scam</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            After looking around the room for a bit, I had to deal with the urgent matter of water. Like in most of Europe, the tap water contained a lot of <strong>lime</strong>, and I was warned not to drink it carelessly as it could cause kidney stones. Even when boiled, I could see lime floating around, so I didn't feel like drinking it. 🚰
-          </p>
-          
-          <p class="leading-relaxed mb-8 text-slate-700">
-            I bought some necessary water and snacks, and when I went outside alone for a moment, it hit me that my life in Russia was truly beginning. <span class="bg-yellow-100 px-1">What kind of adventures awaited me, a mix of excitement and an unknown anxiety that took turns dizzying me that night.</span> It was my first night in a not-so-cozy dormitory, but perhaps because I had been so tense all day in a new environment, I slept well once I relaxed.
-          </p>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📝 Encountering Bureaucracy</h3>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            To enter a Russian university or graduate school, it is common to go through a preparatory program. So I went with the others who had come with me to register for the preparatory program. To register, we had to get our Russian documents notarized and submit Russian translations of our passport copies.
-            <br/><br/>
-            Notarizations and translations from other countries were not accepted. So no matter how much the Republic of Korea's Ministry of National Defense guaranteed it and my international passport proved it, it was useless in front of an old desk in Russia, full of the remnants of the former Soviet Union. Next, we went to a large supermarket to buy necessary items. I was especially careful to choose the softest and fluffiest blanket and pillow. 🛌
-          </p>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🚕 A Senior's(?) Humiliation: The Taxi Scam</h3>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            My wife arrived two days after me, as scheduled. As a 'senior' who had lived in Russia for two days, I puffed out my chest and headed to the airport with great confidence. 😤 It had only been two days, but I was so happy to see her, perhaps because I now had someone to rely on emotionally.
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            The person who helped me on the day I arrived told me not to pay more than 30 dollars, so I refused every time the taxi touts quoted a price. But one tout readily agreed to 30 dollars, so I took his taxi. At that moment, I thought everything was going well.
-          </p>
-          
-          <div class="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
-            <p class="leading-relaxed text-red-900 font-medium mb-2">💸 When we arrived at the dormitory, the driver demanded the taxi fare.</p>
-            <p class="leading-relaxed text-red-800">
-              When I said I had already paid the fare, he said that was a brokerage fee and the taxi fare came out to be <strong>180 dollars</strong>. I called a Korean acquaintance for help, but it wasn't easy. They said that these taxi drivers are sometimes connected to the Russian mafia, and I didn't want to cause any trouble right after arriving, so I paid the fee with tears in my eyes.
-            </p>
-          </div>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            The gloomy sky, the cold weather, the unfriendly people, and the scam due to my foolishness... all of these things were enough to ruin my first impression of Russia. Thinking that this was just the beginning, the next three years seemed daunting.
-          </p>
-          
-          <p class="leading-relaxed mb-6 text-slate-800 font-bold text-lg text-center my-10">
-            "It seemed I had to keep my wits about me to safely achieve my goals<br/>in this unfamiliar place, among these unfamiliar people. 👊"
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            Still, on the other hand, I comforted myself by thinking, 'people live here too.' And so, my first few days in Russia passed in a flash of anger and resolve.
+            My wife arrived two days later. I headed to the airport with the pride of a "senior" who had arrived earlier. I was so happy to see her. However, a taxi scam ruined the mood. A tout offered a ride for 30 dollars, but upon arrival, he demanded 180 dollars, claiming the first 30 was just a brokerage fee. Fearing possible mafia connections, I had to pay. Gloomy skies, cold weather, unfriendly people, and a scam—the first impression of Russia was marked by anger and new resolve.
           </p>
         `,
       },
@@ -228,142 +123,68 @@ export const year1Category: Category = {
         en: 'Dorm Life and the Other Side of Russia',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop', // Moscow Hotel/Building looking like dorm or city vibe
+        'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
         ko: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            예비학부 등록은 이미 한 번 해봤기 때문에 이젠 아내의 예비학부에 등록을 도와줬다. 예비학부에서는 여러 기숙사를 배정해주시는데 등록과정에서 우리가 <strong>부부 💑</strong>임을 밝혔더니 같은 기숙사에 배정을 해주었다.
+            내 예비학부 등록은 모스크바 국립대 학생회에서 도와줘서 잘 처리가 되었다. 이제 그때의 경험을 되살려서, 그래 봐야 고작 이틀 전이지만, 아내의 예비학부 등록도 도와줬다. 예비학부에서는 여러 기숙사를 배정해 주는데 등록과정에서 우리가 부부임을 밝혔더니 다행히도 같은 기숙사에 배정을 해주었다. 아내가 등록할 당시 그들이 제안한 기숙사는 부부가 같은 방에서 지낼 수 있는 가족 전용은 아니었지만, 가족기숙사보다 오히려 더 깨끗하다는 말과 저렴하다는 말에 솔깃해진 우리는 예비학부 1년 간은 해당 기숙사에 머물기로 했다.
           </p>
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">부부 기숙사와 애틋한 힐링</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            부부가 같은 방에서 지낼 수 있는 가족 전용 기숙사는 아니었지만 가족기숙사보다 오히려 더 깨끗하다는 말과 저렴하다는 말에 예비학부 1년 간은 해당 기숙사에 머물기로 했다. 아내는 나와는 다른 층에 2인실 방을 배정받았는데 다행히 오기로 했던 룸메가 오지 않는 덕에 아내는 넓은 방을 혼자 쓰게 되었다. 🍀 공부해야 하는 시간이 많아 서로 바빴지만 아내 방에 놀러가는 것이 최고의 힐링이었다.
+            우리 기숙사는 지하철역에서 걸어서 1-2분이면 도착하는 초역세권이었다. 아내는 나와는 다른 층에 2인실 방을 배정받았는데 다행히 오기로 했던 룸메가 오지 않는 덕에 아내는 넓은 방을 혼자 쓰게 되었다. 공부해야 하는 시간이 많아 서로 바빴지만, 틈이 날 때마다 아내 방에 놀러가는 것이 최고의 힐링이었다. 지금 생각하면 애틋하기까지 하다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👫 부부 기숙사와 새로운 인연</h3>
-
-          <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 my-8">
-            <h4 class="font-serif font-bold text-slate-800 mb-2">🏠 옆 방의 미스터리</h4>
-            <p class="leading-relaxed text-slate-700">
-              이전 글에서 이야기 했듯 우리가 머물었던 기숙사는 한 호수에 두 개의 방이 있었는데, 아내와 같은 호수 하지만 옆 방에는 일본인 여학생이 살고 있었다. 그 학생은 은둔형 외톨이, 속칭 <strong>'히키코모리'</strong>로 보였다. 방은 다르지만 주방과 화장실을 아내와 같이 쓰는데 마주치는 일이 거의 없고 계단에서 마주쳤더니 '스미마셍'하면서 도망쳤다. 🏃‍♀️💨<br/>
-              주방을 쓰지도 않았고 사회 생활을 전혀 하는 것 같지 않는 듯 방에서 잘 나오지도 않았다. 덕분에 아내는 기숙사를 편하게 사용할 수 있었다. 어쩌다가 먼 러시아까지 와서 공부를 하는지는 모르겠지만 잘 마치고 가길 바랐다. 🙏
-            </p>
-          </div>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">옆 방의 미스터리: 히키코모리 친구</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            나의 룸메는 나보다 몇 살 어린 친구였는데 (P군이라 칭하겠다), 키도 훤칠하고 인물도 좋았다. 영어도 무척이나 잘했고 사교성도 좋아서 나는 그 친구가 무척이나 마음에 들었다. 👍 그 외에도 공항에서 같이 만났던 일본어를 잘하는 S양이 있었는데, 자세한 이야기는 이후에 기술하겠지만 아내와 함께 그 친구들과 좋은 추억들을 많이 쌓을 수 있었다.
+            우리가 머물었던 기숙사는 한 호수에 두 개의 방이 있었는데, 아내의 옆 방에는 일본인 여학생이 살고 있었다. 그 학생은 은둔형 외톨이, 속칭 '히키코모리'로 보였다. 주방과 화장실을 아내와 같이 쓰는데 마주치는 일이 거의 없고 계단에서 마주쳤더니 '스미마셍'하며 도망쳤다. 주방을 쓰지도 않았고 방에서 조차 잘 나오지도 않았다. 덕분에(?) 아내는 기숙사를 거의 단독주택처럼 편하게 사용할 수 있었다. 이 일본인 친구는 무슨 사연으로 먼 러시아까지 왔는지는 모르겠지만 잘 마치고 갔길 바랐다.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">새로운 인연과 현지인 패치</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            그렇게 한국 친구들도 사귀었고 (늦은 나이에 오느라 대부분 동생들이었지만), 한국어를 배우는 러시아 친구들도 사귈 수 있었다. 러시아에서는 구글 대신 <strong>얀덱스(Yandex)</strong>라는 사이트가 우리의 네이버와 같은 역할을 하고, <strong>VK(Vkontakte)</strong>가 우리의 카카오톡과 비슷한 역할을 한다. 그 외에도 얀덱스에서 제공하는 각종 서비스들(얀덱스 택시 🚖, 얀덱스 지도 🗺️)을 설치함으로써 러시아 현지 패치를 서서히 해 나가고 있었다.
+            나의 룸메이트 P군은 키도 훤칠하고 인물도 좋았다. 영어도 무척이나 잘했고 사교성도 좋아 무척 마음에 들었다. 그 외에도 공항에서 만났던 S양 등과 함께 좋은 추억을 많이 쌓을 수 있었다. 한국 친구들뿐만 아니라 한국어를 배우는 러시아 친구들도 사귀게 되었다. 러시아에서는 구글 대신 얀덱스(Yandex)가 네이버 같은 역할을 하고, VK가 카카오톡과 비슷하다. 얀덱스 택시, 얀덱스 지도 등의 앱을 설치하면서 나도 서서히 러시아 현지인 패치를 해 나가고 있었다.
           </p>
 
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 학생이라는 신분의 양면</h3>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">학생 신분의 양면성</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            러시아에서는 <span class="text-russia-blue font-bold">학생이라는 신분</span>은 조금 무시받는 분위기가 있다. 학생이라는 이유 하나 만으로 어른으로 대접받지 못하고 가벼운 훈계 혹은 꾸지람부터 욕설까지 부당하게 당하기도 했다. 😤
+            러시아에서는 학생이라는 신분이 조금 무시받는 분위기가 있다. 어른으로 대접받지 못하고 부당한 훈계나 욕설을 당하기도 한다. 물론 혜택도 많다. 관광지 할인은 물론, 한 달에 만원도 안 되는 금액으로 대중교통을 무제한 이용할 수 있다. 이런 할인은 정말 어처구니가 없는 곳에서도 적용되었다. 한번은 경찰에게 차선 위반으로 걸렸는데도 학생증을 보여주니 벌금(혹은 뇌물)을 할인해주기도 했다.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">사감의 훈계와 "에또 모스크바"</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            물론 학생이기에 누릴 수 있는 혜택도 굉장히 많이 편이긴 하다. 대부분의 관광지에서 할인을 받을 수 있는 것은 물론 한 달에 만원도 안 되는 금액으로 모스크바 시내의 거의 대부분의 대중교통을 이용할 수도 있다. 🚇 이러한 할인은 정말 어처구니가 없는 곳에서도 적용이 되었다.
-          </p>
-
-          <div class="bg-yellow-50 p-4 border-l-4 border-yellow-400 my-6 italic text-slate-700">
-            "한 번은 경찰에게 차선 위반으로 걸렸는데도 학생증을 보여주니 벌금을 할인해 주었다. 물론 공식적인 벌금은 아니고 뇌물이었지만 말이다. 💸👮‍♂️"
-          </div>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            한 번은 정말 기분 나쁜 경험이 있었다. 실수로 열쇠를 방에 두고 나왔고 룸메가 방을 잠그고 나가 사감에게 방을 열어달라고 부탁을 한 적이 있었다. 벌금을 내야 한다거나 경고를 준다거나 하면 받아들일 수 있었지만 장장 <strong>10분 동안 훈계</strong>를 들어야만 했다. 🗣️💢
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            또 한 번은 별거 아닌 일로 또 훈계를 하려는 사감에게 대든 적도 있었는데 오히려 그 후의 삶이 더 편해졌다. 이런 러시아인들의 <strong>약강강약</strong>(약자한테 강하고 강자에게 약한) 태도는 러시아에 머무는 동안 나의 심기를 자주 건드렸다.
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            러시아에서는 심지어 러시아인들 조차 이런 말을 사람들이 자주 한다고 한다.
-          </p>
-
-          <blockquote class="text-center font-serif text-2xl font-bold text-russia-blue my-10 border-y-2 border-slate-100 py-6">
-            "Это Москва"<br/>
-            <span class="text-lg font-normal text-slate-500 mt-2 block">(This is Moscow)</span>
-          </blockquote>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            이 말인즉, 좋은 뜻이든 나쁜 뜻이든 <span class="bg-russia-blue/10 px-1">모스크바는 원래 그렇다. 그러려니 해라.</span> 그만큼 다르다는 의미이자, 다름을 인정해야 한다는 뜻으로 말하는 거겠지만, 막상 살다 보면 나쁜 상황에 더 자주 쓰게 된다.
-          </p>
-
-          <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8">
-            요즘 말로 바꾸면 "모스크바가 모스크바 했네." 정도라고 할까. 🤷‍♂️🇷🇺
+            한번은 실수로 열쇠를 방에 두고 나왔다가 사감에게 10분 동안 훈계를 들어야 했다. 이런 러시아인들의 '약강강약' 태도는 러시아에 머무는 동안 나의 심기를 자주 건드렸다. 러시아인들은 이런 상황에서 "Это Москва (This is Moscow)"라는 말을 자주 한다. 좋은 뜻이든 나쁜 뜻이든 "모스크바는 원래 그러니 그러려니 해라"라는 의미다. 요즘 말로 바꾸면 "모스크바가 모스크바 했네" 정도일 것이다.
           </p>
         `,
         en: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            I had already registered for the preparatory program once, so this time I helped my wife register for hers. The preparatory program assigned several dormitories, and when we revealed that we were a <strong>married couple 💑</strong> during the registration process, they assigned us to the same dormitory.
+            My registration for the preparatory program went smoothly with the help of the MSU student council. Using that experience, I helped my wife register just two days later. We revealed we were a couple, and fortunately, we were assigned to the same dormitory. Though it wasn't a family dorm where we could share a room, we chose it because it was cleaner and cheaper than the designated family units.
           </p>
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Married Dorm Life and Healing Moments</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            It wasn't a family dormitory where a married couple could live in the same room, but we decided to stay there for the first year of the preparatory program because we heard it was cleaner and cheaper than the family dormitory. My wife was assigned a double room on a different floor from me, and fortunately, the roommate who was supposed to come didn't show up, so my wife got to use the spacious room by herself. 🍀 We were both busy with our studies, but visiting my wife's room was the best way to relax.
+            Our dormitory was in a prime location, a 1-2 minute walk from the subway. My wife was assigned a double room on a different floor, but since her roommate never showed up, she had the spacious room to herself. Despite our busy study schedules, visiting her room was the best form of healing. Looking back, it feels quite poignant.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">👫 Married Dorm Life and New Connections</h3>
-
-          <div class="bg-slate-50 p-6 rounded-xl border border-slate-200 my-8">
-            <h4 class="font-serif font-bold text-slate-800 mb-2">🏠 The Mystery of the Next Room</h4>
-            <p class="leading-relaxed text-slate-700">
-              As I mentioned in the previous post, the dormitory we stayed in had two rooms in one unit. A Japanese female student lived in the room next to my wife's. She seemed to be a reclusive loner, a so-called <strong>'hikikomori'</strong>. Although the rooms were different, she shared the kitchen and bathroom with my wife, but they rarely ran into each other. When they did cross paths on the stairs, she would say 'sumimasen (Sorry in English)' and run away. 🏃‍♀️💨<br/>
-              She didn't use the kitchen and didn't seem to have any social life, rarely leaving her room. Thanks to this, my wife was able to use the dormitory comfortably. I don't know how she ended up studying so far away in Russia, but I hoped she would finish her studies well. 🙏
-            </p>
-          </div>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Mystery of the Next Room</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            My roommate was a few years younger than me (I'll call him P), and he was tall and handsome. He was also very good at English and had a great personality, so I liked him very much. 👍 In addition, there was S, a girl who was good at Japanese, whom I met at the airport. I'll write more about her later, but my wife and I were able to make many good memories with them.
+            Our unit had two rooms; my wife's neighbor was a Japanese student who seemed to be a 'hikikomori' or a recluse. They shared a kitchen and bathroom, but they rarely met. If they crossed paths on the stairs, she would say 'Sumimasen' and run away. She never used the kitchen and was so quiet it was hard to tell if she was in. Consequently, my wife enjoyed the unit almost like a private house. I hope she finished her studies well.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">New Connections and Local Patching</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            And so I made Korean friends (most of them were younger than me as I came at a late age), and I was also able to make Russian friends who were learning Korean. In Russia, a site called <strong>Yandex</strong> serves the same role as Google, and <strong>VK (Vkontakte)</strong> is similar to Facebook. In addition, by installing various services provided by Yandex (Yandex Taxi 🚖, Yandex Maps 🗺️), I was gradually patching myself to the local Russian environment.
+            My roommate, P, was tall, handsome, and sociable. I liked him a lot. Along with other friends like S, we made many great memories. I made Korean friends and even Russian friends who were learning Korean. In Russia, Yandex acts like Naver, and VK is like KakaoTalk. By installing Yandex Taxi and Yandex Maps, I was gradually "patching" myself into the local Russian environment.
           </p>
 
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🎓 The Double-Edged Status of a Student</h3>
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Double-Edged Sword of Student Status</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            In Russia, there is a tendency to look down on the <span class="text-russia-blue font-bold">status of a student</span>. Just for being a student, I was not treated as an adult and was sometimes subjected to unfair treatment, from light scolding or reprimands to insults. 😤
+            Students in Russia can sometimes be looked down upon, receiving unfair lectures or even insults. However, the benefits are great. Beyond tourist discounts, unlimited public transport costs less than 10 dollars a month. This discount even applied in absurd places; once, I got a "discount" on a bribe for a traffic violation just by showing my student ID.
           </p>
 
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Supervisor Lectures and "Eto Moskva"</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            Of course, there are also many benefits to being a student. Not only can you get discounts at most tourist attractions, but you can also use most of the public transportation in Moscow for less than 10 dollars a month. 🚇 These discounts were applied in the most absurd places.
-          </p>
-
-          <div class="bg-yellow-50 p-4 border-l-4 border-yellow-400 my-6 italic text-slate-700">
-            "Once, I was caught by the police for a lane violation, but when I showed them my student ID, they gave me a discount on the fine. Of course, it wasn't an official fine, but a bribe. 💸👮‍♂️"
-          </div>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            There was one particularly unpleasant experience. I accidentally left my key in my room, and my roommate locked the door and left. I had to ask the dorm supervisor to open the door for me. I could have accepted a fine or a warning, but I had to listen to a <strong>10-minute lecture</strong>. 🗣️💢
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            Another time, I stood up to a supervisor who was about to lecture me over something trivial, and my life became much more comfortable after that. This Russian attitude of being <strong>strong against the weak and weak against the strong</strong> often got on my nerves during my stay in Russia.
-          </p>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            In Russia, even Russians themselves are said to often say this.
-          </p>
-
-          <blockquote class="text-center font-serif text-2xl font-bold text-russia-blue my-10 border-y-2 border-slate-100 py-6">
-            "Это Москва"<br/>
-            <span class="text-lg font-normal text-slate-500 mt-2 block">(This is Moscow)</span>
-          </blockquote>
-
-          <p class="leading-relaxed mb-6 text-slate-700">
-            This means, for better or worse, <span class="bg-russia-blue/10 px-1">that's just how Moscow is, so you have to accept it.</span> It implies that it's different, and that you have to accept the difference, but in reality, you end up using it more often in bad situations.
-          </p>
-
-          <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8">
-            To put it in modern terms, it's like saying, "Moscow will be Moscow." 🤷‍♂️🇷🇺
+            Once, I left my keys in the room and had to endure a 10-minute lecture from the supervisor. This "strong against the weak, weak against the strong" attitude often annoyed me. In such situations, Russians say "Это Москва" (This is Moscow). It means "That's just how it is here, so accept it." It's essentially saying, "Moscow being Moscow."
           </p>
         `,
       },
@@ -379,198 +200,98 @@ export const year1Category: Category = {
         en: 'The Russian Language, Its People, and What I Learned Among Them',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop', // Group of friends/People talking
+        'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
         ko: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            여러모로 러시아에서의 생활은 <span class="font-bold text-russia-blue">‘다름’</span>이라는 가치에 대해 일깨워준 소중한 경험이었다. 막연히 다르다기 보다 어떻게 다른지, 러시아어와 러시아인들의 다름에 대해 일부를 소개하고자 한다.
+            여러모로 러시아에서의 생활은 ‘다름’이라는 가치에 대해 일깨워준 소중한 경험이었다. 막연히 다르다기보다 어떻게 다른지, 러시아어와 러시아인들의 다름에 대해 일부를 소개하고자 한다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤔 질문하는 방법</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">질문하는 방법과 강세</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            우리에게 제일 친숙한 영어는 말할 것도 없고 어순이 비슷한 일본어랑 비교해서도 러시아어는 아주 다른 언어라고 할 수 있다. 일단 의문문의 강세가 마지막에 있지 않고 묻고자 하는 단어에 있다. 예를 들어 한국어로 "너 학교에 다녀왔니?"를 묻는다면 마지막인 "니?" 부분에서 어조 올려 질문을 하겠지만 러시아어로 말하면 같은 문장을 어조만 바꿔서 세 가지 의미로 물어볼 수 있다.
-          </p>
-          <ul class="list-none space-y-2 mb-6 bg-slate-50 p-6 rounded-lg border border-slate-100">
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">1.</span>
-              <span>"너 학교에 다녀왔니?" (다른 사람이 아닌 <strong class="text-slate-900">네가</strong> 갔는지 확인)</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">2.</span>
-              <span>"너 학교에 다녀왔니?" (간 곳이 <strong class="text-slate-900">학교</strong>인지 확인)</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">3.</span>
-              <span>"너 학교에 다녀왔니?" (행위 <strong class="text-slate-900">자체</strong>를 확인)</span>
-            </li>
-          </ul>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             언뜻 보면 뭐가 다른지 차이를 느끼기 힘든데 보통은 행위 자체를 묻는 경우가 많고 러시아어를 배우다 보면 생각보단 금방 익숙해진다. 오히려 이렇게 안 쓰고도 대화가 가능한 다른 언어가 신기할 때도 종종 있었다. 
+            러시아어는 영어라기보다 일본어와 비교해도 아주 다른 언어다. 일단 의문문의 강세가 마지막에 있지 않고 묻고자 하는 단어에 있다. 예를 들어 "너 학교에 다녀왔니?"를 묻는다면 어조만 바꿔서 세 가지 의미로 물어볼 수 있다. 다른 사람이 아닌 '네가' 갔는지, 간 곳이 '학교'인지, 아니면 '행위' 자체를 확인하는지에 따라 강세가 달라진다. 배우다 보면 금방 익숙해지지만, 이렇게 안 쓰고도 대화가 가능한 다른 언어들이 더 신기하게 느껴질 때도 있었다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔀 없는 듯 있는 어순</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">없는 듯 있는 어순</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            러시아인들에게 어순이 있냐고 물어보면 없다고들 말한다. 실제로 문법적으로는 틀린 말이 아니기도 하고 맞는 말이기도 하다. 예를 들어 <strong>"난 너를 사랑해"</strong>의 문장의 경우, 특별한 (혹은 생략된) 경우가 아니고는 어순이 바뀌는 경우는 없지만 러시아어로는 거의 모든 어순이 가능하다.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            단어 3개를 나열하는 방법은 6가지가 되지만 실제로 자주 쓰는 어순은 두 가지 정도로 한국어와 같은 어순인 "난 너를 사랑해"와 "난 사랑해 너를" 정도가 된다. 러시아어는 동사에 주어의 정보(나, 너, 제삼자, 우리, 너를 포함한 복수, 복수의 제삼자)가 일부 포함되어 있기에 생략의 자유도가 한국어보다 높다고 볼 수 있지만, 그렇다고 아무렇게나 생략하거나 배열하면 러시아인들이 말을 왜 그렇게 하냐고 핀잔을 주기에 자연스러운 어순을 익히는 데는 노력이 필요하다.
+            러시아인들에게 어순이 있냐고 물어보면 없다고들 말한다. 실제로 문법적으로는 거의 모든 어순이 가능하다. 예를 들어 "난 너를 사랑해"라는 문장은 러시아어로는 모든 단어 배열이 가능하다. 단어 3개를 나열하는 방법은 6가지가 되지만 실제로는 한국어와 같은 어순을 주로 쓴다. 동사에 주어 정보가 포함되어 있어 생략의 자유도가 높지만, 아무렇게나 나열하면 러시아인들이 핀잔을 주기에 자연스러운 어순을 익히는 노력이 필요하다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🙇‍♂️ 러시아어의 반말/존댓말</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">러시아어의 반말과 존댓말</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            으레 가지는 선입견으로 거친 러시아의 불곰 형누님들은 예의라곤 전혀 없는 사람들 같으나 놀랍게도 러시아어에는 존댓말이 있다. 물론 영어도 좀 더 정중한 단어가 있지만 러시아어에는 단어 선택이 아닌 동사에 존대를 표현할 수 있는 말이 한국어처럼 따로 있다.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            하지만 한국어와 다른 점은 존댓말을 사용하는 기준이 <span class="bg-yellow-100 px-1">친근함</span>이 되기에 몇몇 예외를 제외하곤 할머니 할아버지라도 가족끼린 절대로 존댓말을 쓰지 않는다. 처음에 이들의 문화를 잘 몰랐을 땐 러시아 친구가 자기 부모를 이름으로 부르거나 ‘너’라고 했을 때 <em>'요런 예절머리라곤 전혀 없는 사람들 같으니라고'</em> 생각했다. 😅
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            이성으로 만난 남녀 사이에 있어서도 처음 만났을 때를 제외하곤 거의 존댓말을 쓰지 않는다. 당연히 공적으로 만난 상대(학교 또는 회사 등)에게는 존칭을 사용한다. 식당이나 카페 직원이 ‘너’라고 하더라도 친근함이라는 표시니 아주 기분 나빠할 필요는 없지만 난 내내 기분이 좋지 않았다.
-          </p>
-          <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue mb-6">
-            <p class="leading-relaxed text-slate-700 text-sm">
-              <span class="font-bold">💡 Tip: 이름 부르기</span><br/>
-              참고로 러시아 사람을 부를 때는 짧은 이름을 쓴다. 내가 아는 한 모든 이름은 짧은 이름을 가지고 있다. 예를 들자면 아나스타샤는 <strong>나스쨔</strong>, 알렉산드르는 <strong>사샤</strong>, 예카테리나는 <strong>카쨔</strong>로 부르는 식이다. 다만 공식 석상이나 존대를 하기 위해서는 이름과 부칭(아버지의 이름)을 같이 부른다. 영어로는 미스터, 미스, 닥터, 주니어 등을 붙일 테지만 러시아에서는 <span class="italic">이반 세르게예비치 (세르게이의 아들 이반)</span>, <span class="italic">이리나 미하일로브나(미하일의 딸 이리나)</span>로 부른다.
-            </p>
-          </div>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😶 모르는 이를 대함</h3>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            처음 모스크바 세레메치예보 공항에 내려서 입학 수속을 밟으면서 러시아인들의 불친절은 과장이 전혀 없음을 알았다. 하지만 이런 인식은 시간이 지나며 좀 변하긴 했는데 그 이유인즉 러시아인들은 대체로 모르는 이방인에게 친절히 대할 필요가 없다고 생각한다는 것이다. 하지만 조금이라도 일면식이 있는 사람이라면 (하물며 기차의 동승객) 굉장히 예의가 바르게 되고 체면을 차리기 시작한다.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             같은 사람들이 맞나 싶을 때도 많았다. 거리에서는 거의 막말을 아무렇게나 일삼는 사람들이 러시아에서 만난 친구들도 너무나도 착했고 기차나 버스 등 몇 시간만 같이 앉아있게 되면 먹을 것도 나눠주고 꽤나 놀랄 정도로 친절했다. 그들도 이렇게 낯선 사람과 아는 사람을 다르게 대하는 그들만의 이유가 있었다.
-          </p>
-          <ul class="list-disc list-inside space-y-2 mb-6 text-slate-700 bg-slate-50 p-6 rounded-lg">
-             <li>전부터 순진하고 숭고한 슬라브 민족이 외세에 수탈을 당하여 낯선 이에게 경계심을 가지게 되었다. 🛡️</li>
-             <li>푸쉬킨이란 러시아의 대문호가 <strong>‘모르는 사람에게 미소 짓는 건 바보나 하는 짓이다’</strong>라고 했다. 😐</li>
-          </ul>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             원인이 뭐가 됐든 나를 납득시키는 건 불가능했다.
+            거친 불곰 형누님들 같으나 러시아어에도 존댓말이 있다. 다만 한국어와 다른 점은 기준이 '친근함'이라는 것이다. 가족끼리는 할머니 할아버지라도 절대로 존댓말을 쓰지 않는다. 처음에 이 문화를 몰랐을 때는 예의 없다고 생각하기도 했다. 이성 사이나 공적으로 만난 상대에게는 존칭을 쓰지만, 식당 직원이 나에게 '너'라고 하는 것은 친근함의 표시니 기분 나빠할 필요는 없다. 하지만 나는 러시아를 떠날 때까지 심기가 불편했다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤣 러시아어 농담</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">이름과 부칭 부르기</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            러시아에 도착하고 나서 러시아어를 조금 재밌게 배워보려 서점에서 러시아어 농담집을 구입한 적이 있다. 초보자를 위한 책이어서 그런지 모르는 단어도 그다지 많지 않아서 읽는 것 자체에는 큰 무리가 없었다. 처음 몇 개를 읽었을 땐 내가 잘 이해를 못하고 있나 싶었는데 근데 몇 개를 읽어도 도통 어디서 웃어야 할지 몰랐다. 
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             러시아 친구를 불러서 같이 좀 봐달라 했더니 첫 농담부터 빵 터지면서 어디서 샀냐고 물었다. 어이가 아주 없었지만 정중히 어느 부분이 웃기냐고 물어봤고 친구가 아주 친절히 웃음 포인트와 설명을 해주었지만 그 후로 러시아의 농담에 익숙해지는 데는 시간이 좀 걸렸다. 이러한 유머 코드의 차이는 단지 거리에서만 비롯되는 건 아니라고 생각이 들었다.
+            러시아 사람을 부를 때는 짧은 이름을 쓴다. 아나스타샤는 나스쨔, 알렉산드르는 사샤로 부르는 식이다. 다만 공식 석상이나 존대를 하기 위해서는 이름과 부칭(아버지의 이름)을 같이 부른다. 영어의 미스터나 미스 대신 '이반 세르게예비치(세르게이의 아들 이반)'와 같이 부르는 것이 예의다.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌨️ 그 외</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">이방인을 대하는 태도</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            러시아인들이 추위에 강하다는 건 반은 맞고 반은 틀린 말인 것 같다. 한국에서 러시아어 학원을 다닐 때 원어민 강사가 있었는데 날이 조금만 추우면 머리부터 발끝까지를 꽁꽁 옷과, 모자, 장갑 등으로 덮고 왔다. 분명 러시아는 엄청 추울 텐데라는 생각이 항상 머릿속을 맴돌았다. 러시아에 도착하니 러시아어 선생님 같은 사람들을 많이 봤다. 그런 면에서 모든 러시아인들이 육체적으로 추위에 강하다는 말은 틀린 말인 듯하다. 게다가 러시아에선 실내에 들어가면 대부분의 건물에서 히터가 무료로 너무 따뜻하게 나오기 때문에 더더욱이 추운 날씨 때문에 추위에 익숙한 신체적 특성이 있다고 생각하는 건 조금 무리가 있을 듯싶다. 러시아인들이 추위에 강할 수 있는 이유는 그들이 가진 방한용품 덕분이 아닐까 싶다. 🧣🧤
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             그리고 러시아에서는 여자를 부를 때 단어 선택을 신중히 해야 한다. 전체가 아주 하얀 백발의 여성이라고 하더라도 <strong>‘할머니’</strong>라고 부르는 건 대단히 실례다. 👵❌ 한번은 수업 시간에 러시아어 선생님이 자신에 대해서 묘사해 보라 해서 ‘살짝 고약하게 생겼지만 마음씨는 착한 할머니’라고 했다가 한두 시간 정도 핀잔을 들었다.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             마찬가지로 아줌마처럼 보이는 사람에게도 <strong>아줌마</strong>라고 하는 것도 실례라 하고 아줌마라는 단어는 공항에서 들었는데 순한 맛 욕설처럼 쓰이더라. 그러면 모르는 러시아 여성을 부를 땐 어떻게 해야 하는지 물었더니, 러시아 여성들은 다 <strong>‘제부시카(아가씨)’</strong>라고 부르면 된단다. 러시아에서 생활하며 아줌마와 할머니한테 혼이 쏙 빠질 만큼 혼나고 나면 그들을 아가씨라고 부를 맘에 손톱만큼도 남지 않을 것이다.
+            모스크바 공항에 내려서부터 러시아인들의 불친절은 과장이 아님을 알았다. 그들은 모르는 이방인에게 친절할 필요가 없다고 생각한다. 하지만 일면식이라도 생기면 굉장히 예의 바르고 친절해진다. 거리의 막말꾼들이 기차에서 만나면 먹을 것도 나눠주는 친절한 사람이 된다. 그들은 외세 수탈의 역사 때문에 경계심이 강하고, "모르는 사람에게 미소 짓는 건 바보다"라는 대문호 푸쉬킨의 말도 이들의 태도에 영향을 주었다고 한다.
           </p>
 
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">웃음에도 번역이 필요한 러시아 유머</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-             그들은 매우 달랐다. 그렇다고 못 살 정도는 아니었지만 그렇다고 선뜻 친근하다고 느끼기에도 무리가 있는 사람들이다. 하지만 그들이 무조건 잘못된 것은 아닐 것이다. 
+            재밌게 공부해보려 러시아 농담집을 샀지만 어디서 웃어야 할지 몰랐다. 친구는 빵 터지는데 나는 설명을 듣고서야 겨우 이해했다. 웃음 코드의 차이는 단지 언어뿐만 아니라 문화 전반에서 비롯되는 것임을 깨달았다. 웃음에도 번역이 필요하다는 사실을 말이다.
           </p>
-          <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8">
-            아직 내가 그들의 다름을 순순히 인정하기에 부족한 사람이기에<br/>내 그릇을 더 키워야 한다고 다짐했다. 🌱
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">추위와 장비빨</h3>
+          <p class="leading-relaxed mb-6 text-slate-700">
+            러시아인들이 추위에 강하다는 건 반은 틀린 말이다. 실내 난방이 워낙 잘 되어 있고, 밖에서는 완벽한 방한 용품을 갖추기 때문에 버티는 것이다. 러시아인들이 추위에 강한 이유는 체질이 아니라 '장비빨'일지도 모른다. 또한 여자를 부를 때 '할머니'나 '아줌마'라고 부르는 건 큰 실례다. 무조건 '제부시카(아가씨)'라고 불러야 한다.
+          </p>
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">다름을 인정하는 그릇</h3>
+          <p class="leading-relaxed mb-6 text-slate-700">
+            그들은 매우 달랐다. 그렇다고 못 살 정도는 아니었지만 친근하다고 느끼기에도 무리가 있었다. 하지만 그들이 무조건 잘못된 것은 아닐 것이다. 아직 내가 그들의 다름을 순순히 인정하기에 부족한 사람이기에 내 그릇을 더 키워야 한다고 다짐했다.
           </p>
         `,
         en: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-            In many ways, life in Russia was a valuable experience that awakened me to the value of <span class="font-bold text-russia-blue">'difference'</span>. Rather than being vaguely different, I would like to introduce some of the differences in the Russian language and its people.
+            Life in Russia was a valuable experience that taught me the value of "difference." I'd like to introduce how the Russian language and its people are different from what we know.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤔 How to Ask Questions</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Asking Questions and Intonation</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            Compared not only with English, which is most familiar to us, but even with Japanese, which has a similar word order, Russian feels like a very different language. One striking difference is that in a question, the stress does not fall at the end of the sentence, but on the word you want to ask about. For example, in Korean, if you ask "Did you go to school?", you would usually raise your intonation at the very end. In Russian, however, you can ask what is essentially the same sentence in three different ways simply by shifting the intonation.
-          </p>
-          <ul class="list-none space-y-2 mb-6 bg-slate-50 p-6 rounded-lg border border-slate-100">
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">1.</span>
-              <span>"<strong class="text-slate-900">Did you</strong> go to school?" (Confirming that <strong class="text-slate-900">you</strong> went, not someone else)</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">2.</span>
-              <span>"Did you go to <strong class="text-slate-900">school</strong>?" (Confirming that the place you went was <strong class="text-slate-900">school</strong>)</span>
-            </li>
-            <li class="flex gap-3">
-              <span class="font-bold text-russia-blue">3.</span>
-              <span>"Did you <strong class="text-slate-900">go</strong> to school?" (Confirming the action <strong class="text-slate-900">itself</strong>)</span>
-            </li>
-          </ul>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             At first glance, it's hard to feel the difference, but usually, people ask about the action itself, and you get used to it surprisingly quickly as you learn Russian. In fact, there were often times when I found it strange that other languages could have conversations without this. 
+            Russian is very different even when compared to Japanese. The stress in a question isn't at the end but on the word being asked about. For example, "Did you go to school?" can have three meanings depending on which word you stress: verifying 'you,' the 'school,' or the 'action.' It takes time to get used to, and it made me appreciate the simplicity of other languages.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔀 Seemingly Non-existent Word Order</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Seemingly Non-existent Word Order</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            If you ask a Russian if there is a word order, they will say no. In fact, grammatically, this is both true and false. For example, in the sentence <strong>"I love you,"</strong> the word order rarely changes except in special (or omitted) cases, but in Russian, almost any word order is possible.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            There are 6 ways to arrange 3 words, but the most frequently used word orders are about two, the same as in Korean: "I you love" and "I love you." Since Russian verbs contain some information about the subject, the freedom of omission is higher than in Korean. However, if you omit or arrange words randomly, Russians will scold you for speaking that way, so it takes effort to learn the natural word order.
+            Russians often say there's no fixed word order because almost any arrangement is grammatically possible. However, there are preferred patterns, and you'll be corrected if you arrange them randomly. Since verbs contain subject information, there's high freedom, but learning the natural flow requires effort.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🙇‍♂️ Formal and Informal Speech in Russian</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Formal and Informal Speech</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            Contrary to the stereotype of rough Russian "bear" brothers and sisters being completely impolite, surprisingly, Russian has a formal form of address. Of course, English also has more polite words, but in Russian, there are separate words to express politeness in verbs, not just word choice, just like in Korean.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            However, the difference from Korean is that the criterion for using formal language is <span class="bg-yellow-100 px-1">familiarity</span>, so with a few exceptions, family members never use formal language, even to their grandparents. When I first didn't know their culture, I thought, <em>'These people have no manners at all,'</em> when a Russian friend called their parents by their first name or 'you.' 😅
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            Even between men and women who meet as a potential couple, they rarely use formal language except when they first meet. Of course, you use honorifics for people you meet in a public capacity (school or company, etc.). Even if a restaurant or cafe employee calls you 'you,' it's a sign of friendliness, so you don't need to be too upset, but I was not happy about it the whole time.
-          </p>
-          <div class="bg-slate-50 p-6 rounded-lg border-l-4 border-russia-blue mb-6">
-            <p class="leading-relaxed text-slate-700 text-sm">
-              <span class="font-bold">💡 Tip: Calling Names</span><br/>
-              For reference, when addressing a Russian person, you use a nickname. As far as I know, all names have a shortened version. For example, Anastasia is called <strong>Nastya</strong>, Alexander is called <strong>Sasha</strong>, and Yekaterina is called <strong>Katya</strong>. But in official settings or to be polite, you use both the first name and patronymic (father's name). In English, you would use Mr., Miss, Doctor, Junior, etc., but in Russian, you would say <span class="italic">Ivan Sergeyevich (Ivan, son of Sergey)</span>, <span class="italic">Irina Mikhailovna (Irina, daughter of Mikhail)</span>.
-            </p>
-          </div>
-
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">😶 Dealing with Strangers</h3>
-          <p class="leading-relaxed mb-6 text-slate-700">
-            When I first landed at Moscow Sheremetyevo Airport and went through the admission process, I realized that the unfriendliness of Russians was not an exaggeration at all. However, this perception changed a bit over time, and the reason is that Russians generally don't think they need to be kind to strangers. But if you have even a slight acquaintance with someone (even a fellow passenger on a train), they become very polite and start to save face.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             There were many times when I wondered if they were the same people. People who would casually use abusive language on the street were so nice when they were my friends in Russia, and if we sat together for just a few hours on a train or bus, they would share their food and be surprisingly kind. They had their own reasons for treating strangers and acquaintances so differently.
-          </p>
-          <ul class="list-disc list-inside space-y-2 mb-6 text-slate-700 bg-slate-50 p-6 rounded-lg">
-             <li>The naive and noble Slavic people have been exploited by foreign powers since long ago, so they have become wary of strangers. 🛡️</li>
-             <li>A great Russian writer named Pushkin said, <strong>‘Smiling at a stranger is something only a fool does.’</strong> 😐</li>
-          </ul>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             Whatever the reason, it was impossible to convince me.
+            Despite their rough exterior, Russians have formal speech. Unlike Korean, the criterion is 'familiarity.' Family members use informal speech even with grandparents. I initially mistook this for a lack of manners. Formal speech is used for public encounters, but hearing a restaurant employee call me 'you'—meant to be friendly—remained uncomfortable until the end.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🤣 Russian Jokes</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Names and Patronymics</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            After arriving in Russia, I once bought a Russian joke book from a bookstore to learn Russian in a fun way. Since it was a book for beginners, there weren't many words I didn't know, so there was no major difficulty in reading it. When I first read a few, I wondered if I was not understanding them correctly, but after reading a few more, I just couldn't figure out where to laugh. 
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             I called a Russian friend and asked him to take a look with me. He burst out laughing from the first joke and asked where I bought it. I was completely dumbfounded, but I politely asked which part was funny. My friend kindly explained the punchline and the explanation, but it took me some time to get used to Russian jokes after that. This difference in humor code was not just due to distance.
+            Russians use short nicknames: Nastya for Anastasia, Sasha for Alexander. In formal settings, you use the first name and patronymic (father's name). Addressing someone as 'Ivan Sergeyevich' (Ivan, son of Sergey) is the polite and respectful way.
           </p>
 
-          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌨️ Etc.</h3>
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Attitude Toward Strangers</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-            The idea that Russians are strong against the cold seems to be half right and half wrong. When I was attending a Russian language academy in Korea, there was a native speaker instructor who would bundle up from head to toe with clothes, a hat, and gloves whenever it got a little cold. The thought that Russia must be very cold always lingered in my mind. When I arrived in Russia, I saw many people like my Russian teacher. In that sense, the statement that all Russians are physically strong against the cold seems to be wrong. Besides, when you go inside in Russia, most buildings have free heaters that are so warm, so it's a bit of a stretch to think that they have a physical trait of being used to the cold because of the cold weather. I think the reason why Russians can be strong against the cold is because of the winter gear they have. 🧣🧤
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             Also, in Russia, you have to be careful with your choice of words when addressing a woman. Even if a woman has completely white hair, it is very rude to call her <strong>'grandmother'</strong>. 👵❌ Once in class, the Russian teacher asked me to describe her, and I said 'a slightly cranky-looking but kind-hearted grandmother,' and I was scolded for an hour or two.
-          </p>
-          <p class="leading-relaxed mb-6 text-slate-700">
-             Likewise, it is also rude to call someone who looks like a middle-aged woman an <strong>'auntie,'</strong> and I heard the word 'auntie' used at the airport as a mild curse word. So when I asked how to address an unknown Russian woman, they told me to call all Russian women <strong>'devushka (young lady)'</strong>. After being thoroughly scolded by aunties and grandmothers in Russia, you won't have the slightest desire to call them young ladies.
+            The unfriendliness toward strangers is real. They believe there's no need to be kind to people they don't know. But once you're acquainted, they become surprisingly kind. They have a historical wariness of outsiders and believe "smiling at a stranger is for fools," a sentiment often attributed to Pushkin.
           </p>
 
-          <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Laughter Requires Translation</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-             They were very different. It wasn't to the point where I couldn't live, but they were also people who I couldn't readily feel close to. However, they are not necessarily wrong. 
+            I bought a Russian joke book but couldn't find where to laugh. My friend burst into laughter at the first joke, while I only understood after a long explanation. I realized that humor, like language, requires cultural translation.
           </p>
-          <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8">
-            I resolved to grow my own capacity, as I was still a person who was not yet ready to readily accept their differences. 🌱
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Cold and the Gear</h3>
+          <p class="leading-relaxed mb-6 text-slate-700">
+            The idea that Russians are biologically immune to the cold is half-wrong. They survive because indoor heating is excellent and they use perfect winter gear outdoors. Also, calling a woman 'grandmother' or 'auntie' is very rude; you must call everyone 'Devushka' (young lady).
+          </p>
+
+          <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Growing My Capacity</h3>
+          <p class="leading-relaxed mb-6 text-slate-700">
+            They were very different. Not unbearable, but hard to feel close to initially. However, they aren't necessarily wrong. I realized I needed to grow my own capacity to accept these differences as they are.
           </p>
         `,
       },
@@ -586,168 +307,74 @@ export const year1Category: Category = {
         en: 'TsMO, Para, and Russian-Style Math',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop', // Library/Study (Updated)
+        'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
         ko: `
            <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-             모스크바 국립대학교 예비학부는 유학생들 사이에서 오래전부터 <strong>‘쯔모(ЦМО, 국제교육센터)’</strong>라는 별칭으로 더 유명했다. 2013년에 공식 명칭이 <strong>이랴익(ИРЯиК, 러시아어 및 러시아 문화 연구소)</strong>으로 변경되었지만, 2014년에 러시아에 처음 발을 들인 나를 포함해 많은 사람들은 여전히 예비학부를 ‘쯔모’라고 불렀다. 아마도 발음하기 쉽고 짧아서였을 것이라 짐작한다.
+             모스크바 국립대학교 예비학부는 유학생들 사이에서 오래전부터 쯔모(ЦМО)라는 별칭으로 더 유명했다. 2013년에 공식 명칭이 이랴익(ИРЯиК)으로 변경되었지만, 많은 사람들은 여전히 예비학부를 쯔모라고 불렀다. 발음하기 쉽고 짧아서였을 것이라 짐작한다.
            </p>
 
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">대학과 학원 사이</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             모스크바 대학의 예비학부는 우리가 흔히 떠올리는 독립된 건물이 아니라, 기존의 대형 건물 일부를 사용하는 형태였다. 이과와 문과 학생들은 도보로 약 3분 정도 떨어진 서로 다른 건물에서 수업을 들었다. 나는 이과였고 아내는 문과였기 때문에, 가끔 점심을 함께 먹거나 하교를 같이할 때면 먼저 끝난 사람이 다른 건물로 가서 기다려주곤 했다.
-           </p>
-           
-           <div class="bg-slate-50 border border-slate-200 p-6 rounded-lg my-6">
-             <p class="leading-relaxed text-slate-700 italic">
-               "예비학부 주변을 보면 한 건물의 한 층에만 ‘○○대학 ○○학과’라고 쓰여 있는 경우도 종종 있었다. 대학교조차 건물 일부만 사용하는 모습을 보며, 한국의 학원 시스템과 비슷하다는 점에서 적잖은 충격을 받았다. 🏢"
-             </p>
-           </div>
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             예비학부는 단순한 어학연수 기관이 아니라, 대부분의 학생이 학부나 대학원 진학을 목표로 등록하는 과정이다. 따라서 입학 시 진학 예정 학과를 묻는다. 특정 전공 과목을 정하는 것은 아니지만, 역사·언어·공학·자연과학 등 큰 계열을 선택하게 되며, 이에 따라 1년간 수강 과목이 달라진다. 나는 <strong>자연과학 계열</strong>을 선택해 러시아어와 함께 수학과 물리를 수강했고, 아내는 <strong>언어(러시아어-한국어 통번역)</strong>를 선택해 러시아 역사와 문화를 배웠다.
+             모스크바 대학의 예비학부는 독립된 건물이 아니라 기존 대형 건물의 일부를 사용한다. 대학교조차 건물 한 층만 사용하는 모습을 보며, 한국의 학원 건물과 비슷하다는 점에서 적잖은 충격을 받았다. 이곳은 단순한 어학연수가 아니라 학부나 대학원 진학을 목표로 하는 과정이라, 선택한 계열에 따라 수학, 물리 등을 함께 배운다.
            </p>
 
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⏱️ 러시아의 수업 시간, 빠라(Пара)</h3>
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">러시아의 수업 단위: 빠라</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             러시아 대학에는 우리가 말하는 50분짜리 ‘한 시간 수업’ 대신 <strong>‘빠라(пара)’</strong>라는 1시간 30~35분 단위의 수업이 있다. 보통 45분 수업 후 5~10분 휴식을 포함하는 구조라 생각보다 버틸 만했다. 예비학부는 매일 수업이 있었고 하루 평균 네 빠라를 들었으니, 학생 입장에서는 꽤 빡빡한 일정이었다.
+             러시아 대학에는 50분 수업 대신 ‘빠라(пара)’라는 90분 단위 수업이 있다. 45분 수업 후 짧은 휴식을 포함하는 구조라 생각보다 버틸 만했다. 하루 평균 네 빠라를 들었으니, 학생 입장에서는 꽤 빡빡한 일정이었다. 대부분의 학생에게 최종 목표는 TORFL 1단계 합격이다.
            </p>
 
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">CCCP의 비밀</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             2014년 당시 1년 학비는 약 5,080달러였다. 일반적인 32주가 아닌 38주 과정이었고, 매일 수업이 진행되며 한 반 인원이 최대 6~7명(내 반은 4명)에 불과했으니 비용 대비 교육 밀도는 나쁘지 않았다. 다만 예비학부의 목적이 ‘대학 진학을 위한 기초 러시아어 교육’이기에 고급 수준까지 기대하기는 어렵다. 대부분의 학생에게 최종 목표는 <strong>TORFL 1단계(ТРКИ-1)</strong> 합격이다.
-           </p>
-           
-           <div class="mb-8">
-             <span class="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-2">Info</span>
-             <p class="text-sm text-slate-600 bg-slate-100 p-4 rounded">
-               <strong>TORFL</strong>은 러시아 교육부에서 주관하는 러시아어 능력시험으로, 기초(A1), 기본(A2), 1단계(B1), 2단계(B2), 3단계(C1), 4단계(C2)로 구분된다. 1단계는 약 12~18개월 학습 후 도달 가능한 수준으로, 일상적인 의사소통과 전공 기초 학습이 가능한 단계로 평가된다.
-             </p>
-           </div>
-
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚒️ CCCP의 비밀</h3>
-           <p class="leading-relaxed mb-6 text-slate-700">
-             예비학부에는 재미있는 일화도 있다. 대부분의 학생은 러시아가 처음이기에, 모스크바 곳곳에서 보이는 <strong>‘CCCP’</strong>라는 문구를 보고 수업 시간마다 그 의미를 묻곤 한다. 선생님들은 웃으며 그것이 과거 소련을 뜻하는 약자라고 설명해 주신다. 겉보기엔 영어 알파벳과 같지만, 러시아어에서는 C를 ‘에스’, P를 ‘알’로 읽기 때문에 생긴 해프닝이다.
+             모스크바 곳곳의 ‘CCCP’ 문구를 보고 ‘씨씨씨피’가 뭐냐고 묻는 학생들이 많다. 선생님들은 웃으며 그것이 과거 소련을 뜻하는 약자라고 설명해 주신다. 러시아어에서는 C를 ‘에스’, P를 ‘알’로 읽기 때문에 사실 '에스에스에스알(소련)'을 뜻한다. 영어 알파벳과 모양이 같아 생기는 재미있는 해프닝이다.
            </p>
 
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📐 러시아어로 배우는 수학</h3>
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">러시아어로 배우는 수학과 물리</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             다시 수업 이야기로 돌아가 보자. 내가 지원한 자리는 핵공학이었지만 모스크바 국립대에는 핵공학과가 없고 핵물리학과만 존재했다. 결국 나는 핵물리학 전공을 희망한다고 밝혔고, 그에 따라 러시아어 외에도 일주일에 수학 두 빠라, 물리 두 빠라를 들었다. 진짜 문제는 러시아어였다. 러시아어는 인쇄체와 필기체가 상당히 달라 초반부터 쉽지 않았다. 게다가 현지인들의 필기체는 매우 흘려 쓰는 경우가 많아, 외국인 입장에서는 해독 자체가 도전이었다. ✍️
+             진짜 문제는 러시아어였다. 인쇄체와 필기체가 상당히 달라 초반부터 쉽지 않았다. 게다가 현지인들의 필기체는 해독 자체가 도전이었다. 수학 수업은 "1 더하기 1은 2"를 러시아어로 읽는 법부터 시작했다. 2학기에는 미적분이 등장하는데, 선생님은 우리가 다 안다고 생각하는지 엄청난 속도로 진도를 나갔다. 수학을 배우기보다 '수학을 러시아어로 이해하는 법'을 배우는 느낌이었다.
            </p>
            <p class="leading-relaxed mb-6 text-slate-700">
-             문법도 만만치 않았다. 동사는 시제와 인칭에 따라 변화하고, 명사는 격·수·성에 따라 형태가 달라진다. 어떤 언어든 어렵지만, 러시아어는 문법적 변형이 특히 풍부한 언어라고 할 수 있다.
-           </p>
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             수학 수업은 ‘더하기’부터 시작했다. 연산을 배우는 것이 아니라, <strong>“1 더하기 1은 2”를 러시아어로 읽는 법</strong>을 배우는 것이었다. 1학기에는 로그와 지수 정도까지라 비교적 수월했다. 그러나 2학기에는 미분과 적분, 고급 미적분이 등장했다. 문제는 난이도가 아니라 속도였다. 수학 선생님은 기본 산수처럼 고급 미적분 마저 우리가 다 안다고 생각하는 모양이었다. 😵
+             참고로 러시아는 소수점과 천 단위 표기법이 한국과 반대다. 12,345.6을 12.345,6으로 표기하는데, 처음에는 자주 헷갈렸다. 숫자 필기체도 우리와 모양이 달라 또 하나의 적응 과정이었다. 물리 수업은 뉴턴 역학부터 시작했는데, 문제 설정이 꽤나 복잡했다. 단순 계산보다 문제 상황을 이해하는 데 더 많은 시간이 걸렸다. 이후 전자기학과 핵물리학 기초도 배웠다.
            </p>
 
-           <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
-             ‘자, 정적분은 이런 식으로 읽고 이런 식으로 하면 됩니다.<br/>
-             (중략) 숙제는 ○○까지 풀어오세요’
-           </blockquote>
-
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">사고방식의 차이를 배우다</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             이런 식으로 숙제를 내곤 했는데, 속으로는 <em>‘아니 무슨 이게 덧셈 뺄셈도 아니고 오늘 배웠는데 어떻게 푸냐고...’</em> 생각한 적이 있었다. 설명은 빠르게 지나갔고, 수학을 배우기보다는 ‘수학을 러시아어로 이해하는 법’을 배우는 느낌이었다. 졸업 후 돌이켜보면 편미분이나 복잡한 적분 기법까지 다루지는 않았지만, 언어 장벽 때문에 수학이 가장 힘들었던 과목 중 하나였다.
-           </p>
-           
-           <p class="leading-relaxed mb-6 text-slate-700">
-             또한 러시아에서는 소수점과 천 단위 표기법이 한국과 반대다. 예를 들어 <span class="bg-slate-100 px-1 font-mono text-sm">12,345.6</span>은 러시아에서 <span class="bg-slate-100 px-1 font-mono text-sm">12.345,6</span>으로 표기한다. 익숙해지면 괜찮지만 처음에는 자주 헷갈렸다. 숫자 필기체도 우리와 모양이 달라 또 하나의 적응 과정이었다.
-           </p>
-
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚛️ 물리, 그리고 깨달음</h3>
-           <p class="leading-relaxed mb-6 text-slate-700">
-             물리 수업은 수학보다 조금 늦게 시작했다. 초반에는 뉴턴 역학을 배웠다. 엘리베이터, 도르래, 경사면, 마찰 등을 이용한 문제들이었는데, 문제 설정이 꽤 복잡했다. 도르래에 엘리베이터를 매달거나, 여러 개의 용수철을 연결해 힘을 계산하는 식이었다. 단순 계산보다 문제 상황을 이해하는 데 시간이 더 걸렸다. 이후 전자기학도 다루었고, 핵물리학에 대해서도 기초적인 내용을 배웠다.
-           </p>
-
-           <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             언어가 완전히 익숙하지 않은 상태에서 전공 과목을 배우는 일은 생각보다 힘들었다. 단어를 이해하는 것뿐 아니라, 그들의 문제 접근 방식과 사고 구조를 받아들이는 과정이 필요했다. 1년 차 당시 나는 이해되지 않는 부분을 받아들이기보다 쉽게 ‘이상하다’고 단정 짓곤 했다.
-           </p>
-           
-           <p class="leading-relaxed text-lg font-bold text-slate-800 text-center mt-8">
-             지금 돌이켜보면, 그것은 문화와 사고방식의 차이를 인정하지 못했던<br/>내 스스로의 미숙함을 드러낸 것이라고 할 수 있다. 😌
+             언어가 완전히 익숙하지 않은 상태에서 전공을 배우는 일은 힘들었다. 단어를 이해하는 것뿐 아니라 그들의 사고 구조를 받아들이는 과정이 필요했다. 당시에는 이해되지 않는 부분을 받아들이기보다 쉽게 ‘이상하다’고 단정 지었지만, 지금 돌이켜보면 그것은 문화와 사고방식의 차이를 인정하지 못했던 나 스스로의 미숙함이었음을 깨닫는다.
            </p>
         `,
         en: `
            <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-             The preparatory program of Moscow State University has long been more famous among international students by its nickname <strong>‘TsMO (ЦМО, Center for International Education)’</strong>. Although the official name was changed to <strong>'IRYaK (ИРЯиК, Institute of Russian Language and Culture)'</strong> in 2013, many people, including myself who first set foot in Russia in 2014, still called the preparatory program 'TsMO'. I assume it was because it was easy to pronounce and short.
+             MSU's preparatory program was widely known among international students as TsMO. Although its official name changed to IRYaK in 2013, many still called it TsMO because it was easy to pronounce and short.
            </p>
 
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Between a University and an Academy</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             The preparatory program of Moscow University was not an independent building as one might commonly imagine, but rather used a part of an existing large building. Science and humanities students took classes in different buildings, about a 3-minute walk apart. Since I was a science student and my wife was a humanities student, sometimes when we had lunch together or went home together, the person who finished first would go to the other building and wait.
-           </p>
-           
-           <div class="bg-slate-50 border border-slate-200 p-6 rounded-lg my-6">
-             <p class="leading-relaxed text-slate-700 italic">
-               "Around the preparatory program, you could often see signs like '○○ University ○○ Department' on just one floor of a building. Seeing even universities using only a part of a building, I was quite shocked by its similarity to the Korean hagwon (private academy) system. 🏢"
-             </p>
-           </div>
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             The preparatory program is not just a language training institution, but a course where most students enroll with the goal of entering an undergraduate or graduate program. Therefore, upon admission, they ask for your intended major. You don't decide on a specific major, but you choose a broad field such as history, language, engineering, or natural sciences, and your courses for the year will vary accordingly. I chose the <strong>natural sciences track</strong> and took mathematics and physics along with Russian, while my wife chose the <strong>language (Russian-Korean translation and interpretation) track</strong> and learned Russian history and culture.
+             The program doesn't have an independent building but shares space in larger ones. Seeing a university department take up just one floor reminded me of Korean private academies. It's not just language training; it's a preparatory course for degree programs, so you take subjects like Math and Physics along with Russian.
            </p>
 
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⏱️ Russian Class Time, Para (Пара)</h3>
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Russian Class Units: Para</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             In Russian universities, instead of the 50-minute 'one-hour class' we are used to, there is a 1-hour 30-35 minute class unit called <strong>'para (пара)'</strong>. It usually includes a 5-10 minute break after a 45-minute class, so it was more manageable than I thought. The preparatory program had classes every day, and I took an average of four paras a day, which was a pretty tight schedule for a student.
+             Instead of 50-minute classes, Russian universities use a 90-minute unit called 'Para.' It's usually two 45-minute sessions with a short break. Taking four Paras a day made for a tight schedule. The ultimate goal for most is passing the TORFL Level 1.
            </p>
 
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">The Secret of CCCP</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             In 2014, the annual tuition was about $5,080. It was a 38-week course instead of the usual 32 weeks, with classes held every day and a class size of at most 6-7 students (my class had 4), so the educational density for the cost was not bad. However, since the purpose of the preparatory program is 'basic Russian language education for university admission,' it is difficult to expect an advanced level. The ultimate goal for most students is to pass the <strong>TORFL 1st level (ТРКИ-1)</strong>.
-           </p>
-           
-           <div class="mb-8">
-             <span class="text-xs font-bold text-slate-500 uppercase tracking-widest block mb-2">Info</span>
-             <p class="text-sm text-slate-600 bg-slate-100 p-4 rounded">
-               <strong>TORFL</strong> is a Russian language proficiency test administered by the Russian Ministry of Education, divided into Basic (A1), Elementary (A2), 1st Level (B1), 2nd Level (B2), 3rd Level (C1), and 4th Level (C2). The 1st level is a level that can be reached after about 12-18 months of study, and is evaluated as a stage where everyday communication and basic major studies are possible.
-             </p>
-           </div>
-
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚒️ The Secret of CCCP</h3>
-           <p class="leading-relaxed mb-6 text-slate-700">
-             The preparatory program also has some interesting anecdotes. Since most students are new to Russia, they often see the letters <strong>‘CCCP’</strong> all over Moscow and ask what it means in class. The teachers smile and explain that it is an abbreviation for the former Soviet Union. It looks like the English alphabet, but in Russian, C is read as ‘es’, and P as ‘er’, which is why this happens.
+             Many ask what 'CCCP' means, pronouncing it like English 'C'. In Russian, C is 'S' and P is 'R,' so it spells SSSR (USSR). It's a common confusion because the letters look identical to English ones but sound very different.
            </p>
 
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">📐 Learning Math in Russian</h3>
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Math and Physics in Russian</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             Let’s get back to the story about my classes. I had originally applied for Nuclear Engineering, but Moscow State University didn't have a Nuclear Engineering department—only Nuclear Physics. So, I stated my intention to major in Nuclear Physics. As a result, on top of my Russian language courses, I had to take two paras of math and two paras of physics every week. Russian was not easy from the beginning because the printed and cursive scripts are quite different. Moreover, the cursive of native speakers is often very sloppy, so it was a challenge for foreigners to decipher it. ✍️
+             The real challenge was the language. Cursive is very different from printed text, and deciphering native handwriting was a challenge. Math started with learning how to say "1+1=2" in Russian. By the second semester, we hit calculus. The teacher flew through the material, assuming we already knew it. It felt more like learning 'how to understand math in Russian.'
            </p>
            <p class="leading-relaxed mb-6 text-slate-700">
-             The grammar was not easy either. Verbs change according to tense and person, and nouns change according to case, number, and gender. Every language is difficult, but Russian is a language with particularly rich grammatical variations.
-           </p>
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             The math class started with ‘addition’. It wasn’t about learning the operation, but about learning how to read <strong>“1 plus 1 is 2” in Russian</strong>. In the first semester, it was relatively easy as it only went up to logarithms and exponents. However, in the second semester, differentiation, integration, and advanced calculus appeared. The problem was not the difficulty, but the speed. The math teacher seemed to think that we knew everything, even advanced calculus, as if it were basic arithmetic. 😵
+             Notably, Russia flips the use of commas and periods in numbers (12.345,6). Physics started with Newtonian mechanics, but the problem setups were complex, requiring more time to grasp the scenario than to do the math.
            </p>
 
-           <blockquote class="border-l-4 border-russia-blue pl-4 py-2 my-6 italic text-slate-700 bg-slate-50">
-             ‘Okay, this is how you read and do definite integrals.<br/>
-             (Omitted) Do your homework up to ○○’
-           </blockquote>
-
+           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">Learning Different Ways of Thinking</h3>
            <p class="leading-relaxed mb-6 text-slate-700">
-             He used to give homework like this, and I used to think to myself, <em>‘This isn’t addition and subtraction, how can I solve it when I just learned it today...’</em> The explanation went by quickly, and it felt more like learning ‘how to understand math in Russian’ than learning math. Looking back after graduation, although we didn’t cover partial differentiation or complex integration techniques, math was one of the hardest subjects due to the language barrier.
-           </p>
-           
-           <p class="leading-relaxed mb-6 text-slate-700">
-             Also, in Russia, the decimal point and thousands separator notation is the opposite of that in Korea. For example, <span class="bg-slate-100 px-1 font-mono text-sm">12,345.6</span> is written as <span class="bg-slate-100 px-1 font-mono text-sm">12.345,6</span> in Russia. It’s fine once you get used to it, but it was often confusing at first. The cursive for numbers was also different from ours, which was another adjustment process.
-           </p>
-
-           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">⚛️ Physics, and Realization</h3>
-           <p class="leading-relaxed mb-6 text-slate-700">
-             Physics class started a little later than math. In the beginning, we learned Newtonian mechanics. The problems involved elevators, pulleys, inclined planes, and friction, and the problem settings were quite complex. It was about hanging an elevator on a pulley or calculating the force by connecting several springs. It took more time to understand the problem situation than to do simple calculations. Later, we also covered electromagnetism and learned the basics of nuclear physics.
-           </p>
-
-           <hr class="border-slate-200 my-8 w-1/3 mx-auto" />
-
-           <p class="leading-relaxed mb-6 text-slate-700">
-             Learning a major subject when you are not completely familiar with the language was harder than I thought. It required not only understanding the words, but also accepting their problem-solving approach and thought structure. At the time, in my first year, instead of accepting the parts I didn’t understand, I would easily dismiss them as ‘strange.’
-           </p>
-           
-           <p class="leading-relaxed text-lg font-bold text-slate-800 text-center mt-8">
-             Looking back now, I can say that it revealed my own immaturity<br/>in not being able to accept the differences in culture and ways of thinking. 😌
+             Studying specialized subjects while still learning the language was tough. It required accepting their cognitive structures, not just knowing words. Back then, I dismissed things I didn't understand as "strange," but now I realize that was just my own immaturity in failing to recognize cultural differences.
            </p>
         `,
       },
@@ -797,7 +424,7 @@ export const year1Category: Category = {
         <p class="leading-relaxed mb-6 text-slate-700">
           전승기념공원이라고도 불리는 이 승리공원은 나치 독일과의 조국전쟁에서 승리한 것을 기념하여 대륙의 기상으로 어마어마하게 크게 만들어진 곳이다. 공원 바로 옆 지하철역에서 처음 보는 친구와 어색한 미소로 인사를 나눈 뒤 본격적인 ‘산책’이 시작되었다. 
           <br/><br/>
-          내가 “우리 이제 어느 방향으로 갈까?”라고 묻자, 친구는 세상 해맑은 표정으로 “그냥 아무 데나 발길 닿는 대로, 가고 싶은 곳으로 가면 돼”라고 답했다. 순간 등골을 타고 서늘하고 싸한 느낌이 스쳐 지나갔지만, 일단 호기롭게 걷기 시작했다. 다행히 이 러시아 친구는 한국어를 배운 지 꽤 되어서 실력이 출중했고, 내가 더듬더듬 러시아어를 내뱉을 때마다 찰떡같이 알아듣고 많이 도와주었다. 🗣️✨
+          내가 “우리 이제 어느 방향으로 갈까?”라고 묻자, 친구은 세상 해맑은 표정으로 “그냥 아무 데나 발길 닿는 대로, 가고 싶은 곳으로 가면 돼”라고 답했다. 순간 등골을 타고 서늘하고 싸한 느낌이 스쳐 지나갔지만, 일단 호기롭게 걷기 시작했다. 다행히 이 러시아 친구는 한국어를 배운 지 꽤 되어서 실력이 출중했고, 내가 더듬더듬 러시아어를 내뱉을 때마다 찰떡같이 알아듣고 많이 도와주었다. 🗣️✨
         </p>
 
         <p class="leading-relaxed mb-6 text-slate-700">
@@ -918,7 +545,7 @@ export const year1Category: Category = {
         en: 'From Shashlik to Borsch, and Fast Food',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop', // Generic Food Spread
+        'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
@@ -999,14 +626,18 @@ export const year1Category: Category = {
            </p>
            <p class="leading-relaxed mb-6 text-slate-700">
              그리고 대부분의 러시아인들이 이야기 하기로는 <strong>집에서 먹는 음식</strong>이 제일 맛있고, 어쩔 수 없을 때만 나가서 외식을 한다고 한다. 생각해 보면 한국은 조금 달랐다. 집에서 하기 힘든 맛있는 음식을 먹고 싶을 때 주로 나가서 사 먹기 때문이다. 내 인식도 마찬가지였다. <em>'왜 맛도 별로 없는데 굳이 나가서 사 먹지'</em>라는 생각이 머릿속을 항상 떠돌았다. </p> <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8"> 음식도 다르지만 음식을 대하는 태도, 외식에 대한 인식 등<br/>여전히 달라도 많이 다르다는 것을 다시금 느꼈다. 🥢 </p>`,
-        en: `<p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3"> I guess it's hard to find videos or information about Russian food. Even if there is, there's probably little about 'traditional Russian food', because most of the food Russians eat originated from foreign countries. As an aside, among the foods Koreans believe to be 'traditional' and enjoy, many have a surprisingly short history that makes them awkward to call 'traditional'. For example, Gamjatang and Seolleongtang are relatively short, within 100 years. Anyway, let's look at what's on Russian tables. 🍽️ </p> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌍 Flavors of Neighboring Countries</h3> <p class="leading-relaxed mb-6 text-slate-700"> The fried rice called <strong>'Plov'</strong>, commonly seen in Russia, is Uzbek food, and <strong>'Shashlik'</strong>, a grilled skewer dish, one of my favorite foods in Russia, is also said to have originated from Armenia. 🥩 </p> <p class="leading-relaxed mb-6 text-slate-700"> And though unfamiliar to us, <strong>Georgian</strong> (the country, not the US state; in Russian, Gruziya) food is considered delicious. Georgian dumplings like <strong>Khinkali</strong> or <strong>Khachapuri</strong>, a bread with egg inside, are easily accessible in Russia and are loved not only by Russians but also by foreigners living in Russia and people from neighboring countries. </p> <figure class="my-8"> <img src="${Picture1}" alt="Flavors of Neighboring Countries" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">Flavors of Neighboring Countries (Plov, Shashlik, Khinkali, Khachapuri)</figcaption> </figure> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🥣 Unique Russian Flavors</h3> <p class="leading-relaxed mb-6 text-slate-700"> So what are Russia's unique dishes? Russia is composed of 85 federal subjects, 22 of which are autonomous republics. With the world's largest territory, various ethnic groups, and many republics mixed together, it's not easy to pinpoint 'unique Russian food'. However, speaking of typical dishes found in Moscow and major Russian cities for the mainstream Slavic population, there are <strong>Borsch</strong> and <strong>Blini</strong>. </p> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Borsch</strong> has a status in Russia comparable to doenjang-guk (soybean paste stew) in Korea. It's a meat soup colored with purple beets, which has become somewhat familiar to Koreans these days. Russians typically put <strong>Smetana</strong>, a sour cream, on top of borsch and mix it in. This smetana was unfamiliar to Koreans and had a slightly sour taste, like it had gone bad, so I never really enjoyed it until I left Russia. 😅 </p> <p class="leading-relaxed mb-6 text-slate-700"> Nevertheless, if you exclude smetana, it's a warm soup that anyone can enjoy without much of a barrier. At first, the intense purple color might be off-putting, but one spoonful on a cold day will make those feelings melt away. Once your palate adapts to the local tastes while living in Russia, the unfamiliarity of the red color disappears, and you can taste a deep, savory umami like our beef radish soup. </p> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Blini</strong> are Russian pancakes, but unlike the thick pancakes we usually know, they are characterized by being very thin. They can be folded or rolled two or three times and dipped in sweet sauces like honey, or filled with ham, eggs, smoked salmon, etc., making them great as snacks or meal replacements. They are easy to make at home, and many restaurants sell them cheaply. Blini can be considered the easiest among Russian traditional foods, but unfortunately, it's hard to find them outside of Russia and its neighboring countries. </p> <figure class="my-8"> <img src="${Picture2}" alt="Unique Russian Flavors" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">Unique Russian Flavors (Borsch, Blini, Black Bread, Pelmeni)</figcaption> </figure> <p class="leading-relaxed mb-6 text-slate-700"> In addition, sour black bread and <strong>Pelmeni</strong>, which are similar to dumplings but much smaller, are also Russian foods. Pelmeni can have various fillings. Once, I mistakenly bought pelmeni that was supposed to have meat but had cherries inside. 🍒 I put these pelmeni in ramen when cooking it, and some of them burst when cooked, and the filling flowed into the ramen broth. </p> <div class="bg-red-50 border border-red-200 p-6 rounded-lg my-6"> <p class="leading-relaxed text-red-900 italic"> "The ramen broth was red, so I didn't even know it had plenty of cherry juice and took a spoonful. <strong>Pandemonium</strong> naturally came to mind. I had no choice but to throw away the precious ramen. It tasted like something even the devil of hell would cry over. 👿 Try it if you dare." </p> </div> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍔 Fast Food, a Choice for Survival</h3> <p class="leading-relaxed mb-6 text-slate-700"> More commonly seen outside than unique Russian dishes is actually fast food. Global fast-food chains like Burger King, KFC, and McDonald's are ubiquitous, and in <span class="bg-yellow-100 px-1">Russia, where the Big Mac Index is the lowest in the world</span>, there's no avoiding these chains. My friends and I primarily ate Basket Wings from KFC. For about 10 dollars, you'd get 25 wings, so we'd go there whenever we missed chicken. 🍗 </p> <p class="leading-relaxed mb-6 text-slate-700"> Travelers wandering around Russia looking for unique foods often end up at fast-food restaurants. I did, and so did everyone who came to visit me in Russia. </p> <figure class="my-8"> <img src="${Picture3}" alt="Fast Food" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">A Choice for Survival, Fast Food (KFC, McDonald's, Rotisserie Chicken, Shawarma)</figcaption> </figure> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Rotisserie chicken</strong> and <strong>Shawarma</strong> are very common foods found at street stalls. They are very cheap and taste excellent. The rotisserie chicken tasted very similar to the chicken my father used to buy when I was young. When ordering shawarma, they ask if you want smetana on top, and just saying <strong>‘No’</strong> is already a success. With no suspicious ingredients, they are rolled up with plenty of vegetables and meat in a thin tortilla, so they rarely fail. </p> <p class="leading-relaxed mb-6 text-slate-700"> While studying at the preparatory program, my Russian teacher told us not to buy anything to eat carelessly on the street. Why would such delicious food be so cheap? There were even rumors that it was pigeon, not chicken. 🐦 Still, for a poor, cold, and hungry international student, it was hard to find a cheaper and more satisfying meal than this. </p> <hr class="border-slate-200 my-8 w-1/3 mx-auto" /> <p class="leading-relaxed mb-6 text-slate-700"> My superficial feeling after living in Russia was that Russians generally don't attach much importance to taste. Perhaps it's because of the cold weather, or because life is still tough, like in Korea in the old days. They probably wouldn't understand Koreans who eagerly search for good restaurants. </p> <p class="leading-relaxed mb-6 text-slate-700"> And most Russians say that <strong>home-cooked food</strong> is the most delicious, and they only eat out when they have no other choice. Looking back, Korea was a little different. We usually eat out when we want to eat delicious food that is difficult to make at home. My perception was also the same. The thought, <em>'Why do they eat out when the food isn't even that good?'</em> always lingered in my mind. </p> <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8"> Although the food is different, the attitude towards food, and the perception of eating out<br/>I still felt that there are many differences. 🥢 </p>`,
+        en: `<p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3"> I guess it's hard to find videos or information about Russian food. Even if there is, there's probably little about 'traditional Russian food', because most of the food Russians eat originated from foreign countries. As an aside, among the foods Koreans believe to be 'traditional' and enjoy, many have a surprisingly short history that makes them awkward to call 'traditional'. For example, Gamjatang and Seolleongtang are relatively short, within 100 years. Anyway, let's look at what's on Russian tables. 🍽️ </p> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🌍 Flavors of Neighboring Countries</h3> <p class="leading-relaxed mb-6 text-slate-700"> The fried rice called <strong>'Plov'</strong>, commonly seen in Russia, is Uzbek food, and <strong>'Shashlik'</strong>, a grilled skewer dish, one of my favorite foods in Russia, is also said to have originated from Armenia. 🥩 </p> <p class="leading-relaxed mb-6 text-slate-700"> And though unfamiliar to us, <strong>Georgian</strong> (the country, not the US state; in Russian, Gruziya) food is considered delicious. Georgian dumplings like <strong>Khinkali</strong> or <strong>Khachapuri</strong>, a bread with egg inside, are easily accessible in Russia and are loved not only by Russians but also by foreigners living in Russia and people from neighboring countries. </p> <figure class="my-8"> <img src="${Picture1}" alt="Flavors of Neighboring Countries" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">Flavors of Neighboring Countries (Plov, Shashlik, Khinkali, Khachapuri)</figcaption> </figure> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🥣 Unique Russian Flavors</h3> <p class="leading-relaxed mb-6 text-slate-700"> So what are Russia's unique dishes? Russia consists of 85 federal subjects, 22 of which are autonomous republics. It's not easy to pinpoint 'unique Russian food'. However, for the Slavic majority in major cities like Moscow, representative dishes include <strong>Borsch</strong> and <strong>Blin</strong>. </p> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Borsch</strong> is a beet-based meat soup, having a status similar to soybean paste soup in Korea. Russians top it with <strong>Smetana</strong> (sour cream). Smetana's sourness was hard for me to get used to until I left Russia. 😅 </p> <p class="leading-relaxed mb-6 text-slate-700"> Except for Smetana, it's a warm soup anyone can enjoy. The intense purple color might be off-putting at first, but a spoonful in cold weather makes that hesitation melt away like snow. </p> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Blin</strong> is a Russian pancake, characterized by being very thin. It's eaten with sweet sauces like honey, or filled with ham, eggs, or smoked salmon as a meal or snack. </p> <figure class="my-8"> <img src="${Picture2}" alt="Unique Russian Flavors" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">Unique Russian Flavors (Borsch, Blin, Black Bread, Pelmeni)</figcaption> </figure> <p class="leading-relaxed mb-6 text-slate-700"> Other Russian foods include sour <strong>Black Bread</strong> and <strong>Pelmeni</strong>, which are small dumplings. Once I accidentally bought Pelmeni filled with cherries instead of meat. 🍒 I put them in Ramen, and they burst. The taste was something even the devil would cry over. 👿 </p> <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍔 Survival Choice, Fast Food</h3> <p class="leading-relaxed mb-6 text-slate-700"> Actually, the most common food outside is fast food. With global chains like Burger King, KFC, and McDonald's everywhere and the Big Mac Index being the lowest in the world, you can't avoid them. My friends and I often ate KFC wings—25 wings for about 10 dollars. 🍗 </p> <p class="leading-relaxed mb-6 text-slate-700"> <strong>Grilled Chicken</strong> and <strong>Shawarma</strong> are common at street stalls. They're cheap and delicious. Shawarma is nearly fail-proof as long as you say 'no' to Smetana. </p> <figure class="my-8"> <img src="${Picture3}" alt="Fast Food" class="w-full rounded-lg shadow-lg" /> <figcaption class="text-center text-sm text-slate-500 mt-2 font-serif italic">Survival Choice, Fast Food (KFC, McDonald's, Grilled Chicken, Shawarma)</figcaption> </figure> <hr class="border-slate-200 my-8 w-1/3 mx-auto" /> <p class="leading-relaxed mb-6 text-slate-700"> My surface-level impression was that Russians don't put much meaning into taste, perhaps due to the cold or hardships. Most Russians say <strong>home-cooked food</strong> is best and only eat out when they have to. This was different from Korea, where we go out specifically for food that's hard to make at home. </p> <p class="leading-relaxed text-xl font-bold text-slate-800 text-center mt-8"> Different food, different attitudes toward eating out—<br/>I felt once again how different we were. 🥢 </p>`,
       },
     },
     {
       id: 'post-105',
       title: { ko: '모스크바에서 한국 찾기', en: 'Finding Korea in Moscow' },
-      subtitle: { ko: '그리움, 대사관, 그리고 북한 식당', en: 'Longing, the Embassy, and a North Korean Restaurant' },
-      imageUrl: 'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=1200&auto=format&fit=crop', // Replaced with Korean Food (Bibimbap) image
+      subtitle: {
+        ko: '그리움, 대사관, 그리고 북한 식당',
+        en: 'Longing, the Embassy, and a North Korean Restaurant',
+      },
+      imageUrl:
+        'https://images.unsplash.com/photo-1580651315530-69c8e0026377?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
@@ -1022,7 +653,7 @@ export const year1Category: Category = {
           <p class="leading-relaxed mb-6 text-slate-700"> 보통 한국 음식이 그리울 때면 <strong>인공위성</strong>이라는 이름의 호텔 내에 위치한 한국 식당을 찾았다. 이 호텔 내에는 여러 한국 식당이 있어서 선택지도 다양했고, 작은 한국식품점이 있어서 식사를 하고 한국 식재료를 사오기도 좋았다. </p>
           <p class="leading-relaxed mb-6 text-slate-700"> 그 외에도 다른 한국 식당들도 있었는데 그 중에 ‘자스민’이라는 이름의 식당에서는 메뉴에도 없는 보신탕을 알음알음 알고 찾아온 손님한테 팔기도 했다. 다른 식당에서는 토요일 점심에 600루블, 당시 한화로는 약 12,000원 정도에 한식 뷔페를 먹을 수 있었다. 김밥, 떡볶이와 같은 분식부터 불고기, 잡채 등 집에서 다 만들어 먹기는 번거로운 많은 음식이 있어서 자주 다녔다. 😋 </p>
           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🍜 고려인 식당과 북한 식당</h3>
-          <p class="leading-relaxed mb-6 text-slate-700"> 그리고 한 번은 러시아 친구들과 <strong>고려인 식당</strong>에 가본 적도 있다. 대한민국의 음식과는 차이가 많이 났다. 메뉴판에는 조금 익숙한 발음의 음식이 있기도 했고 전혀 무슨 음식인지 유추할 수 조차 없는 음식도 많았다. 또한 한국 음식보다 식초를 많이 쓰는지 시큼한 맛이 나는 음식이 꽤나 있었다. 그래도 <strong>‘쿡시’</strong>라고 불리는 국수는 맛이 괜찮았다. 같이 갔던 러시아 친구들에게 이런 음식은 한국에서 결코 볼 수 없을 거라고 이야기했다. </p>
+          <p class="leading-relaxed mb-6 text-slate-700"> 한 번은 러시아 친구들과 <strong>고려인 식당</strong>에 가본 적도 있다. 대한민국의 음식과는 차이가 많이 났다. 메뉴판에는 조금 익숙한 발음의 음식이 있기도 했고 전혀 무슨 음식인지 유추할 수 조차 없는 음식도 많았다. 또한 한국 음식보다 식초를 많이 쓰는지 시큼한 맛이 나는 음식이 꽤나 있었다. 그래도 <strong>‘쿡시’</strong>라고 불리는 국수는 맛이 괜찮았다. 같이 갔던 러시아 친구들에게 이런 음식은 한국에서 결코 볼 수 없을 거라고 이야기했다. </p>
           <div class="bg-red-50 p-6 rounded-lg border border-red-200 my-6">
           <h4 class="font-bold text-red-900 mb-2">🚫 평양스키 고려 (북한 식당)</h4>
           <p class="leading-relaxed mb-6 text-slate-700"> 우리가 자주 가던 ‘아샨’이라는 대형 마트에 가는 길에는 <strong>평양스키 고려</strong>라는 음식점이 있었다. 직역하자면 ‘평양의 고려’인데 이 곳은 북한 사람이 운영하는 진짜 북한 식당이었다. 감히 들어갈 볼 엄두는 못 내고 정문을 통해 지하로 내려가는 복도만 볼 수 있었는데 요정들과 신선들이 산과 호수를 배경으로 한 아주 특이한 그림들이 걸려 있었다. 현역 군인 신분이었던 나는 괜히 꺼려지는 마음에 러시아에 있는 동안 북한 식당을 가본 적이 없지만 지금 돌이켜보면 한 번쯤은 괜찮지 않았을까 하는 생각이 든다. </p>
@@ -1059,16 +690,22 @@ export const year1Category: Category = {
     },
     {
       id: 'post-106',
-      title: { ko: '모스크바의 봄여름가을겨울', en: 'Spring, Summer, Autumn, and Winter in Moscow' },
-      subtitle: { ko: '회색빛 우울감과 민들레 홀씨 사이', en: 'Between Gray Melancholy and Dandelion Seeds' },
+      title: {
+        ko: '모스크바의 봄여름가을겨울',
+        en: 'Spring, Summer, Autumn, and Winter in Moscow',
+      },
+      subtitle: {
+        ko: '회색빛 우울감과 민들레 홀씨 사이',
+        en: 'Between Gray Melancholy and Dandelion Seeds',
+      },
       isActive: true,
       imageUrl:
-        'https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?q=80&w=1200&auto=format&fit=crop', // Moscow Winter
+        'https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?q=80&w=1200&auto=format&fit=crop',
       comments: [],
       content: {
         ko: `
           <p class="leading-relaxed mb-6 text-slate-700 first-letter:text-5xl first-letter:font-bold first-letter:text-russia-blue first-letter:float-left first-letter:mr-3">
-             8월에 도착한 모스크바의 날씨는 매우 좋았다. ☀️ 한국이었다면 엄청 습하고 더웠을 테지만, 모스크바는 덥지도 않았고 습하지도 않았다. 정말로 많은 사람들이 다시 오지 않을 좋은 날씨를 즐기려는 듯, 모스크바 도심 공원마다 산책 나온 사람들로 가득 차 있었다. 첫 학기는 아무래도 새로운 세상에 적응하느라 정신이 없었고 주말이라 할지라도 생각보다 해야 할 숙제들이 많아서 바빴지만 틈나는 대로 밖에 나가서 시간을 보내려고 노력했다.
+             8월에 도착한 모스크바의 날씨는 매우 좋았다. ☀️ 한국이었다면 엄청 습하고 더웠을 테지만, 모스크바은 덥지도 않았고 습하지도 않았다. 정말로 많은 사람들이 다시 오지 않을 좋은 날씨를 즐기려는 듯, 모스크바 도심 공원마다 산책 나온 사람들로 가득 차 있었다. 첫 학기는 아무래도 새로운 세상에 적응하느라 정신이 없었고 주말이라 할지라도 생각보다 해야 할 숙제들이 많아서 바빴지만 틈나는 대로 밖에 나가서 시간을 보내려고 노력했다.
           </p>
           <p class="leading-relaxed mb-6 text-slate-700">
              그땐 몰랐다. 모스크바의 찬란한 시절이 얼마 남지 않았음을. ⏳
@@ -1092,7 +729,7 @@ export const year1Category: Category = {
 
           <h3 class="text-xl font-serif font-bold text-slate-800 mt-10 mb-4">🔥 밖은 춥지만 안은 따뜻해</h3>
           <p class="leading-relaxed mb-6 text-slate-700">
-             그렇다고 모스크바의 추위가 아주 못견딜 만한 것은 아니었다. 역설적이게도 밖은 매우 춥지만 실내만큼은 세상 어디보다 따뜻하기 때문이다. 내가 아는 한 모스크바의 거의 모든 건물에는 <strong>중앙식 난방 시스템</strong>이 갖춰져 있다. 국가 차원에서 관리하기에 개별 건물의 난방비가 무료이다. 그렇기에 밖에 나가면 꽁꽁 싸매고 다니는 사람들도 건물에 들어가면 훌러덩 벗고 반팔 차림으로 다니는 모습도 자주 볼 수 있다. 
+             그렇라고 모스크바의 추위가 아주 못견딜 만한 것은 아니었다. 역설적이게도 밖은 매우 춥지만 실내만큼은 세상 어디보다 따뜻하기 때문이다. 내가 아는 한 모스크바의 거의 모든 건물에는 <strong>중앙식 난방 시스템</strong>이 갖춰져 있다. 국가 차원에서 관리하기에 개별 건물의 난방비가 무료이다. 그렇기에 밖에 나가면 꽁꽁 싸매고 다니는 사람들도 건물에 들어가면 훌러덩 벗고 반팔 차림으로 다니는 모습도 자주 볼 수 있다. 
           </p>
           <p class="leading-relaxed mb-6 text-slate-700">
              그리고 한국에서는 옷을 항상 가지고 다녀야 해서 불편했지만, 모스크바에서는 조금 큰 건물마다 겉옷을 보관하는 곳(가르데롭)이 있기에 건물 내에서 다닐 때는 아주 편하게 다닐 수 있다. 🧥
@@ -1121,7 +758,7 @@ export const year1Category: Category = {
              그래도 5월이 되면 모스크바는 언제 그랬냐는 듯 푸른 빛으로 옷을 갈아입는다. 도시 곳곳에서 새싹과 꽃들이 피는데, 그중에서도 특히 <span class="text-yellow-600 font-bold">노란 민들레</span>가 정말 많았던 기억이 난다. 길가나 아파트 단지 사이사이, 심지어 보도블록 틈새까지 피어난 민들레는 모스크바의 봄을 상징한다. 
           </p>
           <p class="leading-relaxed mb-6 text-slate-700">
-             5월 말이 되면 이 민들레 꽃은 하얀 홀씨로 변해 온 도시를 떠다니는데 과장을 조금 보태면 <strong>봄에 내리는 눈</strong> 같기도 했다. 꽃가루 알레르기가 있던 나는 이 기간 내내 재채기와 콧물을 달고 살았지만 그래도 이들의 생명의 기운에 기분만큼은 좋았다. 또한 도심 공원에는 형형색색의 꽃들이 만개하여 겨우내 회색빛이었던 도시를 화려하게 바꿔준다. 모스크바는 긴 겨울이 있었기에 더욱 따뜻한 봄을 맞이하는 듯했다. 🌸
+             5월 말이 되면 이 민들레 꽃은 하얀 홀씨로 변해 온 도시를 떠다니는데 과장을 조금 보태면 <strong>봄에 내리는 눈</strong> 같기도 했다. 꽃가루 알레르기가 있던 나는 이 기간 내내 재채기와 콧물을 달고 살았지만 그래도 이들의 생명의 기운에 기분만큼은 좋았다. 또한 도심 공원에는 형형색색의 꽃들이 만개하여 겨우내 회색빛이었던 도시를 화려하게 바꿔준다. 모스크바은 긴 겨울이 있었기에 더욱 따뜻한 봄을 맞이하는 듯했다. 🌸
           </p>
 
           <blockquote class="text-center font-serif text-xl text-russia-blue my-10 border-y-2 border-slate-100 py-8 leading-relaxed">
@@ -1200,13 +837,16 @@ export const year1Category: Category = {
     },
     {
       id: 'post-107',
-      title: { ko: '예비학부 마무리, 그리고', en: 'Finishing the Preparatory Program, and...' },
+      title: {
+        ko: '예비학부 마무리, 그리고',
+        en: 'Finishing the Preparatory Program, and...',
+      },
       subtitle: {
         ko: '맥주 한 캔의 용기와 빌렛(Ticket)의 운명',
         en: 'The Courage of a Can of Beer and the Fate of a Bilet (Ticket)',
       },
       imageUrl:
-        'https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1200&auto=format&fit=crop', // Exams/Study/Writing
+        'https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
@@ -1269,17 +909,13 @@ export const year1Category: Category = {
           <p class="leading-relaxed mb-6 text-slate-700">
             입학시험은 예비학부에서 치렀던 시험과는 다르게 실제 러시아인들이 시험을 보는 방식으로 진행이 되었다. 러시아의 시험은 <strong>“빌렛(영어로는 Ticket)”</strong>이라는 독특한 시스템을 가지고 있다. 🎫
           </p>
-          
-          <p class="leading-relaxed mb-6 text-slate-700">
-            입학시험은 예비학부에서 치렀던 시험과는 다르게 실제 러시아인들이 시험을 보는 방식으로 진행이 되었다. 러시아의 시험은 <strong>“빌렛(영어로는 Ticket)”</strong>이라는 독특한 시스템을 가지고 있다. 🎫
-          </p>
-          <ol class="list-decimal list-inside space-y-3 text-slate-700">
+          <ul class="list-decimal list-inside space-y-3 text-slate-700">
               <li>교수님이 시험 전에 예상 문제 리스트를 학생 수의 3-4배, 많게는 10배 넘게 미리 나눠준다. (30~100문제)</li>
               <li>시험 당일 학생은 교수가 보는 앞에서 임의로 문제지를 한 장 선택한다. (뽑기 🎲)</li>
               <li>이 과정에서 학생은 어떤 문제를 고르게 될지 알 수가 없다. </li>
-          </ol>
+          </ul>
           
-          <br>
+          <br/>
           <p class="leading-relaxed mb-6 text-slate-700">
                다행히 모든 문제에 대해서 공부를 했다면 상관없지만, 그렇지 않고 일부만 공부했다면 운 좋게 아는 문제를 뽑으냐 아니냐에 따라 희비가 엇갈리는 구조다. 러시아인들 사이에서는 100문제 중 99문제를 공부하면 꼭 나머지 한 문제를 뽑게 된다고 하여 공부를 안 하는 학생들도 있다는 우스갯소리가 있다. 😂
           </p>
@@ -1307,7 +943,7 @@ export const year1Category: Category = {
             <p class="mt-2 text-xs text-slate-400 text-center">
               * 1점은 '몽둥이'나 '말뚝'을 연상시킨다 하여 실제로는 주지 않습니다.
             </p>
-            <br>
+            <br/>
             <p class="leading-relaxed mb-6 text-slate-700">
              점수는 5단계 스케일을 적용하고 있는데 실제로는 1점은 주지 않고 2점부터 5점까지가 부여된다. 1점을 주지 않는 이유는 숫자 1이 몽둥이나 말뚝을 연상할 수 있다고는 해서 그렇다 한다. 2점은 미흡, 3점은 양호, 4점은 우수, 5점은 탁월이라고 러시아어로 불리지만 사실 2점은 낙제라 주는 경우가 거의 없고 3점만 맞아도 양호가 아닌 요구 수준에 못 미친다고 볼 수 있다. 
             </p>
@@ -1381,13 +1017,13 @@ export const year1Category: Category = {
           <p class="leading-relaxed mb-6 text-slate-700">
             The entrance exam was conducted differently from the exams taken at the preparatory program, in the way actual Russians take exams. The Russian exam has a unique system called <strong>"Bilet (Билет, English: Ticket)"</strong>. 🎫
           </p>
-          <ol class="list-decimal list-inside space-y-3 text-slate-700">
+          <ul class="list-decimal list-inside space-y-3 text-slate-700">
               <li>The professor distributes a list of expected problems 3-4 times, sometimes even more than 10 times, the number of students, before the exam. (30-100 problems)</li>
               <li>On the day of the exam, the student arbitrarily selects one problem sheet in front of the professor. (Drawing lots 🎲)</li>
               <li>During this process, the student has no way of knowing which problem they will choose. </li>
-          </ol>
+          </ul>
           
-          <br>
+          <br/>
           <p class="leading-relaxed mb-6 text-slate-700">
                Fortunately, if you have studied all the problems, it doesn't matter, but if you have only studied some, the outcome depends on whether you are lucky enough to pick a problem you know. Among Russians, there is a joke that if you study 99 out of 100 problems, you will inevitably pick the remaining one problem you didn't study, so some students don't study. 😂
           </p>
@@ -1415,7 +1051,7 @@ export const year1Category: Category = {
             <p class="mt-2 text-xs text-slate-400 text-center">
               * 1 point is not actually given, as it resembles a 'club' or 'stake'.
             </p>
-            <br>
+            <br/>
             <p class="leading-relaxed mb-6 text-slate-700">
              The grading is based on a 5-point scale, but in practice, 1 point is not given, and scores are from 2 to 5. The reason 1 point is not given is said to be because the number 1 resembles a club or stake. 2 points is Unsatisfactory, 3 points is Satisfactory, 4 points is Good, and 5 points is Excellent in Russian. However, 2 points is practically a failing grade and rarely given, and even 3 points can be considered not meeting the required level.
             </p>
@@ -1438,7 +1074,8 @@ export const year1Category: Category = {
         ko: '공기처럼 자연스러운 유혹, 그리고 생존을 위한 선택',
         en: 'A Temptation as Natural as Air, and a Choice for Survival',
       },
-      imageUrl: 'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=1200&auto=format&fit=crop',
+      imageUrl:
+        'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=1200&auto=format&fit=crop',
       isActive: true,
       comments: [],
       content: {
@@ -1479,7 +1116,7 @@ export const year1Category: Category = {
         <p class="leading-relaxed mb-6 text-slate-700">
           러시아에서 한 학기를 보내고 두 번째 학기가 시작되려 하던 1월의 한겨울이었다. 아내는 2인실 기숙사 방을 운 좋게 혼자 쓰고 있었는데, 새 학기에 룸메이트가 배정될지도 모른다는 청천벽력 같은 소식이 들려왔다. ⚡ 아내의 방을 우리 부부의 아지트로 요긴하게 쓰고 있었기에, 우리는 이 소중한 아지트가 날아갈까 봐 굉장히 긴장했다. 
           <br/><br/>
-          하지만 나는 이미 한 학기 동안 러시아에서 뇌물이 어떤 메커니즘으로 작동하는지 어느 정도 많이 익숙해진 상태였다. 그저 방구석에서 벌벌 떨고 있기보다는, 이 상호 호혜로운(?) 시스템을 적극적으로 활용해 먼저 행동에 나서는 것이 현명하다고 판단했다. 😎
+          하지만 나는 이미 한 학기 동안 러시아에서 뇌물이 어떤 메커니즘으로 작동하는지 어느 정도 많이 익숙해진 상태였다. 그저 방구석에서 벌발 떨고 있기보다는, 이 상호 호혜로운(?) 시스템을 적극적으로 활용해 먼저 행동에 나서는 것이 현명하다고 판단했다. 😎
         </p>
 
         <p class="leading-relaxed mb-6 text-slate-700">
